@@ -15,6 +15,7 @@ Timing: run after the close of t with data through t; orders go at the open of t
 from __future__ import annotations
 import argparse
 import glob
+import hashlib
 import json
 import os
 import time
@@ -111,11 +112,32 @@ def compute_ranks(research_root: str, panel_dir: str, members: list[str], out_di
     ev.mask = panel.mask(universe)            # no year-end purge on the production ranks
     ev._mask_np = ev.mask.to_numpy(bool)
     cands = {c["id"]: c for c in store.candidates()}
+    # cache validity (A18 fix): a cached rank array is reused only if the panel it was built on has the same dates and
+    # the same code order; a new trading day, a listing or a delisting invalidates the whole directory. Without this the
+    # score step would read arrays one row short of the panel (or with shifted columns) the day after a rebuild.
+    key = {"n_dates": len(panel.dates), "n_codes": len(panel.codes), "first_date": panel.dates[0].strftime("%Y-%m-%d"), "last_date": panel.dates[-1].strftime("%Y-%m-%d"),
+           "codes_md5": hashlib.md5("|".join(panel.codes).encode()).hexdigest()}
+    key_path = os.path.join(out_dir, "_cache_key.json")
+    old_key = None
+    if os.path.exists(key_path):
+        try:
+            old_key = json.load(open(key_path, encoding="utf-8"))
+        except Exception:  # noqa: BLE001
+            old_key = None
+    if old_key != key and not overwrite:
+        _log(f"rank cache key differs from the panel ({old_key and old_key.get('last_date')} / {old_key and old_key.get('n_codes')} codes vs {key['last_date']} / {key['n_codes']}): recomputing all members")
+        overwrite = True
+    shape = (len(panel.dates), len(panel.codes))
     failed = []; done = 0; t0 = time.time()
     for i, cid in enumerate(members):
         rp = os.path.join(out_dir, f"{cid}.npy")
         if os.path.exists(rp) and not overwrite:
-            done += 1; continue
+            try:
+                ok_shape = np.load(rp, mmap_mode="r").shape == shape
+            except Exception:  # noqa: BLE001
+                ok_shape = False
+            if ok_shape:
+                done += 1; continue
         try:
             f, _ = compute_candidate(cands[cid], panel, compiler, ev)
             d = (store.load_result(cid) or {}).get("direction")
@@ -129,6 +151,9 @@ def compute_ranks(research_root: str, panel_dir: str, members: list[str], out_di
         if (i + 1) % 25 == 0:
             _log(f"  ranks {i + 1}/{len(members)} ({time.time() - t0:.0f}s), failed {len(failed)}")
             panel.release(keep=("open", "high", "low", "close", "volume", "amount", "vwap", "turnover", "ret", "log_cap", "prev_close", "mkt_ret", "eligible", "float_market_cap"))
+    if not failed:
+        with open(key_path, "w", encoding="utf-8") as fh:
+            json.dump(key, fh)
     with open(os.path.join(out_dir, f"_meta{'_' + str(os.getpid()) if len(members) < 100 else ''}.json"), "w", encoding="utf-8") as fh:
         json.dump({"research_root": research_root, "panel_dir": panel_dir, "universe": universe, "n_members": len(members), "done": done, "failed": failed,
                    "dates": [d.strftime("%Y-%m-%d") for d in panel.dates[[0, -1]]], "written": time.strftime("%Y-%m-%dT%H:%M:%S")}, fh, ensure_ascii=False, indent=1)
@@ -412,14 +437,21 @@ def build_target(panel_dir: str, prediction_path: str, holdings_path: str | None
         if cfg.get("cap_mult"):                  # A17 (opt-in): implied index-weight multipliers, date x code, missing = 1 (same as competition.two_bucket_book)
             cm = pd.read_parquet(cfg["cap_mult"]); cm.index = pd.DatetimeIndex(cm.index)
             capwin = capwin * cm.reindex(index=win.index, columns=panel.codes).ffill().fillna(1.0).to_numpy(np.float64)
+        veto_np = None
+        if cfg.get("veto_mask"):                 # A18 (opt-in): additive veto, date x code parquet, non-zero = vetoed that day; a mask lagging the panel carries forward <= 10 days
+            vm = pd.read_parquet(cfg["veto_mask"]); vm.index = pd.DatetimeIndex(vm.index)
+            veto_np = (vm.reindex(index=win.index, columns=panel.codes).ffill(limit=10).fillna(0).to_numpy() != 0)
         r = cp.tilted_bucket_book(win.to_numpy(np.float32), np.zeros(win.shape), mwin, np.ones(win.shape, bool), capwin, win.index, gamma=float(cfg["gamma"]),
-                                  x_out=float(cfg["x_out"]), x_in=float(cfg["x_in"]), y_in=float(cfg["y_in"]), y_out=float(cfg["y_out"]), tau=float(cfg["tau"]), return_final=True)
+                                  x_out=float(cfg["x_out"]), x_in=float(cfg["x_in"]), y_in=float(cfg["y_in"]), y_out=float(cfg["y_out"]), tau=float(cfg["tau"]), return_final=True, veto=veto_np)
         wfin = pd.Series(r["final_weights"], index=panel.codes); excl = pd.Series(r["final_excluded"], index=panel.codes); over = pd.Series(r["final_overweight"], index=panel.codes)
+        vlast = pd.Series(veto_np[-1], index=panel.codes) if veto_np is not None else None
         members_now = set(m500[m500].index)
         for c in sorted(members_now | {h for h in held if m500.get(h, False)}):
-            emit("csi500", c, bucket_nav * float(wfin.get(c, 0.0)), {"state": "excluded" if excl.get(c, False) else ("overweight" if over.get(c, False) else "core"), "rank_in_bucket": None})
+            st = "vetoed" if (vlast is not None and bool(vlast.get(c, False))) else ("excluded" if excl.get(c, False) else ("overweight" if over.get(c, False) else "core"))
+            emit("csi500", c, bucket_nav * float(wfin.get(c, 0.0)), {"state": st, "rank_in_bucket": None})
         plan["csi500"] = {"book": "enhanced", "members": len(members_now), "excluded": int(excl.sum()), "overweight": int(over.sum()), "held_before": sum(1 for h in held if m500.get(h, False)),
-                          "after": int((wfin > 0).sum()), "bucket_nav": bucket_nav, "state_window": state_window, "cap_field": cfg.get("cap_field", "float_market_cap")}
+                          "after": int((wfin > 0).sum()), "bucket_nav": bucket_nav, "state_window": state_window, "cap_field": cfg.get("cap_field", "float_market_cap"),
+                          "vetoed": int(vlast.reindex(sorted(members_now)).fillna(False).astype(bool).sum()) if vlast is not None else 0, "veto_mask": cfg.get("veto_mask")}
     else:
         n_enter = int(cfg["n500"]); concentrated("csi500", m500, n_enter, int(round(float(cfg["keep_mult"]) * n_enter)), bucket_nav)
     # ---- other-union bucket (concentrated)

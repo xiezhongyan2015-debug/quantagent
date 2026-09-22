@@ -29,9 +29,12 @@ log "data as of: $ASOF"
 
 log "live panel window from $START"
 $PY -m quanta_agents.factor_lab_a.live build-panel --source $LIVE/daily_source --out $LIVE/panel --instruments $LIVE/instruments --start $START 2>&1 | tail -n 2
+# A18: fundamental fields onto the freshly rebuilt live panel (from the research grid; dates past the grid's last build carry the last known value, <= 10 days).
+# Refresh the grid first with `scripts/fd_update.py update && refresh-live` once the endpoint token is configured; failure here never stops the chain.
+log "fundamental fields (A18) onto the live panel"; $PY scripts/fd_features.py assemble --panels live --ffill-limit 10 2>&1 | tail -n 1 || log "fundamental assemble failed (ignored)"
 
 log "member ranks (396, all-A percentiles; 3 shards in parallel, ~5GB commit)"
-mkdir -p $LIVE/ranks_396_allA   # existing member files are reused (compute_ranks skips them); pass --overwrite manually after a model/member change
+mkdir -p $LIVE/ranks_396_allA   # member files are reused only while the panel dates/codes match the cache key (A18 fix); pass --overwrite after a member change
 for i in 0 1 2; do
   $PY -m quanta_agents.factor_lab_a.live ranks --panel-dir $LIVE/panel --members-file F:/A_Layer_Research/batches/combinations_v11_396_blend51020.json --out $LIVE/ranks_396_allA --universe all_a --shard $i/3 > $LIVE/logs/ranks_shard${i}_$TS.log 2>&1 &
 done
@@ -73,5 +76,13 @@ if [ -f $LIVE/pred_live_turnlabel.parquet ]; then
 fi
 if [ -f $LIVE/pred_live_turnlabel.parquet ]; then
   log "shadow c3-B"; $PY -m quanta_agents.factor_lab_a.live target --panel-dir $LIVE/panel --prediction $LIVE/pred_live_turnlabel.parquet --nav $NAV --out $LIVE/targets/shadow_c3B_turnlabel_conc80k4_84_14 --cfg "$CFG_C3B" | grep -E '"asof"|target_invested|target_share500|n_orders'
+fi
+# A18 candidate c5 (shadow, records only): c4 scores + c4 rule + fundamental distress veto (worst 10% of CSI500 on the frozen composite, direction fixed) + free-float cap weights
+FZ5=F:/A_Layer_Research/competition/frozen/c5_396_turnlabel_ens5_fdveto2_freecap
+if [ -f $LIVE/pred_live_turnlabel.parquet ] && [ -f $LIVE/panel/fd_free_cap.parquet ] && [ -f $FZ5/rule.json ]; then
+  VEXPR="cs_rank(-fd_accrual_cf) + cs_rank(-fd_audit_nonstd) + cs_rank(-clip(fd_hnum_chg, -1, 3)) + cs_rank(-fd_hsell_60) + cs_rank(-fd_pledge) + cs_rank(clip(fd_rev_q_yoy, -3, 3)) + cs_rank(cs_rank(clip(fd_sue, -5, 5)) * cs_rank(-rolling_mean(turnover, 20)))"
+  log "fundamental veto mask (live)"; $PY scripts/fd_arm_inputs.py veto --panel-dir $LIVE/panel --direction 1 --q 0.10 --out $LIVE/fd_veto_distress10_v2.parquet --expr "$VEXPR" 2>&1 | tail -1 || log "veto mask failed (ignored)"
+  CFG_C5='{"book":"enhanced","gamma":1.0,"x_out":0.2,"x_in":0.35,"y_in":0.9,"y_out":0.75,"tau":0.0,"cap_field":"fd_free_cap","smooth":5,"w500":0.85,"woth":0.13,"noth":110,"keep_mult":4.0,"neutral_q":5,"neutral_field":"turnover20","lot_group_below":true,"veto_mask":"F:/A_Layer_Live/fd_veto_distress10_v2.parquet","oth_universe":"csi1000"}'
+  [ -f $LIVE/fd_veto_distress10_v2.parquet ] && { log "shadow c5"; $PY -m quanta_agents.factor_lab_a.live target --panel-dir $LIVE/panel --prediction $LIVE/pred_live_turnlabel.parquet --nav $NAV --out $LIVE/targets/shadow_c5_fdveto2_freecap --cfg "$CFG_C5" | grep -E '"asof"|target_invested|target_share500|n_orders|vetoed'; } || log "shadow c5 skipped or failed (ignored)"
 fi
 log "done; targets in $LIVE/targets"

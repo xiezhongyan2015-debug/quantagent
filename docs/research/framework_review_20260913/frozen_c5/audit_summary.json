@@ -1,0 +1,192 @@
+{
+ "union_codes": 3479,
+ "grid": {
+  "dates": 2847,
+  "codes": 5454,
+  "union_in_grid": 3478
+ },
+ "income": {
+  "union_codes_present": 3470,
+  "expected_periods_full": 46,
+  "codes_with_lt_half_expected": 176,
+  "null_ann_date_share": 0.0
+ },
+ "balancesheet": {
+  "union_codes_present": 3470,
+  "expected_periods_full": 46,
+  "codes_with_lt_half_expected": 196,
+  "null_ann_date_share": 0.0
+ },
+ "cashflow": {
+  "union_codes_present": 3470,
+  "expected_periods_full": 46,
+  "codes_with_lt_half_expected": 180,
+  "null_ann_date_share": 0.0
+ },
+ "fina_indicator": {
+  "union_codes_present": 3470,
+  "expected_periods_full": 46,
+  "codes_with_lt_half_expected": 100,
+  "null_ann_date_share": 0.0
+ },
+ "forecast": {
+  "union_codes_with_records": 3448,
+  "share": 0.991
+ },
+ "express": {
+  "union_codes_with_records": 2762,
+  "share": 0.794
+ },
+ "report_rc": {
+  "union_codes_with_records": 3406,
+  "share": 0.979
+ },
+ "dividend": {
+  "union_codes_with_records": 3470,
+  "share": 0.997
+ },
+ "share_float": {
+  "union_codes_with_records": 3080,
+  "share": 0.885
+ },
+ "stk_holdertrade": {
+  "union_codes_with_records": 3301,
+  "share": 0.949
+ },
+ "pledge_stat": {
+  "union_codes_with_records": 3168,
+  "share": 0.911
+ },
+ "top10_floatholders": {
+  "union_codes_with_records": 3288,
+  "share": 0.945
+ },
+ "stk_holdernumber": {
+  "union_codes_with_records": 3470,
+  "share": 0.997
+ },
+ "fina_audit": {
+  "union_codes_with_records": 3470,
+  "share": 0.997
+ },
+ "repurchase": {
+  "union_codes_with_records": 2291,
+  "share": 0.659
+ },
+ "report_rc_rows_by_year": {
+  "2015": 24030,
+  "2016": 73062,
+  "2017": 121659,
+  "2018": 188029,
+  "2019": 196271,
+  "2020": 200260,
+  "2021": 191336,
+  "2022": 233135,
+  "2023": 234945,
+  "2024": 217597,
+  "2025": 173709,
+  "2026": 101271
+ },
+ "report_rc_q4_share": 0.9852815725841096,
+ "daily_basic_vs_panel": [
+  {
+   "date": "2016-10-10",
+   "panel_codes": 2704,
+   "vendor_codes": 2704,
+   "common": 2703,
+   "total_cap_within_1pct": 0.9992600813910469,
+   "float_cap_within_1pct": 0.6988531261561228,
+   "free_over_float_median": 0.6818508057069588
+  },
+  {
+   "date": "2017-09-26",
+   "panel_codes": 3177,
+   "vendor_codes": 3177,
+   "common": 3177,
+   "total_cap_within_1pct": 0.9993704752911552,
+   "float_cap_within_1pct": 0.7286748504878816,
+   "free_over_float_median": 0.7113789429421662
+  },
+  {
+   "date": "2018-09-19",
+   "panel_codes": 3453,
+   "vendor_codes": 3453,
+   "common": 3453,
+   "total_cap_within_1pct": 0.9991311902693311,
+   "float_cap_within_1pct": 0.7043150883289893,
+   "free_over_float_median": 0.6741727324782689
+  },
+  {
+   "date": "2019-09-17",
+   "panel_codes": 3667,
+   "vendor_codes": 3667,
+   "common": 3667,
+   "total_cap_within_1pct": 0.9991818925552223,
+   "float_cap_within_1pct": 0.6970275429506408,
+   "free_over_float_median": 0.6599813583829498
+  },
+  {
+   "date": "2020-09-11",
+   "panel_codes": 3967,
+   "vendor_codes": 3968,
+   "common": 3967,
+   "total_cap_within_1pct": 0.9982354423997983,
+   "float_cap_within_1pct": 0.97428787496849,
+   "free_over_float_median": 0.6496002402312225
+  },
+  {
+   "date": "2021-09-07",
+   "panel_codes": 4455,
+   "vendor_codes": 4456,
+   "common": 4455,
+   "total_cap_within_1pct": 1.0,
+   "float_cap_within_1pct": 0.9708193041526375,
+   "free_over_float_median": 0.6610970377586809
+  },
+  {
+   "date": "2022-09-05",
+   "panel_codes": 4790,
+   "vendor_codes": 4905,
+   "common": 4790,
+   "total_cap_within_1pct": 0.9995824634655532,
+   "float_cap_within_1pct": 0.9684759916492693,
+   "free_over_float_median": 0.6887795232801218
+  },
+  {
+   "date": "2023-08-31",
+   "panel_codes": 5049,
+   "vendor_codes": 5265,
+   "common": 5049,
+   "total_cap_within_1pct": 0.9998019409784116,
+   "float_cap_within_1pct": 0.9760348583877996,
+   "free_over_float_median": 0.6922056696024242
+  },
+  {
+   "date": "2024-08-28",
+   "panel_codes": 5089,
+   "vendor_codes": 5339,
+   "common": 5089,
+   "total_cap_within_1pct": 0.999803497740224,
+   "float_cap_within_1pct": 0.9909608960503046,
+   "free_over_float_median": 0.6366190431620494
+  },
+  {
+   "date": "2025-08-26",
+   "panel_codes": 5143,
+   "vendor_codes": 5416,
+   "common": 5143,
+   "total_cap_within_1pct": 0.9992222438265603,
+   "float_cap_within_1pct": 0.9898891697452848,
+   "free_over_float_median": 0.6275265870633484
+  },
+  {
+   "date": "2026-08-24",
+   "panel_codes": 5196,
+   "vendor_codes": 5545,
+   "common": 5196,
+   "total_cap_within_1pct": 0.9867205542725174,
+   "float_cap_within_1pct": 0.9570823710546574,
+   "free_over_float_median": 0.6274179552974326
+  }
+ ]
+}

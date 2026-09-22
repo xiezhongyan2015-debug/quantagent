@@ -1,0 +1,19 @@
+{
+ "book": "enhanced",
+ "gamma": 1.0,
+ "x_out": 0.2,
+ "x_in": 0.35,
+ "y_in": 0.9,
+ "y_out": 0.75,
+ "tau": 0.0,
+ "cap_field": "fd_free_cap",
+ "cost": 0.004,
+ "neutral_q": 5,
+ "neutral_field": "turnover20",
+ "w500": 0.85,
+ "woth": 0.13,
+ "noth": 110,
+ "keep_mult": 4.0,
+ "oth_universe": "csi1000",
+ "veto_mask": "F:/A_Layer_Research/competition/fd/eval/veto_distress10_v2_p2026.parquet"
+}

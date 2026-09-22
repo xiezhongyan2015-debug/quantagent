@@ -22,6 +22,7 @@ def main():
     ap.add_argument("--years", nargs="*", type=int, default=[2019, 2020, 2021, 2022, 2023, 2024]); ap.add_argument("--ids-file", default=None); ap.add_argument("--out", required=True)
     ap.add_argument("--step", type=int, default=2, help="evaluate every k-th date (2 = half the dates, halves the run time)")
     ap.add_argument("--ranks-dir", default=None, help="directory of <id>.npy rank arrays (default <root>/pool_ranks)")
+    ap.add_argument("--extra-universe", nargs="*", default=[], help="additional bucket masks to evaluate, e.g. csi1000 csi300")
     a = ap.parse_args()
     store = Store(a.root); cands = {c["id"]: c for c in store.candidates()}
     panel = Panel(a.panel_dir); panel._dtype = np.float32
@@ -32,6 +33,8 @@ def main():
     lab = panel["label_5"].to_numpy(np.float64)[pos]
     logcap = panel["log_cap"].to_numpy(np.float64)[pos]
     masks = {"csi500": (base & mem["csi500"]).to_numpy(bool)[pos], "union": (base & mem["union"]).to_numpy(bool)[pos]}
+    for u in a.extra_universe:
+        masks[u] = (base & mem[u]).to_numpy(bool)[pos]
     lab_rank = {k: rank_rows(np.where(m & np.isfinite(lab), lab, np.nan)) for k, m in masks.items()}
     ew = {k: np.nanmean(np.where(m, lab, np.nan), axis=1) for k, m in masks.items()}
     cap_rank = rank_rows(np.where(masks["csi500"], logcap, np.nan))

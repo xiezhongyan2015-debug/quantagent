@@ -18,10 +18,11 @@ MAX_WINDOW = 250
 MAX_NODES = 300
 MAX_DEPTH = 30
 from .minute_features import MINUTE_FIELDS, MINUTE_FIELD_DOC
+from .fundamental import FUND_FIELDS, FUND_FIELD_DOC
 
 SIGNAL_FIELDS = ("open", "high", "low", "close", "volume", "amount", "vwap", "prev_close", "turnover", "ret",
                  "float_shares", "total_shares", "float_market_cap", "total_market_cap", "log_cap", "log_total_cap",
-                 "mkt_ret") + tuple(MINUTE_FIELDS)
+                 "mkt_ret") + tuple(MINUTE_FIELDS) + tuple(FUND_FIELDS)
 
 
 def _win(w):
@@ -209,6 +210,7 @@ FIELD_DOC = {
     "log_cap log_total_cap": "log float / total market cap",
     "mkt_ret": "equal-weight eligible-universe daily return (same value across stocks)",
     **MINUTE_FIELD_DOC,
+    **FUND_FIELD_DOC,
 }
 
 

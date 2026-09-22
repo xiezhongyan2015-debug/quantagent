@@ -1,0 +1,67 @@
+{
+ "fd_ep_ttm": {
+  "choice": "CHOICE_DESCRIPTOR_ETOP_PIT",
+  "rank_corr_mean": 0.998,
+  "dates": 21,
+  "codes": 500,
+  "my_cov": 1.0
+ },
+ "fd_bp": {
+  "choice": "CHOICE_DESCRIPTOR_BTOP_PIT",
+  "rank_corr_mean": 0.997,
+  "dates": 21,
+  "codes": 500,
+  "my_cov": 1.0
+ },
+ "fd_dp_ttm": {
+  "choice": "CHOICE_DESCRIPTOR_DTOP_PIT",
+  "rank_corr_mean": 0.987,
+  "dates": 21,
+  "codes": 436,
+  "my_cov": 1.0
+ },
+ "fd_sp_ttm": "skip (CHOICE_DESCRIPTOR_STOP_PIT missing)",
+ "fd_est_ep_fy1": {
+  "choice": "CHOICE_DESCRIPTOR_ETOPF_PIT",
+  "rank_corr_mean": 0.962,
+  "dates": 21,
+  "codes": 461,
+  "my_cov": 0.85
+ },
+ "fd_rc_disp": {
+  "choice": "CHOICE_DESCRIPTOR_ETOPF_STD_PIT",
+  "rank_corr_mean": 0.365,
+  "dates": 19,
+  "codes": 460,
+  "my_cov": 0.58
+ },
+ "fd_est_g": {
+  "choice": "CHOICE_DESCRIPTOR_EGRLF_PIT",
+  "rank_corr_mean": 0.429,
+  "dates": 21,
+  "codes": 455,
+  "my_cov": 0.8
+ },
+ "fd_roe_ttm": "skip (CHOICE_DESCRIPTOR_ROE_PIT missing)",
+ "fd_accrual_cf": {
+  "choice": "CHOICE_DESCRIPTOR_ACF_PIT",
+  "rank_corr_mean": -0.634,
+  "dates": 21,
+  "codes": 500,
+  "my_cov": 1.0
+ },
+ "fd_gm_ttm": {
+  "choice": "CHOICE_DESCRIPTOR_GPM_PIT",
+  "rank_corr_mean": 0.958,
+  "dates": 21,
+  "codes": 469,
+  "my_cov": 1.0
+ },
+ "fd_debt_ib": {
+  "choice": "CHOICE_DESCRIPTOR_MLEV_PIT",
+  "rank_corr_mean": 0.655,
+  "dates": 21,
+  "codes": 500,
+  "my_cov": 1.0
+ }
+}
