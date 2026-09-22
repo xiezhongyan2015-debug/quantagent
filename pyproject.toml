@@ -21,6 +21,12 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
+choice = [
+  "requests>=2.31",
+  "psutil>=5.9",
+  "cryptography>=42",
+  "pyarrow>=15",
+]
 vnpy = [
   "dolphindb",
   "vnpy>=4.0.0",

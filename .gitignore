@@ -52,3 +52,7 @@ tmp/
 *.pickle
 *.pt
 *.pth
+
+# Per-user simulation identities, targets, journals and logs. Never share.
+/tools/choice_trader/runtime/
+*.dpapi
