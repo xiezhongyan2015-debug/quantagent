@@ -5,6 +5,7 @@
 !.env.*.example
 auth.json
 credentials.json
+pcf_automation.local.json
 *.pem
 *.key
 

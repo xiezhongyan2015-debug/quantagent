@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://choicelab.eastmoney.com/trade/js/api.js",
+    "sha256": "15ddfd62d8f75a7d8fcfa65f011f8f78575bf9488492f90ec10b96ca2dc46bc0",
+    "bytes": 18020,
+    "retrieved_at": "2026-09-20T10:27:59.756228+00:00"
+  },
+  {
+    "url": "https://choicelab.eastmoney.com/trade/js/http.js",
+    "sha256": "273412100bcc1b6f8d8faaebff2ea1fe7fe1e9078c12c11c60f2e758e7580b0d",
+    "bytes": 8024,
+    "retrieved_at": "2026-09-20T10:28:00.392434+00:00"
+  },
+  {
+    "url": "https://choicelab.eastmoney.com/trade/js/index.js",
+    "sha256": "112d12bcbb5a0fb8c94f63223039a955c82d648d6495a05557fa8cd149e5fca7",
+    "bytes": 109520,
+    "retrieved_at": "2026-09-20T10:28:00.974175+00:00"
+  },
+  {
+    "url": "https://choicelab.eastmoney.com/trade/js/config.js",
+    "sha256": "26560fab9087d4061b8011912d8d6ce1bc1a8a11f63f681fdeaaaf83b7ebc4a9",
+    "bytes": 8212,
+    "retrieved_at": "2026-09-20T10:28:01.563840+00:00"
+  }
+]

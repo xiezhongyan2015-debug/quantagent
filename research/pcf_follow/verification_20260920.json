@@ -1,0 +1,31 @@
+{
+  "start": "2023-03-20",
+  "end": "2026-09-17",
+  "pcf_days": 856,
+  "stocks": 798,
+  "supplemented_stocks": 154,
+  "no_price_symbols": [],
+  "missing_price_pcf_rows": 0,
+  "max_missing_weight_proxy": 0.0,
+  "unvalued_pcf_rows": 0,
+  "calendar_gaps_in_prices_all_symbols": 1142,
+  "cutoff_invariance_target_and_nav_passed": true,
+  "execution_date_checks_passed": true,
+  "historical_publication_timestamp_verified": false,
+  "benchmark_sha256": "01d3257d229907f97e56188a8e0546aea8e9c19c6f45cf2553796dd1f60e5470",
+  "benchmark_rows": 864,
+  "benchmark_dates_match_passed": true,
+  "original_protocol_sha256": "d7d4f1570fe183129468b7bcc15020dba0f900987d230b61a99b4f3c6fe0e2a1",
+  "user_requested_reporting_override": {
+    "requested_on": "2026-09-20",
+    "cost_per_side": 0.001,
+    "benchmark": "H00905",
+    "benchmark_type": "CSI500 gross total return index; dividends reinvested; no trading fee",
+    "initial_return_interval": "Previous trading-day close to first reported close; strategies start in cash and enter at first reported open; official TRI has no open quote",
+    "return_reporting": "geometric_excess",
+    "cumulative_excess": "strategy_NAV / benchmark_NAV - 1",
+    "annualized_excess": "(strategy_NAV / benchmark_NAV) ** (252 / days) - 1",
+    "drawdown": "maximum drawdown of strategy_NAV / benchmark_NAV",
+    "scope": "Current PCF report and default for future research reports. Earlier unrelated reports are historical and are not silently recomputed."
+  }
+}

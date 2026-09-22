@@ -1,0 +1,12 @@
+{
+  "requested_on": "2026-09-20",
+  "cost_per_side": 0.001,
+  "benchmark": "H00905",
+  "benchmark_type": "CSI500 gross total return index; dividends reinvested; no trading fee",
+  "initial_return_interval": "Previous trading-day close to first reported close; strategies start in cash and enter at first reported open; official TRI has no open quote",
+  "return_reporting": "geometric_excess",
+  "cumulative_excess": "strategy_NAV / benchmark_NAV - 1",
+  "annualized_excess": "(strategy_NAV / benchmark_NAV) ** (252 / days) - 1",
+  "drawdown": "maximum drawdown of strategy_NAV / benchmark_NAV",
+  "scope": "Current PCF report and default for future research reports. Earlier unrelated reports are historical and are not silently recomputed."
+}

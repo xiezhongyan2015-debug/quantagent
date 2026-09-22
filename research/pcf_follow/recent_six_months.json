@@ -1,0 +1,63 @@
+{
+  "start": "2026-03-18",
+  "end": "2026-09-17",
+  "days": 127,
+  "benchmark": "H00905 total return",
+  "cost_per_side": 0.001,
+  "results": [
+    {
+      "model": "pcf_lag1_cost10bp",
+      "type": "continuous_pcf_book",
+      "excess": 0.07261257635125906,
+      "drawdown": -0.02698339359626223
+    },
+    {
+      "model": "pcf_lag3_cost10bp",
+      "type": "continuous_pcf_book",
+      "excess": 0.061587370685396436,
+      "drawdown": -0.03202970484168066
+    },
+    {
+      "model": "pcf_lag5_cost10bp",
+      "type": "continuous_pcf_book",
+      "excess": 0.0605641470349263,
+      "drawdown": -0.029209426317497234
+    },
+    {
+      "model": "159610.SZ",
+      "type": "new_etf_book_98pct_first_open_buy_no_final_sale",
+      "excess": 0.07120197164479913,
+      "drawdown": -0.03503814552184936
+    },
+    {
+      "model": "159678.SZ",
+      "type": "new_etf_book_98pct_first_open_buy_no_final_sale",
+      "excess": 0.04633405830057358,
+      "drawdown": -0.026654625338605853
+    },
+    {
+      "model": "510500.SH",
+      "type": "new_etf_book_98pct_first_open_buy_no_final_sale",
+      "excess": -0.002242047949523096,
+      "drawdown": -0.007441292810114741
+    },
+    {
+      "model": "561550.SH",
+      "type": "new_etf_book_98pct_first_open_buy_no_final_sale",
+      "excess": 0.04890642402098,
+      "drawdown": -0.020374321880177404
+    },
+    {
+      "model": "561950.SH",
+      "type": "new_etf_book_98pct_first_open_buy_no_final_sale",
+      "excess": -0.000935059824855089,
+      "drawdown": -0.10789161916721224
+    },
+    {
+      "model": "563030.SH",
+      "type": "new_etf_book_98pct_first_open_buy_no_final_sale",
+      "excess": 0.08879830832008895,
+      "drawdown": -0.021250037265864608
+    }
+  ]
+}
