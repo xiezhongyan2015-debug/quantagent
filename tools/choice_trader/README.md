@@ -1,5 +1,15 @@
 # Choice 比赛模拟交易控制台
 
+## 让 Codex 帮你搞定（推荐）
+
+在装有 Choice 的 Windows 电脑上，把下面这段话发给 Codex 即可：
+
+> 请帮我安装并配置 https://github.com/xiezhongyan2015-debug/quantagent 的 Choice 比赛模拟交易控制台。如果 main 还没有这个功能，请使用 feat/choice-trading-console 分支。阅读根目录 AGENTS.md 和 tools/choice_trader/CODEX_SETUP.md，直接完成环境安装、路径检查、交易日历和策略输入准备、配置与只读账户核验，最后打开控制台。需要我提供的账户、策略和限额信息集中问一次；Choice 登录和验证码由我本人完成。
+
+你不用自己敲下面的安装命令或编辑 JSON。Codex 有专用安装脚本和检查工具；首次配置好后，今后双击 `Start-Console.cmd`，点击“启动”即可。已有成交的账户仍需保留并核验自己的账本，不能重新按空账户初始化。
+
+下面保留完整说明，供 Codex 和需要手工配置的人查阅。
+
 把每日运行、PCF 目标生成、队友策略接入、限额检查和逐笔核账放在同一个 Windows 控制台中。完成首次配置后，双击 `Start-Console.cmd` 打开界面，点击 **启动 / 查看已有运行** 即可运行当天计划，不依赖 Codex。
 
 这是从现有本机脚本整理的共享版，只连接 Choice 金融实验室比赛模拟接口，不是官方 SDK。共享版没有携带任何人的账户绑定、登录令牌、持仓、订单账本、专用日期计划或本机快捷方式。

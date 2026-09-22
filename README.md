@@ -7,6 +7,7 @@ A 股策略与因子研究项目，沿用原 Python 包名 `quanta_agents`。
 ## 阅读入口
 
 - [Choice 模拟交易控制台：安装、一键启动与队友策略接入](tools/choice_trader/README.md)
+- [给 Codex 的控制台安装与接手流程](tools/choice_trader/CODEX_SETUP.md)
 
 - [因子目录：日频396、研究597、完整定义与来源](docs/factors/README.md)
 - [项目主记录与当前状态](master.md)
