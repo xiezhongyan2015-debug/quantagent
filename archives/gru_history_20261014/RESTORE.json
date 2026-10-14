@@ -1,0 +1,202 @@
+{
+  "archive_scope": "18 fixed historical depth best/last models and whitelist summaries",
+  "candidate_plan_sha256": "0bc58bf8b430ca3e038793efd3ad07a7493a78bf86fcc4a658a9e7116069926e",
+  "current_protection_sha256": "0fb42ec13d6b07cb25d054a6e48fbe8037c489d9fdbb629aaddf420887c25c0e",
+  "files": [
+    {
+      "archive_path": "archives/gru_history_20261014/home_gru_hourly_20261001/outputs/gru_depth_ablation_20261005/B0-1L/seed_11/best.pt",
+      "artifact_role": "best.pt",
+      "bytes": 1281886,
+      "git_blob_oid_sha1": "3ebce6aa5b573c260d79a6e0c3df75b74231de23",
+      "sha256": "31dbfb90acbd2a70358f634abd81bbcf06ae0d4982df576f6a5f03dd50fa4422",
+      "source_ctime_ns": 1791794374979196491,
+      "source_mtime_ns": 1791168262665782093,
+      "source_relative_path": "outputs/gru_depth_ablation_20261005/B0-1L/seed_11/best.pt"
+    },
+    {
+      "archive_path": "archives/gru_history_20261014/home_gru_hourly_20261001/outputs/gru_depth_ablation_20261005/B0-1L/seed_11/last.pt",
+      "artifact_role": "last.pt",
+      "bytes": 1281886,
+      "git_blob_oid_sha1": "f1be8fa12f559d64e595829e3cf6b7997f8606c0",
+      "sha256": "f5e79aa85764140b72497074ed4730f6d15fa70c9f0c21c124ae508b92c850ec",
+      "source_ctime_ns": 1791794374979196491,
+      "source_mtime_ns": 1791169147523378167,
+      "source_relative_path": "outputs/gru_depth_ablation_20261005/B0-1L/seed_11/last.pt"
+    },
+    {
+      "archive_path": "archives/gru_history_20261014/home_gru_hourly_20261001/outputs/gru_depth_ablation_20261005/B0-1L/seed_22/best.pt",
+      "artifact_role": "best.pt",
+      "bytes": 1281950,
+      "git_blob_oid_sha1": "2216d2220e9aca9b1554dad4021de0967d6b40aa",
+      "sha256": "7b294f5e8d1fe01fddc1288f4858396b446d64e58570edd71c586082582fed91",
+      "source_ctime_ns": 1791794374979196491,
+      "source_mtime_ns": 1791173999103841239,
+      "source_relative_path": "outputs/gru_depth_ablation_20261005/B0-1L/seed_22/best.pt"
+    },
+    {
+      "archive_path": "archives/gru_history_20261014/home_gru_hourly_20261001/outputs/gru_depth_ablation_20261005/B0-1L/seed_22/last.pt",
+      "artifact_role": "last.pt",
+      "bytes": 1281950,
+      "git_blob_oid_sha1": "a22d4ffde01c1fa45f0406f1bef19ded75b60750",
+      "sha256": "021103f38e5655d62f9a191ce8a060fdd7b3a70d81758c9b7df92d598b821bca",
+      "source_ctime_ns": 1791794374979196491,
+      "source_mtime_ns": 1791174885899186979,
+      "source_relative_path": "outputs/gru_depth_ablation_20261005/B0-1L/seed_22/last.pt"
+    },
+    {
+      "archive_path": "archives/gru_history_20261014/home_gru_hourly_20261001/outputs/gru_depth_ablation_20261005/B0-1L/seed_33/best.pt",
+      "artifact_role": "best.pt",
+      "bytes": 1281950,
+      "git_blob_oid_sha1": "be046cd32bd0241d4ef9f9a42c6a3c30058d059c",
+      "sha256": "067dc590b7244835a96ed7871edf842a3dbe369be974d7aa7a76f17fe360f926",
+      "source_ctime_ns": 1791794374979196491,
+      "source_mtime_ns": 1791178651775636472,
+      "source_relative_path": "outputs/gru_depth_ablation_20261005/B0-1L/seed_33/best.pt"
+    },
+    {
+      "archive_path": "archives/gru_history_20261014/home_gru_hourly_20261001/outputs/gru_depth_ablation_20261005/B0-1L/seed_33/last.pt",
+      "artifact_role": "last.pt",
+      "bytes": 1281950,
+      "git_blob_oid_sha1": "6c69ce75fcc20e7c0d592635e5adb2da1053e081",
+      "sha256": "3d190e4450436bcc8f7f023ef554f3d9865d1ae4b8a94cf57820589e1287a49d",
+      "source_ctime_ns": 1791794374979196491,
+      "source_mtime_ns": 1791179538890638986,
+      "source_relative_path": "outputs/gru_depth_ablation_20261005/B0-1L/seed_33/last.pt"
+    },
+    {
+      "archive_path": "archives/gru_history_20261014/home_gru_hourly_20261001/outputs/gru_depth_ablation_20261005/B0-Res/seed_11/best.pt",
+      "artifact_role": "best.pt",
+      "bytes": 2476015,
+      "git_blob_oid_sha1": "ca5015eefdcb7042e386cfd8be4e618069a6466d",
+      "sha256": "eebc2c476e5ddb1e2944c6d89fcea6ff2e5c13ce2986d325002a0c2b2aed07e6",
+      "source_ctime_ns": 1791794374979196491,
+      "source_mtime_ns": 1791169938247193847,
+      "source_relative_path": "outputs/gru_depth_ablation_20261005/B0-Res/seed_11/best.pt"
+    },
+    {
+      "archive_path": "archives/gru_history_20261014/home_gru_hourly_20261001/outputs/gru_depth_ablation_20261005/B0-Res/seed_11/last.pt",
+      "artifact_role": "last.pt",
+      "bytes": 2476015,
+      "git_blob_oid_sha1": "4d62150ac2eeda2ff2ec7697863257e63b69ca30",
+      "sha256": "c871034b3e9f74a254c3735606dde5cc39da340c134b98206be1cb757dcfcb0e",
+      "source_ctime_ns": 1791794374979196491,
+      "source_mtime_ns": 1791170984759904981,
+      "source_relative_path": "outputs/gru_depth_ablation_20261005/B0-Res/seed_11/last.pt"
+    },
+    {
+      "archive_path": "archives/gru_history_20261014/home_gru_hourly_20261001/outputs/gru_depth_ablation_20261005/B0-Res/seed_22/best.pt",
+      "artifact_role": "best.pt",
+      "bytes": 2476015,
+      "git_blob_oid_sha1": "5c1410ae3b62d4afe59235eb56c25c56831b27fc",
+      "sha256": "55a1468de10c3a7ed85a2299cf571ebc113dc8c352c84a6f0fcc6d2fcb36d56b",
+      "source_ctime_ns": 1791794374979196491,
+      "source_mtime_ns": 1791175537831792867,
+      "source_relative_path": "outputs/gru_depth_ablation_20261005/B0-Res/seed_22/best.pt"
+    },
+    {
+      "archive_path": "archives/gru_history_20261014/home_gru_hourly_20261001/outputs/gru_depth_ablation_20261005/B0-Res/seed_22/last.pt",
+      "artifact_role": "last.pt",
+      "bytes": 2476015,
+      "git_blob_oid_sha1": "6cdb2d0e46bfc6919237fb3867f82e58c24a5014",
+      "sha256": "47b19c7abe85fbe7208a0ebecedc8161905c129f812b040b3abe41f512de83ec",
+      "source_ctime_ns": 1791794374979196491,
+      "source_mtime_ns": 1791176616649110330,
+      "source_relative_path": "outputs/gru_depth_ablation_20261005/B0-Res/seed_22/last.pt"
+    },
+    {
+      "archive_path": "archives/gru_history_20261014/home_gru_hourly_20261001/outputs/gru_depth_ablation_20261005/B0-Res/seed_33/best.pt",
+      "artifact_role": "best.pt",
+      "bytes": 2476015,
+      "git_blob_oid_sha1": "afb675903198bc149e198b0386015b5788c2c5c5",
+      "sha256": "44858df8e33680f5e0cece87431dc6a06d30faece7597cc343dc58decedb2952",
+      "source_ctime_ns": 1791794374979196491,
+      "source_mtime_ns": 1791180051621360663,
+      "source_relative_path": "outputs/gru_depth_ablation_20261005/B0-Res/seed_33/best.pt"
+    },
+    {
+      "archive_path": "archives/gru_history_20261014/home_gru_hourly_20261001/outputs/gru_depth_ablation_20261005/B0-Res/seed_33/last.pt",
+      "artifact_role": "last.pt",
+      "bytes": 2476015,
+      "git_blob_oid_sha1": "cbf7e8507a9974b2a07725e7433e870f47bca903",
+      "sha256": "a6ecbae88f7964bc7be6f37370bf8648122b850597c17c26c51045b7c1be9fc4",
+      "source_ctime_ns": 1791794374979196491,
+      "source_mtime_ns": 1791181062193840543,
+      "source_relative_path": "outputs/gru_depth_ablation_20261005/B0-Res/seed_33/last.pt"
+    },
+    {
+      "archive_path": "archives/gru_history_20261014/home_gru_hourly_20261001/outputs/gru_depth_ablation_20261005/B0/seed_11/best.pt",
+      "artifact_role": "best.pt",
+      "bytes": 2474618,
+      "git_blob_oid_sha1": "341545d14180b2e3dbab28ea6f5126bbd7f305bb",
+      "sha256": "e9d2737e20552f8fc7ffe86422bda299d3fb3fcc4ad93c4d86b3134bb4ff6319",
+      "source_ctime_ns": 1791794374979196491,
+      "source_mtime_ns": 1791166255248520421,
+      "source_relative_path": "outputs/gru_depth_ablation_20261005/B0/seed_11/best.pt"
+    },
+    {
+      "archive_path": "archives/gru_history_20261014/home_gru_hourly_20261001/outputs/gru_depth_ablation_20261005/B0/seed_11/last.pt",
+      "artifact_role": "last.pt",
+      "bytes": 2474618,
+      "git_blob_oid_sha1": "505d0d3538d774cddb1d37743c9edd4be260fb0d",
+      "sha256": "b038d049de7d6ffd7ac08418acbea85b39165880a9b3a8bc41e12a81426b0d0b",
+      "source_ctime_ns": 1791794374979196491,
+      "source_mtime_ns": 1791167262643377573,
+      "source_relative_path": "outputs/gru_depth_ablation_20261005/B0/seed_11/last.pt"
+    },
+    {
+      "archive_path": "archives/gru_history_20261014/home_gru_hourly_20261001/outputs/gru_depth_ablation_20261005/B0/seed_22/best.pt",
+      "artifact_role": "best.pt",
+      "bytes": 2474618,
+      "git_blob_oid_sha1": "a5c69daa9f68c127bb33269d49b84e92a5267349",
+      "sha256": "7190a757aa535075954368248058d125f8ec782f254020ac94c79952bf01549c",
+      "source_ctime_ns": 1791794374979196491,
+      "source_mtime_ns": 1791172423184552791,
+      "source_relative_path": "outputs/gru_depth_ablation_20261005/B0/seed_22/best.pt"
+    },
+    {
+      "archive_path": "archives/gru_history_20261014/home_gru_hourly_20261001/outputs/gru_depth_ablation_20261005/B0/seed_22/last.pt",
+      "artifact_role": "last.pt",
+      "bytes": 2474618,
+      "git_blob_oid_sha1": "fadb0ae03e88acc37d4c73fc36fb213b1d871701",
+      "sha256": "d6671dd9eb41fe616307ff0d8b3da0b7ab6471e2be0bef3c504ea67d082d3576",
+      "source_ctime_ns": 1791794374979196491,
+      "source_mtime_ns": 1791173440581561298,
+      "source_relative_path": "outputs/gru_depth_ablation_20261005/B0/seed_22/last.pt"
+    },
+    {
+      "archive_path": "archives/gru_history_20261014/home_gru_hourly_20261001/outputs/gru_depth_ablation_20261005/B0/seed_33/best.pt",
+      "artifact_role": "best.pt",
+      "bytes": 2474618,
+      "git_blob_oid_sha1": "7198123d2a782c363ece18f9724a9e093b67dbd6",
+      "sha256": "89d9e272d4141abd4fabcd77770c3e01b117b536f7eb02d288e751e2173f3b6e",
+      "source_ctime_ns": 1791794374979196491,
+      "source_mtime_ns": 1791177150177543156,
+      "source_relative_path": "outputs/gru_depth_ablation_20261005/B0/seed_33/best.pt"
+    },
+    {
+      "archive_path": "archives/gru_history_20261014/home_gru_hourly_20261001/outputs/gru_depth_ablation_20261005/B0/seed_33/last.pt",
+      "artifact_role": "last.pt",
+      "bytes": 2474618,
+      "git_blob_oid_sha1": "632d1863b5f32520c5d6252371d1e11be79234d9",
+      "sha256": "3570a1a08b518fb3efc107555b7e8b35040806a2bf765c1dbeacc3a2bd65bca5",
+      "source_ctime_ns": 1791794374979196491,
+      "source_mtime_ns": 1791178202577554842,
+      "source_relative_path": "outputs/gru_depth_ablation_20261005/B0/seed_33/last.pt"
+    }
+  ],
+  "git_immutable_readback_done_by_this_builder": false,
+  "historical_diagnostics_are_not_new_performance_claims": true,
+  "intended_branch": "archive/gru-home-20261014",
+  "local_static_audit_sha256": "b7aba1eaa8aad75c6d376b38160b748114898ec9ddd5764c74192543316709c8",
+  "models_deserialized": false,
+  "probe_sha256": "57ecf6c5ad019348159fd1dfb3967e53a0055a4fd7f0e5758d89311db13dcb14",
+  "raw_data_credentials_or_absolute_user_paths_in_metadata": false,
+  "repository_url": "https://github.com/xiezhongyan2015-debug/quantagent",
+  "restore_rule": "Verify ordinary file SHA256/bytes/Git blobOID, then copy to the same source-relative paths under a user-chosen source-layout root. Do not overwrite existing files.",
+  "schema": "gru_historical_depth_byte_restore_v1",
+  "scientific_completion_is_backup_or_removal_gate": false,
+  "source_layout_name": "gru_hourly_20261001",
+  "source_removal_authorized_by_this_builder": false,
+  "total_bytes": 37395370,
+  "total_files": 18
+}

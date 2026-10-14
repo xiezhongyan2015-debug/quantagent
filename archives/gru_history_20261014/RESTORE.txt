@@ -1,0 +1,7 @@
+Historical GRU model byte archive
+
+18 model parameter checkpoints; original scientific status and epoch gaps are recorded in SUMMARY_DIAGNOSTICS.json.
+Verify each SHA256, byte count and ordinary Git blob OID in RESTORE.json before restoration.
+Copy each file to its source_relative_path under a user-chosen gru_hourly_20261001 layout root; preserve any existing file and never overwrite it automatically.
+
+This local staging step performs no Git commit/push, source removal, model loading or training. Root must separately verify every blob from a fresh immutable remote Git commit and freshly recheck exact source/protection/active readers before any platform removal.
