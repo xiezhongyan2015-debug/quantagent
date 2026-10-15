@@ -1,0 +1,58 @@
+{
+  "actual_weights_loaded": 5,
+  "frozen_signal_finite_values": 318086,
+  "frozen_signal_shape": [
+    662,
+    1178
+  ],
+  "model_records": [
+    {
+      "portable_and_original_AST_all4heads_bitwise_equal_on_synthetic_inputs": true,
+      "registered_parameters": 410116,
+      "seed": 66,
+      "source_checkpoint_sha256": "336849919446fbb180b58c4dbf29f6a76b5aad653aa38864bcbec4090bf97cb8",
+      "weights_sha256": "36484109893d86c184625da12687871458bd45a7eb01c70691586d40a8259385"
+    },
+    {
+      "portable_and_original_AST_all4heads_bitwise_equal_on_synthetic_inputs": true,
+      "registered_parameters": 410116,
+      "seed": 77,
+      "source_checkpoint_sha256": "1e066034aac3060e059d0eaba5752e869f1bddd97502a8c2630858268b055354",
+      "weights_sha256": "b71171f65d6b39d3b6c44168bebc4e37018938a92bf2883ed7a351427f3e9b31"
+    },
+    {
+      "portable_and_original_AST_all4heads_bitwise_equal_on_synthetic_inputs": true,
+      "registered_parameters": 410116,
+      "seed": 88,
+      "source_checkpoint_sha256": "77252824c1115e2fc7945348f407edb3059f0e5817dd79dbe11daa73d301ffaf",
+      "weights_sha256": "85b791ae1194e957d66cf60c2a7ebed02ce50b723f76782af78a6fe11b2ba933"
+    },
+    {
+      "portable_and_original_AST_all4heads_bitwise_equal_on_synthetic_inputs": true,
+      "registered_parameters": 410116,
+      "seed": 99,
+      "source_checkpoint_sha256": "f425b9e92feb8b7d242afaceaabe0470b67432a59e2b7ebc1a4f97864c56836c",
+      "weights_sha256": "d342b8636e83b054d6b138b4296fab94eb81087efda7b812c5bf5a79197fd243"
+    },
+    {
+      "portable_and_original_AST_all4heads_bitwise_equal_on_synthetic_inputs": true,
+      "registered_parameters": 410116,
+      "seed": 111,
+      "source_checkpoint_sha256": "118ce2fd012a963d78fc152cfaa304d8c88f3cb5913dfe20812a77239c7ec3b3",
+      "weights_sha256": "99b697f04850fa6dd1d88e37d38d245528214684347f785c06b54d436b630ba5"
+    }
+  ],
+  "new_backtest_or_returns_computed": false,
+  "new_model_selection": false,
+  "numpy": "1.26.4",
+  "optimizer_and_rng_in_public_weights": false,
+  "python": "3.12.7",
+  "raw_equivalence_inputs": "synthetic7stocks80hours; no historical labels or return data",
+  "schema": "gru_old_rank_actual_delivery_validation_v1",
+  "signals_sha256": "e402d5a3c48ad45bd3d4c5e8c4fde068f5a9d37933a12295519f035e5ee63b1f",
+  "status": "actual5weights_and_frozen_signals_verified",
+  "torch": "2.5.1",
+  "training_steps": 0,
+  "weights_manifest_sha256": "9021e8e79c6064f947b2525e552a127cd851c9e7781ee734714c1c909d14b782",
+  "weights_only": true
+}

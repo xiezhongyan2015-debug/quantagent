@@ -1,0 +1,36 @@
+{
+  "PCF_publication_asof_certified": false,
+  "account_or_return_calculation": false,
+  "additional_score_transform_applied": false,
+  "compressed_bytes": 4363623,
+  "compression": "gzip",
+  "helper_program_sha256": "090be83e25709cf85132305594de4f1613a82ff455cbbae265c005a692fa30b4",
+  "is_frozen_OLD_RANK_e402": true,
+  "network_access": false,
+  "operation": "export",
+  "orders_or_trades_generated": false,
+  "output_file": "old_rank_y4.csv.gz",
+  "output_rows": 318086,
+  "output_sha256": "c7dcc1b0c97c1e9fc76bc6c02cab7cb6ef2abb1e326e625329ee2d6c5f74913b",
+  "schema": "old_rank_backtest_inputs_v1",
+  "scores_already_processed": true,
+  "signal_clock": "15:00 Asia/Shanghai; timestamps stored as UTC int64 nanoseconds",
+  "signal_sha256": "e402d5a3c48ad45bd3d4c5e8c4fde068f5a9d37933a12295519f035e5ee63b1f",
+  "source_model_if_frozen": {
+    "artificial_factor_uniform_rank_count": 64,
+    "earliest_rank_label3_model": false,
+    "input_fields": 122,
+    "minute134_model": false,
+    "output_heads": 4,
+    "seeds": [
+      66,
+      77,
+      88,
+      99,
+      111
+    ],
+    "selected_head": "y4"
+  },
+  "uncompressed_bytes": 23133963,
+  "uncompressed_csv_sha256": "609cbc404a77be47eaea408021e69b566a0e6a83d3892ee590d7976d4a83411e"
+}

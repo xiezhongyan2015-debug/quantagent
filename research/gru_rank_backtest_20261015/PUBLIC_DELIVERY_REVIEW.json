@@ -1,0 +1,196 @@
+{
+  "actual_activities_run_by_reviewer": {
+    "HPC_or_browser": false,
+    "actual_model_forward": false,
+    "backtest_returns_or_CI": false,
+    "network_or_GitHub_write": false,
+    "retraining_or_selection": false
+  },
+  "blocking_findings": [],
+  "documentation_checks": {
+    "EMA_prez_state_and_full_warmup_described": true,
+    "PCF_all_rows_retained_and_missing_score_neutral": true,
+    "all_zero_multiplier_rejection_boundary_disclosed": true,
+    "carry2026_not_annual_WF": true,
+    "complete_raw_to122_producer_not_claimed_included": true,
+    "fresh_OOS_not_claimed": true,
+    "helper_does_not_claim_account_returns_or_broker_execution": true,
+    "native122_inputs_and_missing_flags_required": true,
+    "no_duplicate_OLS_or_EMA_requested": true,
+    "no_stale_actual_seed11_to55_claim": true,
+    "not_early_rank_label3_or_minute134": true,
+    "processed_score_not_raw_head_or_expected_return": true,
+    "uniform_rank_source_is_frozen_clipped_z": true,
+    "warmup2024_validation_not_OOS": true
+  },
+  "model_identity": {
+    "actual5weights_safe_load_and_reference_forward_validation_receipt_checked": true,
+    "actual_forward_repeated_by_this_review": false,
+    "actual_seeds": [
+      66,
+      77,
+      88,
+      99,
+      111
+    ],
+    "all5_model_card_records_match_manifest": true,
+    "all5_portable_file_SHA_and_bytes_match_manifest": true,
+    "artificial_factor_rank_columns": 64,
+    "heads": 4,
+    "history_hours": 80,
+    "input_features": 122,
+    "name": "OLD_RANK",
+    "original_checkpoint_identities_match_independently_held_frozen_seal": true,
+    "portable_weight_total_bytes": 8267433,
+    "public_pickle_static_inspection": "All5 ZIP CRCs passed. Only collections.OrderedDict, torch.FloatStorage and torch._utils._rebuild_tensor_v2 GLOBALs; no optimizer/RNG/private-path strings in pickle text metadata.",
+    "reference_forward_inputs": "Synthetic7stock80hour only; all4heads exact per PACKAGE_VALIDATION.json. Synthetic forward is not a real signal, trading instruction or return result.",
+    "registered_parameters": 410116,
+    "variant": "control"
+  },
+  "observed_at_utc": "2026-10-15T12:06:49.596294+00:00",
+  "privacy": {
+    "broker_or_trading_URL_hits": 0,
+    "credential_assignment_or_private_key_hits": 0,
+    "mandatory_publication_exclusions": [
+      "__pycache__/**",
+      "*.pyc",
+      "*.pyo",
+      "private exporter, logs, screenshots and transport receipts outside this package"
+    ],
+    "public_text_scan_private_account_or_absolute_path_hits": 0,
+    "raw_prices_labels_optimizer_rng_or_private_exporter_in_allowlist": false
+  },
+  "publication_closure": "Root generates SHA256SUMS.json after this review and verifies the final explicit file allowlist and remote Git blob/commit readback. This review does not attest that publication has already occurred.",
+  "reviewed_files": {
+    "MODEL_CARD.json": {
+      "bytes": 6856,
+      "sha256": "9d77ffa6b187ad51bd120e236424773149787314cf8c995ec977a1baba177614"
+    },
+    "PACKAGE_VALIDATION.json": {
+      "bytes": 2576,
+      "sha256": "2b9e65d324d1a4d03539d48ab6b1a947b7c578d28cacd9084d07e15ef8e78a1a"
+    },
+    "README.txt": {
+      "bytes": 5811,
+      "sha256": "a41009bdd59598578119cab41824ffa6ac5064f482cd626089a406e3e9c96cb6"
+    },
+    "__init__.py": {
+      "bytes": 82,
+      "sha256": "65a12f7d28168468db58be5480fdd988a4e6b31a64a46758409c98b4bc0dc4a3"
+    },
+    "backtest_inputs.py": {
+      "bytes": 14048,
+      "sha256": "090be83e25709cf85132305594de4f1613a82ff455cbbae265c005a692fa30b4"
+    },
+    "checkpoints/rank_seed111.pt": {
+      "bytes": 1653525,
+      "sha256": "99b697f04850fa6dd1d88e37d38d245528214684347f785c06b54d436b630ba5"
+    },
+    "checkpoints/rank_seed66.pt": {
+      "bytes": 1653477,
+      "sha256": "36484109893d86c184625da12687871458bd45a7eb01c70691586d40a8259385"
+    },
+    "checkpoints/rank_seed77.pt": {
+      "bytes": 1653477,
+      "sha256": "b71171f65d6b39d3b6c44168bebc4e37018938a92bf2883ed7a351427f3e9b31"
+    },
+    "checkpoints/rank_seed88.pt": {
+      "bytes": 1653477,
+      "sha256": "85b791ae1194e957d66cf60c2a7ebed02ce50b723f76782af78a6fe11b2ba933"
+    },
+    "checkpoints/rank_seed99.pt": {
+      "bytes": 1653477,
+      "sha256": "d342b8636e83b054d6b138b4296fab94eb81087efda7b812c5bf5a79197fd243"
+    },
+    "feature_names.json": {
+      "bytes": 3023,
+      "sha256": "7e185048a53239dc70c24694b80da59a719a00987199d66cb97ccef512e13009"
+    },
+    "input_spec.json": {
+      "bytes": 6256,
+      "sha256": "740d5d7002d3b05a0dc446d04be87ee807b38a5f80430bbda58ab5dc054dc8a6"
+    },
+    "model.py": {
+      "bytes": 4297,
+      "sha256": "bc410e0d5ffc26cad4142c10e33236f310431d3ebf298d3ed374f2cba60e8bb3"
+    },
+    "predict.py": {
+      "bytes": 14211,
+      "sha256": "7aa099f4f9e47b051593d80f84f2df458285a5f17edac2a8d25f6ccf534033b7"
+    },
+    "requirements.txt": {
+      "bytes": 42,
+      "sha256": "bdca33528ce03f289eb70881ca036cf7011c4256245713bf8a515f7e52a83eda"
+    },
+    "signals/OLD_RANK_ensemble_signals.npz": {
+      "bytes": 2760533,
+      "sha256": "e402d5a3c48ad45bd3d4c5e8c4fde068f5a9d37933a12295519f035e5ee63b1f"
+    },
+    "signals/old_rank_y4.csv.gz": {
+      "bytes": 4363623,
+      "sha256": "c7dcc1b0c97c1e9fc76bc6c02cab7cb6ef2abb1e326e625329ee2d6c5f74913b"
+    },
+    "signals/old_rank_y4.csv.gz.meta.json": {
+      "bytes": 1281,
+      "sha256": "80101e512a97e967440734b5c6acc713b566235ea5848a3633bb8d6d5dbee34a"
+    },
+    "test_backtest_inputs.py": {
+      "bytes": 7996,
+      "sha256": "9b9e73b9589d67f32942c0d7fd55c5345e91f9b7eb16641c3eb70af491d879b1"
+    },
+    "test_portable.py": {
+      "bytes": 10914,
+      "sha256": "26836c90e0fede41873016f1325311405fc7f8d4c7ea47b4a27eb660d29303de"
+    },
+    "verify.py": {
+      "bytes": 5967,
+      "sha256": "cfd8c695858271d4924ad74a70bae355f56760bb237982a0d6838b144ed92f59"
+    },
+    "weights_manifest.json": {
+      "bytes": 3482,
+      "sha256": "9021e8e79c6064f947b2525e552a127cd851c9e7781ee734714c1c909d14b782"
+    }
+  },
+  "reviewed_files_count": 22,
+  "schema": "gru_old_rank_public_delivery_review_v1",
+  "scope": "Independent package-byte identities, documentation/privacy and actual NPZ-to-CSV correspondence; no retraining, model selection or backtest.",
+  "signal_and_csv": {
+    "all318086_rows_date_symbol_role_UTC_int64_and_float64_score_bits_match_NPZ": true,
+    "csv_gzip_bytes": 4363623,
+    "csv_gzip_sha256": "c7dcc1b0c97c1e9fc76bc6c02cab7cb6ef2abb1e326e625329ee2d6c5f74913b",
+    "csv_uncompressed_bytes": 23133963,
+    "csv_uncompressed_sha256": "609cbc404a77be47eaea408021e69b566a0e6a83d3892ee590d7976d4a83411e",
+    "date_range": [
+      "2024-01-02",
+      "2026-09-23"
+    ],
+    "extra_or_missing_CSV_rows": 0,
+    "finite_member_score_cells": 318086,
+    "role_rows": {
+      "carry2026": 177,
+      "primary2025": 243,
+      "warmup2024": 242
+    },
+    "shape": [
+      662,
+      1178
+    ],
+    "source_NPZ_fields": [
+      "scores",
+      "dates",
+      "symbols",
+      "signal_time_ns",
+      "membership",
+      "roles"
+    ],
+    "source_signal_bytes": 2760533,
+    "source_signal_sha256": "e402d5a3c48ad45bd3d4c5e8c4fde068f5a9d37933a12295519f035e5ee63b1f"
+  },
+  "source_CPU_QA_independently_run": {
+    "real_checkpoints_labels_or_returns_read_by_test": false,
+    "seconds": 0.706,
+    "synthetic_only": true,
+    "tests_passed": 6
+  },
+  "status": "passed_for_public_delivery_content"
+}
