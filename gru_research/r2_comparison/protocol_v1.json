@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "status": "PREDECLARED_COMPARISON_ACTUAL_R2_RESULTS_PENDING",
+  "r2_protocol_sha256": "e8d5f6a15bba4496ab1895c9d9b781340acc1ef90782440a0b6c23822384205f",
+  "r2_runtime_source_manifest_sha256": "8a7c855374b7237044639b1b0610b25a0843f73b6393ec3555270dfa1d9eb809",
+  "r2_binding": {
+    "protocol_sha256": "e8d5f6a15bba4496ab1895c9d9b781340acc1ef90782440a0b6c23822384205f",
+    "new_source_manifest_sha256": "8a7c855374b7237044639b1b0610b25a0843f73b6393ec3555270dfa1d9eb809",
+    "causal_receipt_sha256": "95370519b5974c6724cef641506eeb113b4d33fc76fdb575182f7783fe2ca3cc",
+    "causal_transport_manifest_sha256": "685c131667613b4a6d7fc2ff49713d889faadd3590ebaf986e624bd1b718dc9c",
+    "dataset_fingerprint": "6c2426b3f0d03421914a8c38b1a19bed5943a16f7dd74d93ca988dea73e4a2a4"
+  },
+  "r1_freeze_sha256": "363eb9cb6ccdb613e8f5907c8e7331c550998df9acb708665d64e1e14233484d",
+  "r1_freeze_id": "d142cc97070bc81034a6",
+  "r1_export_manifest_sha256": "b90de6e589769698c88beb8f690538664833078f4d02e4695fccccb134ebcffe",
+  "r1_export_receipts_sha256": {
+    "corrected_score_exports/recent_2026/blo_selected_scores.receipt.json": "fd63262874e9ca1c256601d7691366229fb42d05b1861506d9714e0678831a5b",
+    "corrected_score_exports/recent_2026/fixed_label_1_scores.receipt.json": "4dea11540d563ced3150f188e6d59efa60d41da8315ba3d8a926e71cefd6a811",
+    "corrected_score_exports/recent_2026/fixed_label_2_scores.receipt.json": "35d9ca03161a6bd36f36c618f306f082388884d429245becd6d6c0bf99bda789",
+    "corrected_score_exports/recent_2026/fixed_label_3_scores.receipt.json": "5697efcc296fe277de2a144f0858230926695a2dbcd37910e76e830922c694fe",
+    "corrected_score_exports/recent_2026/fixed_label_4_scores.receipt.json": "c3a7a87ae1c88e52b5dbda4de6b0b777bf7f1efb6a8d79a9289a2ad14198804d",
+    "corrected_score_exports/recent_2026/pv_factors_scores.receipt.json": "6bb080fce28eea4bd42c68c689a184e3d1899d77461204aab12437420e42e7d4",
+    "corrected_score_exports/recent_2026/pv_fund_scores.receipt.json": "88164c8b40e7b6bcb7e8594774ed9b3097530bf4e1e1f2b649093dd1dd810561",
+    "corrected_score_exports/recent_2026/pv_scores.receipt.json": "1be115d8c0932e95809d57f735b1f732b07e8e3844c54d98b35ef0024729fc12",
+    "corrected_score_exports/recent_2026/selected_full_scores.receipt.json": "224a8264af8b3840c7a6cb75ee83082bae6fca45334ab8f43662ec8acea3403e",
+    "corrected_score_exports/test_2025/blo_selected_scores.receipt.json": "31b901e00224cf00a0a57c64f3a92689146647a11000513f72bc29d718a4bea6",
+    "corrected_score_exports/test_2025/fixed_label_1_scores.receipt.json": "9cfeb54a7cd19ed933d18af04728e811fe65b7d772d3220c222b00ccf5b9f433",
+    "corrected_score_exports/test_2025/fixed_label_2_scores.receipt.json": "8bf71cd21f2badd53f02cee9890749ec442a4070f7d70021107b2d6261cd3019",
+    "corrected_score_exports/test_2025/fixed_label_3_scores.receipt.json": "2f3aab242738e899f8e762e911a114c9bdd7f0ea8f7fad6822585faa17074de2",
+    "corrected_score_exports/test_2025/fixed_label_4_scores.receipt.json": "8d5e9ec4cf8bb31ca8a5d870bcddd59ed5fb0743cf323416861bf71675d437b2",
+    "corrected_score_exports/test_2025/pv_factors_scores.receipt.json": "87f4f0692f9d4a2e42ff4a7631b26200d4b1361d222210fdb4169d2b9631a55a",
+    "corrected_score_exports/test_2025/pv_fund_scores.receipt.json": "2bc16464d4068eb2b8e2dedf65cc3ec1da6e496b25f830bf65246e43a44c8327",
+    "corrected_score_exports/test_2025/pv_scores.receipt.json": "fbcc14ac95d12e6bfec1b503b1d8f10d198973b2ae43c0ae1cb9152bc9340ab4",
+    "corrected_score_exports/test_2025/selected_full_scores.receipt.json": "fbd75de53ecc3d65a0c225ecf6b72be064b9078cb5e818f30d702ea5db667fe8"
+  },
+  "r1_pv_checkpoint_hashes": {
+    "/home/users/s1155284034/gru_hourly_20261001/outputs/formal/ablations/pv/seed_11/best.pt": "593d184d8e158cb5f1eabbb366112a7b7f330cbac86fa351c90d965b613d9fdc",
+    "/home/users/s1155284034/gru_hourly_20261001/outputs/formal/ablations/pv/seed_22/best.pt": "a45a73b28889f81a3c14e4b7108d7cc81c2995419c80d49d27fe633c97229b0c",
+    "/home/users/s1155284034/gru_hourly_20261001/outputs/formal/ablations/pv/seed_33/best.pt": "c6cdf6ce5246178537628ffc00b99f0dead72695cc836f683f22fef629189b03",
+    "/home/users/s1155284034/gru_hourly_20261001/outputs/formal/ablations/pv/seed_44/best.pt": "853fb63d7a76820d2c11f1d1098df97ce72a75af77d5ffd416665a768ff171fa",
+    "/home/users/s1155284034/gru_hourly_20261001/outputs/formal/ablations/pv/seed_55/best.pt": "ca61c6b30580a7b2a2ee4801c8aba7a50ab471f49d548041ace83f76b8c4424a"
+  },
+  "periods": {
+    "historical_2025": "test_2025",
+    "recent_2026": "recent_2026"
+  },
+  "paired_population": "exact common signal timestamp × symbol with finite R1 score, finite R2 score and the same finite actually mature panel y4",
+  "min_stocks": 100,
+  "variance_floor": 1e-12,
+  "all_four_signal_slots_required": true,
+  "bootstrap": {
+    "block_days": 20,
+    "repetitions": 2000,
+    "seed": 20261002,
+    "individual_years": "paired noncircular moving blocks of shared observed trading dates",
+    "pooled": "stratified separately by year then timestamp-weighted pooled difference; blocks do not cross year boundary",
+    "metrics": [
+      "ic",
+      "rank_ic"
+    ],
+    "selection_or_confirmatory_winner_claim": false
+  },
+  "reproduction_metric_absolute_tolerance": 1e-06,
+  "reproduction_population_exact": true,
+  "export_kind": "first deterministic read-only stock projection of the five fixed-last frozen R2 weights; no extra fit and no checkpoint selection",
+  "export_primary_csv_columns": [
+    "symbol",
+    "signal_time",
+    "earliest_execution_time",
+    "score",
+    "percentile",
+    "model_version",
+    "data_quality_flag",
+    "y4",
+    "label_end_time",
+    "label_mature"
+  ],
+  "history_already_exposed": true,
+  "virgin_OOS_claim": false,
+  "training_feedback_or_threshold_pool_slot_quarter_changes": false,
+  "IC07_guaranteed": false,
+  "original_artifacts_overwritten": false,
+  "new_future_ledger_completed": false
+}

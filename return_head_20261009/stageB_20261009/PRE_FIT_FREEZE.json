@@ -1,0 +1,38 @@
+{
+  "status": "frozen_before_any_stageB_training",
+  "source_files": {
+    "remote_pipeline.py": {
+      "sha256": "c0c95a6d5dd99d9b90f3276e77a033e48c979f1dc86f5ba73005c4394f9bab61",
+      "bytes": 19416
+    },
+    "shared_training.py": {
+      "sha256": "67ce22013b3ea799b36767d946b86ee163014189353a2ecd4a18331340e33d26",
+      "bytes": 4814
+    },
+    "stageA.py": {
+      "sha256": "e75faf5486874580142ad4a9d6c8715d3451beb5c22de78d02daf6eaa2c72fbb",
+      "bytes": 36309
+    },
+    "training.py": {
+      "sha256": "cdbf310dd6a78f6e98396b6e35d52c68422a7cc79e7fac5247e5402e16169c05",
+      "bytes": 16535
+    },
+    "adapter.py": {
+      "sha256": "102f04cf605c97be354dbce57327e698f79b7fcb711f3822ee4ce43e30c13921",
+      "bytes": 10706
+    },
+    "protocol.json": {
+      "sha256": "5b99210821e55d38694c78ace860581483b71c4f2ee5eda29334ad3107300730",
+      "bytes": 2283
+    },
+    "train_stageB.sbatch": {
+      "sha256": "1cc0299201f30a4dcff2e299f93dc92082dda72511fa22ce36813234f7980cad",
+      "bytes": 1163
+    }
+  },
+  "stageA_manifest_sha256": "b382741363a8880b197b98471849e22ad5a8ccc79411efeab3849e2659e801f5",
+  "fixed_candidates": 1,
+  "training_started": false,
+  "local_tests_passed": 4,
+  "future_returns_used_for_selection": false
+}

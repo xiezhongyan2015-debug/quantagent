@@ -1,0 +1,20 @@
+{
+  "status": "frozen_before_repair1_real_fitting",
+  "created_utc": "2026-10-09T06:23:15.255282+00:00",
+  "original_pre_fit_freeze_sha256": "fb36c934062892531e3d5772a2f548ced1f39e35e1388050080bc4f1c9c9984a",
+  "original_protocol_sha256": "1295d3d26897d5f20134c21dbb1fddeeb28d07fdd6f041b8946b3c1f229af175",
+  "repair1_protocol_sha256": "ab19b3d001bf1ebbab8f24c63505774b42735de3f27b7e704306cfc12b6fac2a",
+  "economic_specification_unchanged": true,
+  "sources": {
+    "research/gru_return_head_20261009/remote_pipeline_repair1.py": "75fa9b7ff5d8afe21890923d187b76d07e4b112a72069157b7438bec25fcba7a",
+    "research/gru_return_head_20261009/remote_pipeline.py": "e75faf5486874580142ad4a9d6c8715d3451beb5c22de78d02daf6eaa2c72fbb",
+    "research/gru_return_head_20261009/training.py": "cdbf310dd6a78f6e98396b6e35d52c68422a7cc79e7fac5247e5402e16169c05",
+    "research/gru_dual_head_design_20261009/adapter.py": "102f04cf605c97be354dbce57327e698f79b7fcb711f3822ee4ce43e30c13921",
+    "research/gru_return_head_20261009/repair1_protocol.json": "ab19b3d001bf1ebbab8f24c63505774b42735de3f27b7e704306cfc12b6fac2a"
+  },
+  "retained_rank_absolute_tolerance": 1e-06,
+  "constraints_or_training_constants_relaxed": false,
+  "original_STOP_EVIDENCE_sha256": "a51913b1982f85a5639aadd753ccad19617dbed2864f19466953e583eecdd870",
+  "original_stop_results_not_reused": true,
+  "remote_output": "/home/users/s1155284034/gru_hourly_20261001/outputs/gru_return_head_20261009_stageA_repair1"
+}

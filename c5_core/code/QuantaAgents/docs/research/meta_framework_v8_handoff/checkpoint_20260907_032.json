@@ -1,0 +1,42 @@
+{
+  "stage": "experiment_traces/meta_ashare_revision18",
+  "source_hash": "a44654292035a10cc380b90acaf24d56fb6da689de4fbab2fa16d3a00968885f",
+  "monitor_url": "http://192.0.2.10:8776/",
+  "current_raw_coverage_state": "原清单846股、1217个交易日的两批盘点已关闭，无重复股票或未处理代码；缺失与异常完整保留，不再读取源CSV或追加续批。",
+  "current_raw_coverage_result": {
+    "totals": {
+      "accepted": 962841,
+      "membership_accepted": 548062,
+      "membership_rejected": 11708,
+      "membership_requested": 559770,
+      "rejected": 66741,
+      "requested": 1029582
+    }
+  },
+  "conditioning_scope": "期限及条件工具有界实现；实际首题仅期限/输入查询。受控策略桥仅合成验证，真实执行192项义务仍pending。",
+  "corporate_action_probe_status": "平安旧对照与新两股一次公司行动探测均已关闭；空字段保持未知，192项机械计划义务未改。2015官方过户费仅为单项补证。",
+  "checkpoint_kind": "append_only_controller_transfer",
+  "checkpoint_number": 32,
+  "recorded_at": "2026-09-07T08:01:02.505337+00:00",
+  "controller_thread_id": "01a07ae0-a11f-7de0-8e67-476a6d6a1391",
+  "previous_controller_thread_id": "01a0774d-4327-7701-948f-2796de6fccd3",
+  "phase": "v2_historical_research_paused_v3_transferred_to_new_task",
+  "automation_id": "a",
+  "automation_status": "ACTIVE",
+  "automation_target": "01a07ae0-a11f-7de0-8e67-476a6d6a1391",
+  "paid_dispatch_permitted": false,
+  "formal_target_success": false,
+  "execution_valid": false,
+  "target_achieved": false,
+  "latest_user_scope": "User authorized V3 ongoing development and strategy research in new task. Old V2 scope remains paused; parent no longer dispatches.",
+  "v3_checkpoint_directory": "docs/research/meta_framework_v3_handoff",
+  "v3_transfer": "docs/research/meta_framework_v3_handoff/control_transfer_001.json",
+  "v3_transfer_sha256": "01d4ecfbf444d087abd38c262e7ac7ec381ecc830d478a94274144aa59f8aea7",
+  "casebank_scope": "此页仍显示V2历史：首题14查询/12候选/0final，后三题未开始。V3由新任务接管，旧题不恢复，旧费用和期限保留。",
+  "self_check": {
+    "assessment": "用户已开启V3，新可配置关闭规则和菜单7项通过，现有监控a已迁到新Astra/xhigh任务并恢复。父任务不再研究派发。",
+    "defects_uncertainty": "V3仅初始化，尚无实际调度接线、合格真实策略或样本外达标。此页面的旧账不代表V3活动。",
+    "next_step": "由新任务核控制权，完成V3原子关闭门与普通输入到真实研究终稿的小闭环，再按原标准验证。",
+    "falsifiers": "不得双主控、旧题重开或消除80k未知；七项纯检查不是完整V3或策略成功。"
+  }
+}

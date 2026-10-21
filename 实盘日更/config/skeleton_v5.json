@@ -1,0 +1,3 @@
+{"enabled": true, "backfill": true, "backfill_holdings": "实盘日更/config/efund_holdings", "tilt_form": "sqrtb", "tilt_lambda": 0.00436,
+ "decided": "2026-10-19 user instruction", "first_signal_day": "2026-10-20",
+ "replay": "outputs/skeleton_v5_replay_20261019", "rule": "pcf_overlay_20261012/skeleton_k1.py"}

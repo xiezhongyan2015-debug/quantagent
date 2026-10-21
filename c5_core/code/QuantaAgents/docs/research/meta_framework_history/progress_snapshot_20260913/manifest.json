@@ -1,0 +1,44 @@
+[
+  {
+    "source": "F:\\V10A_Factor_Research\\state.json",
+    "snapshot": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_history/progress_snapshot_20260913/state.json",
+    "bytes": 781,
+    "captured_utc": "2026-09-13T08:27:58.9060161Z",
+    "sha256": "F8FF2382458448DF033C28B0FBFA5AFFC577073D62475A663148F908C660ECFE"
+  },
+  {
+    "source": "F:\\V10A_Factor_Research\\active_framework.json",
+    "snapshot": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_history/progress_snapshot_20260913/active_framework.json",
+    "bytes": 509,
+    "captured_utc": "2026-09-13T08:27:58.9439119Z",
+    "sha256": "0A5DAABAADF2745626EF391CEE6E7E09CA510BE4421F1FF7BD8822417E2CFA9D"
+  },
+  {
+    "source": "F:\\V10A_Factor_Research\\resources_latest.json",
+    "snapshot": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_history/progress_snapshot_20260913/resources_latest.json",
+    "bytes": 272,
+    "captured_utc": "2026-09-13T08:27:58.9753963Z",
+    "sha256": "B49960EDE7BB5FAF110C59607D4C05E61EBCE03CF8D98CB48FF003BED2247B50"
+  },
+  {
+    "source": "F:\\V10A_Factor_Research\\LATEST_REPORT.zh-CN.md",
+    "snapshot": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_history/progress_snapshot_20260913/LATEST_REPORT.zh-CN.md",
+    "bytes": 13931,
+    "captured_utc": "2026-09-13T08:27:58.9891804Z",
+    "sha256": "A6D74851500EA74241B1B7DEA4990FD83B2E886AA225E7D479DC4224CFE983F1"
+  },
+  {
+    "source": "F:\\V10A_Factor_Research\\release_acceptance_v10a.json",
+    "snapshot": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_history/progress_snapshot_20260913/release_acceptance_v10a.json",
+    "bytes": 663,
+    "captured_utc": "2026-09-13T08:27:59.0022411Z",
+    "sha256": "10AE2F7F8B80EB685250657B41AF06E5CC152C6F7853B69A12BAEE5B858DBD5E"
+  },
+  {
+    "source": "F:\\V10A_Factor_Research\\maintenance\\10.0.1\\independent_activation.json",
+    "snapshot": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_history/progress_snapshot_20260913/independent_activation.json",
+    "bytes": 84537,
+    "captured_utc": "2026-09-13T08:27:59.0197954Z",
+    "sha256": "7D1A004421C13D8FD5DD72EF69139B38411A0A9517254BF7C12396CE44FF0C44"
+  }
+]

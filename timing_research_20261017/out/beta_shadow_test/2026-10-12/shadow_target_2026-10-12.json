@@ -1,0 +1,462 @@
+{
+ "strategy_id": "pcf_overlay_v4_V5+beta_tilt_shadow_v2",
+ "execution_date": "2026-10-12",
+ "signal_date": "2026-10-09",
+ "mode": "shares",
+ "targets": [
+  {
+   "code": "SZ300604",
+   "weight": 0.034744
+  },
+  {
+   "code": "SH688002",
+   "weight": 0.026125
+  },
+  {
+   "code": "SZ001309",
+   "weight": 0.025961
+  },
+  {
+   "code": "SZ301377",
+   "weight": 0.025365
+  },
+  {
+   "code": "SZ300475",
+   "weight": 0.022044
+  },
+  {
+   "code": "SZ300620",
+   "weight": 0.019078
+  },
+  {
+   "code": "SZ300223",
+   "weight": 0.018206
+  },
+  {
+   "code": "SZ300857",
+   "weight": 0.017851
+  },
+  {
+   "code": "SZ301536",
+   "weight": 0.017225
+  },
+  {
+   "code": "SZ301200",
+   "weight": 0.016574
+  },
+  {
+   "code": "SH600601",
+   "weight": 0.015388
+  },
+  {
+   "code": "SZ300037",
+   "weight": 0.015247
+  },
+  {
+   "code": "SH600885",
+   "weight": 0.013814
+  },
+  {
+   "code": "SH688331",
+   "weight": 0.013594
+  },
+  {
+   "code": "SH603979",
+   "weight": 0.013225
+  },
+  {
+   "code": "SZ300672",
+   "weight": 0.01294
+  },
+  {
+   "code": "SH688220",
+   "weight": 0.01288
+  },
+  {
+   "code": "SH600105",
+   "weight": 0.012757
+  },
+  {
+   "code": "SZ001389",
+   "weight": 0.012696
+  },
+  {
+   "code": "SZ002738",
+   "weight": 0.012633
+  },
+  {
+   "code": "SH601233",
+   "weight": 0.012475
+  },
+  {
+   "code": "SH688385",
+   "weight": 0.01239
+  },
+  {
+   "code": "SH688301",
+   "weight": 0.012227
+  },
+  {
+   "code": "SZ300919",
+   "weight": 0.011597
+  },
+  {
+   "code": "SZ002281",
+   "weight": 0.011556
+  },
+  {
+   "code": "SZ300677",
+   "weight": 0.011419
+  },
+  {
+   "code": "SH601108",
+   "weight": 0.011161
+  },
+  {
+   "code": "SH688728",
+   "weight": 0.011005
+  },
+  {
+   "code": "SH600985",
+   "weight": 0.010952
+  },
+  {
+   "code": "SZ000783",
+   "weight": 0.010908
+  },
+  {
+   "code": "SZ002841",
+   "weight": 0.010871
+  },
+  {
+   "code": "SZ002271",
+   "weight": 0.010434
+  },
+  {
+   "code": "SH601156",
+   "weight": 0.010159
+  },
+  {
+   "code": "SZ300073",
+   "weight": 0.010092
+  },
+  {
+   "code": "SH603596",
+   "weight": 0.010022
+  },
+  {
+   "code": "SH600546",
+   "weight": 0.009945
+  },
+  {
+   "code": "SH600060",
+   "weight": 0.009938
+  },
+  {
+   "code": "SZ002266",
+   "weight": 0.009802
+  },
+  {
+   "code": "SZ002414",
+   "weight": 0.009583
+  },
+  {
+   "code": "SZ002064",
+   "weight": 0.009554
+  },
+  {
+   "code": "SZ002756",
+   "weight": 0.009537
+  },
+  {
+   "code": "SH600595",
+   "weight": 0.009518
+  },
+  {
+   "code": "SZ300496",
+   "weight": 0.00949
+  },
+  {
+   "code": "SH603256",
+   "weight": 0.009476
+  },
+  {
+   "code": "SZ002850",
+   "weight": 0.009406
+  },
+  {
+   "code": "SH603225",
+   "weight": 0.0094
+  },
+  {
+   "code": "SZ300458",
+   "weight": 0.009223
+  },
+  {
+   "code": "SZ002120",
+   "weight": 0.00913
+  },
+  {
+   "code": "SH600369",
+   "weight": 0.009011
+  },
+  {
+   "code": "SH600166",
+   "weight": 0.008973
+  },
+  {
+   "code": "SH603119",
+   "weight": 0.008955
+  },
+  {
+   "code": "SZ002926",
+   "weight": 0.008922
+  },
+  {
+   "code": "SH603728",
+   "weight": 0.008913
+  },
+  {
+   "code": "SH688281",
+   "weight": 0.008837
+  },
+  {
+   "code": "SZ000951",
+   "weight": 0.008621
+  },
+  {
+   "code": "SZ002468",
+   "weight": 0.008174
+  },
+  {
+   "code": "SH600299",
+   "weight": 0.008165
+  },
+  {
+   "code": "SH603659",
+   "weight": 0.008016
+  },
+  {
+   "code": "SZ300432",
+   "weight": 0.00797
+  },
+  {
+   "code": "SZ003022",
+   "weight": 0.007898
+  },
+  {
+   "code": "SZ002497",
+   "weight": 0.007686
+  },
+  {
+   "code": "SZ002430",
+   "weight": 0.007523
+  },
+  {
+   "code": "SZ300748",
+   "weight": 0.007273
+  },
+  {
+   "code": "SZ000703",
+   "weight": 0.006969
+  },
+  {
+   "code": "SZ301031",
+   "weight": 0.006666
+  },
+  {
+   "code": "SH688475",
+   "weight": 0.006522
+  },
+  {
+   "code": "SZ300012",
+   "weight": 0.006075
+  },
+  {
+   "code": "SZ002415",
+   "weight": 0.006051
+  },
+  {
+   "code": "SZ300957",
+   "weight": 0.005977
+  },
+  {
+   "code": "SZ000050",
+   "weight": 0.005666
+  },
+  {
+   "code": "SH601666",
+   "weight": 0.005409
+  },
+  {
+   "code": "SZ002460",
+   "weight": 0.005404
+  },
+  {
+   "code": "SZ002558",
+   "weight": 0.005364
+  },
+  {
+   "code": "SH688552",
+   "weight": 0.005227
+  },
+  {
+   "code": "SZ000729",
+   "weight": 0.00512
+  },
+  {
+   "code": "SH688717",
+   "weight": 0.004979
+  },
+  {
+   "code": "SH601000",
+   "weight": 0.00473
+  },
+  {
+   "code": "SH600499",
+   "weight": 0.004541
+  },
+  {
+   "code": "SH601139",
+   "weight": 0.004377
+  },
+  {
+   "code": "SZ000598",
+   "weight": 0.004333
+  },
+  {
+   "code": "SZ000800",
+   "weight": 0.004254
+  },
+  {
+   "code": "SH688295",
+   "weight": 0.004249
+  },
+  {
+   "code": "SZ001286",
+   "weight": 0.004132
+  },
+  {
+   "code": "SZ002410",
+   "weight": 0.004127
+  },
+  {
+   "code": "SH600995",
+   "weight": 0.004054
+  },
+  {
+   "code": "SH601222",
+   "weight": 0.003876
+  },
+  {
+   "code": "SZ002299",
+   "weight": 0.003833
+  },
+  {
+   "code": "SH600163",
+   "weight": 0.003812
+  },
+  {
+   "code": "SH600282",
+   "weight": 0.003804
+  },
+  {
+   "code": "SZ000415",
+   "weight": 0.003649
+  },
+  {
+   "code": "SH600323",
+   "weight": 0.003638
+  },
+  {
+   "code": "SH601211",
+   "weight": 0.003551
+  },
+  {
+   "code": "SH600754",
+   "weight": 0.003216
+  },
+  {
+   "code": "SH601019",
+   "weight": 0.003117
+  },
+  {
+   "code": "SZ300438",
+   "weight": 0.003018
+  },
+  {
+   "code": "SH603379",
+   "weight": 0.002918
+  },
+  {
+   "code": "SZ000959",
+   "weight": 0.002781
+  },
+  {
+   "code": "SH600104",
+   "weight": 0.002672
+  },
+  {
+   "code": "SZ002345",
+   "weight": 0.002582
+  },
+  {
+   "code": "SZ002466",
+   "weight": 0.002487
+  },
+  {
+   "code": "SH600109",
+   "weight": 0.00246
+  },
+  {
+   "code": "SH600988",
+   "weight": 0.002388
+  },
+  {
+   "code": "SH601128",
+   "weight": 0.002111
+  },
+  {
+   "code": "SH600502",
+   "weight": 0.001295
+  },
+  {
+   "code": "SH600535",
+   "weight": 0.001285
+  },
+  {
+   "code": "SZ002673",
+   "weight": 0.000796
+  },
+  {
+   "code": "SH601988",
+   "weight": 0.000624
+  },
+  {
+   "code": "SH600998",
+   "weight": 0.000309
+  }
+ ],
+ "generated_from": {
+  "pcf": "outputs/cluster_sync_20261011/teammate_latest_uploads/unpacked/pcf_alpha_materials_20261011/pcf/official_xml_recent/563030_20261009_official.xml",
+  "pcf_sha256": "ba7b332728a1eb499f287e539af4d6ed413e0cea6608d45889d85788e9321ea9",
+  "pcf_trading_day": "2026-10-09",
+  "pcf_valuation_day": "2026-10-08",
+  "prices": "pcf_overlay_20261012/live/prices/close_20261008.csv",
+  "prices_sha256": "d3eb3d3c0dbc29aa6b3d1ca77aa5d5c77dd137a105c61fd174287cc22f8d3d2b",
+  "c5": "给队友_c5状态_20260929_20261009/c5_state_20261009.parquet",
+  "c5_sha256": "4f734dbd230925725f70ee5e40716606df6e8c356817aee73b63a773fea746fe",
+  "signal": null,
+  "signal_sha256": null,
+  "members": "outputs/cluster_sync_20261011/teammate_latest_uploads/unpacked/auto_trading_full_source_20261011/data_expansion/normalized/current_index_membership.parquet",
+  "members_sha256": "a77af61dc486f61fa0b4baceaf1a61f6cd41858f2af5a8037f4bc1eef1b0927e",
+  "console_config_sha256": "bf4ce829451cb9c09730e234aa157bd6fbca6f1bb1a8fd9b7ecfdeac926bd3fb",
+  "account_as_of": "2026-10-09",
+  "mode": "V5",
+  "requested_mode": "V5",
+  "k": 0.5,
+  "cap_fraction": 0.949,
+  "shadow": false,
+  "lots": true
+ }
+}

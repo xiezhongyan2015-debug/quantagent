@@ -1,0 +1,61 @@
+{
+  "kind": "independent_readonly_script_review",
+  "created_at": "2026-09-07T04:11:53.442622+00:00",
+  "status": "static_gaps_require_controller_resolution_not_ready",
+  "reviewed_source_sha256": {
+    "prepare_supplemental_scope_001.py": "87d48f27e8173ce854fa0931f26cf9cb2028c8a4a2ba62d51f58f630a2b65c2f",
+    "register_supplemental_001.py": "f0eb35d992373a785c0a2a5405c885837f37a6c9f3dcfb650c33617f7470cced"
+  },
+  "boundaries": {
+    "actual_campaign_opened": false,
+    "script_executed": false,
+    "tests_executed": false,
+    "controller_or_store_constructed": false,
+    "actual_ledger_modified": false,
+    "configuration_scope_or_admission_created": false,
+    "paid_dispatch_authorized": false
+  },
+  "confirmed_static": [
+    "Fixed original campaign and output paths; preparation output is exclusive-create and scope/admission have raw external SHA arguments.",
+    "Supplemental scope preserves original run/plan/budget/clock/tasks and requires expired paused single-inspect starting state; registration uses the frozen phase controller and existing non-reentrant registry lease.",
+    "Registration does not call execute/apply/resume or construct a Gateway; it patches Gateway.run to fail before constructing the controller. Controller.prepare registers the phase and updates governance, so registration is a real write rather than a read-only operation.",
+    "Fields used by scripts match current frozen APIs and preservation producer. summary-before, accounting, status, tasks and supplemental_phase names exist; original-row list conversion matches JSON serialized SQLite tuples.",
+    "Phase constructor and inspect_saved validate saved evidence with read-only workbench access; prepare alone is the intended ledger mutation, while metadata outputs are exclusive-create."
+  ],
+  "findings": [
+    {
+      "id": "R1",
+      "priority": "P1",
+      "file": "register_supplemental_001.py",
+      "lines": [
+        19,
+        20,
+        26,
+        30,
+        46,
+        50,
+        58
+      ],
+      "finding": "Proof coverage is not required by the script: runtime-observation and preservation receipt bytes are not explicitly pinned to mandatory admission entries; backups can be empty or omit/relabel expected files, and original_rows.json is not checked against saved original_rows_hash/artifact SHA before claiming all four workbenches unchanged. A future admission could cover these files, but no configuration or admission exists yet and this review does not assume it does.",
+      "minimal_fix": "Require externally pinned raw hashes of the two metadata receipts, exactly five unique expected source paths with the campaign ledger first and four controller_paths workbenches, bounded backup paths, and original_rows byte/content hash before prepare. Do not write the full-preservation success claim unless those checks pass.",
+      "evidence": "Static source review only; no counterexample execution and no claim actual files were malformed."
+    },
+    {
+      "id": "R2",
+      "priority": "P2",
+      "files": [
+        "prepare_supplemental_scope_001.py",
+        "register_supplemental_001.py"
+      ],
+      "finding": "External raw hash, permission and proof guards use assert; optimized Python removes these wrapper checks. Kernel need-based identity guards survive, but do not substitute for missing external registration/review/provenance pins.",
+      "minimal_fix": "Use c.need for material guards or reject sys.flags.optimize before performing any sensitive work.",
+      "evidence": "Python assert semantics and exact source usage; no optimized execution performed."
+    }
+  ],
+  "limitations": [
+    "No actual campaign, backup database, private key, live answer, market source, config, prepared scope or admission was opened.",
+    "No real registration readiness or authorization established. If a post-prepare check fails, the script saves failure but does not undo or pause the registration; the root controller must stop and inspect saved state rather than blindly retry or start a worker.",
+    "Current source review is separate from engineering tests and does not count as executed test coverage."
+  ],
+  "implementation_changed_by_reviewer": false
+}

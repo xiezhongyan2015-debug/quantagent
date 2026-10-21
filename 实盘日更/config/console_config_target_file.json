@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "account_mode": "competition_simulation_only",
+  "strategy": "target_file",
+  "target_fraction": 0.95,
+  "capital_limit": 12000000.0,
+  "max_security_value": 500000.0,
+  "max_order_value": 500000.0,
+  "price_guard": 0.03,
+  "spacing_seconds": 5.0,
+  "allow_sells": true,
+  "prefer_sealed_plan": false,
+  "external_file": "C:/ChoiceBridge/live/target_{date}.json",
+  "external_script": "",
+  "calendar_path": "research/choice_pcf_automation/daily_public_pcf/calendar.json",
+  "calendar_valid_through": "2026-12-30",
+  "excluded_cash_cny": "395.66",
+  "cash_drift_tolerance_cny": 5000.0,
+  "isolate_unknown_orders": true,
+  "fill_timeout_seconds": 60,
+  "max_attempts_per_code": 3,
+  "membership_path": "data_expansion/normalized/current_index_membership.parquet",
+  "position_floor": {
+    "enabled": true,
+    "buffer_fraction": 0.005,
+    "effective_date": "2026-09-23",
+    "first_deadline": "2026-09-23",
+    "recovery_days": 3,
+    "recovery_unit": "trading_days"
+  },
+  "_note": "PROPOSED for the target_file strategy, 2026-10-11: target_fraction 0.95 (file weights sum 0.949), capital_limit raised so it never binds below nav x (0.95+0.005 buffer); teammate to confirm before loading"
+}

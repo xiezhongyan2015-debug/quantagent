@@ -1,0 +1,525 @@
+{
+  "commit": "32b3d395e73d9db5eee3fe9063d69aec0fdc83bd",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "bytes": 1141
+    },
+    {
+      "path": "docs/introduction.rst",
+      "sha256": "3fa50de69965ed0c1da37f5f24a11c886518b38e10eae7b36bb24c989e008bb8",
+      "bytes": 1245
+    },
+    {
+      "path": "docs/project_framework_introduction.rst",
+      "sha256": "b56200b591c4a1e6db07aa8faaaa3ecf04fc27ac9cec776f31f3051e98f3b363",
+      "bytes": 1369
+    },
+    {
+      "path": "docs/scens/catalog.rst",
+      "sha256": "dbd65e364cae157ccc8716339e2d3dfb3c48d4be270acb9d628ac2b4a6dc1be6",
+      "bytes": 1384
+    },
+    {
+      "path": "docs/scens/data_agent_fin.rst",
+      "sha256": "2ac30c0343327b14b59a2ebb1f522bb51b39f74dac2a8a28e76738dbf917cbcd",
+      "bytes": 5773
+    },
+    {
+      "path": "docs/scens/data_copilot_fin.rst",
+      "sha256": "fe358762c13371a9ac5a9aca2fe44b2bdb43711e0770c3cc6e225af661d05f98",
+      "bytes": 6730
+    },
+    {
+      "path": "docs/scens/data_science.rst",
+      "sha256": "30e92177497ca0ef1a7e7432505964e4c0328e1691ae1cdfb0c02589410e9be4",
+      "bytes": 27642
+    },
+    {
+      "path": "docs/scens/finetune.rst",
+      "sha256": "0d837c0f3c9ab162f20eb4e40599146f35e7261c45927b4aa231c339b4d9cb40",
+      "bytes": 972
+    },
+    {
+      "path": "docs/scens/model_agent_fin.rst",
+      "sha256": "e061f934bcc5bb352b973eb31815c8edf3f0190f91427d4d1495a86a02b0a1f1",
+      "bytes": 6592
+    },
+    {
+      "path": "docs/scens/model_copilot_general.rst",
+      "sha256": "b63ac1a4134dd7dce86d732b13b50c8f30f5eb2bb95be71dce291e1cf79432b7",
+      "bytes": 4054
+    },
+    {
+      "path": "docs/scens/quant_agent_fin.rst",
+      "sha256": "4e7716b8171f866af7b09fa7a67ac36bc315535650a7abe8a8bd4731b5670bbc",
+      "bytes": 5216
+    },
+    {
+      "path": "rdagent/app/qlib_rd_loop/conf.py",
+      "sha256": "1a5f1fb42456694b759acc78f5e301b2ff8227fc1e190dc4cdf65855e5bf31c3",
+      "bytes": 6166
+    },
+    {
+      "path": "rdagent/app/qlib_rd_loop/factor.py",
+      "sha256": "819bbdab43888682735766ad3842b0e15b83d9286af59b5e96072da75e5db2d0",
+      "bytes": 1999
+    },
+    {
+      "path": "rdagent/app/qlib_rd_loop/factor_from_report.py",
+      "sha256": "ee74ac7e9a53adb1cccaf3e457925b9afcece43f1c801a95ff3010b9462e82ce",
+      "bytes": 6894
+    },
+    {
+      "path": "rdagent/app/qlib_rd_loop/model.py",
+      "sha256": "4b4674381d4f68f4d1f76c77859647744119c3496f75b8f348f09cfc5d77bcbf",
+      "bytes": 1350
+    },
+    {
+      "path": "rdagent/app/qlib_rd_loop/prompts.yaml",
+      "sha256": "962a77f019bbcc53eb58abf9aff7b289747f5403f44fb6207d17bba4f810ca2c",
+      "bytes": 612
+    },
+    {
+      "path": "rdagent/app/qlib_rd_loop/quant.py",
+      "sha256": "f3e4d2f2bb74b12578860386ec96fc0d0c6f628105109a4d0db7091f254dbb2a",
+      "bytes": 6856
+    },
+    {
+      "path": "rdagent/components/coder/CoSTEER/__init__.py",
+      "sha256": "3df36fd93ef3c6fa9a8044da923166e554357c39fa9f54c997e32b70ed49e62f",
+      "bytes": 7284
+    },
+    {
+      "path": "rdagent/components/coder/CoSTEER/config.py",
+      "sha256": "1ed73961c392bf62897cfb510814f1b244ecadea7aa9c88599557e4acae228ad",
+      "bytes": 1142
+    },
+    {
+      "path": "rdagent/components/coder/CoSTEER/evaluators.py",
+      "sha256": "3009fea65dadcb225bf0776374870bc6aa225132663fad8d87d71274e9becc32",
+      "bytes": 13957
+    },
+    {
+      "path": "rdagent/components/coder/CoSTEER/evolvable_subjects.py",
+      "sha256": "3f0227e729ba4a8091f556f1f9a7ca150c60fe47e22d117e4b2e1a6591e86eaf",
+      "bytes": 1158
+    },
+    {
+      "path": "rdagent/components/coder/CoSTEER/evolving_strategy.py",
+      "sha256": "479b3906a9d3ef1e3a3c19dc8505558b273de883351a83d800e417a8e3a6a706",
+      "bytes": 7278
+    },
+    {
+      "path": "rdagent/components/coder/CoSTEER/knowledge_management.py",
+      "sha256": "97c82c8974495bbdbb7dd0b85bfba4c0b2b204093f2c64021ee2c6de542bbcd8",
+      "bytes": 49323
+    },
+    {
+      "path": "rdagent/components/coder/CoSTEER/prompts.yaml",
+      "sha256": "51a8d6af475bbae2341e103728aac4e277b5ba27f6cf7e7a96a34025ac3d5fdd",
+      "bytes": 498
+    },
+    {
+      "path": "rdagent/components/coder/CoSTEER/task.py",
+      "sha256": "a803c96793b4f4116ae3b9545c9ea1af93c31bb04fc9fa801dadb49ad8bac4f8",
+      "bytes": 430
+    },
+    {
+      "path": "rdagent/components/coder/factor_coder/__init__.py",
+      "sha256": "a6c96316da9c19613040f7e5db64dae59292e337537df836f62485e8360c0259",
+      "bytes": 1297
+    },
+    {
+      "path": "rdagent/components/coder/factor_coder/config.py",
+      "sha256": "24d6123ad664046e343d88f9f50f09154e730b06f038381cfec0ab9f58f8bb4c",
+      "bytes": 1675
+    },
+    {
+      "path": "rdagent/components/coder/factor_coder/eva_utils.py",
+      "sha256": "8a8eaa7329c54e1dd89784bca3f94b8d34a96870b54241ab82377791246b5982",
+      "bytes": 21733
+    },
+    {
+      "path": "rdagent/components/coder/factor_coder/evaluators.py",
+      "sha256": "90f94d14e436a50153204da7994cbf6e7d93b54a9bd2a7278c10c4de72eb9255",
+      "bytes": 6221
+    },
+    {
+      "path": "rdagent/components/coder/factor_coder/evolving_strategy.py",
+      "sha256": "0fcc0f7114e437e37acce8db893c41b577d48017b83f5f4671a8017246a4383e",
+      "bytes": 8657
+    },
+    {
+      "path": "rdagent/components/coder/factor_coder/factor.py",
+      "sha256": "17d44cceb61f635b54a9169c1518b5455a795743d1a066059fb77bff86597016",
+      "bytes": 9527
+    },
+    {
+      "path": "rdagent/components/coder/factor_coder/prompts.yaml",
+      "sha256": "8c6cfc174915bff8b173e959611ffc4e946a19aa406634f0a1eb261725a0efce",
+      "bytes": 12502
+    },
+    {
+      "path": "rdagent/components/coder/model_coder/__init__.py",
+      "sha256": "030387281fe6e0caf2c1adab47eb8b8542c44552b6b88e46c7c25d4e424bbc79",
+      "bytes": 853
+    },
+    {
+      "path": "rdagent/components/coder/model_coder/benchmark/eval.py",
+      "sha256": "54058c80645862de051295bae1dd32f41f7606b9a244ff112b88f5a434df50c7",
+      "bytes": 2838
+    },
+    {
+      "path": "rdagent/components/coder/model_coder/benchmark/gt_code/A-DGN.py",
+      "sha256": "b4f3cfdccf66b8edfda74ae021c3c7e33995ddfd9520780a8dc32ef9d8c28fbc",
+      "bytes": 4770
+    },
+    {
+      "path": "rdagent/components/coder/model_coder/benchmark/gt_code/dirgnn.py",
+      "sha256": "9fef1517cd90f771b2df5bd56ade692c0a5bb000f01dbe104aaa2a82158f08c6",
+      "bytes": 2789
+    },
+    {
+      "path": "rdagent/components/coder/model_coder/benchmark/gt_code/gpsconv.py",
+      "sha256": "b7b3ce516215a370ad9acfca17bf4d817753f5bc2a48f1c10e36816abc3a562f",
+      "bytes": 7025
+    },
+    {
+      "path": "rdagent/components/coder/model_coder/benchmark/gt_code/linkx.py",
+      "sha256": "a6bc0954efdce8ec5a968a8293ec84ed94a59b9f65ea52ed41ce61945d6f852f",
+      "bytes": 6293
+    },
+    {
+      "path": "rdagent/components/coder/model_coder/benchmark/gt_code/pmlp.py",
+      "sha256": "81f140a1a17c3ef0d8b83442aaa5dabdc29bfb0c126f91815d232b18fc04e7ce",
+      "bytes": 3976
+    },
+    {
+      "path": "rdagent/components/coder/model_coder/benchmark/gt_code/visnet.py",
+      "sha256": "0bcdc0785ca3f33b82c15a66f413bba606da5d48e4af8e6752b2c4a257b5af74",
+      "bytes": 43072
+    },
+    {
+      "path": "rdagent/components/coder/model_coder/conf.py",
+      "sha256": "28cda476cd6fde9f60861c82c236881abd3d1bc9dc089c055262199e3e479647",
+      "bytes": 1205
+    },
+    {
+      "path": "rdagent/components/coder/model_coder/eva_utils.py",
+      "sha256": "8741e86dedd525eb44e17fc0c6c1d1cc79dd3c2990d4b8f6a8a42bd50cd09232",
+      "bytes": 6234
+    },
+    {
+      "path": "rdagent/components/coder/model_coder/evaluators.py",
+      "sha256": "22e3b20c5a12f1dc46e35135bde48d0270481aa53e085686c3de7e26355fb479",
+      "bytes": 4437
+    },
+    {
+      "path": "rdagent/components/coder/model_coder/evolving_strategy.py",
+      "sha256": "05b0f7064dd7e95bc8a1851e4d3f66a635d80b6c16dd628de9c37c1f03a4beac",
+      "bytes": 3997
+    },
+    {
+      "path": "rdagent/components/coder/model_coder/gt_code.py",
+      "sha256": "d997ef638e8cec27883a8207fe55bf0545970ab3c6c1cf6c1e63d9f78112a111",
+      "bytes": 4827
+    },
+    {
+      "path": "rdagent/components/coder/model_coder/model.py",
+      "sha256": "e907e683b4dcf8580fd99d1ba69263f46de949a3e47631e7f63206762b5f5c01",
+      "bytes": 6434
+    },
+    {
+      "path": "rdagent/components/coder/model_coder/one_shot/__init__.py",
+      "sha256": "ec3a828dcc816c1b859729e580083d9bb93e0791b0e8f83a32d0afce7e0864b2",
+      "bytes": 1246
+    },
+    {
+      "path": "rdagent/components/coder/model_coder/one_shot/prompt.yaml",
+      "sha256": "d6daa3a7c91b27755f35122f704ffd490db9a6eaabfe8ddbcb32bcc45a0246f5",
+      "bytes": 1696
+    },
+    {
+      "path": "rdagent/components/coder/model_coder/prompts.yaml",
+      "sha256": "1a7564fcffd724e296e95d000c418867fca436508ef51168138616de08df2e37",
+      "bytes": 9468
+    },
+    {
+      "path": "rdagent/components/coder/model_coder/task_loader.py",
+      "sha256": "b0301983bb33224a575639c91ca600199979e2f9cb8bb794c9252e329a0634f4",
+      "bytes": 4816
+    },
+    {
+      "path": "rdagent/components/proposal/__init__.py",
+      "sha256": "77bd0978b4a762e19b673918edcf5eac3d869f6bdd2515a504dc71f022cb9806",
+      "bytes": 5135
+    },
+    {
+      "path": "rdagent/components/proposal/prompts.yaml",
+      "sha256": "a5187101d3b281ea0be9e0d974f3bd65706a9e7235221e108a92f689c4e5e44c",
+      "bytes": 3930
+    },
+    {
+      "path": "rdagent/components/workflow/rd_loop.py",
+      "sha256": "eb858b5e258f5a0f1a8c475e852bdae87c492b2765e7f2c52cb629e4240ae901",
+      "bytes": 10398
+    },
+    {
+      "path": "rdagent/core/conf.py",
+      "sha256": "7c8c7b0761972c61f2a0a210df40eaca496f89a74a7f20f8aa87fd3b0380d0aa",
+      "bytes": 4130
+    },
+    {
+      "path": "rdagent/core/developer.py",
+      "sha256": "a6e90f45913d4be69eb4703726c9edf7300a492dec7c66ab596faec1f890cce1",
+      "bytes": 1264
+    },
+    {
+      "path": "rdagent/core/evaluation.py",
+      "sha256": "fae7260cc4ba09e302b9c029197745206ae298f0eb2f8a6b85b33798aa7e970b",
+      "bytes": 1542
+    },
+    {
+      "path": "rdagent/core/evolving_agent.py",
+      "sha256": "27f129066c5149441ad95e5d8db0081c9e8e32d4573717d3e30328a0634c9121",
+      "bytes": 8516
+    },
+    {
+      "path": "rdagent/core/evolving_framework.py",
+      "sha256": "5969c0c5e5a9396e09c73c7e37b4e2601b8ea7224a7014510c8af47f3da49a64",
+      "bytes": 5946
+    },
+    {
+      "path": "rdagent/core/exception.py",
+      "sha256": "ad076f7f82d962856deb9ca73df715239efd9b4914264344746dd6d5803c45ff",
+      "bytes": 2010
+    },
+    {
+      "path": "rdagent/core/experiment.py",
+      "sha256": "c4bf3546b5b0d68968cfe5009c61b555c9f0ca2e1ec26398386d74a2bc154986",
+      "bytes": 20915
+    },
+    {
+      "path": "rdagent/core/interactor.py",
+      "sha256": "be8360de21bd838b8f043b9069bc9072e5490980ce020beb597836bcbcd0c6c1",
+      "bytes": 788
+    },
+    {
+      "path": "rdagent/core/knowledge_base.py",
+      "sha256": "e6d1655f064b7f1d6746fa485192064b473a124501732a5fbefc7564c13372ba",
+      "bytes": 1203
+    },
+    {
+      "path": "rdagent/core/prompts.py",
+      "sha256": "60ea92de876f3dd1ce44c81ec9f32b3d6209916bcf2cec3400893f95a6985b87",
+      "bytes": 560
+    },
+    {
+      "path": "rdagent/core/proposal.py",
+      "sha256": "a75079ebe976139fea1507d96db4827df8c0839abbd4c9a427302ca7d07059bf",
+      "bytes": 16531
+    },
+    {
+      "path": "rdagent/core/scenario.py",
+      "sha256": "2c65fd4898e5112fa7eb710952200ec282546c63a56db0fe5ff81d9cac563e08",
+      "bytes": 1876
+    },
+    {
+      "path": "rdagent/core/serialization.py",
+      "sha256": "82af88ead5259bdc9147991275c109f28ed4fecb68310e380fb0a245c56f1dd1",
+      "bytes": 3518
+    },
+    {
+      "path": "rdagent/core/utils.py",
+      "sha256": "1673203d687b05c0019a71645fd39fb40a77d5b99b6f827d58cdbb4598a8cba5",
+      "bytes": 7754
+    },
+    {
+      "path": "rdagent/scenarios/qlib/developer/factor_coder.py",
+      "sha256": "b72a79f37f50b881ded0705a2c2f4f8ad616bca3280cd91eb3766dc134c8c790",
+      "bytes": 99
+    },
+    {
+      "path": "rdagent/scenarios/qlib/developer/factor_runner.py",
+      "sha256": "d2c5864c27332b45a4eda6ad06e1706a84bfc9b3482b7ca45b34290615584988",
+      "bytes": 9802
+    },
+    {
+      "path": "rdagent/scenarios/qlib/developer/feedback.py",
+      "sha256": "ec2fce044709e083119820d7cb2c1609df8ff429103cabe34ced640cc093bb68",
+      "bytes": 8005
+    },
+    {
+      "path": "rdagent/scenarios/qlib/developer/model_coder.py",
+      "sha256": "bb68269d9cf42ff040e1feed24daaddfdc4b8b83417ddcc7882a2b16ead3d587",
+      "bytes": 95
+    },
+    {
+      "path": "rdagent/scenarios/qlib/developer/model_runner.py",
+      "sha256": "b67b5f1ad4c863b3b85d1a162d51559315578d1db43ec17d118041f593af4316",
+      "bytes": 5765
+    },
+    {
+      "path": "rdagent/scenarios/qlib/developer/utils.py",
+      "sha256": "d3c14540b30027f2a30c40ff630ae96bbf89575e76ef59e6b90e76ef15a6e692",
+      "bytes": 7135
+    },
+    {
+      "path": "rdagent/scenarios/qlib/experiment/factor_data_template/README.md",
+      "sha256": "f3dda5a6626ee121acd70f404c31a4769100c288188ae803bc57d9dff0a4d53d",
+      "bytes": 862
+    },
+    {
+      "path": "rdagent/scenarios/qlib/experiment/factor_data_template/generate.py",
+      "sha256": "696803163e0d789dc4575f3783a41cb99c78e81f4755f1cb6db1cf4c1aafa4a0",
+      "bytes": 737
+    },
+    {
+      "path": "rdagent/scenarios/qlib/experiment/factor_experiment.py",
+      "sha256": "451bc9a4b01c73f5d8d30d071c0e54f27f87d001898dbed853e7264b5332af79",
+      "bytes": 3884
+    },
+    {
+      "path": "rdagent/scenarios/qlib/experiment/factor_from_report_experiment.py",
+      "sha256": "20630a5e41b7fedea21396b57fa578c08dc31e37db7ad48142b5254515fec2a1",
+      "bytes": 483
+    },
+    {
+      "path": "rdagent/scenarios/qlib/experiment/factor_template/README.md",
+      "sha256": "12bd081f0e7868611e81027127f04c7d5178fccd625f7521f61b77523a5347d4",
+      "bytes": 719
+    },
+    {
+      "path": "rdagent/scenarios/qlib/experiment/factor_template/conf_baseline.yaml",
+      "sha256": "b6253e3d9c7512f7066088ae27f5440e4a95cb409292ab9529ecb68847ea8385",
+      "bytes": 3365
+    },
+    {
+      "path": "rdagent/scenarios/qlib/experiment/factor_template/conf_combined_factors.yaml",
+      "sha256": "0701d5f07df62e448ba603b32152630543fc1312dc11790097a6977c69311c70",
+      "bytes": 3139
+    },
+    {
+      "path": "rdagent/scenarios/qlib/experiment/factor_template/conf_combined_factors_sota_model.yaml",
+      "sha256": "134f5beedcb811d6b4f935f12f119a3d55cc9f4124a2eb7581da98142b3db228",
+      "bytes": 3853
+    },
+    {
+      "path": "rdagent/scenarios/qlib/experiment/factor_template/read_exp_res.py",
+      "sha256": "f0fa6416136f02d7e163d9523cb376c5f42fd8e4d5699485304f2d5614034b70",
+      "bytes": 1869
+    },
+    {
+      "path": "rdagent/scenarios/qlib/experiment/model_experiment.py",
+      "sha256": "113cdd606a43aeac39ccc46e8938025fa21fac92ef523b1a4f2180395695d098",
+      "bytes": 3288
+    },
+    {
+      "path": "rdagent/scenarios/qlib/experiment/model_template/README.md",
+      "sha256": "64869a04ae0c988b43008873a33f3178b5166956823a17d6a0a443d1670d1e29",
+      "bytes": 697
+    },
+    {
+      "path": "rdagent/scenarios/qlib/experiment/model_template/conf_baseline_factors_model.yaml",
+      "sha256": "bd3e9338789f8bf4fd72e6f38032fd6a642799d0b38dc83a0ea6f043eff4248c",
+      "bytes": 3718
+    },
+    {
+      "path": "rdagent/scenarios/qlib/experiment/model_template/conf_sota_factors_model.yaml",
+      "sha256": "134f5beedcb811d6b4f935f12f119a3d55cc9f4124a2eb7581da98142b3db228",
+      "bytes": 3853
+    },
+    {
+      "path": "rdagent/scenarios/qlib/experiment/model_template/read_exp_res.py",
+      "sha256": "f0fa6416136f02d7e163d9523cb376c5f42fd8e4d5699485304f2d5614034b70",
+      "bytes": 1869
+    },
+    {
+      "path": "rdagent/scenarios/qlib/experiment/prompts.yaml",
+      "sha256": "6325f0366075ffc0519a983ac0049c5bf30714479932a7b4d9ba5651ae86d004",
+      "bytes": 16026
+    },
+    {
+      "path": "rdagent/scenarios/qlib/experiment/quant_experiment.py",
+      "sha256": "f8aeeec7185d117a31289677e7ffac7dd1c7c4717b28b274be8b1023d36449ea",
+      "bytes": 8361
+    },
+    {
+      "path": "rdagent/scenarios/qlib/experiment/utils.py",
+      "sha256": "7021a4ea59b42eed7f399a9eda05eadb4c93d796de89e85d681c6b240b322063",
+      "bytes": 6108
+    },
+    {
+      "path": "rdagent/scenarios/qlib/experiment/workspace.py",
+      "sha256": "c58ba7a5e2cdc08d105a6dd7f0cdea0309b9d69d83d01219a942b9a37b6ea289",
+      "bytes": 2572
+    },
+    {
+      "path": "rdagent/scenarios/qlib/factor_experiment_loader/json_loader.py",
+      "sha256": "0f0ef3bfcaf8e7a739d7eb58fe03b99d0c9949a527a5a38e2dc5b6fb9e491ff6",
+      "bytes": 2513
+    },
+    {
+      "path": "rdagent/scenarios/qlib/factor_experiment_loader/pdf_loader.py",
+      "sha256": "53df3522130751dde6a30f7cccb4223a5c6edc8a1a8ab52f96217cf898f24c7c",
+      "bytes": 21999
+    },
+    {
+      "path": "rdagent/scenarios/qlib/factor_experiment_loader/prompts.yaml",
+      "sha256": "c17fd202fac3fa8c47b1850f6d350207db01ee258a2cc3e1bab46a3ec83f77c4",
+      "bytes": 12891
+    },
+    {
+      "path": "rdagent/scenarios/qlib/prompts.yaml",
+      "sha256": "f8a213cb35c6677a9a4a38ccbdfb4b05fe4798090da83764b8fafe0f1dc98a1c",
+      "bytes": 18718
+    },
+    {
+      "path": "rdagent/scenarios/qlib/proposal/bandit.py",
+      "sha256": "5ae609b00426bb10f80e5ecd2398ffbe3c0d001af94d35871f9354f9d6d95536",
+      "bytes": 3528
+    },
+    {
+      "path": "rdagent/scenarios/qlib/proposal/factor_proposal.py",
+      "sha256": "8da980804f48a7850a978f481d5731523d5604971b2f21f2e363ae766c005c51",
+      "bytes": 5824
+    },
+    {
+      "path": "rdagent/scenarios/qlib/proposal/model_proposal.py",
+      "sha256": "d46809da65abd529a80e56c6d6ce7dc56805b441605f8456d2d809c36ea20f3a",
+      "bytes": 8508
+    },
+    {
+      "path": "rdagent/scenarios/qlib/proposal/quant_proposal.py",
+      "sha256": "b533aca2f3afa398f3b2227fd3e54803fe6f591d06f669bcfc0a1a78eb983927",
+      "bytes": 8572
+    },
+    {
+      "path": "rdagent/utils/env.py",
+      "sha256": "db972b83eaf5d62abb552a50c33704db1f5b026cf9439f6f30a59936bcc87c1f",
+      "bytes": 65183
+    },
+    {
+      "path": "rdagent/utils/workflow/__init__.py",
+      "sha256": "c9777cb674ad2edc61826791dfba505f18c390d9dcdd76f96817d35c2566bd0b",
+      "bytes": 173
+    },
+    {
+      "path": "rdagent/utils/workflow/loop.py",
+      "sha256": "3850f9c32e81413f6e9fb39f239204554dceae9375ecdeffe57f0509dfa6c5a4",
+      "bytes": 24620
+    },
+    {
+      "path": "rdagent/utils/workflow/misc.py",
+      "sha256": "1f3d90a432cf76445efc1bfab7259c431c7eb20e38c308b653161ead49227cea",
+      "bytes": 1819
+    },
+    {
+      "path": "rdagent/utils/workflow/tracking.py",
+      "sha256": "b3b96dfdb4a2353177504474a0e562b2ce8cd390ebb5f0e80eacde5ca00b2379",
+      "bytes": 3574
+    }
+  ]
+}

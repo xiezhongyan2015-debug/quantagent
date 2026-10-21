@@ -52,3 +52,27 @@ tmp/
 *.pickle
 *.pt
 *.pth
+
+# CSI500 source handoff: local secrets, market arrays and runtime state stay private.
+.pcf-research-venv/
+.research_worktrees/
+**/.venv-c5/
+**/.deps/
+/quantagent/
+**/notify.json
+**/secrets/
+**/private_state.json
+**/captain_snapshot*
+**/cloud_ledger/
+**/known_hosts
+**/ssh_config
+*.rdp
+*.tar
+*.tar.gz
+/实盘日更/inputs/
+/实盘日更/outputs/
+/gru_research/trading_data/
+/c5_core/data/vendor/
+/c5_core/data/qlib_data/
+/c5_core/data/A_Layer_Live/
+/c5_core/.package_root

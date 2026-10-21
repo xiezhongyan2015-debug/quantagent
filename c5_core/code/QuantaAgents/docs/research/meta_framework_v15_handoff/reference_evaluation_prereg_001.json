@@ -1,0 +1,59 @@
+{
+  "version": "reference_evaluation_prereg_v15_1",
+  "frozen_at": "2026-09-06T20:43:38.494799+00:00",
+  "visibility": "controller_evaluator_only_not_researcher_prompt",
+  "real_dispatch_authorized": false,
+  "actual_outputs_read": false,
+  "prepare_performed": false,
+  "run_performed": false,
+  "rubric_file": "reference_evaluation_prereg_001.md",
+  "rubric_sha256": "381352961490781c5cc05f64ac835d57003e3587ab13bb7ec9815ee7ff8effbe",
+  "public_manifest_sha256": "e728fa67c052d8af1f4133a5f9cc29dfe9b18772dbd4f244d088d0b08396b797",
+  "fixed_tasks": [
+    {
+      "case_id": "case_01",
+      "arm": "baseline",
+      "attempts": 1
+    },
+    {
+      "case_id": "case_02",
+      "arm": "baseline",
+      "attempts": 1
+    },
+    {
+      "case_id": "case_03",
+      "arm": "baseline",
+      "attempts": 1
+    },
+    {
+      "case_id": "case_04",
+      "arm": "baseline",
+      "attempts": 1
+    }
+  ],
+  "ordinary_investigation_denominator": 4,
+  "formal_strategy_denominator_increment": 0,
+  "net_positive_control_qualification": "not_assessed",
+  "P4": "not_assessed",
+  "costs_applied": false,
+  "automatic_skip_retry_truncate_expand": false,
+  "unstarted_tasks_retained": true,
+  "next_step": "root separately freezes concrete plan and independent admission; this record is not admission",
+  "authoritative_budget": {
+    "file": "reference_budget_001.json",
+    "sha256": "5e57b6cb9308fa3389c7aa102d24242a7825d2ce82cda37b15a9553fa2dcacd5"
+  },
+  "authoritative_scope": {
+    "file": "reference_scope_001.json",
+    "sha256": "e72076081931c38629e4d096111f1eb156fa6add815789f3d2bbc4ecf404d8c9"
+  },
+  "actual_run_id": "reference_v15_original4_001",
+  "registry": "experiment_traces/meta_casebank_references",
+  "preparation_root": "experiment_traces/meta_casebank_reference_preparations/reference_v15_original4_001",
+  "initial_history": {
+    "rubric_sha256": "cb4fc5d98f31099fa399a3f501b2e033532bc85f0a41ad86194949b77a80c095",
+    "record_sha256": "54453b9b9825310dd9a67a43739300f641f87817d00fdcdeb086ca3829062005",
+    "reason": "bind root authoritative scope/budget before any output; no rubric or budget change"
+  },
+  "is_budget_file": false
+}

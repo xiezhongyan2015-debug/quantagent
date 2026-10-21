@@ -1,0 +1,32 @@
+{
+  "recorded_at": "2026-09-06T21:59:23.059756+00:00",
+  "status": "passed",
+  "scope": "One fresh synthetic original-debt ledger, real entrypoint/controller/Gateway event verifier with one fake process. Original actual campaign untouched.",
+  "receipt": "experiment_traces\\meta_ashare_revision16\\transport_cli_validation\\002_integration\\receipt.json",
+  "receipt_sha256": "468e0a8e1339dce8702ed1981ed02df283c31c83412ee8b6ec6f454f51129d11",
+  "tests": 1,
+  "pytest_seconds": 4.59,
+  "new_provider_calls": 0,
+  "actual_campaign_reads": 0,
+  "actual_campaign_writes": 0,
+  "observations": [
+    "status/inspect before correction do not instantiate Gateway",
+    "one fake completed response settles only its13 known tokens; original80000 remains",
+    "original base run/call bodies unchanged",
+    "second explicit execute rejected before Gateway.run",
+    "schema-valid response still pending workbench validation and not applied"
+  ],
+  "source_pins": {
+    "scripts/run_transport_correction.py": "f19128e1476c67b74394c3dc549fa50f85f33b553bb39340c9140151a577908b",
+    "tests/test_meta_transport_cli_integration_v16.py": "bc1f42448b410a74d934add30e63f117c0042ac7d76bc8d55095b3ad7ba19cab",
+    "tests/test_meta_transport_correction_v16.py": "0a9146eabf3e97d86c94fa0b125cdea26ea1b38f8d6fe7d0dc9ab6799eb9eb1c",
+    "src/quanta_agents/meta/transport_correction.py": "0e21009f00f98e81d0105dd4a98583253dccf1f63115e469b855be1ad53bb657",
+    "src/quanta_agents/meta/codex_gateway.py": "5afa3dcbbd8d8c6f2a649aebfc86f787cd83d54ddfb547ec2967e68c2e6b2b95",
+    "src/quanta_agents/meta/structured_output_profile.py": "276481336f2b647717c83bb46be1def6a366fa5e1de072f61c58b1f78a8bdf38"
+  },
+  "self_check": {
+    "assessment": "Real adapter integration preserved one-shot and original-debt boundary in a fresh synthetic ledger. It is not provider transport compatibility evidence.",
+    "next_step": "Compose independent budget/crash and final-monitor checks, freeze concrete actual inputs and confirm unique controller before any real correction.",
+    "falsifiers": "Actual-source mismatch, duplicate process, zeroed original reserve, altered base records or automatic action application invalidates this integration claim."
+  }
+}

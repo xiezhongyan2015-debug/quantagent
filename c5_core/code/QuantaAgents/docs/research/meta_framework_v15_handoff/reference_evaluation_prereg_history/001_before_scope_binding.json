@@ -1,0 +1,57 @@
+{
+  "version": "reference_evaluation_prereg_v15_1",
+  "frozen_at": "2026-09-06T20:42:06.838469+00:00",
+  "visibility": "controller_evaluator_only_not_researcher_prompt",
+  "real_dispatch_authorized": false,
+  "actual_outputs_read": false,
+  "prepare_performed": false,
+  "run_performed": false,
+  "rubric_file": "reference_evaluation_prereg_001.md",
+  "rubric_sha256": "cb4fc5d98f31099fa399a3f501b2e033532bc85f0a41ad86194949b77a80c095",
+  "public_manifest_sha256": "e728fa67c052d8af1f4133a5f9cc29dfe9b18772dbd4f244d088d0b08396b797",
+  "fixed_tasks": [
+    {
+      "case_id": "case_01",
+      "arm": "baseline",
+      "attempts": 1
+    },
+    {
+      "case_id": "case_02",
+      "arm": "baseline",
+      "attempts": 1
+    },
+    {
+      "case_id": "case_03",
+      "arm": "baseline",
+      "attempts": 1
+    },
+    {
+      "case_id": "case_04",
+      "arm": "baseline",
+      "attempts": 1
+    }
+  ],
+  "budget_recommendation": {
+    "per_task_max_calls": 17,
+    "max_queries_per_task": 16,
+    "max_candidates_per_task": 12,
+    "max_finals_per_task": 1,
+    "max_attempts_per_step": 1,
+    "max_calls": 68,
+    "hard_tokens": 2400000,
+    "per_task_hard_tokens": 600000,
+    "reserve_tokens_per_call": 80000,
+    "soft_tokens": 300000,
+    "max_call_seconds": 3600,
+    "max_runtime_seconds": 21600,
+    "max_public_context_bytes": 1048576
+  },
+  "ordinary_investigation_denominator": 4,
+  "formal_strategy_denominator_increment": 0,
+  "net_positive_control_qualification": "not_assessed",
+  "P4": "not_assessed",
+  "costs_applied": false,
+  "automatic_skip_retry_truncate_expand": false,
+  "unstarted_tasks_retained": true,
+  "next_step": "root separately freezes concrete plan and independent admission; this record is not admission"
+}

@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-09-06T15:22:26.096552+00:00",
+  "controller_thread_id": "01a0774d-4327-7701-948f-2796de6fccd3",
+  "previous_thread_id": "01a071b1-31c5-7103-a46e-5c1859a5560f",
+  "previous_thread_status_verified": "idle",
+  "automation_id": "a",
+  "phase": "P0_integration_validation",
+  "stage": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_ashare_revision7",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "paid_dispatch_permitted": false,
+  "q_status": "paused",
+  "q_counts": {
+    "planned": 4,
+    "completed": 0,
+    "failed": 3,
+    "cancelled": 0,
+    "not_started": 0,
+    "attention": 0,
+    "active": 1
+  },
+  "q_usage": {
+    "known_tokens": 81279,
+    "is_partial": false,
+    "unknown_entries": 0,
+    "reserved_tokens": 600000,
+    "accident_token_limit": 2400000
+  },
+  "existing_supervisor_preserved": true,
+  "health": {
+    "ok": true,
+    "model": "gpt-6-astra",
+    "effort": "xhigh",
+    "active_run": null,
+    "source_hash": "46608b307615ab87422ad95e6835b7ff882d813a7f3dd550c50a0b2713e81228",
+    "data_snapshot_gate_version": 1,
+    "research_control_version": 1
+  },
+  "ownership_note": "Single heartbeat migrated to this thread; exclusive ownership file created without replacing another owner. No new worker or dispatcher started.",
+  "target_achieved": false,
+  "next": "Freeze v7, joint offline regression and real-browser controls; then P1/P2 two calibration tasks",
+  "updated_at": "2026-09-06T15:43:01.855942+00:00",
+  "recovery_root": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_ashare_v7_recovery",
+  "recovered_answers": 3,
+  "research_actions_reexecuted": 0,
+  "formal_target_success": false
+}

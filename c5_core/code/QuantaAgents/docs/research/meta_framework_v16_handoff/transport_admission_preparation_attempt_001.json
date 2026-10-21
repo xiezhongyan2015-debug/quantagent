@@ -1,0 +1,10 @@
+{
+  "recorded_at": "2026-09-06T22:17:24.701651+00:00",
+  "status": "stopped_before_admission_creation",
+  "error": "Python3.10 fromisoformat rejected PowerShell seven-digit fractional UTC timestamp",
+  "original_timestamp_preserved": "2026-09-06T22:14:32.5189918Z",
+  "resolution": "Normalize only parser precision to six fractional digits; do not rewrite the original process observation.",
+  "new_provider_calls": 0,
+  "new_reservations": 0,
+  "admission_created": false
+}

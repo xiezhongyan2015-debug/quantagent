@@ -1,0 +1,41 @@
+"""Apply reviewed execution policy only after the operator stops the existing worker."""
+import sys,json,hashlib,zipfile,shutil,os,subprocess
+from pathlib import Path
+ROOT=Path('C:/ChoiceBridge/executor');BASE=ROOT/'research/choice_pcf_automation'
+sys.path.insert(0,str(BASE))
+from console_runtime import active_session,mutex,APP_DIR
+from cloud_account import verify_deployment
+from quanta_agents.factor_lab_a.pcf_automation import now_cn
+PACKAGE=Path('C:/ChoiceBridge/staging/execution_policy_upgrade.zip')
+FILES={'research/choice_pcf_automation/workflow_rebalance.py', 'research/choice_pcf_automation/console_runtime.py', 'research/choice_pcf_automation/test_execution_policy.py'}
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+with mutex(APP_DIR/'launch.lock'),mutex(APP_DIR/'account_execution.lock'):
+ assert now_cn().date().isoformat()=='2026-10-12'
+ assert not active_session(),'Worker is active; no hot update'
+ verify_deployment();assert sha(ROOT/'deployment_manifest.json')=='5c959320636aebbe54f223222009e27d1073b613f7016b75d337f8a901f11d92';assert sha(PACKAGE)==sys.argv[1]
+ protected=[p for p in BASE.rglob('*.json') if any(x in p.parts for x in ('runs','cloud_ledger','cloud_ledger_dividend_20261012'))]
+ seals={str(p):sha(p) for p in protected}
+ old=json.loads((ROOT/'deployment_manifest.json').read_text(encoding='utf8'));assert old['adapter_revision']==14
+ with zipfile.ZipFile(PACKAGE) as z:
+  assert set(z.namelist())==FILES|{'deployment_manifest.json'}
+  new=json.loads(z.read('deployment_manifest.json'))
+  assert new['adapter_revision']==15;assert set(new['files'])==set(old['files'])|FILES
+  assert all(old['files'][n]==new['files'][n] for n in old['files'] if n not in FILES)
+  for n in FILES:assert hashlib.sha256(z.read(n)).hexdigest()==new['files'][n]
+  backup=Path('C:/ChoiceBridge/staging/policy_before_'+now_cn().strftime('%H%M%S'));backup.mkdir()
+  changed=[]
+  try:
+   for n in sorted(FILES)+['deployment_manifest.json']:
+    dst=ROOT/n;b=backup/n;b.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(dst,b) if dst.exists() else None
+    tmp=dst.with_suffix('.reviewed.tmp');tmp.write_bytes(z.read(n));os.replace(tmp,dst);changed.append(n)
+   verify_deployment()
+   code="import sys,unittest;sys.path.insert(0,r'C:/ChoiceBridge/executor/research/choice_pcf_automation');s=unittest.defaultTestLoader.loadTestsFromNames(['test_cloud_pilot','test_workflow_rebalance','test_executor_efficiency']);r=unittest.TextTestRunner(verbosity=1).run(s);assert r.testsRun==119 and r.wasSuccessful();p=unittest.defaultTestLoader.loadTestsFromName('test_execution_policy');v=unittest.TextTestRunner(verbosity=1).run(p);assert v.testsRun==24 and v.wasSuccessful()"
+   result=subprocess.run([sys.executable,'-X','utf8','-c',code],capture_output=True,text=True,timeout=30)
+   assert result.returncode==0,result.stderr
+   assert not active_session() and all(sha(Path(p))==h for p,h in seals.items())
+  except BaseException:
+   for n in reversed(changed):
+    if (backup/n).exists():shutil.copy2(backup/n,ROOT/n)
+    else:(ROOT/n).unlink(missing_ok=True)
+   raise
+ print(json.dumps(dict(at=now_cn().isoformat(),changed_files=3,manifest_sha256=sha(ROOT/'deployment_manifest.json'),offline_tests_passed=119,policy_tests_passed=24,total_tests_passed=143,all_run_files_unchanged=True,backup=str(backup),new_orders_submitted=0,automatic_trading_started=False)))

@@ -1,0 +1,82 @@
+"""Acquire the entire largest remaining minimum-gap source year, with LFS SHA."""
+import hashlib
+import json
+import shutil
+import ssl
+import time
+import urllib.parse
+import urllib.request
+import zipfile
+from datetime import datetime, timezone
+from pathlib import Path
+from inspect_wind17_remote_zip import BASE, sha
+
+OUT = BASE / 'verified_whole_2018_archive'
+
+
+def main():
+    OUT.mkdir(exist_ok=True)
+    metadata_path = BASE / 'dataset_info_blobs.json'
+    metadata = json.loads(metadata_path.read_text())
+    assert metadata['sha'] == 'ca4c51770f1fafb40317cc35bfd92e7c2be17827'
+    assert not metadata.get('private') and not metadata.get('gated')
+    file = next(r for r in metadata['siblings'] if r['rfilename'] == '2018.zip')
+    expected_size, expected_sha = file['lfs']['size'], file['lfs']['sha256']
+    assert expected_size == file['size'] == 2310398709
+    assert expected_sha == '368b7380c8665e6a7abc034f13d4e69f4b3bf8e2562cf6eafaf0da02f300d602'
+    assert shutil.disk_usage(OUT).free > expected_size + 30 * 1024**3
+    target, partial = OUT / '2018.zip', OUT / '2018.zip.partial'
+    path = OUT / 'archive_acquisition_receipt.json'
+    assert not any(p.exists() for p in [target, partial, path])
+    url = 'https://huggingface.co/datasets/wind17/china-a-share-zip/resolve/' + metadata['sha'] + '/2018.zip'
+    receipt = {'started_utc': datetime.now(timezone.utc).isoformat(), 'status': 'downloading_pinned_2018_archive',
+               'source_code_sha256': sha(__file__), 'metadata_path': str(metadata_path), 'metadata_sha256': sha(metadata_path),
+               'url': url, 'expected_size_bytes': expected_size, 'expected_whole_LFS_SHA256': expected_sha,
+               'authentication_used': False, 'TLS_and_hostname_verification_enabled': True,
+               'downloaded_code_executed': False, 'candidate_changed': False, 'candidate_hours_admitted': 0}
+    path.write_text(json.dumps(receipt, ensure_ascii=False, indent=2))
+    count, digest = 0, hashlib.sha256()
+    started = last = time.monotonic()
+    try:
+        request = urllib.request.Request(url, headers={'User-Agent': 'PublicHistoricalArchiveIntegrityReview/1.0'})
+        with urllib.request.urlopen(request, timeout=25, context=ssl.create_default_context()) as response, partial.open('xb') as stream:
+            assert response.status == 200
+            receipt.update(http_status=response.status, resolved_host=urllib.parse.urlsplit(response.url).hostname)
+            while True:
+                chunk = response.read(1024 * 1024)
+                if not chunk:
+                    break
+                count += len(chunk)
+                assert count <= expected_size
+                stream.write(chunk)
+                digest.update(chunk)
+                if time.monotonic() - last >= 15:
+                    print(json.dumps({'bytes_received': count, 'expected_bytes': expected_size,
+                                      'elapsed_seconds': round(time.monotonic() - started, 1)}), flush=True)
+                    last = time.monotonic()
+        assert count == expected_size and digest.hexdigest() == expected_sha
+        partial.rename(target)
+        controls = []
+        with zipfile.ZipFile(target) as archive:
+            assert len(archive.infolist()) == 3571
+            for code in ['sz000099', 'sz002831', 'sz300114', 'sh600167']:
+                local = BASE / 'target_samples' / (code + '_2018.csv')
+                exact = archive.read('2018/' + code + '.csv')
+                assert exact == local.read_bytes()
+                controls.append({'path': str(local), 'sha256': hashlib.sha256(exact).hexdigest(),
+                                 'same_bytes_as_prior_selective_range_payload': True})
+        receipt.update(status='complete_whole_archive_SHA256_and_retained_controls_verified', path=str(target),
+                       bytes_received=count, whole_archive_sha256=digest.hexdigest(), whole_LFS_SHA256_verified=True,
+                       central_directory_entries=3571, retained_control_matches=controls,
+                       archive_CRC_scope='Only four previously selected CSV payloads have been CRC checked so far')
+    except Exception as error:
+        receipt.update(status='archive_acquisition_or_verification_failed', error_type=type(error).__name__, error=str(error),
+                       bytes_received=count, partial_sha256=digest.hexdigest(), partial_path=str(partial))
+    receipt['completed_utc'] = datetime.now(timezone.utc).isoformat()
+    receipt['elapsed_seconds'] = round(time.monotonic() - started, 2)
+    path.write_text(json.dumps(receipt, ensure_ascii=False, indent=2))
+    print(json.dumps(receipt, ensure_ascii=False), flush=True)
+
+
+if __name__ == '__main__':
+    main()

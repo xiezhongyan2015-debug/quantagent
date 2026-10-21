@@ -1,0 +1,12 @@
+{
+  "prepare_context.py": "5d32c13f71947627b6c25d97f7f60033221c819fdabf7e6706d419aea54fcc69",
+  "source_design.md": "0e78cd6068d4992b88a5c9beb45d6b79d5e844bb36a1b66422e742c00266f2c0",
+  "train.sbatch": "529f8d4bef6763e791a9faa85cba4831c58072cc01c8e9e31f36e62ae6bde245",
+  "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "model.py": "b22e45fcb9814a0d088daa979217e34af97e2263856c62de13ee317a9c0aea49",
+  "experiment.py": "83982c9aa668888501d464dfc0208422e9a15d98fdc50cf6385ca838549d7bba",
+  "context.npz": "e0feca171e3c0ad4167818fce441ab6cb3d28fa87cafaca7806e3034db7ac2ce",
+  "train.py": "15d3b0f9e31671b5926caca9842b40de51fe4bfe2924bb6289ef661e19d85ea1",
+  "evaluate.py": "b6409f7b918bbd787d5212e510c4ba8a35f6a6bb2cfab94325d66718fd2a72ac",
+  "context_manifest.json": "cac868c3ae90126979147adc1cff3c824b316391fdc9187f3e36900826a2cac3"
+}

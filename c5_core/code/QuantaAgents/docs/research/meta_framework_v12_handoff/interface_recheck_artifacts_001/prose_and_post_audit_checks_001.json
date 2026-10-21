@@ -1,0 +1,332 @@
+{
+  "method": "Independent explicit checks of numeric prose against returned-page Decimal reconstruction; not model chain-of-thought evidence",
+  "numeric_prose_checks": [
+    {
+      "claim": "case1 full sessions",
+      "computed": "15",
+      "report_claim": "15",
+      "correct": true
+    },
+    {
+      "claim": "case1 cash days",
+      "computed": "8",
+      "report_claim": "8",
+      "correct": true
+    },
+    {
+      "claim": "case1 initial capital",
+      "computed": "20000",
+      "report_claim": "20000",
+      "correct": true
+    },
+    {
+      "claim": "case1 terminal balance",
+      "computed": "20669.3",
+      "report_claim": "20669.3",
+      "correct": true
+    },
+    {
+      "claim": "case1 buy turnover",
+      "computed": "10010.0",
+      "report_claim": "10010",
+      "correct": true
+    },
+    {
+      "claim": "case1 buy commission",
+      "computed": "5.0",
+      "report_claim": "5",
+      "correct": true
+    },
+    {
+      "claim": "case1 entry cost basis",
+      "computed": "10015.00",
+      "report_claim": "10015",
+      "correct": true
+    },
+    {
+      "claim": "case1 sell turnover",
+      "computed": "10689.3",
+      "report_claim": "10689.3",
+      "correct": true
+    },
+    {
+      "claim": "case1 sale net receipt",
+      "computed": "10684.3",
+      "report_claim": "10684.3",
+      "correct": true
+    },
+    {
+      "claim": "case1 buy slippage",
+      "computed": "10.0",
+      "report_claim": "10",
+      "correct": true
+    },
+    {
+      "claim": "case1 sell slippage",
+      "computed": "10.7",
+      "report_claim": "10.7",
+      "correct": true
+    },
+    {
+      "claim": "case1 Jan10 unrealized",
+      "computed": "485.00",
+      "report_claim": "485",
+      "correct": true
+    },
+    {
+      "claim": "case1 Jan13 unrealized change",
+      "computed": "-485.0",
+      "report_claim": "-485",
+      "correct": true
+    },
+    {
+      "claim": "case1 Jan13 daily PnL",
+      "computed": "184.3",
+      "report_claim": "184.3",
+      "correct": true
+    },
+    {
+      "claim": "case1 total stock dates",
+      "computed": "30",
+      "report_claim": "30",
+      "correct": true
+    },
+    {
+      "claim": "case1 false-filter rows",
+      "computed": "28",
+      "report_claim": "28",
+      "correct": true
+    },
+    {
+      "claim": "case1 common events prose",
+      "computed": "2",
+      "report_claim": "2",
+      "correct": true
+    },
+    {
+      "claim": "case1 closed count prose",
+      "computed": "1",
+      "report_claim": "1",
+      "correct": true
+    },
+    {
+      "claim": "case1 right censored prose",
+      "computed": "0",
+      "report_claim": "0",
+      "correct": true
+    },
+    {
+      "claim": "case1 desired units 2020-01-02",
+      "computed": "100.0",
+      "report_claim": "100",
+      "correct": true
+    },
+    {
+      "claim": "case1 desired units 2020-01-03",
+      "computed": "99.999999999999992331683168316831683168316831683168",
+      "report_claim": "100",
+      "correct": true
+    },
+    {
+      "claim": "case1 desired units 2020-01-06",
+      "computed": "99.999999999999989417475728155339805825242718446602",
+      "report_claim": "100",
+      "correct": true
+    },
+    {
+      "claim": "case1 desired units 2020-01-07",
+      "computed": "100.00000000000000768627450980392156862745098039216",
+      "report_claim": "100",
+      "correct": true
+    },
+    {
+      "claim": "case1 desired units 2020-01-08",
+      "computed": "99.999999999999991903846153846153846153846153846154",
+      "report_claim": "100",
+      "correct": true
+    },
+    {
+      "claim": "case1 desired units 2020-01-09",
+      "computed": "99.999999999999984735849056603773584905660377358491",
+      "report_claim": "100",
+      "correct": true
+    },
+    {
+      "claim": "case1 desired units 2020-01-10",
+      "computed": "99.999999999999984090476190476190476190476190476190",
+      "report_claim": "100",
+      "correct": true
+    },
+    {
+      "claim": "case1 Jan6 open-marked equity",
+      "computed": "20285.00",
+      "report_claim": "20285",
+      "correct": true
+    },
+    {
+      "claim": "case1 Jan6 open",
+      "computed": "103",
+      "report_claim": "103",
+      "correct": true
+    },
+    {
+      "claim": "case1 terminal stocks",
+      "computed": "0",
+      "report_claim": "0",
+      "correct": true
+    },
+    {
+      "claim": "case2 A first closed realized",
+      "computed": "-129.1000000000000000000000000",
+      "report_claim": "-129.10",
+      "correct": true
+    },
+    {
+      "claim": "case2 B realized",
+      "computed": "49.600",
+      "report_claim": "49.60",
+      "correct": true
+    },
+    {
+      "claim": "case2 A open partial realized",
+      "computed": "-3.050",
+      "report_claim": "-3.05",
+      "correct": true
+    },
+    {
+      "claim": "case2 terminal mark",
+      "computed": "264.0",
+      "report_claim": "264",
+      "correct": true
+    },
+    {
+      "claim": "case2 terminal basis",
+      "computed": "273.450",
+      "report_claim": "273.45",
+      "correct": true
+    },
+    {
+      "claim": "case2 A remaining units",
+      "computed": "30.0",
+      "report_claim": "30",
+      "correct": true
+    },
+    {
+      "claim": "case2 closed A sessions",
+      "computed": "3",
+      "report_claim": "3",
+      "correct": true
+    },
+    {
+      "claim": "case2 closed B sessions",
+      "computed": "2",
+      "report_claim": "2",
+      "correct": true
+    },
+    {
+      "claim": "case2 open observed sessions",
+      "computed": "2",
+      "report_claim": "2",
+      "correct": true
+    },
+    {
+      "claim": "case2 buys",
+      "computed": "3171.4",
+      "report_claim": "3171.40",
+      "correct": true
+    },
+    {
+      "claim": "case2 sells",
+      "computed": "2831.4",
+      "report_claim": "2831.40",
+      "correct": true
+    },
+    {
+      "claim": "case2 ending cash",
+      "computed": "19644.000",
+      "report_claim": "19644.00",
+      "correct": true
+    },
+    {
+      "claim": "case2 ending equity",
+      "computed": "19908.0",
+      "report_claim": "19908",
+      "correct": true
+    },
+    {
+      "claim": "case2 total percent return",
+      "computed": "-0.4600",
+      "report_claim": "-0.46",
+      "correct": true
+    },
+    {
+      "claim": "case2 retained sessions",
+      "computed": "7",
+      "report_claim": "7",
+      "correct": true
+    },
+    {
+      "claim": "case2 retained trades",
+      "computed": "10",
+      "report_claim": "10",
+      "correct": true
+    },
+    {
+      "claim": "case2 Jan6 no trades",
+      "computed": "0.0",
+      "report_claim": "0",
+      "correct": true
+    },
+    {
+      "claim": "case2 Jan6 loss",
+      "computed": "-12.0",
+      "report_claim": "-12",
+      "correct": true
+    },
+    {
+      "claim": "case2 2019 ending unrealized",
+      "computed": "203.800",
+      "report_claim": "203.80",
+      "correct": true
+    },
+    {
+      "claim": "case2 2020 unrealized change",
+      "computed": "-213.250",
+      "report_claim": "-213.25",
+      "correct": true
+    },
+    {
+      "claim": "case2 B Jan2 buy",
+      "computed": "10.0",
+      "report_claim": "10",
+      "correct": true
+    },
+    {
+      "claim": "case2 B Jan2 sell",
+      "computed": "40.0",
+      "report_claim": "40",
+      "correct": true
+    },
+    {
+      "claim": "case2 B preceding inventory",
+      "computed": "30.0",
+      "report_claim": "30",
+      "correct": true
+    }
+  ],
+  "date_order_and_unknown_scope_assertions_passed": true,
+  "post_audit_frozen_original_files": [
+    {
+      "manifest": "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\post_run_frozen_records_001.json",
+      "sha256": "ae0db82a8883bc20bc8162b8b66841e6a1b2d04bf67e3fdbed9976b1968ba50b",
+      "matching_files": 137
+    },
+    {
+      "manifest": "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\post_run_public_evidence_001.json",
+      "sha256": "373f6d8b9ab44a616353bece04055419e9447a40ca9fd0df73d3f93ff0137798",
+      "matching_files": 8
+    }
+  ],
+  "new_research_gateway_calls": 0,
+  "new_backtests": 0
+}

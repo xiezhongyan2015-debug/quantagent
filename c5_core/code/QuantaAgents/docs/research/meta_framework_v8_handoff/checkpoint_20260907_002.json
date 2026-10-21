@@ -1,0 +1,43 @@
+{
+  "checkpoint_kind": "append_only_handoff",
+  "checkpoint_number": 2,
+  "recorded_at": "2026-09-07T00:44:00+08:00",
+  "controller_thread_id": "01a0774d-4327-7701-948f-2796de6fccd3",
+  "automation_id": "a",
+  "phase": "P1_P2_offline_semantic_repair",
+  "stage": "experiment_traces/meta_ashare_revision9",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "paid_dispatch_permitted": false,
+  "predecessor": "docs/research/meta_framework_v8_handoff/checkpoint_20260907_001.json",
+  "preserved_v8_source_hash": "ead65d49dcf554558d939d5af48fb59a3f672ba9787f6d7af229e9cd9f7fff4a",
+  "v8_joint_receipt": "experiment_traces/meta_ashare_revision8/validation_attempts/20260906T162834257404Z/receipt.json",
+  "v8_joint_tests": {"passed": 988, "failures": 0, "source_and_tests_stable": true},
+  "v8_prototype_attempt": "experiment_traces/meta_calibration_prototypes/attempts/20260906T162839907925Z",
+  "v8_prototype_result": "2 numeric public paths passed; semantic calibration readiness limited, not accepted",
+  "semantic_review": "docs/research/meta_framework_v8_handoff/prototype_semantic_review_001.md",
+  "semantic_review_sha256": "e22718ee5a4d6ac98cc9d85881941324414acefaa81665d769b5cf7d25295cd1",
+  "blocking_findings": [
+    "Per-stock PnL unknown was overgeneralized: single-stock aggregate values and explicitly available synthetic marks can identify stock PnL on particular dates",
+    "The shared next-test template was not justified by the two different public execution definitions; fixed synthetic orders are not a complete strategy"
+  ],
+  "repair_scope": [
+    "Precise public marking contracts and terminal single-stock quantity scope",
+    "Independent public-reference and evaluator reconstruction of daily stock-level identifiability",
+    "Case-capability-based next tests, without claiming rejection or strategy evidence absent from the supplied records"
+  ],
+  "p0_status": "Verified and preserved; refer to predecessor and docs/META_REVISION7_P0_REPORT.md",
+  "legacy_q_control": "paused; no automatic retry or new dispatch",
+  "gui_url": "http://192.0.2.10:8774/",
+  "gui_scope": "v7 offline fixture; not a live v9 research dashboard",
+  "new_research_gateway_calls_this_takeover": 0,
+  "engineering_usage": "Nonzero and separate; goal tracker is not a reconciled supplier invoice",
+  "execution_valid": false,
+  "formal_target_success": false,
+  "target_achieved": false,
+  "self_check": {
+    "assessment": "The numerical gate passed but separate semantic review caught broad false abstention and unsupported next tests. Preserve the limited v8 result rather than changing its reference after the fact.",
+    "next_step": "Freeze v9, run relevant offline tests and both append-only prototypes, then obtain an independent semantic review before actual model calibration.",
+    "falsifiers": "Any mismatch in identifiability, original order reconstruction, page scope or public/private separation blocks the affected calibration. No numerical pass overrides a semantic failure."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "readonly_saved_research_budget_audit",
+  "created_at": "2026-09-07T05:04:20.598105+00:00",
+  "status": "metadata_and_source_audit_complete_not_implementation_or_admission",
+  "report_sha256": "e932caf2f556d6ccc3e40c3b33a9c18bdb3cff33ae4112982df73ff3687f846e",
+  "ledger_and_pinned_inputs_still_match": true,
+  "mismatches": [],
+  "artifacts_sha256": {
+    "derived_summary.json": "8542bf66670f3b1b273c38bff158b12e5d719a5f00204008aaa62c2cfeb01c74",
+    "metadata.json": "e2d95319bf146b04aca7118e812b0b65ed5dcfe2cf1f19e58ac46d74093537f5",
+    "prompt_structure_summary.json": "f0fab8a568d68d24ace9c5010b6c7cc29a19cfb8c5f7b8f4fe1d9714e4d19f4b"
+  },
+  "actual_new_project_gateway_calls": 0,
+  "actual_new_public_actions": 0,
+  "tests_or_demo_run": false,
+  "paid_dispatch_authorized": false,
+  "old_failure_denominator_retained": true,
+  "hidden_answer_semantics_exported": false,
+  "engineering_review_model_usage_is_nonzero": true
+}

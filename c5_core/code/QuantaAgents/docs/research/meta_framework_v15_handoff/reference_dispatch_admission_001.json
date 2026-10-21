@@ -1,0 +1,289 @@
+{
+  "kind": "casebank_reference_dispatch_admission",
+  "version": 1,
+  "created_at": "2026-09-06T21:14:40.867754+00:00",
+  "reviewer": {
+    "role": "independent_engineering_review",
+    "model": "gpt-6-astra",
+    "effort": "xhigh",
+    "engineering_usage_separate": true
+  },
+  "plan_hash": "3cda519a83180b6b5b4fe96c447a406efee82b5df73b31cc450fd10555437173",
+  "ready": true,
+  "real_dispatch_authorized": true,
+  "entrypoint": {
+    "version": "casebank_reference_entrypoint_v1",
+    "script_sha256": "d9796523fd2724491ce40a382981d24aafbb680de24e6de54989283fa6603cdb"
+  },
+  "source_hash": "605c2a219f3f26a6b102a1231919260878a36397cafaa3e3969dae6f64c754dc",
+  "all_source_hash": "ffb9cc962428aac3eb89aa7f9c3d0645493fd61a21970b7f6bb2f3f6dc15a393",
+  "all_source_file_count": 96,
+  "campaign_root": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001",
+  "preparation_root": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_reference_preparations/reference_v15_original4_001",
+  "authority": "User authorization for necessary research in the current root thread, plus explicit root delegation to issue this concrete-plan admission; actual dispatch is performed only by root after GUI/control checks.",
+  "registry_marker": {
+    "kind": "isolated_casebank_research_registry",
+    "version": "casebank_research_campaign_v1"
+  },
+  "registry_active_owner": {
+    "run_id": "reference_v15_original4_001",
+    "plan_hash": "3cda519a83180b6b5b4fe96c447a406efee82b5df73b31cc450fd10555437173"
+  },
+  "unique_prepared_campaigns": [
+    "reference_v15_original4_001"
+  ],
+  "validation_receipt": {
+    "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_ashare_revision15/validation_attempts/20260906T205740258837Z/receipt.json",
+    "sha256": "f8a567f2d3d4cc68edb0b4a481e0b6267c982dfa4ac6204c53d2199d835ba50d",
+    "accepted_component_count": 8,
+    "all_component_receipt_hashes_rechecked": true,
+    "fresh_tests_executed": 0
+  },
+  "preregistered_evaluation_pins": {
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_v15_handoff/reference_budget_001.json": "5e57b6cb9308fa3389c7aa102d24242a7825d2ce82cda37b15a9553fa2dcacd5",
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_v15_handoff/reference_scope_001.json": "e72076081931c38629e4d096111f1eb156fa6add815789f3d2bbc4ecf404d8c9",
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_v15_handoff/reference_evaluation_prereg_001.md": "381352961490781c5cc05f64ac835d57003e3587ab13bb7ec9815ee7ff8effbe",
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_v15_handoff/reference_evaluation_prereg_001.json": "194a8fa949f621051f9a72cc6eec0de48b44b65b27aaea7fbbf4700bdde14704"
+  },
+  "preparation_review_pin": {
+    "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_v15_handoff/reference_preparation_inputs_001.json",
+    "sha256": "4de740310e61cf47665ecb3a19f27663d4b7902e5176f7f1c8e6810747873419",
+    "scope_rubric_budget_transitively_bound": true
+  },
+  "budget": {
+    "per_task_max_calls": 17,
+    "max_queries_per_task": 16,
+    "max_candidates_per_task": 12,
+    "max_finals_per_task": 1,
+    "max_attempts_per_step": 1,
+    "max_calls": 68,
+    "hard_tokens": 2400000,
+    "per_task_hard_tokens": 600000,
+    "reserve_tokens_per_call": 80000,
+    "soft_tokens": 300000,
+    "max_call_seconds": 3600,
+    "max_runtime_seconds": 21600,
+    "max_public_context_bytes": 1048576
+  },
+  "zero_state": {
+    "stage_status": "running",
+    "pause_requested": false,
+    "calls": 0,
+    "actions": 0,
+    "reported_tokens": 0,
+    "reserved_tokens": 0,
+    "unsettled_calls": 0,
+    "dispatch_blocked": false,
+    "all_four_workbenches_ready_empty": true
+  },
+  "tasks": [
+    {
+      "binding": {
+        "task_run_id": "reference_v15_original4_001_case_01_reference",
+        "case_id": "case_01",
+        "arm": "baseline",
+        "scope_hash": "f5eec264f261d5e30ebd498d7e1a40dcf3210fb7599255b28598bbffe5272e8f",
+        "public_packet_hash": "f621f4b51aae8e8334fa60bcc74e40d86c29e33167d709612676e46f3978fcd5",
+        "public_manifest_sha256": "e728fa67c052d8af1f4133a5f9cc29dfe9b18772dbd4f244d088d0b08396b797",
+        "public_contract_hash": "c18201d82abc3fb017a7bb366e8441bcbef4aab9e51d038ccd901ae06513f755",
+        "initial_state_hash": "ca5b5a3a0dcfbb251288c72a1876ad4896eaa14a60f5f026fe6c8366b62f5d8a"
+      },
+      "initial_public_state": {
+        "binding": {
+          "task_run_id": "reference_v15_original4_001_case_01_reference",
+          "case_id": "case_01",
+          "arm": "baseline",
+          "scope_hash": "f5eec264f261d5e30ebd498d7e1a40dcf3210fb7599255b28598bbffe5272e8f",
+          "public_packet_hash": "f621f4b51aae8e8334fa60bcc74e40d86c29e33167d709612676e46f3978fcd5",
+          "public_manifest_sha256": "e728fa67c052d8af1f4133a5f9cc29dfe9b18772dbd4f244d088d0b08396b797",
+          "public_contract_hash": "c18201d82abc3fb017a7bb366e8441bcbef4aab9e51d038ccd901ae06513f755",
+          "initial_state_hash": "ca5b5a3a0dcfbb251288c72a1876ad4896eaa14a60f5f026fe6c8366b62f5d8a"
+        },
+        "queries": 0,
+        "candidates": 0,
+        "finals": 0,
+        "actions_registered": 0,
+        "workbench_status": "ready",
+        "unresolved_slots": [],
+        "public_context_sha256": "567d2842108c89642fb6fac60541f76bd3a53b5612ca575b905a93f54aa39b15",
+        "workbench_state_hash": "89a62c93a6e5f11fc28ed61091d4f98ed59577b3abe354fdbd7a057113846cf7"
+      },
+      "prompt_sha256": "08f715a27ab3c14c5dea62e80991e6215a83dba5ba57953be5e8227d74df73bb",
+      "prompt_utf8_bytes": 9919,
+      "action_schema_hash": "fd0c6be001d663b0c171d3f7d22c324fad1cbbe80261ccd9f1a7a3ada65b955f",
+      "controller_key_bytes": 32,
+      "controller_key_sha256": "339a44c2fb06b70c2527a61e0286890fc221e3a785f9755a5d222d6b6f6e3e1c",
+      "source_public_files_sha256": {
+        "observations.csv": "03dd7a4f494e60b3decb2baecf2f09ee940bec7e30913795ebca969229ab1fc2",
+        "packet.json": "0dac04a41e60f69e4d7829db7e8b475dcf19ddff4b0d99696e3a10281c000475",
+        "sessions.json": "9191750e68615248f1c1a6f94a5d4be630a2680df8c705e2ddd164155c0c2d4f"
+      },
+      "private_or_other_task_content_found": false,
+      "ordinary_input_replacement_characters": 0
+    },
+    {
+      "binding": {
+        "task_run_id": "reference_v15_original4_001_case_02_reference",
+        "case_id": "case_02",
+        "arm": "baseline",
+        "scope_hash": "63126f0b959a5e3e2838d26e4c1187cdeac595b612a3be6ec16d8eb0a5ddc315",
+        "public_packet_hash": "e251ae240398d53a1795a63d366171edf5ab82b34274f00a9fd529f06764798b",
+        "public_manifest_sha256": "e728fa67c052d8af1f4133a5f9cc29dfe9b18772dbd4f244d088d0b08396b797",
+        "public_contract_hash": "c18201d82abc3fb017a7bb366e8441bcbef4aab9e51d038ccd901ae06513f755",
+        "initial_state_hash": "f5ca4bba51aa6b3b30a50bea2ccf43f7fb952e67eeb11ce0385339b11b4df135"
+      },
+      "initial_public_state": {
+        "binding": {
+          "task_run_id": "reference_v15_original4_001_case_02_reference",
+          "case_id": "case_02",
+          "arm": "baseline",
+          "scope_hash": "63126f0b959a5e3e2838d26e4c1187cdeac595b612a3be6ec16d8eb0a5ddc315",
+          "public_packet_hash": "e251ae240398d53a1795a63d366171edf5ab82b34274f00a9fd529f06764798b",
+          "public_manifest_sha256": "e728fa67c052d8af1f4133a5f9cc29dfe9b18772dbd4f244d088d0b08396b797",
+          "public_contract_hash": "c18201d82abc3fb017a7bb366e8441bcbef4aab9e51d038ccd901ae06513f755",
+          "initial_state_hash": "f5ca4bba51aa6b3b30a50bea2ccf43f7fb952e67eeb11ce0385339b11b4df135"
+        },
+        "queries": 0,
+        "candidates": 0,
+        "finals": 0,
+        "actions_registered": 0,
+        "workbench_status": "ready",
+        "unresolved_slots": [],
+        "public_context_sha256": "8189d3f8407e2b031883cd85f2d4fdb265b3e3c5a75774b032e1a3009f54cafd",
+        "workbench_state_hash": "1fac841b90ca6184676f091755b551f2655f4afe56e0ae218b344f0b450c8fe6"
+      },
+      "prompt_sha256": "b729c667c1c883ce9864e469411874768344ec22f482a4335f8e60576e11cb4a",
+      "prompt_utf8_bytes": 9919,
+      "action_schema_hash": "c03de23756821389109476394bc8fc739f494013b7deb5c60cc59914e78ab86d",
+      "controller_key_bytes": 32,
+      "controller_key_sha256": "8c8738e5de3300f6b17a3348c5e29b9e048953809db7f9589aba20c8181fe9ea",
+      "source_public_files_sha256": {
+        "observations.csv": "7871b112b9ebcb8ad1f09075795b6703eed281a1ad7cabbb0fab5303723335bd",
+        "packet.json": "e1d6e402d5803b50933e54ca9d1b705b614eb29ce2fd9e127cfe269f89e2f113",
+        "sessions.json": "9191750e68615248f1c1a6f94a5d4be630a2680df8c705e2ddd164155c0c2d4f"
+      },
+      "private_or_other_task_content_found": false,
+      "ordinary_input_replacement_characters": 0
+    },
+    {
+      "binding": {
+        "task_run_id": "reference_v15_original4_001_case_03_reference",
+        "case_id": "case_03",
+        "arm": "baseline",
+        "scope_hash": "3092ceff9b9392fb876c67116c5dee05a3d81af569efd6f441b0deb389f785eb",
+        "public_packet_hash": "3fed414e11e53ecce4520cd5bb04137fea85e70cf818532378d79cc52875a3bd",
+        "public_manifest_sha256": "e728fa67c052d8af1f4133a5f9cc29dfe9b18772dbd4f244d088d0b08396b797",
+        "public_contract_hash": "c18201d82abc3fb017a7bb366e8441bcbef4aab9e51d038ccd901ae06513f755",
+        "initial_state_hash": "b2aea7d0adaf5934a40577cfa4793ae0ea6f84206b5812fa663838af4e9aab9b"
+      },
+      "initial_public_state": {
+        "binding": {
+          "task_run_id": "reference_v15_original4_001_case_03_reference",
+          "case_id": "case_03",
+          "arm": "baseline",
+          "scope_hash": "3092ceff9b9392fb876c67116c5dee05a3d81af569efd6f441b0deb389f785eb",
+          "public_packet_hash": "3fed414e11e53ecce4520cd5bb04137fea85e70cf818532378d79cc52875a3bd",
+          "public_manifest_sha256": "e728fa67c052d8af1f4133a5f9cc29dfe9b18772dbd4f244d088d0b08396b797",
+          "public_contract_hash": "c18201d82abc3fb017a7bb366e8441bcbef4aab9e51d038ccd901ae06513f755",
+          "initial_state_hash": "b2aea7d0adaf5934a40577cfa4793ae0ea6f84206b5812fa663838af4e9aab9b"
+        },
+        "queries": 0,
+        "candidates": 0,
+        "finals": 0,
+        "actions_registered": 0,
+        "workbench_status": "ready",
+        "unresolved_slots": [],
+        "public_context_sha256": "d60c363160cd2c8a5f46fdf99abf694b2d02b42517e45e49f5da49c2d102b381",
+        "workbench_state_hash": "81bcd7a18097a518ac33e37258622cf84c54a4b6dc6b5ad7f2cb4e32a0395abe"
+      },
+      "prompt_sha256": "67aec3b034663da0c8a32085a78b5089fec9f186a5d44e8de1c9fbf43e0c1c3d",
+      "prompt_utf8_bytes": 9919,
+      "action_schema_hash": "da98e9e72fdd22ff0726ca52fa21e11d079efb6b1c41b64d7273ebdf9c39b82e",
+      "controller_key_bytes": 32,
+      "controller_key_sha256": "0b97644f8df58c951a68aeeebb36cd3b2e6ca35dee810288d106520ece45e999",
+      "source_public_files_sha256": {
+        "observations.csv": "f4ecc2bb39392c2706e9b813110d864a771cf4dc64f6ffd7e9aca6a7dfb02016",
+        "packet.json": "16ff6a00e3424d48f5cdb7462398a0b809fb2a853c2b2288fc6cb26ece4147f7",
+        "sessions.json": "9191750e68615248f1c1a6f94a5d4be630a2680df8c705e2ddd164155c0c2d4f"
+      },
+      "private_or_other_task_content_found": false,
+      "ordinary_input_replacement_characters": 0
+    },
+    {
+      "binding": {
+        "task_run_id": "reference_v15_original4_001_case_04_reference",
+        "case_id": "case_04",
+        "arm": "baseline",
+        "scope_hash": "3e806c4709e181fb4fbfc0620d526b4550871f057ed525315f180f7aec2798c3",
+        "public_packet_hash": "193028935fda584506b3e29a24a0b585ca66e6a80192713231ef6970799fef21",
+        "public_manifest_sha256": "e728fa67c052d8af1f4133a5f9cc29dfe9b18772dbd4f244d088d0b08396b797",
+        "public_contract_hash": "c18201d82abc3fb017a7bb366e8441bcbef4aab9e51d038ccd901ae06513f755",
+        "initial_state_hash": "0a5392bbf895f7214ae931c4841c325e8a37b9f803a7e7d71f05d34f0ff53453"
+      },
+      "initial_public_state": {
+        "binding": {
+          "task_run_id": "reference_v15_original4_001_case_04_reference",
+          "case_id": "case_04",
+          "arm": "baseline",
+          "scope_hash": "3e806c4709e181fb4fbfc0620d526b4550871f057ed525315f180f7aec2798c3",
+          "public_packet_hash": "193028935fda584506b3e29a24a0b585ca66e6a80192713231ef6970799fef21",
+          "public_manifest_sha256": "e728fa67c052d8af1f4133a5f9cc29dfe9b18772dbd4f244d088d0b08396b797",
+          "public_contract_hash": "c18201d82abc3fb017a7bb366e8441bcbef4aab9e51d038ccd901ae06513f755",
+          "initial_state_hash": "0a5392bbf895f7214ae931c4841c325e8a37b9f803a7e7d71f05d34f0ff53453"
+        },
+        "queries": 0,
+        "candidates": 0,
+        "finals": 0,
+        "actions_registered": 0,
+        "workbench_status": "ready",
+        "unresolved_slots": [],
+        "public_context_sha256": "3af0e6a5c0f8099aa083758aa2a74d29b06c4c546df2d87b3809813ac8a11ac9",
+        "workbench_state_hash": "e82a72eea00360dee7fa464629876de34161eabf3253617301e238d8df1397ec"
+      },
+      "prompt_sha256": "df76f86ed32c87b9e0950bbf2d8da8e11354377fa6fbe615eea75f5aa9787c00",
+      "prompt_utf8_bytes": 9919,
+      "action_schema_hash": "8f2f24b6153325686992543c1ba2ff6ec232d05256e3a691fb63898135473aa9",
+      "controller_key_bytes": 32,
+      "controller_key_sha256": "7afdb6c8b62a835da5e6d5e5bddc006479691db33c189d4796dc9dcea6f77334",
+      "source_public_files_sha256": {
+        "observations.csv": "5ab93cb30592811436eb6603758e27ef339e6dabb161004373d6a852b082fa2c",
+        "packet.json": "bddc59ec544bd1c28f5e794cc7980d47c5ff24a7d04300b62766dddcfc7b72f4",
+        "sessions.json": "9191750e68615248f1c1a6f94a5d4be630a2680df8c705e2ddd164155c0c2d4f"
+      },
+      "private_or_other_task_content_found": false,
+      "ordinary_input_replacement_characters": 0
+    }
+  ],
+  "read_only_review": {
+    "existing_status_and_public_prompt_paths_used": true,
+    "sqlite_mode": "mode=ro&immutable=1 for final verification, after verifying WALs empty",
+    "original_record_files_checked_unchanged": 18,
+    "original_record_hashes_sha256": "310f7d87cda8ecddec15070fd076761a2421aa8946e88e9e1c4372ae6ed279cc",
+    "prior_read_only_connection_side_effect": "An earlier mode=ro pass created empty WAL and SHM cache sidefiles. No INSERT/UPDATE/DDL/model/tool action was executed. Sidefiles were retained; final immutable verification confirmed original records unchanged and all semantic counters zero.",
+    "gateway_constructed": false,
+    "research_calls": 0,
+    "workbench_queries": 0,
+    "new_backtests": 0,
+    "network_requests": 0,
+    "evaluator_private_read": false
+  },
+  "conditions": [
+    "Only the fixed four original exposed synthetic baseline tasks, in frozen order, one fresh own context each.",
+    "No retries, replacements, regeneration, hints, cross-task history, automatic budget expansion or context truncation.",
+    "Any admission stop or unknown call/action stops the whole stage; retain not_started/failed/abstained/budget-stopped tasks. Management-only continuation requires a separately frozen saved-evidence step.",
+    "Token reserves are nominal admission exposure; 21600 seconds is a next-admission limit from creation, not an absolute in-flight wall-clock cap. Soft 300000 is an audit warning, not guaranteed automatic finalization.",
+    "Each real call remains subject to current immutable-source checks, atomic reservations, exclusive dispatch lease and root control verification. This snapshot does not attest future worker liveness.",
+    "Gross endpoint diagnostics only: costs_applied=false, declared costs not simulated; no formal strategy/P4/net-positive-control denominator, no architecture winner or profitability claim.",
+    "Interface-controlled JSON and tools-disabled model calls are not an OS sandbox. Controller/reviewer private design knowledge is excluded from researcher input."
+  ],
+  "formal_strategy_denominator_increment": 0,
+  "execution_valid": false,
+  "net_positive_control_qualified": false,
+  "hidden_control_qualified": false,
+  "architecture_comparison_completed": false,
+  "actual_dispatch_performed_by_reviewer": false,
+  "self_check": {
+    "contract_or_identity_blocker_remaining": "None observed for this exact prepared plan and empty-state snapshot.",
+    "claim_or_authority_overstatement": "Admission only; no model answer, behavioral grade, net-cost execution, hidden-control qualification, or actual dispatch is claimed."
+  }
+}

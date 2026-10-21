@@ -1,0 +1,30 @@
+{
+  "paid_model_calls": 0,
+  "requested_model": "gpt-6-astra",
+  "requested_effort": "xhigh",
+  "changes_to_auth_proxy_or_model_configuration": false,
+  "kind": "read_only_runtime_binary_identity_observation",
+  "observed_at": "2026-09-07T03:59:06.0670131Z",
+  "provider_identity_attested": false,
+  "limitation": "These hashes identify the observed binaries; they do not attest the full OS or supplier model. Reverify the intended executable before actual worker launch.",
+  "files": [
+    {
+      "bytes": 268568,
+      "file_version": "3.10.11",
+      "sha256": "b2c836c52cdf063180b9ee76f67ac42946101b79ac457f3494035a67c090d961",
+      "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/.venv/Scripts/python.exe"
+    },
+    {
+      "bytes": 103192,
+      "file_version": "3.10.11",
+      "sha256": "3cce33d75d6fdae4e004d0bdf149320b3147482a9caf370079dcb9c191a1b260",
+      "path": "C:\\Users\\xiezh\\AppData\\Local\\Programs\\Python\\Python310\\python.exe"
+    },
+    {
+      "bytes": 295408944,
+      "file_version": null,
+      "sha256": "a1cf6360ca71918d5466bc3a32d9f18b7044c9128756d1949e715d277b88c9b6",
+      "path": "C:\\Users\\xiezh\\AppData\\Local\\OpenAI\\Codex\\bin\\27d6a192e9c98618\\codex.exe"
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "kind": "engineering_rollout_counter_snapshot_not_provider_invoice",
+  "recorded_at": "2026-09-06T20:48:19.043546+00:00",
+  "root_session_id": "01a0774d-4327-7701-948f-2796de6fccd3",
+  "explicit_direct_children_found": 3,
+  "source_scope": "current root and three explicitly linked current-project children only",
+  "read_bounds": {
+    "unique_metadata_files": 8,
+    "total_metadata_prefix_read_bytes": 131072,
+    "prefix_content_range_per_file": [
+      0,
+      8192
+    ],
+    "tail_files": 4,
+    "total_tail_read_bytes": 16777216,
+    "per_file_tail_cap_bytes": 4194304
+  },
+  "sources": [
+    {
+      "session_id": "01a0774d-4327-7701-948f-2796de6fccd3",
+      "agent_path": "/root",
+      "parent_thread_id": null,
+      "source_file": "C:\\Users\\xiezh\\.codex\\sessions\\2026\\09\\06\\rollout-2026-09-06T23-19-07-01a0774d-4327-7701-948f-2796de6fccd3.jsonl",
+      "source_size_at_read": 26829501,
+      "tail_read_start": 22635197,
+      "tail_read_bytes": 4194304,
+      "tail_sha256": "8313bafaba48a6f308518549c93e59d73b179e3cc834cd31a01d4e948ff36e77",
+      "latest_token_count_in_tail": {
+        "timestamp": "2026-09-06T20:48:05.731Z",
+        "byte_offset": 26828595,
+        "total_token_usage": {
+          "input_tokens": 69933754,
+          "cached_input_tokens": 68199296,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 316972,
+          "reasoning_output_tokens": 106216,
+          "total_tokens": 70250726
+        },
+        "last_token_usage": {
+          "input_tokens": 111801,
+          "cached_input_tokens": 110848,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 542,
+          "reasoning_output_tokens": 407,
+          "total_tokens": 112343
+        },
+        "model_context_window": 258400
+      }
+    },
+    {
+      "session_id": "01a07751-21f6-7751-9e15-c4b874ebe7fb",
+      "agent_path": "/root/p0_independent_review",
+      "parent_thread_id": "01a0774d-4327-7701-948f-2796de6fccd3",
+      "source_file": "C:\\Users\\xiezh\\.codex\\sessions\\2026\\09\\06\\rollout-2026-09-06T23-23-20-01a07751-21f6-7751-9e15-c4b874ebe7fb.jsonl",
+      "source_size_at_read": 18067199,
+      "tail_read_start": 13872895,
+      "tail_read_bytes": 4194304,
+      "tail_sha256": "7cf66fc58cd5e65d931f37fcbb452810deea59d91e7c2444148a4336223dc1b1",
+      "latest_token_count_in_tail": {
+        "timestamp": "2026-09-06T20:47:54.505Z",
+        "byte_offset": 18060277,
+        "total_token_usage": {
+          "input_tokens": 45536348,
+          "cached_input_tokens": 43981312,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 298559,
+          "reasoning_output_tokens": 91462,
+          "total_tokens": 45834907
+        },
+        "last_token_usage": {
+          "input_tokens": 110335,
+          "cached_input_tokens": 109952,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 476,
+          "reasoning_output_tokens": 375,
+          "total_tokens": 110811
+        },
+        "model_context_window": 258400
+      }
+    },
+    {
+      "session_id": "01a07750-d6e7-7781-92a2-e4de7d74c2df",
+      "agent_path": "/root/p0_batch_control",
+      "parent_thread_id": "01a0774d-4327-7701-948f-2796de6fccd3",
+      "source_file": "C:\\Users\\xiezh\\.codex\\sessions\\2026\\09\\06\\rollout-2026-09-06T23-23-01-01a07750-d6e7-7781-92a2-e4de7d74c2df.jsonl",
+      "source_size_at_read": 15318882,
+      "tail_read_start": 11124578,
+      "tail_read_bytes": 4194304,
+      "tail_sha256": "9b9bd47b028afecf40f715e4db7e6f5aa5134bbd5726a320604fc0dbba86df77",
+      "latest_token_count_in_tail": {
+        "timestamp": "2026-09-06T20:45:52.750Z",
+        "byte_offset": 15318061,
+        "total_token_usage": {
+          "input_tokens": 48317064,
+          "cached_input_tokens": 46523776,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 374011,
+          "reasoning_output_tokens": 107765,
+          "total_tokens": 48691075
+        },
+        "last_token_usage": {
+          "input_tokens": 207684,
+          "cached_input_tokens": 206336,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 3276,
+          "reasoning_output_tokens": 516,
+          "total_tokens": 210960
+        },
+        "model_context_window": 258400
+      }
+    },
+    {
+      "session_id": "01a0774e-c2a8-7e50-8652-6b834450af06",
+      "agent_path": "/root/p0_gateway_audit",
+      "parent_thread_id": "01a0774d-4327-7701-948f-2796de6fccd3",
+      "source_file": "C:\\Users\\xiezh\\.codex\\sessions\\2026\\09\\06\\rollout-2026-09-06T23-20-45-01a0774e-c2a8-7e50-8652-6b834450af06.jsonl",
+      "source_size_at_read": 20656810,
+      "tail_read_start": 16462506,
+      "tail_read_bytes": 4194304,
+      "tail_sha256": "62d4bd8a23aa2bf96f05194946b071c753c2d7c4c8fe8a0ac421096851acc733",
+      "latest_token_count_in_tail": {
+        "timestamp": "2026-09-06T20:47:20.110Z",
+        "byte_offset": 20644824,
+        "total_token_usage": {
+          "input_tokens": 40672250,
+          "cached_input_tokens": 39394944,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 299072,
+          "reasoning_output_tokens": 86570,
+          "total_tokens": 40971322
+        },
+        "last_token_usage": {
+          "input_tokens": 183202,
+          "cached_input_tokens": 181888,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1184,
+          "reasoning_output_tokens": 516,
+          "total_tokens": 184386
+        },
+        "model_context_window": 258400
+      }
+    }
+  ],
+  "previous_root_reported_snapshot": {
+    "timestamp": "2026-09-06T20:44:28Z",
+    "input_tokens": 69065701,
+    "cached_input_tokens": 67340800,
+    "output_tokens": 313949,
+    "reasoning_output_tokens": 104540,
+    "total_tokens": 69379650,
+    "source": "root-provided earlier latest token_count; not a new charge"
+  },
+  "other_metric_not_additive": {
+    "kind": "goal_platform_counter",
+    "approximately_at": "2026-09-06T20:35Z",
+    "value": 7356065,
+    "source": "root-provided; units/accounting differ from rollout cumulative tokens"
+  },
+  "summed_all_sources": null,
+  "aggregation_status": "not_certified_disjoint_or_complete; no provider billing reconciliation",
+  "subtask_increment_tokens": null,
+  "known_limits": [
+    "Counters are cumulative session events, not this subtask delta.",
+    "Metadata confirms three direct child identities; it does not prove cumulative counter attribution is mutually exclusive.",
+    "Only the newest complete token_count in each bounded tail was read; a live file may advance later.",
+    "Goal-platform usage and rollout counters must not be added.",
+    "Cached input is a component of input and reasoning is a component of output, not additive extra tokens.",
+    "No research ledger, rollout or memory modified; no secret configurations opened."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "status": "pre_fit_frozen",
+  "created_utc": "2026-10-09T05:56:08.134370+00:00",
+  "protocol_sha256": "1295d3d26897d5f20134c21dbb1fddeeb28d07fdd6f041b8946b3c1f229af175",
+  "sources": {
+    "research/gru_return_head_20261009/training.py": "cdbf310dd6a78f6e98396b6e35d52c68422a7cc79e7fac5247e5402e16169c05",
+    "research/gru_return_head_20261009/remote_pipeline.py": "e75faf5486874580142ad4a9d6c8715d3451beb5c22de78d02daf6eaa2c72fbb",
+    "research/gru_return_head_20261009/optimizer.py": "bb6a4d21ab8ef59a30b61fff851cc423aa8116c01e130e4eaf31bd53e6f52f8a",
+    "research/gru_return_head_20261009/cost_refinement.py": "f15345c498e1fee7f2e05b167e6cf694bfaca924fd1f772b125b3fde96e097af",
+    "research/gru_return_head_20261009/signal_interface.py": "65124ceb0c3ad6606939354f6c9f55f332497729c91da1d8dd8a2abd2da5f1f5",
+    "research/gru_return_head_20261009/backtest.py": "6dcd0028ad05355f41acbd15d744ac58341ee9f4907f951e01f26452c7d07b80",
+    "research/gru_return_head_20261009/replay.py": "d0caa3b6570d2e562bbacd167b69ffb6517c31e0c9980792804b87afe822649d",
+    "research/gru_dual_head_design_20261009/adapter.py": "102f04cf605c97be354dbce57327e698f79b7fcb711f3822ee4ce43e30c13921",
+    "research/gru_cost_objective_20261009_repair1/protocol.json": "b4bc7c5d483a9d38ed31e6f1b1520db32d811959b6f565ae0f20f930525f6947",
+    "research/gru_cost_objective_20261009_repair1/freeze.json": "dd2647a6251653366f28d986d9d88fa059135ff475b87eedd6ca8c851ce78884",
+    "research/gru_cost_objective_20261009_repair1/diagnostics/calibration_inventory.json": "299bbe4acf684848c1724010969066f66d4a679a7eaa13f52175957b9e2b2c6d"
+  }
+}

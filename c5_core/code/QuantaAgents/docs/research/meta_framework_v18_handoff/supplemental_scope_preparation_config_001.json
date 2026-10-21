@@ -1,0 +1,82 @@
+{
+  "kind": "one_concrete_supplemental_scope_preparation_config",
+  "engineering_accepted": true,
+  "real_dispatch_authorized": false,
+  "expected_source_pins": {
+    "casebank_continuation.py": "6e38e602a1850930cd5bb2fe3d43f7f6a7b35e4c4fe62953506e759de04f9919",
+    "transport_correction.py": "6344082f22c2fc4f517565ed14be5666f36f40d6cc7e26d3a6d95c1a50f96663",
+    "codex_gateway.py": "5afa3dcbbd8d8c6f2a649aebfc86f787cd83d54ddfb547ec2967e68c2e6b2b95",
+    "diagnostic_campaign.py": "9ce41fff24d71099edfaa8f037b67906bc56c63878b2d61cadb9bf4ee7e29dfb",
+    "store.py": "a722ca5256125f3eb10cedce51e3324f9eea8740672a6152597c795c3e2e9929",
+    "structured_output_profile.py": "276481336f2b647717c83bb46be1def6a366fa5e1de072f61c58b1f78a8bdf38",
+    "casebank_supplemental.py": "83e04e8875fe4ebf85ec5ab6ad931545cac8934e2f6cd90ae91d6993475aa392"
+  },
+  "expected_entrypoint_sha256": "429e0d7d3b191028f32545aaeabc6007e6972583d3a3049b13fcf949d5c44da9",
+  "provenance_pins": [
+    {
+      "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_ashare_revision18/validation_artifacts/bounded_engineering_acceptance_001/receipt.json",
+      "sha256": "58ed0c0c061de7de8781004af6a32c9062ec0c0f9e889d67e23189a429195b75"
+    },
+    {
+      "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_ashare_revision18/validation_artifacts/source_inventory_001/receipt.json",
+      "sha256": "254557348af94e7279165e3597ca2b561638ed6b07212acd36c1912db8e400fe"
+    },
+    {
+      "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_ashare_revision18/validation_artifacts/source_inventory_001/source_files_sha256.json",
+      "sha256": "a44654292035a10cc380b90acaf24d56fb6da689de4fbab2fa16d3a00968885f"
+    },
+    {
+      "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_ashare_revision18/supplemental_independent_validation/005_final_saved_review/receipt.json",
+      "sha256": "ca24ba57beb0311147fb665f3b2ea8dcd14c646ec4e7b9759eecf8cf57bb90d1"
+    },
+    {
+      "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_ashare_revision18/supplemental_monitor_independent_review/001_saved_only/receipt.json",
+      "sha256": "c98ae4e25b90e873b0627afe30f68f019a2a9d1c5540fc557a7333f25ef5535f"
+    },
+    {
+      "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_v18_handoff/supplementary_research_policy_001.json",
+      "sha256": "e1a4e68f543111dfc24c1429a39243b89692eb72d4df8af6064fb57447bde79e"
+    },
+    {
+      "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_v18_handoff/post_deadline_research_design_001.md",
+      "sha256": "890f740635b9f1f4eaf6b4e0a4d4454d9b7db426b3110679c32b0c209795951a"
+    },
+    {
+      "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_v18_handoff/supplemental_registration_review_002/receipt.json",
+      "sha256": "8554e1c5a97a2d03cd56a087c88272a77380c0e574036e98548b46fdb3a993c3"
+    },
+    {
+      "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_v18_handoff/runtime_observation_001.json",
+      "sha256": "11cbf7a5ee2eeffb6d74adce3ea5c82514ab6cf1c10b4b1e535a5485084aefb0"
+    },
+    {
+      "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_v18_handoff/engineering_usage_snapshot_001.json",
+      "sha256": "95307eaf929b0b75a0c11921a8c601e1dd5600dcd766efc596a2e76946a04ace"
+    },
+    {
+      "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_v8_handoff/checkpoint_20260907_026.json",
+      "sha256": "25813de2cc60ff232b45358f402f1c2164a00c6dc00cb62b416521ff2363e1b2"
+    },
+    {
+      "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_supplemental_preparations/reference_v15_original4_001_preservation_001/receipt.json",
+      "sha256": "9dd35d09e7ba7202b96e6b2db9fc6d3b446ce87482bc4be47e8e790e4a8cabec"
+    },
+    {
+      "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_v17_handoff/actual_saved_action_outcome_independent_review_001.md",
+      "sha256": "8cdf94e63bc8714112217de761b04f2309e1c732431adfd1f19bd75579c63228"
+    },
+    {
+      "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_v15_handoff/reference_budget_001.json",
+      "sha256": "5e57b6cb9308fa3389c7aa102d24242a7825d2ce82cda37b15a9553fa2dcacd5"
+    },
+    {
+      "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_v15_handoff/reference_evaluation_prereg_001.json",
+      "sha256": "194a8fa949f621051f9a72cc6eec0de48b44b65b27aaea7fbbf4700bdde14704"
+    }
+  ],
+  "start_epoch": 1788754607.524738,
+  "end_epoch": 1788776207.524738,
+  "window_waiting_and_pauses_consume_time": true,
+  "independent_task_increment": 0,
+  "original_stage_status": "expired_incomplete"
+}

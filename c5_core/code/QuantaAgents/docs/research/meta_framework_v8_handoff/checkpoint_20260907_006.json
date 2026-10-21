@@ -1,0 +1,45 @@
+{
+  "checkpoint_kind": "append_only_handoff",
+  "checkpoint_number": 6,
+  "recorded_at": "2026-09-07T01:58:00+08:00",
+  "controller_thread_id": "01a0774d-4327-7701-948f-2796de6fccd3",
+  "automation_id": "a",
+  "phase": "P1_contract_corrected_P2_offline_tools_and_GUI_identity_race_revision",
+  "stage": "experiment_traces/meta_ashare_revision12",
+  "stage_state": "implementation_in_progress_not_frozen_or_accepted",
+  "parent_revision": "experiment_traces/meta_ashare_revision11",
+  "parent_source_hash": "68496ad3e6d1917257ff614c0a81d64352ecf16048220a37389957a806bb93fb",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "paid_dispatch_permitted": false,
+  "last_campaign_root": "experiment_traces/meta_diagnostic_calibrations/campaigns/diagnostic_20260906T172850309804Z",
+  "last_campaign_result": "finished; 13 completed calls, 238797 reported research tokens, zero unsettled, two failed submissions preserved",
+  "semantic_review": {
+    "calibration_01": "9 structured numeric claims correct; 2 core counts correct only in prose; terminal scalar inapplicable. Conditional same-day matched test valid, new evidence needed.",
+    "calibration_02": "10 registered numeric claims plus the unregistered seven-session fact correct; all 9 core quantities structured. Exact two unidentified dates omitted; proposed target/order test needs unavailable timing evidence and must preserve same-day re-entry.",
+    "reports": ["docs/research/meta_framework_v10_handoff/actual_case01_review_001.md", "docs/research/meta_framework_v10_handoff/actual_case02_review_001.md"],
+    "boundary": "Arithmetic/diagnostic evidence does not replace the original two failed legal-final outcomes and provides no hidden-case, strategy or architecture success."
+  },
+  "v11_validation_receipt": "experiment_traces/meta_ashare_revision11/validation_attempts/20260906T175127021941Z/receipt.json",
+  "v11_validation_receipt_sha256": "55bd6f97c0316d81774070209ac4ac35c67d1fa35a63a31861f6530b7a137471",
+  "v11_validation": "209 targeted tests and JavaScript syntax passed; originals unchanged; zero new Gateway calls. Public submission contract preserves the strict acceptance set.",
+  "v11_known_limit": "Sequential actual browser pagination passed, but independent asynchronous review found stale response labeling after rapid answer switching. v11 preserved; v12 must fix and verify this race before claiming GUI completion.",
+  "v12_work_ownership": {
+    "root": "diagnostic_monitor asynchronous request identity protection and integration verification",
+    "p0_batch_control": "bounded generic diagnose_horizons wiring in ashare_research with fixed horizons, durable subattempts and immutable artifacts; no shared Store/runtime changes",
+    "p0_gateway_audit": "new pure event_conditioning module with outcome-free same-day matching plan and descriptive common-horizon summaries; not connected to research harness yet",
+    "p0_independent_review": "read-only v11 review and delayed-response counterexamples"
+  },
+  "monitor_url": "http://192.0.2.10:8776/",
+  "monitor_source": "v11 read-only service; currently shows originals and known sequential behavior",
+  "retired_monitor": "Only task-owned v10 read-only 8775 was stopped after v11 browser verification, with exact command/PID checks. Legacy 8769/8773 preserved; this was not a retry of earlier rejected stop actions.",
+  "monitor_policy": "Existing hourly heartbeat a was updated, not duplicated. Read latest checkpoint and actual liveness; root active means read-only. No paid replacement of failed diagnostic cases.",
+  "execution_valid": false,
+  "formal_target_success": false,
+  "target_achieved": false,
+  "self_check": {
+    "assessment": "The real two-case loop exposed a contract gap that reference-client tests missed. Original answers support bounded arithmetic competence while failures and omissions remain. Independent GUI review also caught a response-order race missed by sequential browser checks.",
+    "next_step": "Verify v12 stale-response rejection and bounded generic horizon reachability; implement same-day matching as a separately tested pure tool. No hidden bank expansion or paid run until these bounded changes are accepted.",
+    "falsifiers": "Changed old report bytes, hidden answer exposure, stale body/current identity mixing, re-execution on recovery, uncounted horizon subattempts, future-feature matching or replacement controls selected using outcomes will block progression."
+  }
+}

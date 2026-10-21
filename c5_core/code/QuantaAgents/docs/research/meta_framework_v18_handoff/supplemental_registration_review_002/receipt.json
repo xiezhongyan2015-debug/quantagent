@@ -1,0 +1,51 @@
+{
+  "kind": "independent_readonly_script_repair_review",
+  "created_at": "2026-09-07T04:13:45.040364+00:00",
+  "status": "review001_R1_R2_closed_by_static_diff_no_new_blocker_in_reviewed_delta",
+  "reviewed_source_sha256": {
+    "prepare_supplemental_scope_001.py": "8a135430e0b98822d55aa9547493be80dd9251adb3315eae01c3f66def08f359",
+    "register_supplemental_001.py": "d76f0a9ebd6a448bcb3f4c867899748fc59b401fb1fc63ea6ee5bd7489469a9a"
+  },
+  "prior_review_receipt_sha256": "55ed06b73e895efd300eb9b4ad5fa3f53eea0566b5415d4bdb654db26b0162bb",
+  "findings": [
+    {
+      "id": "R1",
+      "status": "closed_static",
+      "evidence": [
+        "Admission now must contain runtime_observation_sha256 and pre_stage_preservation_receipt_sha256, both compared against exact read bytes before controller.prepare.",
+        "Expected backup list derives from the pinned controller plan: exactly five entries, original ledger first, then four controller_paths task/source/backup-name triples. Each live source and backup byte hash must match the externally pinned preservation receipt.",
+        "All saved artifact basenames and hashes are checked, and original_rows.json has both its byte hash and canonical content hash validated before any phase mutation.",
+        "Post-registration checks retain original scope/admission/base rows and explicitly rehash the four workbench sources."
+      ]
+    },
+    {
+      "id": "R2",
+      "status": "closed_static",
+      "evidence": [
+        "Both entrypoints now execute an explicit if sys.flags.optimize: raise RuntimeError before project imports, project path reads or output creation.",
+        "Unlike assert, this guard is not removed by optimized compilation; therefore the remaining wrapper asserts cannot silently disappear in a supported execution."
+      ]
+    }
+  ],
+  "unchanged_boundaries": [
+    "No call to execute/apply/resume and no Gateway construction was added; the registration process still overrides Gateway.run with a failure trap.",
+    "Exclusive-create output paths and frozen controller phase identity/lease protections remain.",
+    "The new stage is an explicit time resource on the same original domain; this review does not create or approve its actual start/end, scope, admission or budget.",
+    "If a post-prepare verification fails, preserve the failure and inspect saved state; the registration may already exist and must not be blindly retried or dispatched."
+  ],
+  "actual_configuration_scope_admission_reviewed": false,
+  "registration_ready_claimed": false,
+  "paid_dispatch_authorized": false,
+  "actual_campaign_opened": false,
+  "actual_database_or_backup_opened": false,
+  "script_executed": false,
+  "tests_executed": false,
+  "controller_or_store_constructed": false,
+  "implementation_changed_by_reviewer": false,
+  "artifacts_sha256": {
+    "prepare_supplemental_scope_001.py": "8a135430e0b98822d55aa9547493be80dd9251adb3315eae01c3f66def08f359",
+    "prepare_supplemental_scope_001.py.diff": "9606456cac032accba883920216309757952c9be8fa491cf585389adc169fbe1",
+    "register_supplemental_001.py": "d76f0a9ebd6a448bcb3f4c867899748fc59b401fb1fc63ea6ee5bd7489469a9a",
+    "register_supplemental_001.py.diff": "98eb7fcdfdc1dd036ff4cc146bb3f8163bd943754e5ce7702a98b8f8f43db56f"
+  }
+}

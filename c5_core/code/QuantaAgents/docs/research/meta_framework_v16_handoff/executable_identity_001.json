@@ -1,0 +1,14 @@
+{
+  "recorded_at": "2026-09-06T22:12:59.812270+00:00",
+  "provider_executable": {
+    "path": "C:\\Users\\xiezh\\AppData\\Local\\OpenAI\\Codex\\bin\\27d6a192e9c98618\\codex.exe",
+    "sha256": "a1cf6360ca71918d5466bc3a32d9f18b7044c9128756d1949e715d277b88c9b6",
+    "bytes": 295408944
+  },
+  "original_requested_model": "gpt-6-astra",
+  "original_requested_effort": "xhigh",
+  "legacy_q_state": "paused",
+  "legacy_q_state_file_sha256": "2c22ca88111463568fc91a0cafcdad640db2da24c1b4fc033f6f9db80fcf99f0",
+  "new_cli_processes": 0,
+  "note": "Metadata and original binary hash only; no CLI invocation, no model request. Process count is separately observed by root CIM and will be refreshed before dispatch."
+}

@@ -1,0 +1,1615 @@
+{
+  "kind": "metadata_only_existing_saved_trace_budget_audit",
+  "created_at": "2026-09-07T05:00:22.071380+00:00",
+  "plan_hash": "3cda519a83180b6b5b4fe96c447a406efee82b5df73b31cc450fd10555437173",
+  "budget": {
+    "per_task_max_calls": 17,
+    "max_queries_per_task": 16,
+    "max_candidates_per_task": 12,
+    "max_finals_per_task": 1,
+    "max_attempts_per_step": 1,
+    "max_calls": 68,
+    "hard_tokens": 2400000,
+    "per_task_hard_tokens": 600000,
+    "reserve_tokens_per_call": 80000,
+    "soft_tokens": 300000,
+    "max_call_seconds": 3600,
+    "max_runtime_seconds": 21600,
+    "max_public_context_bytes": 1048576
+  },
+  "model": "gpt-6-astra",
+  "effort": "xhigh",
+  "stage_status": "paused",
+  "pause_reason": "admission stopped: original nominal exposure cap exhausted",
+  "tasks": {
+    "reference_v15_original4_001_case_01_reference": {
+      "candidates": 12,
+      "finals": 0,
+      "queries": 14,
+      "round_index": 14,
+      "status": "ready"
+    },
+    "reference_v15_original4_001_case_02_reference": {
+      "candidates": 0,
+      "finals": 0,
+      "queries": 0,
+      "round_index": 0,
+      "status": "not_started"
+    },
+    "reference_v15_original4_001_case_03_reference": {
+      "candidates": 0,
+      "finals": 0,
+      "queries": 0,
+      "round_index": 0,
+      "status": "not_started"
+    },
+    "reference_v15_original4_001_case_04_reference": {
+      "candidates": 0,
+      "finals": 0,
+      "queries": 0,
+      "round_index": 0,
+      "status": "not_started"
+    }
+  },
+  "phase": {
+    "status": "paused",
+    "start_epoch": 1788754607.524738,
+    "end_epoch": 1788776207.524738
+  },
+  "calls": [
+    {
+      "transport_ordinal": 1,
+      "kind": "original",
+      "id": "reference_v15_original4_001/reference_v15_original4_001_case_01_reference_round_0-1",
+      "task_run_id": "reference_v15_original4_001_case_01_reference",
+      "round_index": 0,
+      "status": "failed",
+      "action_type": null,
+      "usage": {
+        "input_tokens": null,
+        "cached_input_tokens": null,
+        "output_tokens": null,
+        "reasoning_output_tokens": null
+      },
+      "known_reported": 0,
+      "unsettled_reserve": 80000,
+      "duration_seconds": null,
+      "dispatched_at": "2026-09-06T21:18:43.132600+00:00",
+      "completed_at": null,
+      "response_json_bytes": null,
+      "prompt_bytes": 9919,
+      "schema_bytes": 2564,
+      "prompt_hash_verified": true,
+      "public_history_items": 0,
+      "public_history_bytes": 2,
+      "prior_response_items": 0,
+      "prior_response_bytes": 2,
+      "ordinary_packet_bytes": 3337,
+      "contract_overlay_bytes": 4210,
+      "remaining": {
+        "queries": 16,
+        "candidates": 12,
+        "final_reports": 1
+      },
+      "continuation_resources": null,
+      "supplemental_time_resources": {},
+      "allowed_actions": [
+        "inspect_inputs",
+        "diagnose_horizons",
+        "condition_events",
+        "submit_research_report"
+      ],
+      "candidate_items_max": 1,
+      "query_items_max": 1,
+      "event_type_counts": {
+        "thread.started": 1,
+        "item.completed": 1,
+        "turn.started": 1,
+        "error": 1,
+        "turn.failed": 1
+      },
+      "event_usage": [],
+      "reconstructed_before_reported": 0,
+      "reconstructed_before_exposure": 0,
+      "reconstructed_before_headroom": 600000
+    },
+    {
+      "transport_ordinal": 2,
+      "kind": "correction",
+      "id": "reference_v15_case01_transport_correction_001",
+      "task_run_id": "reference_v15_original4_001_case_01_reference",
+      "round_index": 0,
+      "status": "completed",
+      "action_type": "inspect_inputs",
+      "usage": {
+        "cached_input_tokens": 0,
+        "input_tokens": 11079,
+        "output_tokens": 156,
+        "reasoning_output_tokens": 113
+      },
+      "known_reported": 11235,
+      "unsettled_reserve": 0,
+      "duration_seconds": 12.92199999999866,
+      "dispatched_at": "2026-09-06T22:18:46.453650+00:00",
+      "completed_at": "2026-09-06T22:19:00.106576+00:00",
+      "response_json_bytes": 127,
+      "prompt_bytes": 9919,
+      "schema_bytes": 2572,
+      "prompt_hash_verified": true,
+      "public_history_items": 0,
+      "public_history_bytes": 2,
+      "prior_response_items": 0,
+      "prior_response_bytes": 2,
+      "ordinary_packet_bytes": 3337,
+      "contract_overlay_bytes": 4210,
+      "remaining": {
+        "queries": 16,
+        "candidates": 12,
+        "final_reports": 1
+      },
+      "continuation_resources": null,
+      "supplemental_time_resources": {},
+      "allowed_actions": [
+        "inspect_inputs",
+        "diagnose_horizons",
+        "condition_events",
+        "submit_research_report"
+      ],
+      "candidate_items_max": 1,
+      "query_items_max": 1,
+      "event_type_counts": {
+        "thread.started": 1,
+        "item.completed": 3,
+        "turn.started": 1,
+        "turn.completed": 1
+      },
+      "event_usage": [
+        {
+          "input_tokens": 11079,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 156,
+          "reasoning_output_tokens": 113
+        }
+      ],
+      "reconstructed_before_reported": 0,
+      "reconstructed_before_exposure": 80000,
+      "reconstructed_before_headroom": 520000
+    },
+    {
+      "transport_ordinal": 3,
+      "kind": "continuation",
+      "id": "reference_v15_original4_001/continuation/reference_v15_original4_001_case_01_reference_transport_3",
+      "task_run_id": "reference_v15_original4_001_case_01_reference",
+      "round_index": 1,
+      "status": "completed",
+      "action_type": "diagnose_horizons",
+      "usage": {
+        "cached_input_tokens": 0,
+        "input_tokens": 17664,
+        "output_tokens": 847,
+        "reasoning_output_tokens": 707
+      },
+      "known_reported": 18511,
+      "unsettled_reserve": 0,
+      "duration_seconds": 40.734000000004016,
+      "dispatched_at": "2026-09-07T04:35:08.342925+00:00",
+      "completed_at": "2026-09-07T04:35:52.138731+00:00",
+      "response_json_bytes": 160,
+      "prompt_bytes": 27188,
+      "schema_bytes": 2572,
+      "prompt_hash_verified": true,
+      "public_history_items": 1,
+      "public_history_bytes": 17657,
+      "prior_response_items": 1,
+      "prior_response_bytes": 158,
+      "ordinary_packet_bytes": 3337,
+      "contract_overlay_bytes": 4210,
+      "remaining": {
+        "candidates": 12,
+        "final_reports": 1,
+        "queries": 15
+      },
+      "continuation_resources": {
+        "next_call_reservation_tokens": 80000,
+        "no_retry_or_replacement": true,
+        "original_billing_unknown_reserve_tokens": 80000,
+        "original_deadline_epoch": 1788750083.6826499,
+        "reservation_is_not_invoice_cap": true,
+        "stage_nominal_headroom_tokens": 2308765,
+        "stage_transmissions_remaining": 66,
+        "stage_transmissions_used": 2,
+        "task_nominal_headroom_tokens": 508765,
+        "task_transmissions": {
+          "remaining": 15,
+          "used": 2
+        }
+      },
+      "supplemental_time_resources": {
+        "end_epoch": 1788776207.524738,
+        "new_phase_id": "v18s1",
+        "original_deadline_epoch": 1788750083.6826499,
+        "original_timed_stage": "expired_incomplete",
+        "same_tasks_history_and_all_cumulative_caps": true,
+        "start_epoch": 1788754607.524738,
+        "third_window_authorized": false,
+        "time_resource_added": true
+      },
+      "allowed_actions": [
+        "inspect_inputs",
+        "diagnose_horizons",
+        "condition_events",
+        "submit_research_report"
+      ],
+      "candidate_items_max": 1,
+      "query_items_max": 1,
+      "event_type_counts": {
+        "thread.started": 1,
+        "item.completed": 5,
+        "turn.started": 1,
+        "turn.completed": 1
+      },
+      "event_usage": [
+        {
+          "input_tokens": 17664,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 847,
+          "reasoning_output_tokens": 707
+        }
+      ],
+      "reconstructed_before_reported": 11235,
+      "reconstructed_before_exposure": 91235,
+      "reconstructed_before_headroom": 508765
+    },
+    {
+      "transport_ordinal": 4,
+      "kind": "continuation",
+      "id": "reference_v15_original4_001/continuation/reference_v15_original4_001_case_01_reference_transport_4",
+      "task_run_id": "reference_v15_original4_001_case_01_reference",
+      "round_index": 2,
+      "status": "completed",
+      "action_type": "diagnose_horizons",
+      "usage": {
+        "cached_input_tokens": 0,
+        "input_tokens": 20761,
+        "output_tokens": 1095,
+        "reasoning_output_tokens": 1034
+      },
+      "known_reported": 21856,
+      "unsettled_reserve": 0,
+      "duration_seconds": 47.90600000000268,
+      "dispatched_at": "2026-09-07T04:36:14.605832+00:00",
+      "completed_at": "2026-09-07T04:37:04.910271+00:00",
+      "response_json_bytes": 158,
+      "prompt_bytes": 37573,
+      "schema_bytes": 2572,
+      "prompt_hash_verified": true,
+      "public_history_items": 2,
+      "public_history_bytes": 27852,
+      "prior_response_items": 2,
+      "prior_response_bytes": 348,
+      "ordinary_packet_bytes": 3337,
+      "contract_overlay_bytes": 4210,
+      "remaining": {
+        "candidates": 11,
+        "final_reports": 1,
+        "queries": 14
+      },
+      "continuation_resources": {
+        "next_call_reservation_tokens": 80000,
+        "no_retry_or_replacement": true,
+        "original_billing_unknown_reserve_tokens": 80000,
+        "original_deadline_epoch": 1788750083.6826499,
+        "reservation_is_not_invoice_cap": true,
+        "stage_nominal_headroom_tokens": 2290254,
+        "stage_transmissions_remaining": 65,
+        "stage_transmissions_used": 3,
+        "task_nominal_headroom_tokens": 490254,
+        "task_transmissions": {
+          "remaining": 14,
+          "used": 3
+        }
+      },
+      "supplemental_time_resources": {
+        "end_epoch": 1788776207.524738,
+        "new_phase_id": "v18s1",
+        "original_deadline_epoch": 1788750083.6826499,
+        "original_timed_stage": "expired_incomplete",
+        "same_tasks_history_and_all_cumulative_caps": true,
+        "start_epoch": 1788754607.524738,
+        "third_window_authorized": false,
+        "time_resource_added": true
+      },
+      "allowed_actions": [
+        "inspect_inputs",
+        "diagnose_horizons",
+        "condition_events",
+        "submit_research_report"
+      ],
+      "candidate_items_max": 1,
+      "query_items_max": 1,
+      "event_type_counts": {
+        "thread.started": 1,
+        "item.completed": 4,
+        "turn.started": 1,
+        "turn.completed": 1
+      },
+      "event_usage": [
+        {
+          "input_tokens": 20761,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1095,
+          "reasoning_output_tokens": 1034
+        }
+      ],
+      "reconstructed_before_reported": 29746,
+      "reconstructed_before_exposure": 109746,
+      "reconstructed_before_headroom": 490254
+    },
+    {
+      "transport_ordinal": 5,
+      "kind": "continuation",
+      "id": "reference_v15_original4_001/continuation/reference_v15_original4_001_case_01_reference_transport_5",
+      "task_run_id": "reference_v15_original4_001_case_01_reference",
+      "round_index": 3,
+      "status": "completed",
+      "action_type": "diagnose_horizons",
+      "usage": {
+        "cached_input_tokens": 0,
+        "input_tokens": 23871,
+        "output_tokens": 739,
+        "reasoning_output_tokens": 678
+      },
+      "known_reported": 24610,
+      "unsettled_reserve": 0,
+      "duration_seconds": 36.56199999999808,
+      "dispatched_at": "2026-09-07T04:37:32.226070+00:00",
+      "completed_at": "2026-09-07T04:38:11.839974+00:00",
+      "response_json_bytes": 158,
+      "prompt_bytes": 47937,
+      "schema_bytes": 2572,
+      "prompt_hash_verified": true,
+      "public_history_items": 3,
+      "public_history_bytes": 38028,
+      "prior_response_items": 3,
+      "prior_response_bytes": 536,
+      "ordinary_packet_bytes": 3337,
+      "contract_overlay_bytes": 4210,
+      "remaining": {
+        "candidates": 10,
+        "final_reports": 1,
+        "queries": 13
+      },
+      "continuation_resources": {
+        "next_call_reservation_tokens": 80000,
+        "no_retry_or_replacement": true,
+        "original_billing_unknown_reserve_tokens": 80000,
+        "original_deadline_epoch": 1788750083.6826499,
+        "reservation_is_not_invoice_cap": true,
+        "stage_nominal_headroom_tokens": 2268398,
+        "stage_transmissions_remaining": 64,
+        "stage_transmissions_used": 4,
+        "task_nominal_headroom_tokens": 468398,
+        "task_transmissions": {
+          "remaining": 13,
+          "used": 4
+        }
+      },
+      "supplemental_time_resources": {
+        "end_epoch": 1788776207.524738,
+        "new_phase_id": "v18s1",
+        "original_deadline_epoch": 1788750083.6826499,
+        "original_timed_stage": "expired_incomplete",
+        "same_tasks_history_and_all_cumulative_caps": true,
+        "start_epoch": 1788754607.524738,
+        "third_window_authorized": false,
+        "time_resource_added": true
+      },
+      "allowed_actions": [
+        "inspect_inputs",
+        "diagnose_horizons",
+        "condition_events",
+        "submit_research_report"
+      ],
+      "candidate_items_max": 1,
+      "query_items_max": 1,
+      "event_type_counts": {
+        "thread.started": 1,
+        "item.completed": 4,
+        "turn.started": 1,
+        "turn.completed": 1
+      },
+      "event_usage": [
+        {
+          "input_tokens": 23871,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 739,
+          "reasoning_output_tokens": 678
+        }
+      ],
+      "reconstructed_before_reported": 51602,
+      "reconstructed_before_exposure": 131602,
+      "reconstructed_before_headroom": 468398
+    },
+    {
+      "transport_ordinal": 6,
+      "kind": "continuation",
+      "id": "reference_v15_original4_001/continuation/reference_v15_original4_001_case_01_reference_transport_6",
+      "task_run_id": "reference_v15_original4_001_case_01_reference",
+      "round_index": 4,
+      "status": "completed",
+      "action_type": "diagnose_horizons",
+      "usage": {
+        "cached_input_tokens": 0,
+        "input_tokens": 26944,
+        "output_tokens": 1095,
+        "reasoning_output_tokens": 1034
+      },
+      "known_reported": 28039,
+      "unsettled_reserve": 0,
+      "duration_seconds": 50.59399999999732,
+      "dispatched_at": "2026-09-07T04:38:41.669753+00:00",
+      "completed_at": "2026-09-07T04:39:35.315371+00:00",
+      "response_json_bytes": 160,
+      "prompt_bytes": 58309,
+      "schema_bytes": 2572,
+      "prompt_hash_verified": true,
+      "public_history_items": 4,
+      "public_history_bytes": 48213,
+      "prior_response_items": 4,
+      "prior_response_bytes": 724,
+      "ordinary_packet_bytes": 3337,
+      "contract_overlay_bytes": 4210,
+      "remaining": {
+        "candidates": 9,
+        "final_reports": 1,
+        "queries": 12
+      },
+      "continuation_resources": {
+        "next_call_reservation_tokens": 80000,
+        "no_retry_or_replacement": true,
+        "original_billing_unknown_reserve_tokens": 80000,
+        "original_deadline_epoch": 1788750083.6826499,
+        "reservation_is_not_invoice_cap": true,
+        "stage_nominal_headroom_tokens": 2243788,
+        "stage_transmissions_remaining": 63,
+        "stage_transmissions_used": 5,
+        "task_nominal_headroom_tokens": 443788,
+        "task_transmissions": {
+          "remaining": 12,
+          "used": 5
+        }
+      },
+      "supplemental_time_resources": {
+        "end_epoch": 1788776207.524738,
+        "new_phase_id": "v18s1",
+        "original_deadline_epoch": 1788750083.6826499,
+        "original_timed_stage": "expired_incomplete",
+        "same_tasks_history_and_all_cumulative_caps": true,
+        "start_epoch": 1788754607.524738,
+        "third_window_authorized": false,
+        "time_resource_added": true
+      },
+      "allowed_actions": [
+        "inspect_inputs",
+        "diagnose_horizons",
+        "condition_events",
+        "submit_research_report"
+      ],
+      "candidate_items_max": 1,
+      "query_items_max": 1,
+      "event_type_counts": {
+        "thread.started": 1,
+        "item.completed": 4,
+        "turn.started": 1,
+        "turn.completed": 1
+      },
+      "event_usage": [
+        {
+          "input_tokens": 26944,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1095,
+          "reasoning_output_tokens": 1034
+        }
+      ],
+      "reconstructed_before_reported": 76212,
+      "reconstructed_before_exposure": 156212,
+      "reconstructed_before_headroom": 443788
+    },
+    {
+      "transport_ordinal": 7,
+      "kind": "continuation",
+      "id": "reference_v15_original4_001/continuation/reference_v15_original4_001_case_01_reference_transport_7",
+      "task_run_id": "reference_v15_original4_001_case_01_reference",
+      "round_index": 5,
+      "status": "completed",
+      "action_type": "diagnose_horizons",
+      "usage": {
+        "cached_input_tokens": 0,
+        "input_tokens": 30050,
+        "output_tokens": 979,
+        "reasoning_output_tokens": 918
+      },
+      "known_reported": 31029,
+      "unsettled_reserve": 0,
+      "duration_seconds": 42.671000000002095,
+      "dispatched_at": "2026-09-07T04:40:04.101788+00:00",
+      "completed_at": "2026-09-07T04:40:49.403864+00:00",
+      "response_json_bytes": 158,
+      "prompt_bytes": 68694,
+      "schema_bytes": 2572,
+      "prompt_hash_verified": true,
+      "public_history_items": 5,
+      "public_history_bytes": 58408,
+      "prior_response_items": 5,
+      "prior_response_bytes": 914,
+      "ordinary_packet_bytes": 3337,
+      "contract_overlay_bytes": 4210,
+      "remaining": {
+        "candidates": 8,
+        "final_reports": 1,
+        "queries": 11
+      },
+      "continuation_resources": {
+        "next_call_reservation_tokens": 80000,
+        "no_retry_or_replacement": true,
+        "original_billing_unknown_reserve_tokens": 80000,
+        "original_deadline_epoch": 1788750083.6826499,
+        "reservation_is_not_invoice_cap": true,
+        "stage_nominal_headroom_tokens": 2215749,
+        "stage_transmissions_remaining": 62,
+        "stage_transmissions_used": 6,
+        "task_nominal_headroom_tokens": 415749,
+        "task_transmissions": {
+          "remaining": 11,
+          "used": 6
+        }
+      },
+      "supplemental_time_resources": {
+        "end_epoch": 1788776207.524738,
+        "new_phase_id": "v18s1",
+        "original_deadline_epoch": 1788750083.6826499,
+        "original_timed_stage": "expired_incomplete",
+        "same_tasks_history_and_all_cumulative_caps": true,
+        "start_epoch": 1788754607.524738,
+        "third_window_authorized": false,
+        "time_resource_added": true
+      },
+      "allowed_actions": [
+        "inspect_inputs",
+        "diagnose_horizons",
+        "condition_events",
+        "submit_research_report"
+      ],
+      "candidate_items_max": 1,
+      "query_items_max": 1,
+      "event_type_counts": {
+        "thread.started": 1,
+        "item.completed": 4,
+        "turn.started": 1,
+        "turn.completed": 1
+      },
+      "event_usage": [
+        {
+          "input_tokens": 30050,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 979,
+          "reasoning_output_tokens": 918
+        }
+      ],
+      "reconstructed_before_reported": 104251,
+      "reconstructed_before_exposure": 184251,
+      "reconstructed_before_headroom": 415749
+    },
+    {
+      "transport_ordinal": 8,
+      "kind": "continuation",
+      "id": "reference_v15_original4_001/continuation/reference_v15_original4_001_case_01_reference_transport_8",
+      "task_run_id": "reference_v15_original4_001_case_01_reference",
+      "round_index": 6,
+      "status": "completed",
+      "action_type": "diagnose_horizons",
+      "usage": {
+        "cached_input_tokens": 0,
+        "input_tokens": 33181,
+        "output_tokens": 677,
+        "reasoning_output_tokens": 616
+      },
+      "known_reported": 33858,
+      "unsettled_reserve": 0,
+      "duration_seconds": 31.985000000000586,
+      "dispatched_at": "2026-09-07T04:41:18.655451+00:00",
+      "completed_at": "2026-09-07T04:41:53.350296+00:00",
+      "response_json_bytes": 158,
+      "prompt_bytes": 79064,
+      "schema_bytes": 2572,
+      "prompt_hash_verified": true,
+      "public_history_items": 6,
+      "public_history_bytes": 68590,
+      "prior_response_items": 6,
+      "prior_response_bytes": 1102,
+      "ordinary_packet_bytes": 3337,
+      "contract_overlay_bytes": 4210,
+      "remaining": {
+        "candidates": 7,
+        "final_reports": 1,
+        "queries": 10
+      },
+      "continuation_resources": {
+        "next_call_reservation_tokens": 80000,
+        "no_retry_or_replacement": true,
+        "original_billing_unknown_reserve_tokens": 80000,
+        "original_deadline_epoch": 1788750083.6826499,
+        "reservation_is_not_invoice_cap": true,
+        "stage_nominal_headroom_tokens": 2184720,
+        "stage_transmissions_remaining": 61,
+        "stage_transmissions_used": 7,
+        "task_nominal_headroom_tokens": 384720,
+        "task_transmissions": {
+          "remaining": 10,
+          "used": 7
+        }
+      },
+      "supplemental_time_resources": {
+        "end_epoch": 1788776207.524738,
+        "new_phase_id": "v18s1",
+        "original_deadline_epoch": 1788750083.6826499,
+        "original_timed_stage": "expired_incomplete",
+        "same_tasks_history_and_all_cumulative_caps": true,
+        "start_epoch": 1788754607.524738,
+        "third_window_authorized": false,
+        "time_resource_added": true
+      },
+      "allowed_actions": [
+        "inspect_inputs",
+        "diagnose_horizons",
+        "condition_events",
+        "submit_research_report"
+      ],
+      "candidate_items_max": 1,
+      "query_items_max": 1,
+      "event_type_counts": {
+        "thread.started": 1,
+        "item.completed": 4,
+        "turn.started": 1,
+        "turn.completed": 1
+      },
+      "event_usage": [
+        {
+          "input_tokens": 33181,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 677,
+          "reasoning_output_tokens": 616
+        }
+      ],
+      "reconstructed_before_reported": 135280,
+      "reconstructed_before_exposure": 215280,
+      "reconstructed_before_headroom": 384720
+    },
+    {
+      "transport_ordinal": 9,
+      "kind": "continuation",
+      "id": "reference_v15_original4_001/continuation/reference_v15_original4_001_case_01_reference_transport_9",
+      "task_run_id": "reference_v15_original4_001_case_01_reference",
+      "round_index": 7,
+      "status": "completed",
+      "action_type": "diagnose_horizons",
+      "usage": {
+        "cached_input_tokens": 0,
+        "input_tokens": 36287,
+        "output_tokens": 432,
+        "reasoning_output_tokens": 371
+      },
+      "known_reported": 36719,
+      "unsettled_reserve": 0,
+      "duration_seconds": 25.60899999999674,
+      "dispatched_at": "2026-09-07T04:42:27.668728+00:00",
+      "completed_at": "2026-09-07T04:42:55.978787+00:00",
+      "response_json_bytes": 160,
+      "prompt_bytes": 89431,
+      "schema_bytes": 2572,
+      "prompt_hash_verified": true,
+      "public_history_items": 7,
+      "public_history_bytes": 78771,
+      "prior_response_items": 7,
+      "prior_response_bytes": 1290,
+      "ordinary_packet_bytes": 3337,
+      "contract_overlay_bytes": 4210,
+      "remaining": {
+        "candidates": 6,
+        "final_reports": 1,
+        "queries": 9
+      },
+      "continuation_resources": {
+        "next_call_reservation_tokens": 80000,
+        "no_retry_or_replacement": true,
+        "original_billing_unknown_reserve_tokens": 80000,
+        "original_deadline_epoch": 1788750083.6826499,
+        "reservation_is_not_invoice_cap": true,
+        "stage_nominal_headroom_tokens": 2150862,
+        "stage_transmissions_remaining": 60,
+        "stage_transmissions_used": 8,
+        "task_nominal_headroom_tokens": 350862,
+        "task_transmissions": {
+          "remaining": 9,
+          "used": 8
+        }
+      },
+      "supplemental_time_resources": {
+        "end_epoch": 1788776207.524738,
+        "new_phase_id": "v18s1",
+        "original_deadline_epoch": 1788750083.6826499,
+        "original_timed_stage": "expired_incomplete",
+        "same_tasks_history_and_all_cumulative_caps": true,
+        "start_epoch": 1788754607.524738,
+        "third_window_authorized": false,
+        "time_resource_added": true
+      },
+      "allowed_actions": [
+        "inspect_inputs",
+        "diagnose_horizons",
+        "condition_events",
+        "submit_research_report"
+      ],
+      "candidate_items_max": 1,
+      "query_items_max": 1,
+      "event_type_counts": {
+        "thread.started": 1,
+        "item.completed": 3,
+        "turn.started": 1,
+        "turn.completed": 1
+      },
+      "event_usage": [
+        {
+          "input_tokens": 36287,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 432,
+          "reasoning_output_tokens": 371
+        }
+      ],
+      "reconstructed_before_reported": 169138,
+      "reconstructed_before_exposure": 249138,
+      "reconstructed_before_headroom": 350862
+    },
+    {
+      "transport_ordinal": 10,
+      "kind": "continuation",
+      "id": "reference_v15_original4_001/continuation/reference_v15_original4_001_case_01_reference_transport_10",
+      "task_run_id": "reference_v15_original4_001_case_01_reference",
+      "round_index": 8,
+      "status": "completed",
+      "action_type": "diagnose_horizons",
+      "usage": {
+        "cached_input_tokens": 0,
+        "input_tokens": 39354,
+        "output_tokens": 577,
+        "reasoning_output_tokens": 516
+      },
+      "known_reported": 39931,
+      "unsettled_reserve": 0,
+      "duration_seconds": 31.64100000000326,
+      "dispatched_at": "2026-09-07T04:43:30.467797+00:00",
+      "completed_at": "2026-09-07T04:44:04.565824+00:00",
+      "response_json_bytes": 158,
+      "prompt_bytes": 99812,
+      "schema_bytes": 2572,
+      "prompt_hash_verified": true,
+      "public_history_items": 8,
+      "public_history_bytes": 88962,
+      "prior_response_items": 8,
+      "prior_response_bytes": 1480,
+      "ordinary_packet_bytes": 3337,
+      "contract_overlay_bytes": 4210,
+      "remaining": {
+        "candidates": 5,
+        "final_reports": 1,
+        "queries": 8
+      },
+      "continuation_resources": {
+        "next_call_reservation_tokens": 80000,
+        "no_retry_or_replacement": true,
+        "original_billing_unknown_reserve_tokens": 80000,
+        "original_deadline_epoch": 1788750083.6826499,
+        "reservation_is_not_invoice_cap": true,
+        "stage_nominal_headroom_tokens": 2114143,
+        "stage_transmissions_remaining": 59,
+        "stage_transmissions_used": 9,
+        "task_nominal_headroom_tokens": 314143,
+        "task_transmissions": {
+          "remaining": 8,
+          "used": 9
+        }
+      },
+      "supplemental_time_resources": {
+        "end_epoch": 1788776207.524738,
+        "new_phase_id": "v18s1",
+        "original_deadline_epoch": 1788750083.6826499,
+        "original_timed_stage": "expired_incomplete",
+        "same_tasks_history_and_all_cumulative_caps": true,
+        "start_epoch": 1788754607.524738,
+        "third_window_authorized": false,
+        "time_resource_added": true
+      },
+      "allowed_actions": [
+        "inspect_inputs",
+        "diagnose_horizons",
+        "condition_events",
+        "submit_research_report"
+      ],
+      "candidate_items_max": 1,
+      "query_items_max": 1,
+      "event_type_counts": {
+        "thread.started": 1,
+        "item.completed": 3,
+        "turn.started": 1,
+        "turn.completed": 1
+      },
+      "event_usage": [
+        {
+          "input_tokens": 39354,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 577,
+          "reasoning_output_tokens": 516
+        }
+      ],
+      "reconstructed_before_reported": 205857,
+      "reconstructed_before_exposure": 285857,
+      "reconstructed_before_headroom": 314143
+    },
+    {
+      "transport_ordinal": 11,
+      "kind": "continuation",
+      "id": "reference_v15_original4_001/continuation/reference_v15_original4_001_case_01_reference_transport_11",
+      "task_run_id": "reference_v15_original4_001_case_01_reference",
+      "round_index": 9,
+      "status": "completed",
+      "action_type": "diagnose_horizons",
+      "usage": {
+        "cached_input_tokens": 0,
+        "input_tokens": 42416,
+        "output_tokens": 433,
+        "reasoning_output_tokens": 372
+      },
+      "known_reported": 42849,
+      "unsettled_reserve": 0,
+      "duration_seconds": 22.43699999999808,
+      "dispatched_at": "2026-09-07T04:44:40.796070+00:00",
+      "completed_at": "2026-09-07T04:45:05.988691+00:00",
+      "response_json_bytes": 158,
+      "prompt_bytes": 110182,
+      "schema_bytes": 2572,
+      "prompt_hash_verified": true,
+      "public_history_items": 9,
+      "public_history_bytes": 99142,
+      "prior_response_items": 9,
+      "prior_response_bytes": 1668,
+      "ordinary_packet_bytes": 3337,
+      "contract_overlay_bytes": 4210,
+      "remaining": {
+        "candidates": 4,
+        "final_reports": 1,
+        "queries": 7
+      },
+      "continuation_resources": {
+        "next_call_reservation_tokens": 80000,
+        "no_retry_or_replacement": true,
+        "original_billing_unknown_reserve_tokens": 80000,
+        "original_deadline_epoch": 1788750083.6826499,
+        "reservation_is_not_invoice_cap": true,
+        "stage_nominal_headroom_tokens": 2074212,
+        "stage_transmissions_remaining": 58,
+        "stage_transmissions_used": 10,
+        "task_nominal_headroom_tokens": 274212,
+        "task_transmissions": {
+          "remaining": 7,
+          "used": 10
+        }
+      },
+      "supplemental_time_resources": {
+        "end_epoch": 1788776207.524738,
+        "new_phase_id": "v18s1",
+        "original_deadline_epoch": 1788750083.6826499,
+        "original_timed_stage": "expired_incomplete",
+        "same_tasks_history_and_all_cumulative_caps": true,
+        "start_epoch": 1788754607.524738,
+        "third_window_authorized": false,
+        "time_resource_added": true
+      },
+      "allowed_actions": [
+        "inspect_inputs",
+        "diagnose_horizons",
+        "condition_events",
+        "submit_research_report"
+      ],
+      "candidate_items_max": 1,
+      "query_items_max": 1,
+      "event_type_counts": {
+        "thread.started": 1,
+        "item.completed": 3,
+        "turn.started": 1,
+        "turn.completed": 1
+      },
+      "event_usage": [
+        {
+          "input_tokens": 42416,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 433,
+          "reasoning_output_tokens": 372
+        }
+      ],
+      "reconstructed_before_reported": 245788,
+      "reconstructed_before_exposure": 325788,
+      "reconstructed_before_headroom": 274212
+    },
+    {
+      "transport_ordinal": 12,
+      "kind": "continuation",
+      "id": "reference_v15_original4_001/continuation/reference_v15_original4_001_case_01_reference_transport_12",
+      "task_run_id": "reference_v15_original4_001_case_01_reference",
+      "round_index": 10,
+      "status": "completed",
+      "action_type": "diagnose_horizons",
+      "usage": {
+        "cached_input_tokens": 0,
+        "input_tokens": 45537,
+        "output_tokens": 628,
+        "reasoning_output_tokens": 567
+      },
+      "known_reported": 46165,
+      "unsettled_reserve": 0,
+      "duration_seconds": 31.90600000000268,
+      "dispatched_at": "2026-09-07T04:45:46.714844+00:00",
+      "completed_at": "2026-09-07T04:46:21.780715+00:00",
+      "response_json_bytes": 160,
+      "prompt_bytes": 120557,
+      "schema_bytes": 2572,
+      "prompt_hash_verified": true,
+      "public_history_items": 10,
+      "public_history_bytes": 109329,
+      "prior_response_items": 10,
+      "prior_response_bytes": 1856,
+      "ordinary_packet_bytes": 3337,
+      "contract_overlay_bytes": 4210,
+      "remaining": {
+        "candidates": 3,
+        "final_reports": 1,
+        "queries": 6
+      },
+      "continuation_resources": {
+        "next_call_reservation_tokens": 80000,
+        "no_retry_or_replacement": true,
+        "original_billing_unknown_reserve_tokens": 80000,
+        "original_deadline_epoch": 1788750083.6826499,
+        "reservation_is_not_invoice_cap": true,
+        "stage_nominal_headroom_tokens": 2031363,
+        "stage_transmissions_remaining": 57,
+        "stage_transmissions_used": 11,
+        "task_nominal_headroom_tokens": 231363,
+        "task_transmissions": {
+          "remaining": 6,
+          "used": 11
+        }
+      },
+      "supplemental_time_resources": {
+        "end_epoch": 1788776207.524738,
+        "new_phase_id": "v18s1",
+        "original_deadline_epoch": 1788750083.6826499,
+        "original_timed_stage": "expired_incomplete",
+        "same_tasks_history_and_all_cumulative_caps": true,
+        "start_epoch": 1788754607.524738,
+        "third_window_authorized": false,
+        "time_resource_added": true
+      },
+      "allowed_actions": [
+        "inspect_inputs",
+        "diagnose_horizons",
+        "condition_events",
+        "submit_research_report"
+      ],
+      "candidate_items_max": 1,
+      "query_items_max": 1,
+      "event_type_counts": {
+        "thread.started": 1,
+        "item.completed": 4,
+        "turn.started": 1,
+        "turn.completed": 1
+      },
+      "event_usage": [
+        {
+          "input_tokens": 45537,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 628,
+          "reasoning_output_tokens": 567
+        }
+      ],
+      "reconstructed_before_reported": 288637,
+      "reconstructed_before_exposure": 368637,
+      "reconstructed_before_headroom": 231363
+    },
+    {
+      "transport_ordinal": 13,
+      "kind": "continuation",
+      "id": "reference_v15_original4_001/continuation/reference_v15_original4_001_case_01_reference_transport_13",
+      "task_run_id": "reference_v15_original4_001_case_01_reference",
+      "round_index": 11,
+      "status": "completed",
+      "action_type": "diagnose_horizons",
+      "usage": {
+        "cached_input_tokens": 0,
+        "input_tokens": 48685,
+        "output_tokens": 423,
+        "reasoning_output_tokens": 362
+      },
+      "known_reported": 49108,
+      "unsettled_reserve": 0,
+      "duration_seconds": 23.484000000004016,
+      "dispatched_at": "2026-09-07T04:47:06.019544+00:00",
+      "completed_at": "2026-09-07T04:47:33.121821+00:00",
+      "response_json_bytes": 158,
+      "prompt_bytes": 130943,
+      "schema_bytes": 2572,
+      "prompt_hash_verified": true,
+      "public_history_items": 11,
+      "public_history_bytes": 119524,
+      "prior_response_items": 11,
+      "prior_response_bytes": 2047,
+      "ordinary_packet_bytes": 3337,
+      "contract_overlay_bytes": 4210,
+      "remaining": {
+        "candidates": 2,
+        "final_reports": 1,
+        "queries": 5
+      },
+      "continuation_resources": {
+        "next_call_reservation_tokens": 80000,
+        "no_retry_or_replacement": true,
+        "original_billing_unknown_reserve_tokens": 80000,
+        "original_deadline_epoch": 1788750083.6826499,
+        "reservation_is_not_invoice_cap": true,
+        "stage_nominal_headroom_tokens": 1985198,
+        "stage_transmissions_remaining": 56,
+        "stage_transmissions_used": 12,
+        "task_nominal_headroom_tokens": 185198,
+        "task_transmissions": {
+          "remaining": 5,
+          "used": 12
+        }
+      },
+      "supplemental_time_resources": {
+        "end_epoch": 1788776207.524738,
+        "new_phase_id": "v18s1",
+        "original_deadline_epoch": 1788750083.6826499,
+        "original_timed_stage": "expired_incomplete",
+        "same_tasks_history_and_all_cumulative_caps": true,
+        "start_epoch": 1788754607.524738,
+        "third_window_authorized": false,
+        "time_resource_added": true
+      },
+      "allowed_actions": [
+        "inspect_inputs",
+        "diagnose_horizons",
+        "condition_events",
+        "submit_research_report"
+      ],
+      "candidate_items_max": 1,
+      "query_items_max": 1,
+      "event_type_counts": {
+        "thread.started": 1,
+        "item.completed": 3,
+        "turn.started": 1,
+        "turn.completed": 1
+      },
+      "event_usage": [
+        {
+          "input_tokens": 48685,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 423,
+          "reasoning_output_tokens": 362
+        }
+      ],
+      "reconstructed_before_reported": 334802,
+      "reconstructed_before_exposure": 414802,
+      "reconstructed_before_headroom": 185198
+    },
+    {
+      "transport_ordinal": 14,
+      "kind": "continuation",
+      "id": "reference_v15_original4_001/continuation/reference_v15_original4_001_case_01_reference_transport_14",
+      "task_run_id": "reference_v15_original4_001_case_01_reference",
+      "round_index": 12,
+      "status": "completed",
+      "action_type": "diagnose_horizons",
+      "usage": {
+        "cached_input_tokens": 0,
+        "input_tokens": 51809,
+        "output_tokens": 303,
+        "reasoning_output_tokens": 242
+      },
+      "known_reported": 52112,
+      "unsettled_reserve": 0,
+      "duration_seconds": 20.89100000000326,
+      "dispatched_at": "2026-09-07T04:48:20.201240+00:00",
+      "completed_at": "2026-09-07T04:48:44.192058+00:00",
+      "response_json_bytes": 158,
+      "prompt_bytes": 141314,
+      "schema_bytes": 2572,
+      "prompt_hash_verified": true,
+      "public_history_items": 12,
+      "public_history_bytes": 129706,
+      "prior_response_items": 12,
+      "prior_response_bytes": 2236,
+      "ordinary_packet_bytes": 3337,
+      "contract_overlay_bytes": 4210,
+      "remaining": {
+        "candidates": 1,
+        "final_reports": 1,
+        "queries": 4
+      },
+      "continuation_resources": {
+        "next_call_reservation_tokens": 80000,
+        "no_retry_or_replacement": true,
+        "original_billing_unknown_reserve_tokens": 80000,
+        "original_deadline_epoch": 1788750083.6826499,
+        "reservation_is_not_invoice_cap": true,
+        "stage_nominal_headroom_tokens": 1936090,
+        "stage_transmissions_remaining": 55,
+        "stage_transmissions_used": 13,
+        "task_nominal_headroom_tokens": 136090,
+        "task_transmissions": {
+          "remaining": 4,
+          "used": 13
+        }
+      },
+      "supplemental_time_resources": {
+        "end_epoch": 1788776207.524738,
+        "new_phase_id": "v18s1",
+        "original_deadline_epoch": 1788750083.6826499,
+        "original_timed_stage": "expired_incomplete",
+        "same_tasks_history_and_all_cumulative_caps": true,
+        "start_epoch": 1788754607.524738,
+        "third_window_authorized": false,
+        "time_resource_added": true
+      },
+      "allowed_actions": [
+        "inspect_inputs",
+        "diagnose_horizons",
+        "condition_events",
+        "submit_research_report"
+      ],
+      "candidate_items_max": 1,
+      "query_items_max": 1,
+      "event_type_counts": {
+        "thread.started": 1,
+        "item.completed": 3,
+        "turn.started": 1,
+        "turn.completed": 1
+      },
+      "event_usage": [
+        {
+          "input_tokens": 51809,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 303,
+          "reasoning_output_tokens": 242
+        }
+      ],
+      "reconstructed_before_reported": 383910,
+      "reconstructed_before_exposure": 463910,
+      "reconstructed_before_headroom": 136090
+    },
+    {
+      "transport_ordinal": 15,
+      "kind": "continuation",
+      "id": "reference_v15_original4_001/continuation/reference_v15_original4_001_case_01_reference_transport_15",
+      "task_run_id": "reference_v15_original4_001_case_01_reference",
+      "round_index": 13,
+      "status": "completed",
+      "action_type": "inspect_inputs",
+      "usage": {
+        "cached_input_tokens": 0,
+        "input_tokens": 54900,
+        "output_tokens": 1032,
+        "reasoning_output_tokens": 949
+      },
+      "known_reported": 55932,
+      "unsettled_reserve": 0,
+      "duration_seconds": 43.04699999999866,
+      "dispatched_at": "2026-09-07T04:49:31.481334+00:00",
+      "completed_at": "2026-09-07T04:50:17.428546+00:00",
+      "response_json_bytes": 205,
+      "prompt_bytes": 151689,
+      "schema_bytes": 2531,
+      "prompt_hash_verified": true,
+      "public_history_items": 13,
+      "public_history_bytes": 139893,
+      "prior_response_items": 13,
+      "prior_response_bytes": 2425,
+      "ordinary_packet_bytes": 3337,
+      "contract_overlay_bytes": 4210,
+      "remaining": {
+        "candidates": 0,
+        "final_reports": 1,
+        "queries": 3
+      },
+      "continuation_resources": {
+        "next_call_reservation_tokens": 80000,
+        "no_retry_or_replacement": true,
+        "original_billing_unknown_reserve_tokens": 80000,
+        "original_deadline_epoch": 1788750083.6826499,
+        "reservation_is_not_invoice_cap": true,
+        "stage_nominal_headroom_tokens": 1883978,
+        "stage_transmissions_remaining": 54,
+        "stage_transmissions_used": 14,
+        "task_nominal_headroom_tokens": 83978,
+        "task_transmissions": {
+          "remaining": 3,
+          "used": 14
+        }
+      },
+      "supplemental_time_resources": {
+        "end_epoch": 1788776207.524738,
+        "new_phase_id": "v18s1",
+        "original_deadline_epoch": 1788750083.6826499,
+        "original_timed_stage": "expired_incomplete",
+        "same_tasks_history_and_all_cumulative_caps": true,
+        "start_epoch": 1788754607.524738,
+        "third_window_authorized": false,
+        "time_resource_added": true
+      },
+      "allowed_actions": [
+        "inspect_inputs",
+        "submit_research_report"
+      ],
+      "candidate_items_max": 1,
+      "query_items_max": 1,
+      "event_type_counts": {
+        "thread.started": 1,
+        "item.completed": 4,
+        "turn.started": 1,
+        "turn.completed": 1
+      },
+      "event_usage": [
+        {
+          "input_tokens": 54900,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1032,
+          "reasoning_output_tokens": 949
+        }
+      ],
+      "reconstructed_before_reported": 436022,
+      "reconstructed_before_exposure": 516022,
+      "reconstructed_before_headroom": 83978
+    }
+  ],
+  "actions": [
+    {
+      "round_index": 0,
+      "action_type": "inspect_inputs",
+      "request_hash": "e3cb2f658144410c44879f98fc287d71cea4a61dcde7459b346381404644edf2",
+      "query_table": "inputs",
+      "query_limit": 50,
+      "query_cursor_chars": 0,
+      "tool_status": "completed",
+      "page_offset": 0,
+      "page_total_rows": 1536,
+      "page_rows": 50,
+      "sub_attempt_count": 0,
+      "duplicate_of": null,
+      "observation_bytes": 17655,
+      "full_artifact_bytes": 17161,
+      "horizons_requested": 0
+    },
+    {
+      "round_index": 1,
+      "action_type": "diagnose_horizons",
+      "request_hash": "c9a79c9a1827db38d5c574b90b38731a40ac66ebad462a06df6866a3a01c9023",
+      "query_table": null,
+      "query_limit": null,
+      "query_cursor_chars": null,
+      "tool_status": "completed",
+      "page_offset": null,
+      "page_total_rows": null,
+      "page_rows": null,
+      "sub_attempt_count": 9,
+      "duplicate_of": null,
+      "observation_bytes": 10194,
+      "full_artifact_bytes": 8171413,
+      "horizons_requested": 3
+    },
+    {
+      "round_index": 2,
+      "action_type": "diagnose_horizons",
+      "request_hash": "893fdb30cbb8aec9c1dac208471a21a299b928c2e6e16e6e1ab806478800156f",
+      "query_table": null,
+      "query_limit": null,
+      "query_cursor_chars": null,
+      "tool_status": "completed",
+      "page_offset": null,
+      "page_total_rows": null,
+      "page_rows": null,
+      "sub_attempt_count": 9,
+      "duplicate_of": null,
+      "observation_bytes": 10175,
+      "full_artifact_bytes": 4849827,
+      "horizons_requested": 3
+    },
+    {
+      "round_index": 3,
+      "action_type": "diagnose_horizons",
+      "request_hash": "551dcaaaacbbc87f5a91b8cd9af5e6d1ae10addca9f2892b67976f5000fcd2e4",
+      "query_table": null,
+      "query_limit": null,
+      "query_cursor_chars": null,
+      "tool_status": "completed",
+      "page_offset": null,
+      "page_total_rows": null,
+      "page_rows": null,
+      "sub_attempt_count": 9,
+      "duplicate_of": null,
+      "observation_bytes": 10184,
+      "full_artifact_bytes": 4980925,
+      "horizons_requested": 3
+    },
+    {
+      "round_index": 4,
+      "action_type": "diagnose_horizons",
+      "request_hash": "b6bae3db3a341a3b054c3c0ecf2620c67579e77a41495f6dd9b87360442bcc73",
+      "query_table": null,
+      "query_limit": null,
+      "query_cursor_chars": null,
+      "tool_status": "completed",
+      "page_offset": null,
+      "page_total_rows": null,
+      "page_rows": null,
+      "sub_attempt_count": 9,
+      "duplicate_of": null,
+      "observation_bytes": 10194,
+      "full_artifact_bytes": 8146150,
+      "horizons_requested": 3
+    },
+    {
+      "round_index": 5,
+      "action_type": "diagnose_horizons",
+      "request_hash": "63fa0dcfeec36fc8c33a23460cb0e3b5e5ccc056e76bec623b3e43b9d24f8126",
+      "query_table": null,
+      "query_limit": null,
+      "query_cursor_chars": null,
+      "tool_status": "completed",
+      "page_offset": null,
+      "page_total_rows": null,
+      "page_rows": null,
+      "sub_attempt_count": 9,
+      "duplicate_of": null,
+      "observation_bytes": 10181,
+      "full_artifact_bytes": 4902485,
+      "horizons_requested": 3
+    },
+    {
+      "round_index": 6,
+      "action_type": "diagnose_horizons",
+      "request_hash": "6b8d73d355a4fa69f8cff219310aa18434cae94bce6db40eb94ab91a63755b23",
+      "query_table": null,
+      "query_limit": null,
+      "query_cursor_chars": null,
+      "tool_status": "completed",
+      "page_offset": null,
+      "page_total_rows": null,
+      "page_rows": null,
+      "sub_attempt_count": 9,
+      "duplicate_of": null,
+      "observation_bytes": 10180,
+      "full_artifact_bytes": 4903112,
+      "horizons_requested": 3
+    },
+    {
+      "round_index": 7,
+      "action_type": "diagnose_horizons",
+      "request_hash": "50450809c04515bc4b676455893b3bcd06129732ba8121593a6e56692854107a",
+      "query_table": null,
+      "query_limit": null,
+      "query_cursor_chars": null,
+      "tool_status": "completed",
+      "page_offset": null,
+      "page_total_rows": null,
+      "page_rows": null,
+      "sub_attempt_count": 9,
+      "duplicate_of": null,
+      "observation_bytes": 10190,
+      "full_artifact_bytes": 8308661,
+      "horizons_requested": 3
+    },
+    {
+      "round_index": 8,
+      "action_type": "diagnose_horizons",
+      "request_hash": "fe5f58914525e2ae37646a54acca39640e5aa811555fd683e46e7d8d0c08bc6e",
+      "query_table": null,
+      "query_limit": null,
+      "query_cursor_chars": null,
+      "tool_status": "completed",
+      "page_offset": null,
+      "page_total_rows": null,
+      "page_rows": null,
+      "sub_attempt_count": 9,
+      "duplicate_of": null,
+      "observation_bytes": 10179,
+      "full_artifact_bytes": 4945179,
+      "horizons_requested": 3
+    },
+    {
+      "round_index": 9,
+      "action_type": "diagnose_horizons",
+      "request_hash": "73fee3bfa6c51464fa35a7b00b403455baf374fd53a4832bd4252b4e9c2604b9",
+      "query_table": null,
+      "query_limit": null,
+      "query_cursor_chars": null,
+      "tool_status": "completed",
+      "page_offset": null,
+      "page_total_rows": null,
+      "page_rows": null,
+      "sub_attempt_count": 9,
+      "duplicate_of": null,
+      "observation_bytes": 10186,
+      "full_artifact_bytes": 5022187,
+      "horizons_requested": 3
+    },
+    {
+      "round_index": 10,
+      "action_type": "diagnose_horizons",
+      "request_hash": "115b8d9817b0f49fce636482332cece5bfed7627fa9cff7e0f7d2f8c3b4e5541",
+      "query_table": null,
+      "query_limit": null,
+      "query_cursor_chars": null,
+      "tool_status": "completed",
+      "page_offset": null,
+      "page_total_rows": null,
+      "page_rows": null,
+      "sub_attempt_count": 9,
+      "duplicate_of": null,
+      "observation_bytes": 10194,
+      "full_artifact_bytes": 8165265,
+      "horizons_requested": 3
+    },
+    {
+      "round_index": 11,
+      "action_type": "diagnose_horizons",
+      "request_hash": "eaa55e36a554b3bf88649ed4d6eb44dab863646c7aa3da0147f19afa60bfdb90",
+      "query_table": null,
+      "query_limit": null,
+      "query_cursor_chars": null,
+      "tool_status": "completed",
+      "page_offset": null,
+      "page_total_rows": null,
+      "page_rows": null,
+      "sub_attempt_count": 9,
+      "duplicate_of": null,
+      "observation_bytes": 10181,
+      "full_artifact_bytes": 4919093,
+      "horizons_requested": 3
+    },
+    {
+      "round_index": 12,
+      "action_type": "diagnose_horizons",
+      "request_hash": "e65e0829134d1197b46232d51b70de7c6e203dc4e0be014e7e0fd6e4cf4898d2",
+      "query_table": null,
+      "query_limit": null,
+      "query_cursor_chars": null,
+      "tool_status": "completed",
+      "page_offset": null,
+      "page_total_rows": null,
+      "page_rows": null,
+      "sub_attempt_count": 9,
+      "duplicate_of": null,
+      "observation_bytes": 10186,
+      "full_artifact_bytes": 4905549,
+      "horizons_requested": 3
+    },
+    {
+      "round_index": 13,
+      "action_type": "inspect_inputs",
+      "request_hash": "551ffb349b7901e48cc8856ee97f04a6712b020350cac36d90a84227e39e4437",
+      "query_table": "comparison_events",
+      "query_limit": 50,
+      "query_cursor_chars": 0,
+      "tool_status": "completed",
+      "page_offset": 0,
+      "page_total_rows": 770,
+      "page_rows": 50,
+      "sub_attempt_count": 0,
+      "duplicate_of": null,
+      "observation_bytes": 33609,
+      "full_artifact_bytes": 33114,
+      "horizons_requested": 0
+    }
+  ],
+  "summary": {
+    "transports": 15,
+    "completed": 14,
+    "reported_tokens": 491954,
+    "unknown_reserve": 80000,
+    "exposure_tokens": 571954,
+    "headroom": 28046,
+    "next_reserve": 80000,
+    "query_actions": 14,
+    "candidate_actions": 12,
+    "final_actions": 0,
+    "input_tokens": 482538,
+    "output_tokens": 9416,
+    "cached_input_tokens": 0
+  },
+  "restrictions": {
+    "answer_semantics_exported": false,
+    "condition_values_exported": false,
+    "private_reference_read": false,
+    "model_calls_added": 0,
+    "workbench_actions_added": 0,
+    "tests_or_demo_run": false
+  },
+  "source_file_hashes": {
+    "experiment_traces/meta_ashare_revision18/src/quanta_agents/meta/casebank_continuation.py": "6e38e602a1850930cd5bb2fe3d43f7f6a7b35e4c4fe62953506e759de04f9919",
+    "experiment_traces/meta_ashare_revision18/src/quanta_agents/meta/casebank_supplemental.py": "83e04e8875fe4ebf85ec5ab6ad931545cac8934e2f6cd90ae91d6993475aa392",
+    "experiment_traces/meta_ashare_revision18/src/quanta_agents/meta/store.py": "a722ca5256125f3eb10cedce51e3324f9eea8740672a6152597c795c3e2e9929",
+    "experiment_traces/meta_ashare_revision15/src/quanta_agents/meta/casebank_workbench.py": "ea2941fc5776e72c32a47f67b01c169b94a754945b0ce85ee8a3af8b04fb9ff3"
+  },
+  "read_artifact_sha256": {
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/campaign.json": "bc3ef9d9acdd918f0a7e28095654f890aeee4946f519a19ac7c4ac0ad6031448",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/calls/reference_v15_original4_001_case_01_reference_round_0-1/prompt.txt": "08f715a27ab3c14c5dea62e80991e6215a83dba5ba57953be5e8227d74df73bb",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/calls/reference_v15_original4_001_case_01_reference_round_0-1/output_schema.json": "84b3180cd9c56854e18912279896d3dade48cd29b6020a614015b6bda495cb9d",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/calls/reference_v15_original4_001_case_01_reference_round_0-1/codex_events.jsonl": "ee3b52d18bbe938741fe687925986cc7d2462859d0c8fff2658421dfda5d49a8",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/transport_corrections/reference_v15_case01_transport_correction_001/prompt.txt": "08f715a27ab3c14c5dea62e80991e6215a83dba5ba57953be5e8227d74df73bb",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/transport_corrections/reference_v15_case01_transport_correction_001/output_schema.json": "53055352dc067c530d0187d26a892e24482d1b864e9fcad4563fb25d088e66e0",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/transport_corrections/reference_v15_case01_transport_correction_001/codex_events.jsonl": "d6e856afb56852274abe4d342ef2997235db1c34bf47a85610f417e268c3a7ba",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_3/prompt.txt": "a04a7e1319a610766934ce86e641208fd1cb8e2e84f4599aca00cfbd56f192ce",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_3/output_schema.json": "53055352dc067c530d0187d26a892e24482d1b864e9fcad4563fb25d088e66e0",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_3/codex_events.jsonl": "62c1a3b1afd939d09362398097086a390262f8d3d6d5653529060e9e2f48e26b",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_4/prompt.txt": "cfe504e8ef86e452b81474046f76b3486f99fdcd0c75f46e2a31f2fb3c75d091",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_4/output_schema.json": "53055352dc067c530d0187d26a892e24482d1b864e9fcad4563fb25d088e66e0",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_4/codex_events.jsonl": "6b0857a282c60abddcc65878a44c4a8d63979957b126d497a0e2332747908175",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_5/prompt.txt": "11c3d48156c6969f24b71d0d4701a9d9ed7bcf78917a404cef15006b7972e96b",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_5/output_schema.json": "53055352dc067c530d0187d26a892e24482d1b864e9fcad4563fb25d088e66e0",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_5/codex_events.jsonl": "2d20107099bb1cd0c5c237691b9c9d4d3a7d70c1d98ab819a02386e09f7f09a4",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_6/prompt.txt": "1c92f45e60ea68148c4c77e7d14b2daa2b42c2489b4683272ded54eb60faf805",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_6/output_schema.json": "53055352dc067c530d0187d26a892e24482d1b864e9fcad4563fb25d088e66e0",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_6/codex_events.jsonl": "122188ee9f09041455fb00397c11f38b863cd804fac76d46e6eee888c5b80257",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_7/prompt.txt": "04ea84de5ec92ac44367a196b2cd850459217ebb4d920031ba8e89bb95ea426c",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_7/output_schema.json": "53055352dc067c530d0187d26a892e24482d1b864e9fcad4563fb25d088e66e0",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_7/codex_events.jsonl": "2a78d3d15af65a24f9b5608b31d3a0114aa66f2d7949a85743f68246ef4c4f42",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_8/prompt.txt": "ec467dc339878fc81de8aff4eb3409f2509491615d9ed60eb9fcca3e3b7b4c13",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_8/output_schema.json": "53055352dc067c530d0187d26a892e24482d1b864e9fcad4563fb25d088e66e0",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_8/codex_events.jsonl": "65c2b7b42a641665b3733f3cc5ff7654b79020044e7be419805a56a042243f81",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_9/prompt.txt": "b44a5d8d42e4ff6b505761e703b641c56343bf023ee5034f8e3bc84dc0c26ab7",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_9/output_schema.json": "53055352dc067c530d0187d26a892e24482d1b864e9fcad4563fb25d088e66e0",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_9/codex_events.jsonl": "e647242aa4b9153e6f4d02f650795e487373e49664a9f3db231e699e17371b1b",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_10/prompt.txt": "7d25e4a62f958d7072d98a379d2eb5b168b924ea372b47445338b8a3c29db6de",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_10/output_schema.json": "53055352dc067c530d0187d26a892e24482d1b864e9fcad4563fb25d088e66e0",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_10/codex_events.jsonl": "0e7d45901148ff4f64cc602ba54fd9774f69200908be5bc081cec6f49e1dafcc",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_11/prompt.txt": "cec91cd21e6abd120e99d9b95e2d12748561b702bf70d6db0572f04e35bf095e",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_11/output_schema.json": "53055352dc067c530d0187d26a892e24482d1b864e9fcad4563fb25d088e66e0",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_11/codex_events.jsonl": "41fe0540b702ee54df48b323f9f2e29f8eb0f81864bb701754b32aee9ee55197",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_12/prompt.txt": "cf406d7563935a48291ef05534672b54b9e215e74be931cbac090b69fe477bb6",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_12/output_schema.json": "53055352dc067c530d0187d26a892e24482d1b864e9fcad4563fb25d088e66e0",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_12/codex_events.jsonl": "6235b24a42af48beec225b756f7d717848f0ce5a6b168974f3c78ead06c6e480",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_13/prompt.txt": "1a159c2602c61b9f9e4d95b1cc121c86ea53f9c8f5126687df437898cb6f8641",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_13/output_schema.json": "53055352dc067c530d0187d26a892e24482d1b864e9fcad4563fb25d088e66e0",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_13/codex_events.jsonl": "eaf87ebdf037a01cd899d137dc5c915c67c2578ac311ef4eedeacfb8f3ebe881",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_14/prompt.txt": "3eeca35230d80e63e299065147227458f45db3b5b9044d9ad661895777ac1af3",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_14/output_schema.json": "53055352dc067c530d0187d26a892e24482d1b864e9fcad4563fb25d088e66e0",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_14/codex_events.jsonl": "2bfa0371ee59d5c1d8cfaa720b4c198022eaa8c07451d0519b3610937f80b8f2",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_15/prompt.txt": "f4e98f8cc7d359df6bb8eecb8359567c837963e8c4a3e67df63cd29e03a771c6",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_15/output_schema.json": "77088859f405d93f2ba47219672c59dc2500bff603c6a31862dc9c8ee1d087aa",
+    "experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/continuations/v17c1/calls/reference_v15_original4_001_case_01_reference_transport_15/codex_events.jsonl": "8e40f50dc195d41ac8215a6c47c52326b42dd27d9790d701d269a847c5e8252b"
+  },
+  "ledger_sha256_before": "dcad0f957f9fc6d107f73681d9a064ecf1676a04d6c889c07c8e77177deb5688",
+  "ledger_sha256_after": "dcad0f957f9fc6d107f73681d9a064ecf1676a04d6c889c07c8e77177deb5688"
+}

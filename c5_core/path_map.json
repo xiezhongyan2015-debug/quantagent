@@ -1,0 +1,14 @@
+{
+ "D:/大学/金融投资与量化/ai策略迭代开发/QuantaAgents": "code/QuantaAgents",
+ "D:/大学/金融投资与量化/crypto/polymarket加密货币涨跌套利/scripts/alpha_formula_reference": "data/ext/alpha_formula_reference",
+ "D:/大学/金融投资与量化/因子日历测试": "data/ext/因子日历测试",
+ "D:/大学/金融投资与量化/stock/stock-trading-data-2025-12-23N": "data/vendor/stock-trading-data-2025-12-23N",
+ "D:/A股 1min 数据 2000-2026年": "data/minute/A股 1min 数据 2000-2026年",
+ "F:/A股 1min 数据 2000-2026年": "data/minute/A股 1min 数据 2000-2026年",
+ "D:/qlib_data": "data/qlib_data",
+ "F:/A_Layer_Live": "data/A_Layer_Live",
+ "F:/A_Layer_Research": "data/A_Layer_Research",
+ "F:/A_Layer_OOS": "data/A_Layer_OOS",
+ "F:/TushareData": "data/TushareData",
+ "F:/ChoiceData": "data/ChoiceData"
+}

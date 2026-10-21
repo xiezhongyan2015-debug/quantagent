@@ -1,0 +1,114 @@
+{
+  "files": {
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T172850309804Z\\campaign.json": {
+      "sha256": "eb3e044501ce818b06d39b1fc8f1a7586a158285227325cad226c001a5bf1228",
+      "bytes": 22676
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T172850309804Z\\calls\\calibration_01_round_6-1\\response.json": {
+      "sha256": "35a081b0ca4c6b95201514c81159b5bcec4811ce6cf8494b25c71da1c2dcb82e",
+      "bytes": 9449
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T172850309804Z\\calls\\calibration_01_round_6-1\\receipt.json": {
+      "sha256": "43b91a834fd0771dc54ee66204e4594be689372f5b766e6bfdc99c81b24f65a1",
+      "bytes": 17400
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T172850309804Z\\calls\\calibration_01_round_6-1\\output_schema.json": {
+      "sha256": "854855d0e3d09f109564cfe8b1f16b8efc35f139e8826d795967ee096bb9bb66",
+      "bytes": 2821
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T172850309804Z\\calls\\calibration_01_round_6-1\\codex_events.jsonl": {
+      "sha256": "1c8854356e97c03a99b30ef3f832a4c13092b512f7c5d9d23faf173c56df0aa2",
+      "bytes": 11441
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T172850309804Z\\calls\\calibration_01_round_6-1\\codex_request.json": {
+      "sha256": "30cd349693159135ede68921e840bda4e779de0273bf4c4ddf77ec3d857a6488",
+      "bytes": 3199
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T172850309804Z\\calls\\calibration_01_round_6-1\\codex_stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T172850309804Z\\calls\\calibration_01_round_6-1\\intent.json": {
+      "sha256": "2fe9ef2c9e6dd9d1f0c1808af782cb3fa9ef5631879dc9e686c864c36d82e329",
+      "bytes": 3638
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T172850309804Z\\calls\\calibration_01_round_6-1\\process_exit.json": {
+      "sha256": "b018a8365da11938c59e459a8522c8be609cea518114f12388e0b8187d0c6fa9",
+      "bytes": 265
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T172850309804Z\\calls\\calibration_01_round_6-1\\prompt.txt": {
+      "sha256": "363a94863d70cba329dd3c3a7959a8dee9c6d87efcafb69842ecc146432cad56",
+      "bytes": 55213
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T172850309804Z\\cases\\calibration_01\\public\\packet.json": {
+      "sha256": "00659e319e2038e9726c1d117f8122f7b8a80633242489ba778a8e440c395b0e",
+      "bytes": 5794
+    },
+    "experiment_traces\\meta_calibration_prototypes\\attempts\\20260906T164840172917Z\\calibration_01\\evaluator_private\\independent_accounting.json": {
+      "sha256": "70ecceede40aee117105c8b7b3961211f7209c3ab3058945173b798d5cd0c341",
+      "bytes": 11682
+    },
+    "experiment_traces\\meta_calibration_prototypes\\attempts\\20260906T164840172917Z\\calibration_01\\evaluator_private\\independent_identifiability.json": {
+      "sha256": "e205acdb776b7b3a6000dcf94fa7def0723d82666f5c5d2bdedc649fa9ffd39f",
+      "bytes": 49018
+    },
+    "experiment_traces\\meta_calibration_prototypes\\attempts\\20260906T164840172917Z\\calibration_01\\evaluator_private\\independent_horizons.json": {
+      "sha256": "c643cc1c28b21c88eb76d566fc4ac5a8d5ae8899b05bde6194a7de174ac26fb4",
+      "bytes": 1201
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T172850309804Z\\calls\\calibration_02_round_5-1\\response.json": {
+      "sha256": "cf052f729711c1d6052c4fc76b472e1be366f3f69422141c4a80773d4196a364",
+      "bytes": 9136
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T172850309804Z\\calls\\calibration_02_round_5-1\\receipt.json": {
+      "sha256": "af9da04f8708652f2418e883ad3f9b6d13a5bcfced4516484c7b442142c0b78c",
+      "bytes": 17003
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T172850309804Z\\calls\\calibration_02_round_5-1\\output_schema.json": {
+      "sha256": "83e922997b4d5bda6dbbd91da014cd26b79b7454e0ded227b0ac7d7b0c9aef3e",
+      "bytes": 2746
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T172850309804Z\\calls\\calibration_02_round_5-1\\codex_events.jsonl": {
+      "sha256": "4952159fd49886476cad1c72206b96c70d9e9502e69189c89f12b4ce46834db6",
+      "bytes": 11255
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T172850309804Z\\calls\\calibration_02_round_5-1\\codex_request.json": {
+      "sha256": "31a8ade21fa7941fe046d4c87788f6cc137cab11c7b78031dc9e5194ae8f2f2b",
+      "bytes": 3199
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T172850309804Z\\calls\\calibration_02_round_5-1\\codex_stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T172850309804Z\\calls\\calibration_02_round_5-1\\intent.json": {
+      "sha256": "eea885bc99fcafd83ba5a56e2d42fcc4855497c705922433e179b5a7f5cec398",
+      "bytes": 3567
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T172850309804Z\\calls\\calibration_02_round_5-1\\process_exit.json": {
+      "sha256": "45aeffe276098982d5a824e8fb1441f47f74d219f7dcb3cb22f1c9ec71166499",
+      "bytes": 252
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T172850309804Z\\calls\\calibration_02_round_5-1\\prompt.txt": {
+      "sha256": "f83ad2c44439177385437fd9a33f287b45bfa25dff636ea5e01d5c5fae582076",
+      "bytes": 34385
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T172850309804Z\\cases\\calibration_02\\public\\packet.json": {
+      "sha256": "7ebfdf91fb20a71450c538e3735247d15c5a509ff0f4fdc9bb774f459700df6a",
+      "bytes": 5163
+    },
+    "experiment_traces\\meta_calibration_prototypes\\attempts\\20260906T164840172917Z\\calibration_02\\evaluator_private\\independent_accounting.json": {
+      "sha256": "b5c6df288ea74b782e4dd24397629dccace39aa6fdb2bcf3a47dddb492c40ee9",
+      "bytes": 9780
+    },
+    "experiment_traces\\meta_calibration_prototypes\\attempts\\20260906T164840172917Z\\calibration_02\\evaluator_private\\independent_identifiability.json": {
+      "sha256": "1fccc138b822d8b6ee453b977a4c24f234fb3c2cf8bc226fab2e66cfb0334a5f",
+      "bytes": 27209
+    }
+  },
+  "audit_source_sha256": "bf4231169437bd42e07687882912c3e6ab1a98ea7a43292648ab5654e7def8f4",
+  "database_access": "sqlite URI mode=ro, case-specific SELECT only; logical snapshots hashed",
+  "original_campaign_modified": false,
+  "provider_identity_independently_attested": false,
+  "engineering_model_usage": "not measured by this research ledger",
+  "new_research_gateway_calls": 0
+}

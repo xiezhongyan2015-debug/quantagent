@@ -1,0 +1,139 @@
+{
+  "output": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/output/reports/meta_framework_redesign_20260906.html",
+  "sha256": "13cf810112f6c54013bdad487905e2ebcde6faa845f7334d0d4fcd62a512809e",
+  "source_sha256": "4e263aa54acb6f3f18bca6a0c478b85447d6816288ced588cc7f23d3d5d7e44a",
+  "sections": 12,
+  "tables": 8,
+  "links": [
+    {
+      "label": "旧批次审计",
+      "url": "../../docs/META_ASHARE_DEV_BATCH_01_REPORT.md"
+    },
+    {
+      "label": "案例动态范围核查",
+      "url": "../../experiment_traces/meta_q_controller_review/dev_20260906_01_case_dynamic_range.json"
+    },
+    {
+      "label": "第六版报告",
+      "url": "../../docs/META_REVISION6_INTEGRATION_REPORT.md"
+    },
+    {
+      "label": "本次网关审计",
+      "url": "../../experiment_traces/meta_q_gateway_audit/20260906T143902468130Z/audit.json"
+    },
+    {
+      "label": "OpenAI评测指南",
+      "url": "https://developers.openai.com/api/docs/guides/evaluation-best-practices"
+    },
+    {
+      "label": "GAIA原论文",
+      "url": "https://arxiv.org/html/2311.12983v1"
+    },
+    {
+      "label": "Harness演化评测研究",
+      "url": "https://arxiv.org/html/2607.12227v2"
+    },
+    {
+      "label": "AHE原论文",
+      "url": "https://arxiv.org/html/2604.25850v4"
+    },
+    {
+      "label": "AI Agents That Matter",
+      "url": "https://arxiv.org/html/2407.01502v1"
+    },
+    {
+      "label": "Harness演化评测研究",
+      "url": "https://arxiv.org/html/2607.12227v2"
+    },
+    {
+      "label": "少量运行评测研究",
+      "url": "https://arxiv.org/html/2108.13264"
+    },
+    {
+      "label": "项目时间边界",
+      "url": "../../docs/META_ASHARE_BENCHMARK_CASES.md"
+    },
+    {
+      "label": "作者对自适应留出的说明",
+      "url": "https://research.google/blog/the-reusable-holdout-preserving-validity-in-adaptive-data-analysis/"
+    },
+    {
+      "label": "时间序列评测原研究",
+      "url": "https://kt.ijs.si/igor_mozetic/papers/CerTorMoz-TimeSer-MACH-20.pdf"
+    },
+    {
+      "label": "DSR作者原文",
+      "url": "https://www.davidhbailey.com/dhbpapers/deflated-sharpe.pdf"
+    },
+    {
+      "label": "PBO作者原文",
+      "url": "https://www.davidhbailey.com/dhbpapers/backtest-prob.pdf"
+    },
+    {
+      "label": "White原论文",
+      "url": "https://doi.org/10.1111/1468-0262.00152"
+    },
+    {
+      "label": "原价组合模拟报告",
+      "url": "../../docs/META_RAW_PORTFOLIO_SIMULATOR.md"
+    },
+    {
+      "label": "L2样本核查",
+      "url": "../../docs/META_L2_CONTRACT_SAMPLE_AUDIT.md"
+    },
+    {
+      "label": "L2特征契约",
+      "url": "../../docs/META_L2_DAILY_FEATURES.md"
+    },
+    {
+      "label": "R&D-Agent-Quant原论文",
+      "url": "https://arxiv.org/html/2505.15155v2"
+    },
+    {
+      "label": "Microsoft官方项目",
+      "url": "https://github.com/microsoft/RD-Agent"
+    },
+    {
+      "label": "长期任务harness经验",
+      "url": "https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents"
+    },
+    {
+      "label": "LangGraph持久化文档",
+      "url": "https://docs.langchain.com/oss/python/langgraph/persistence"
+    }
+  ],
+  "external_sources": 15,
+  "local_links_verified": true,
+  "html_bytes": 49220,
+  "visual_review": {
+    "kind": "sampled",
+    "browser": "Codex IAB",
+    "viewport": [
+      1280,
+      720
+    ],
+    "areas": [
+      "opening",
+      "architecture flow",
+      "case calibration table",
+      "comparison interaction",
+      "implementation table",
+      "closing and source notes"
+    ],
+    "observed_defects": [],
+    "checks": {
+      "mechanism_panel_switch": true,
+      "source_notes_expand": true,
+      "sections": 12,
+      "tables": 8,
+      "unresolved_nav_anchors": 0,
+      "body_width": 1265,
+      "viewport_width": 1280
+    },
+    "limits": "No exhaustive full-page or mobile/print visual inspection claimed."
+  },
+  "local_http_verification": {
+    "count": 9,
+    "all_200": true
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "version": "casebank_research_campaign_v1",
+  "run_id": "reference_v15_original4_001",
+  "plan_hash": "3cda519a83180b6b5b4fe96c447a406efee82b5df73b31cc450fd10555437173",
+  "status": "running",
+  "pause_requested": false,
+  "tasks": {
+    "reference_v15_original4_001_case_01_reference": {
+      "status": "ready",
+      "round_index": 0,
+      "queries": 0,
+      "candidates": 0,
+      "finals": 0,
+      "usage": {
+        "reported_tokens": 0,
+        "reserved_tokens": 0,
+        "unsettled_calls": 0,
+        "exposure_tokens": 0
+      },
+      "current_call": null,
+      "soft_warning": false
+    },
+    "reference_v15_original4_001_case_02_reference": {
+      "status": "ready",
+      "round_index": 0,
+      "queries": 0,
+      "candidates": 0,
+      "finals": 0,
+      "usage": {
+        "reported_tokens": 0,
+        "reserved_tokens": 0,
+        "unsettled_calls": 0,
+        "exposure_tokens": 0
+      },
+      "current_call": null,
+      "soft_warning": false
+    },
+    "reference_v15_original4_001_case_03_reference": {
+      "status": "ready",
+      "round_index": 0,
+      "queries": 0,
+      "candidates": 0,
+      "finals": 0,
+      "usage": {
+        "reported_tokens": 0,
+        "reserved_tokens": 0,
+        "unsettled_calls": 0,
+        "exposure_tokens": 0
+      },
+      "current_call": null,
+      "soft_warning": false
+    },
+    "reference_v15_original4_001_case_04_reference": {
+      "status": "ready",
+      "round_index": 0,
+      "queries": 0,
+      "candidates": 0,
+      "finals": 0,
+      "usage": {
+        "reported_tokens": 0,
+        "reserved_tokens": 0,
+        "unsettled_calls": 0,
+        "exposure_tokens": 0
+      },
+      "current_call": null,
+      "soft_warning": false
+    }
+  },
+  "current_task": "reference_v15_original4_001_case_01_reference",
+  "calls": [],
+  "actions": {},
+  "usage": {
+    "reported_tokens": 0,
+    "reserved_tokens": 0,
+    "unsettled_calls": 0,
+    "exposure_tokens": 0
+  },
+  "budget": {
+    "per_task_max_calls": 17,
+    "max_queries_per_task": 16,
+    "max_candidates_per_task": 12,
+    "max_finals_per_task": 1,
+    "max_attempts_per_step": 1,
+    "max_calls": 68,
+    "hard_tokens": 2400000,
+    "per_task_hard_tokens": 600000,
+    "reserve_tokens_per_call": 80000,
+    "soft_tokens": 300000,
+    "max_call_seconds": 3600,
+    "max_runtime_seconds": 21600,
+    "max_public_context_bytes": 1048576
+  },
+  "elapsed_seconds": 480.74385261535645,
+  "dispatch_blocked": false,
+  "dispatch_blocked_reasons": [],
+  "controller_status": {
+    "meaning": "running means permission, not worker liveness",
+    "worker_liveness": "not_verified"
+  },
+  "registry_scope": "Only this new casebank registry, not diagnostic campaigns or external accounts.",
+  "budget_scope": "Nominal stage/task admission; not a provider invoice cap. Engineering usage is separate.",
+  "execution_valid": false,
+  "hidden_control_qualified": false,
+  "architecture_comparison_completed": false
+}

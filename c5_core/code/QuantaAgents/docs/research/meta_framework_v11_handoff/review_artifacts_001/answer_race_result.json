@@ -1,0 +1,16 @@
+{
+  "status": "reproduced_display_identity_race",
+  "afterSecond": {
+    "label": "call_B · 字符 1—8 / 8",
+    "text": "ANSWER_B"
+  },
+  "afterLateFirst": {
+    "label": "call_B · 字符 1—8 / 8",
+    "text": "ANSWER_A"
+  },
+  "explanation": "A delayed earlier answer overwrites newer B selection and is labelled B.",
+  "network_calls": 0,
+  "real_campaign_reads": 0,
+  "model_calls": 0,
+  "source_modified": false
+}

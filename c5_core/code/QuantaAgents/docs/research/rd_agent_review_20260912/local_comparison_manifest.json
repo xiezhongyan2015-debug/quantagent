@@ -1,0 +1,38 @@
+[
+  {
+    "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/master.md",
+    "sha256": "723d8bd03e80080919745d0c211442dca92b2149540b1b99c9f9b652340dcc69"
+  },
+  {
+    "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/src/quanta_agents/meta_v9/study.py",
+    "sha256": "820a3c0102178387bb4a1566d327a6ea7bb8348bfb74267e5065f38a56a55f55"
+  },
+  {
+    "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/src/quanta_agents/meta_v9/range_study.py",
+    "sha256": "15b0acb6b3368fc1f32e03b63f08c691bb937dcc129d423bbbea9b0d815d57fe"
+  },
+  {
+    "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/src/quanta_agents/meta_v9/ranges.py",
+    "sha256": "30874b7b7394b915295146bbec9121674863843275414457b67b001b51f20fc8"
+  },
+  {
+    "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/src/quanta_agents/meta_v9/batch_compute.py",
+    "sha256": "a8ef17d89f1447f1f6cb63f0e8e8c3bec165565c2651fa051f4527b207520cef"
+  },
+  {
+    "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_v9/README.md",
+    "sha256": "05ee7047c37547da38414bbf45fa7f1e8145177c1163db2943a6b82516edf043"
+  },
+  {
+    "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_v9/ACCEPTANCE.md",
+    "sha256": "9f40bd9909ee5818638b4108ba8b27c3ab56107ed677f7df53a3cae84e4ee55d"
+  },
+  {
+    "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/src/quanta_agents/meta_v7/revisions.py",
+    "sha256": "54849021401aa2130c25420a4e3554c12ec83f8b80fd65b547e78a14a0d61c4c"
+  },
+  {
+    "path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/src/quanta_agents/meta_v7/decision_evidence.py",
+    "sha256": "f636cd17ac39e93e3f5e8eb43642c295d43290e7af013c65ba3ddf18b507e41e"
+  }
+]

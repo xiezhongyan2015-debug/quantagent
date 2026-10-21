@@ -1,0 +1,48 @@
+{
+  "recorded_at": "2026-09-06T22:55:29.543018+00:00",
+  "status": "root_monitor_engineering_partial_waiting_real_controller_integration",
+  "source": "experiment_traces/meta_ashare_revision17/src/quanta_agents/meta/diagnostic_monitor.py",
+  "current_source_sha256": "8ed50b35ccbe9f5064f43a07e6204755869fd5b3f1b1ff6ce665bc2fdc315fc2",
+  "evidence": {
+    "experiment_traces/meta_ashare_revision17/continuation_monitor_validation/001_before/receipt.json": "fd2db46544a1ee315b61760319ffe9ba486c5bd7dd5660d43b1ee14334c596f1",
+    "experiment_traces/meta_ashare_revision17/continuation_monitor_validation/003_pending_before/receipt.json": "bbea56c264d7735c9c38cd0b21462ba2ffca0dfc4a96d9bb98fcf0372cd2ad07",
+    "experiment_traces/meta_ashare_revision17/continuation_monitor_validation/004_root/receipt.json": "73a9be111fecc09d1b4325e18294885775f4209268156bc59090fec8608c3f1f",
+    "experiment_traces/meta_ashare_revision17/continuation_monitor_js/001_root/receipt.json": "6074c9ca81d58d7f11a2aab8b87953089be20c4890622a3dc996a258df5f4874",
+    "experiment_traces/meta_casebank_continuation_preparations/reference_v15_original4_001_preservation_001/receipt.json": "5087b3faf33fc8ce21d713635d29eb0af05c695339f9711a21a34cf8dee801f7"
+  },
+  "checks": {
+    "first_missing_continuation_projection": {
+      "failed": 1
+    },
+    "first_transport_masks_saved_corrected_same_round": {
+      "failed": 1
+    },
+    "root_latest_python": {
+      "passed": 12,
+      "scope": "literal valid/invalid projection through real temporary SQLite and ephemeral HTTP server; NOT actual continuation controller integration"
+    },
+    "javascript": {
+      "inherited_async": 7,
+      "inherited_transport": 3,
+      "new_observation_identity": 5,
+      "scope": "extracted page before not_started label addition; current page requires final confirmation"
+    }
+  },
+  "implemented": [
+    "同一原预算合并原请求、纠错与续传，交叉核对会计汇总",
+    "新治理后态覆盖显示，原阶段状态另列，工作进程存活不从running推断",
+    "同一语义轮取最近保存传输，保留原失败行",
+    "模型回答与已公开工具结果分开按页读取，类型、所选任务/调用和异步时序核验",
+    "HTTP精确参数、无写连接与原件hash验证"
+  ],
+  "real_dispatch_permitted": false,
+  "monitor_deployed_version": "v16",
+  "actual_workbench_actions": 0,
+  "formal_target_success": false,
+  "self_check": {
+    "assessment": "两个实际显示失败有原始凭证，12项受限接线检查通过；费用合并与公开结果类型已可验证。",
+    "defects_uncertainty": "真实continuation控制器集成、全部相关旧监控回归和最终源浏览器检查尚未完成；不将mock projection通过写成正式验收。",
+    "next_step": "作者与独立控制器反例收口后做一次相关联合验证，再切换唯一既有监控并浏览器实测。",
+    "falsifiers": "老错误遮住新回答、历史预算少计、多算纠错、另题结果混入、公开工具结果重新计算或把running当进程存活，均阻止上线。"
+  }
+}

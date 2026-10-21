@@ -1,0 +1,30 @@
+{
+  "input_fraction_of_known_tokens": 0.9808599991056074,
+  "last_public_history_fraction_prompt_bytes": 0.9222356268417617,
+  "last_prior_response_fraction_prompt_bytes": 0.015986656909861625,
+  "continuation_prompt_bytes_sum": 1162693,
+  "continuation_public_history_bytes_sum": 1024075,
+  "mean_input_token_increment": 3103,
+  "median_diagnostic_observation_bytes": 10185.0,
+  "diagnostic_sub_attempts": 108,
+  "horizons_requested": 36,
+  "known_duration_seconds_sum": 462.3890000000101,
+  "first_nominal_two_reserve_closing_fence": {
+    "transport_ordinal": 14,
+    "round_index": 12,
+    "headroom": 136090,
+    "remaining": {
+      "candidates": 1,
+      "final_reports": 1,
+      "queries": 4
+    },
+    "exploration_reserve": 80000,
+    "closing_reserve": 80000,
+    "interpretation": "counterfactual local admission classification only; no alternate model action or price is inferred"
+  },
+  "last_prompt_deadline_present": true,
+  "last_dispatch_seconds_before_phase_end": 19636.043404102325,
+  "all_known_usage_matches_saved_turn": true,
+  "all_continuation_final_available": true,
+  "all_continuation_budget_fields_present": true
+}

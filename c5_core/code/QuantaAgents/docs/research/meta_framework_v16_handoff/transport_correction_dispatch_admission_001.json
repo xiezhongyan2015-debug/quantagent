@@ -1,0 +1,45 @@
+{
+  "kind": "transport_correction_dispatch_admission",
+  "admission_id": "reference_v15_case01_explicit_transport_correction_001",
+  "recorded_at": "2026-09-06T22:17:25.006120+00:00",
+  "ready": true,
+  "real_dispatch_authorized": true,
+  "permit_hash": "963bd640f0241ed30902e6bbaba500b1a08c1ff31a772dba2a17791c9ae3a6eb",
+  "base_plan_hash": "3cda519a83180b6b5b4fe96c447a406efee82b5df73b31cc450fd10555437173",
+  "source_hash": "adffb3cde3b96f279f1f024d29f7e0aa1f6da330976c62a340ab4bbd51cf6c01",
+  "snapshot_source_hash": "d12870162ece3d934afcff4e087dc9805bbf676cc617d9b5a783e69540b0dffd",
+  "entrypoint_sha256": "f19128e1476c67b74394c3dc549fa50f85f33b553bb39340c9140151a577908b",
+  "provider_executable": {
+    "path": "C:\\Users\\xiezh\\AppData\\Local\\OpenAI\\Codex\\bin\\27d6a192e9c98618\\codex.exe",
+    "sha256": "a1cf6360ca71918d5466bc3a32d9f18b7044c9128756d1949e715d277b88c9b6",
+    "bytes": 295408944
+  },
+  "controller_thread_id": "01a0774d-4327-7701-948f-2796de6fccd3",
+  "no_inflight_checked": true,
+  "exclusive_controller_checked": true,
+  "dispatch_lease_checked_at": "2026-09-06T22:17:25.006120+00:00",
+  "dispatch_scope": "Exactly one explicit second transport under the original budget, preserving first failure and unknown80000. Any outcome stops; no Workbench action or further model call.",
+  "policy_exception": "one_explicit_second_transport",
+  "new_provider_requests_max": 1,
+  "original_failure_debit_retained": true,
+  "workbench_actions_authorized": 0,
+  "expected_original_plus_new_calls": 2,
+  "minimum_reserved_exposure_before_provider": 160000,
+  "original_deadline_epoch": 1788750083.6826499,
+  "provider_compatibility_verified": false,
+  "formal_success_denominator_increment": 0,
+  "evidence_sha256": {
+    "experiment_traces\\meta_ashare_revision16\\validation_artifacts\\acceptance_002\\receipt.json": "e8cb1b479624131e043267966be276c326837e553e0b4265cb02cb6bf24e8349",
+    "docs\\research\\meta_framework_v16_handoff\\transport_permit_scope_report_001.json": "ee587d6bbd90304c352e40244c4722ce1a263a674bfd00431826378574568093",
+    "docs\\research\\meta_framework_v16_handoff\\schema_admission_independent_review_001.md": "5d6695a6abfd6680c800abd8e9aa7b4697cc4e4684e6db94c7ac23e50abfbeda",
+    "docs\\research\\meta_framework_v16_handoff\\transport_correction_independent_review_001.md": "19a6d0f2d15caf835560a782b7c57e67ed37f248e3b1698f404eea571ea48b3b",
+    "experiment_traces\\meta_diagnostic_monitor_v16\\browser_check_001.json": "a7c0c25aa76094f9c18bc83850af6cd56a75588cf2080bf64c1d3d877b0a4dd4",
+    "docs\\research\\meta_framework_v16_handoff\\correction_pre_admission_process_001.json": "fa4f6bc7fa07b86ca6ddd38bbf2901c87c760db16585396c282e9f3070c05f19",
+    "experiment_traces\\meta_transport_correction_preparations\\reference_v15_original4_001_permit_001\\permit.json": "5af20e57af525105fff9484d2c763282e9edc377282f3bf80f874c76e6a1198c"
+  },
+  "self_check": {
+    "assessment": "Final engineering receipts, unchanged original bytes/state, exact scope, actual GUI, native executable, current process absence and registry lease were verified. Only one protocol correction is admitted.",
+    "next_step": "Read-only concrete controller check then a single root worker; save outcome and stop.",
+    "falsifiers": "Controller refusal, source/identity drift, existing reservation/process, expired original clock, provider rejection or incomplete receipt ends this permission without automatic reissue."
+  }
+}

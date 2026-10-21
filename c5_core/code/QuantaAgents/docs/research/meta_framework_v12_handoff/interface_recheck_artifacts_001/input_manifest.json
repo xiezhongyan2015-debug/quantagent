@@ -1,0 +1,594 @@
+{
+  "files": {
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\post_run_frozen_records_001.json": {
+      "sha256": "ae0db82a8883bc20bc8162b8b66841e6a1b2d04bf67e3fdbed9976b1968ba50b",
+      "bytes": 17461
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_0-1\\codex_events.jsonl": {
+      "sha256": "7118f523c38e680b03300996c7d50f2305bbb5b9b88154e3f64a81e45283b7b7",
+      "bytes": 850
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_0-1\\codex_request.json": {
+      "sha256": "28ab737481faa485f837ec5b3c1152a12b0ad830c74bc3c70a87850097abd29c",
+      "bytes": 3199
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_0-1\\codex_stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_0-1\\intent.json": {
+      "sha256": "d23a151f95554b0ab84037f14d82c5882aae81376d8bdbbdda79bf3ee88dc36c",
+      "bytes": 3638
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_0-1\\output_schema.json": {
+      "sha256": "854855d0e3d09f109564cfe8b1f16b8efc35f139e8826d795967ee096bb9bb66",
+      "bytes": 2821
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_0-1\\process_exit.json": {
+      "sha256": "f15cc35481bb57e9bf5b56a95922086731bf3a2a8b4b4cdc063e70eb8fafdbde",
+      "bytes": 265
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_0-1\\prompt.txt": {
+      "sha256": "4b7543c2aa1c5ea240ae856b723e88ffb7a328a2899158587f62885b7f47d0e4",
+      "bytes": 11895
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_0-1\\receipt.json": {
+      "sha256": "841267f62c187318dae09f422d18ace041c23bfb112d4221c72105e3346939ad",
+      "bytes": 8083
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_0-1\\response.json": {
+      "sha256": "57d132c2ba32ad41b5324f3a2c81dca2ea1184930bc93ae8e5ba24fc863805cb",
+      "bytes": 136
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_1-1\\codex_events.jsonl": {
+      "sha256": "42b6e43ad3847e0e408ae19e87d79cb47b98a11446a81faa2553b321307437d6",
+      "bytes": 861
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_1-1\\codex_request.json": {
+      "sha256": "917c1ef7c6efb53bf5009d2dab240ba9f86ebfcf3ddd950799de392b76200c6d",
+      "bytes": 3199
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_1-1\\codex_stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_1-1\\intent.json": {
+      "sha256": "78a8721f8afcf9f06c2312423cf022093d86c09c3955ba735cec2fadae72e50d",
+      "bytes": 3638
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_1-1\\output_schema.json": {
+      "sha256": "854855d0e3d09f109564cfe8b1f16b8efc35f139e8826d795967ee096bb9bb66",
+      "bytes": 2821
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_1-1\\process_exit.json": {
+      "sha256": "4ee2dc00b45c2b207f5ac66ed1761cde4679d575c8214acd8e137d0e66c16a6b",
+      "bytes": 265
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_1-1\\prompt.txt": {
+      "sha256": "557bb366293694d9c4b24f71ad1645dd4f43b455d104b98afff0f3a34590a301",
+      "bytes": 19075
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_1-1\\receipt.json": {
+      "sha256": "f33fb6b941d72cd0306b006cb0a35006f7a20b9a42cabee1881a5604cbe7ef63",
+      "bytes": 8090
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_1-1\\response.json": {
+      "sha256": "94b7364c879e671ff6b42b8a1c9c765c7ac9c8e2fa4eb1862956b7be14d5132e",
+      "bytes": 142
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_2-1\\codex_events.jsonl": {
+      "sha256": "d3d3aded857a828bd70200a4a71bc0b5965e3fd77bffe8869b7d8ede74e3ccd2",
+      "bytes": 857
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_2-1\\codex_request.json": {
+      "sha256": "b0c033ee8a7d0e26ca48d44f1d2e69a66f1f30cb93730c2b7845560746af248b",
+      "bytes": 3199
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_2-1\\codex_stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_2-1\\intent.json": {
+      "sha256": "1199533caac5fbd3f8574955d8e1d2ba7d7c7c86899245146b3d41152e2dcf34",
+      "bytes": 3638
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_2-1\\output_schema.json": {
+      "sha256": "854855d0e3d09f109564cfe8b1f16b8efc35f139e8826d795967ee096bb9bb66",
+      "bytes": 2821
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_2-1\\process_exit.json": {
+      "sha256": "6d6f4251ea35d2c4e73562c858cbbbd7171cd19b0e457b5810e4662474872739",
+      "bytes": 265
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_2-1\\prompt.txt": {
+      "sha256": "f801def4e5ea34265ea3623b437792de695b9451280d9d4da07d0653404e52ba",
+      "bytes": 29101
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_2-1\\receipt.json": {
+      "sha256": "91d461eec3713dfbfc524c63d09197d45a4f5e2b3af1c5c727c6e3413b4e78ee",
+      "bytes": 8091
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_2-1\\response.json": {
+      "sha256": "1ad6f95a3ff6fbbb74ed4c2b8b9d44e49c07a7433e4af4ac236c58870c375643",
+      "bytes": 143
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_3-1\\codex_events.jsonl": {
+      "sha256": "6de402326db50699b9cd01724ff925c5346337ce64f928fa33d369340a29ec8b",
+      "bytes": 858
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_3-1\\codex_request.json": {
+      "sha256": "6fb0025fdca36a70c274123610cc551b33d9f9b462301e4e4c77f95b8edac50a",
+      "bytes": 3199
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_3-1\\codex_stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_3-1\\intent.json": {
+      "sha256": "fbc991a088404b81dd4adef71bdf686607df2353e06f562eba69d72d513bc19c",
+      "bytes": 3638
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_3-1\\output_schema.json": {
+      "sha256": "854855d0e3d09f109564cfe8b1f16b8efc35f139e8826d795967ee096bb9bb66",
+      "bytes": 2821
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_3-1\\process_exit.json": {
+      "sha256": "10b13e086ec7a51fb7c44808e309bc32ada47f1b126adcd2323c9790eabd6a5b",
+      "bytes": 265
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_3-1\\prompt.txt": {
+      "sha256": "248acba74a3656618ef9d5d122ee831548efda0db8998cf16953c2056055b1d1",
+      "bytes": 42508
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_3-1\\receipt.json": {
+      "sha256": "63280aaf25cfbae6dd9dbbf79bbccc1eea7b542f4d623e13bfa6e53d9f1ce3a6",
+      "bytes": 8091
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_3-1\\response.json": {
+      "sha256": "da5976ff975d10fdf8c695a5b8437a49d05155313b0fd991a1488d0643a599b2",
+      "bytes": 143
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_4-1\\codex_events.jsonl": {
+      "sha256": "6e56e3815b2abee767116c343e03a98b461460b352db5525499961e1d1c02ecb",
+      "bytes": 849
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_4-1\\codex_request.json": {
+      "sha256": "d583cfe5ee2e9be0c54e6a17a28e101039cac7c4d8f6be56c2ba6e02fc9e7c18",
+      "bytes": 3199
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_4-1\\codex_stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_4-1\\intent.json": {
+      "sha256": "e513dbd14700bab18b9d270ba8a063d47bec8af1d12e62f26d23664f1fe65d8a",
+      "bytes": 3638
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_4-1\\output_schema.json": {
+      "sha256": "854855d0e3d09f109564cfe8b1f16b8efc35f139e8826d795967ee096bb9bb66",
+      "bytes": 2821
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_4-1\\process_exit.json": {
+      "sha256": "411c530ccaf55d98d11950e564e5c000ce8d4f01cbb83d5eae1c2caa985c2c1a",
+      "bytes": 263
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_4-1\\prompt.txt": {
+      "sha256": "5b25adc91ba2a27a77b808b6a3e8e7d954932e418207d431210959a2bb9664d3",
+      "bytes": 46442
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_4-1\\receipt.json": {
+      "sha256": "cde0e3890343e9d38dd935be561969a806b9f68ccb3c06bbf828e6e26aab5dce",
+      "bytes": 8082
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_4-1\\response.json": {
+      "sha256": "3acf89bc1c4034b2f543ba935ab942070949eb076d7ce59ed46cb9b66b7dc2fb",
+      "bytes": 135
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_5-1\\codex_events.jsonl": {
+      "sha256": "124d8d25c3c9e23b4301349820969d15576b20bd456b9775c9948a7ae4dd3c4c",
+      "bytes": 848
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_5-1\\codex_request.json": {
+      "sha256": "687c60d63edbaf4e9685120cca28807af34ee8c5231bd800b23304ad015c4f86",
+      "bytes": 3199
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_5-1\\codex_stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_5-1\\intent.json": {
+      "sha256": "d4e66eefa13e2ee46f5be958e281215dbd1df639d6baed652b5250fb9f26d8f4",
+      "bytes": 3638
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_5-1\\output_schema.json": {
+      "sha256": "854855d0e3d09f109564cfe8b1f16b8efc35f139e8826d795967ee096bb9bb66",
+      "bytes": 2821
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_5-1\\process_exit.json": {
+      "sha256": "0e4dfeeeeac9acb811b1e7f6a781f110b2aa97ddb0861b41aa3237ab89535a7e",
+      "bytes": 265
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_5-1\\prompt.txt": {
+      "sha256": "92bfd6a65fce5bf49903fee0d1767d7255078cbe93b6863a182a8416ec70cf80",
+      "bytes": 49395
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_5-1\\receipt.json": {
+      "sha256": "69533bb13d1d6ba00b64e54f99547468a856a0911d8b8b83386d95aed75de6f0",
+      "bytes": 8083
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_5-1\\response.json": {
+      "sha256": "d5ef93d147e387259da001b5d35c4ed8bbb1fb76c0d525b1241ac03f3d2c288c",
+      "bytes": 134
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_6-1\\codex_events.jsonl": {
+      "sha256": "8f0d7550f0fb66a0b835672ef6f1a4982e287c5f24f5d4b04f44654d45ddbb27",
+      "bytes": 898
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_6-1\\codex_request.json": {
+      "sha256": "e46088d5ef11c95110676f2118f53f24c988783ac1772fe4f0b0c0734049c12c",
+      "bytes": 3199
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_6-1\\codex_stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_6-1\\intent.json": {
+      "sha256": "ee6b432cfb8a56c2956edbcc59a06b6ca40a0ed41bb555f6e13a07f2ec0caa12",
+      "bytes": 3638
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_6-1\\output_schema.json": {
+      "sha256": "854855d0e3d09f109564cfe8b1f16b8efc35f139e8826d795967ee096bb9bb66",
+      "bytes": 2821
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_6-1\\process_exit.json": {
+      "sha256": "c7e64a143e539d222a969172120c55c3969c91db2f26ecabfcac695ab76e2052",
+      "bytes": 264
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_6-1\\prompt.txt": {
+      "sha256": "959286268bcb58ec22cba072edb526aa725c1d4bf2b74a7abc0e11a2f4f93b1f",
+      "bytes": 59546
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_6-1\\receipt.json": {
+      "sha256": "afd87511c8b3b0eba30c3d1177b9e8fb5eb617ecba53750961e6e3550371b97a",
+      "bytes": 8094
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_6-1\\response.json": {
+      "sha256": "0208c0913fe785832955260a2f931dc6114c7f6f38a5aad82c1dfd85fdfb8836",
+      "bytes": 143
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_7-1\\codex_events.jsonl": {
+      "sha256": "ae7fcf92584114d825164e34798db326491d0e612e2ef4b36de034b079856f3a",
+      "bytes": 916
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_7-1\\codex_request.json": {
+      "sha256": "35515720390bef7751b30827082bd3ada2f73b9eba6f2c8b0a20291a2e8e62a5",
+      "bytes": 3199
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_7-1\\codex_stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_7-1\\intent.json": {
+      "sha256": "102eea5cd8c25e83e88a17b7a402cbaf345271eb9e1cb257645d07c7338bb675",
+      "bytes": 3638
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_7-1\\output_schema.json": {
+      "sha256": "854855d0e3d09f109564cfe8b1f16b8efc35f139e8826d795967ee096bb9bb66",
+      "bytes": 2821
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_7-1\\process_exit.json": {
+      "sha256": "cc3166cf3ea395e659805c87bed584d677c975eba4a96c5f29767bc9d3269c92",
+      "bytes": 265
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_7-1\\prompt.txt": {
+      "sha256": "34cffc740c618e6f1d7f6e906f153088907572e096a0635070df867cae2f1af7",
+      "bytes": 69715
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_7-1\\receipt.json": {
+      "sha256": "e0bcf78bccb267df852b2b24d4f77c9213a61166ab1f3987b3b1ff2578396aac",
+      "bytes": 8094
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_7-1\\response.json": {
+      "sha256": "ef9bf360f87a37129d9b68a02dcc003cd8d9b36584bff9f40ddc337f4f717dd2",
+      "bytes": 145
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_8-1\\codex_events.jsonl": {
+      "sha256": "d9137e4a3766332e134858cee7756d11986ddc0cca0a3ae7ed8d1687fa494eb1",
+      "bytes": 11986
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_8-1\\codex_request.json": {
+      "sha256": "a12cb1dd18a211b0767f9c6afc22e61eae1b0456cd8eea0bfb18e9735a11126a",
+      "bytes": 3199
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_8-1\\codex_stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_8-1\\intent.json": {
+      "sha256": "9a998d7db1ad6ef69e0a0a4f5e086c94473f6405dc4dfbbdf03514269d23e9bc",
+      "bytes": 3638
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_8-1\\output_schema.json": {
+      "sha256": "854855d0e3d09f109564cfe8b1f16b8efc35f139e8826d795967ee096bb9bb66",
+      "bytes": 2821
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_8-1\\process_exit.json": {
+      "sha256": "aa00756e8fe398eea7fc92f3d639560de2a50f2fe3b0153f85090fc98d22a646",
+      "bytes": 265
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_8-1\\prompt.txt": {
+      "sha256": "4890d98eaf8bf4e45bf45d989e58c69f120692737783cba8251c8c8af4220acb",
+      "bytes": 73312
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_8-1\\receipt.json": {
+      "sha256": "6d6820a3a8baccbfbe063b7f27749002aed05e12334c179533e11c67a2d29bdd",
+      "bytes": 17161
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_01_round_8-1\\response.json": {
+      "sha256": "b607ed3ebff2b66b58764fdc6074e82d657d582a4857a9556f5cfc61f00dc0a4",
+      "bytes": 9210
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_0-1\\codex_events.jsonl": {
+      "sha256": "9b947d1fd4fdec94edf81af23a67d59f4eb4f4c3c63195d2053d260d17bbba8e",
+      "bytes": 849
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_0-1\\codex_request.json": {
+      "sha256": "9e8836d8b67455a37a5882d9b7383cf7d8adaeda1fb94015b80bf92200083fc7",
+      "bytes": 3199
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_0-1\\codex_stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_0-1\\intent.json": {
+      "sha256": "5dde53bd265e78e10b4fe43cddc2dff479837ba8e0c240f241e3d4dd5c4253d8",
+      "bytes": 3567
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_0-1\\output_schema.json": {
+      "sha256": "83e922997b4d5bda6dbbd91da014cd26b79b7454e0ded227b0ac7d7b0c9aef3e",
+      "bytes": 2746
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_0-1\\process_exit.json": {
+      "sha256": "19e76269f7a91196b5c7c989317a0d7bda810f783f835f6517dcb22f1823a7b2",
+      "bytes": 265
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_0-1\\prompt.txt": {
+      "sha256": "469fe1a5cf684974e5312c80c2c49a838c38f8185410f25897fc7e964f22bd70",
+      "bytes": 11350
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_0-1\\receipt.json": {
+      "sha256": "0acfc54ee50860e4836abe9f09f64ba2fed85c166535b3c1bae100e8bae17afe",
+      "bytes": 8012
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_0-1\\response.json": {
+      "sha256": "57d132c2ba32ad41b5324f3a2c81dca2ea1184930bc93ae8e5ba24fc863805cb",
+      "bytes": 136
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_1-1\\codex_events.jsonl": {
+      "sha256": "694ec7b5f45f5b05e0c8b90ef4ad0574a64c6f03f6d22948c05574c3fd0401fe",
+      "bytes": 853
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_1-1\\codex_request.json": {
+      "sha256": "3aa5f60afc0a33c987966261321779cdcaf9b4930a4b3f13e45dddf9e4249417",
+      "bytes": 3199
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_1-1\\codex_stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_1-1\\intent.json": {
+      "sha256": "e76abd09e1ce3acc57c97573f00d8eb98a8fe5badf359a2bea38596473939279",
+      "bytes": 3567
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_1-1\\output_schema.json": {
+      "sha256": "83e922997b4d5bda6dbbd91da014cd26b79b7454e0ded227b0ac7d7b0c9aef3e",
+      "bytes": 2746
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_1-1\\process_exit.json": {
+      "sha256": "24b55815cd120d14be64e051bdcf44d56a6b5e19d2f67760ff34c1b0dd18b227",
+      "bytes": 265
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_1-1\\prompt.txt": {
+      "sha256": "774b1f7a05daf1091bea70a2455169a832c5918a657d39cca115f5c935cddec5",
+      "bytes": 19953
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_1-1\\receipt.json": {
+      "sha256": "479d6d7f50d8767ee8090f5245895078d32694cb2e53fac2cf98210e8bfdfc37",
+      "bytes": 8011
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_1-1\\response.json": {
+      "sha256": "d5ef93d147e387259da001b5d35c4ed8bbb1fb76c0d525b1241ac03f3d2c288c",
+      "bytes": 134
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_2-1\\codex_events.jsonl": {
+      "sha256": "1838391a4e836fea0c8c8c51b6660d5450b7b26db958cefa5448f73e6244c301",
+      "bytes": 905
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_2-1\\codex_request.json": {
+      "sha256": "25674d35c57cd771604f2d02e4b569acf98066a61463cba0a6ff6d3c00953710",
+      "bytes": 3199
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_2-1\\codex_stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_2-1\\intent.json": {
+      "sha256": "1d14708c1881af7bbaa2af6c7079a329c5b2e7846e5c38ad377b58fca8dba5e2",
+      "bytes": 3567
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_2-1\\output_schema.json": {
+      "sha256": "83e922997b4d5bda6dbbd91da014cd26b79b7454e0ded227b0ac7d7b0c9aef3e",
+      "bytes": 2746
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_2-1\\process_exit.json": {
+      "sha256": "54ec8918533da280ef0030c0a9188c81bd7457ad2d3deb4b7c09121f5a8a0684",
+      "bytes": 264
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_2-1\\prompt.txt": {
+      "sha256": "6e7c657719028d7f8d90663521e29f7832c9c1e4ec265b492dfa4df96d1f477c",
+      "bytes": 26324
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_2-1\\receipt.json": {
+      "sha256": "1a0de7072a224cc2addd5e347795fc33b527bb444f4151a20cd3e221d9477d90",
+      "bytes": 8012
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_2-1\\response.json": {
+      "sha256": "3acf89bc1c4034b2f543ba935ab942070949eb076d7ce59ed46cb9b66b7dc2fb",
+      "bytes": 135
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_3-1\\codex_events.jsonl": {
+      "sha256": "910da986c6dee7e55fa1fdfbc7b556f3746aee22bead15366ad3d7e2d81bb7ec",
+      "bytes": 868
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_3-1\\codex_request.json": {
+      "sha256": "c49895a94965fd9441fc613669c1aab10025f0078c135d2f3a3e3b174da00467",
+      "bytes": 3199
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_3-1\\codex_stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_3-1\\intent.json": {
+      "sha256": "6b04358bd6ea77305a9715f9d1242cb9ae0866df45bfe0f3ff54030f75ff27c5",
+      "bytes": 3567
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_3-1\\output_schema.json": {
+      "sha256": "83e922997b4d5bda6dbbd91da014cd26b79b7454e0ded227b0ac7d7b0c9aef3e",
+      "bytes": 2746
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_3-1\\process_exit.json": {
+      "sha256": "e676a9a15d2869e1618b1087e0109b00b6a2e31b034b88ea65464baa2a24fe67",
+      "bytes": 264
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_3-1\\prompt.txt": {
+      "sha256": "c9787626ca944c24fc746fd1127054a1833c98b267a470e7abde5b99103e9ef0",
+      "bytes": 30959
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_3-1\\receipt.json": {
+      "sha256": "ef967e2adb269ac32be20ccc03f9b0dff4e720306a193dc22b1de4a3b34f416a",
+      "bytes": 8017
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_3-1\\response.json": {
+      "sha256": "eb4c7ad18ad42b1c6f8edd09e9aa89cf37f9d6df58845679c40ed0a29c8bf579",
+      "bytes": 138
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_4-1\\codex_events.jsonl": {
+      "sha256": "e9d696a70af23ffbb3ac7253e66069ed370aac8a5d9c7fc735d95b59fe49112e",
+      "bytes": 895
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_4-1\\codex_request.json": {
+      "sha256": "55a2e0a825e069b0abe3a1f74c537202fca4a3ffb3465b6345c04961eab178a7",
+      "bytes": 3199
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_4-1\\codex_stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_4-1\\intent.json": {
+      "sha256": "863f20d96db95de17ab4b6d3144945424ef506dbf978bca3495479da527b7ba0",
+      "bytes": 3567
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_4-1\\output_schema.json": {
+      "sha256": "83e922997b4d5bda6dbbd91da014cd26b79b7454e0ded227b0ac7d7b0c9aef3e",
+      "bytes": 2746
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_4-1\\process_exit.json": {
+      "sha256": "37c395ad407077aae889b727e7e61d2fb2d1aef91cd4506c757dd8664021f5c8",
+      "bytes": 265
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_4-1\\prompt.txt": {
+      "sha256": "08d4b30dc2b4f97cd5dd46b63261b60d88239f55984ed1cd90070c61d1353352",
+      "bytes": 35644
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_4-1\\receipt.json": {
+      "sha256": "034f16069032363cbe6a4ea8de79f603f47114c70574fe368d43dc50eac64f86",
+      "bytes": 8024
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_4-1\\response.json": {
+      "sha256": "da5976ff975d10fdf8c695a5b8437a49d05155313b0fd991a1488d0643a599b2",
+      "bytes": 143
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_5-1\\codex_events.jsonl": {
+      "sha256": "e8ff9348761ec7bf001b9bf4cb5bf8013d49b5bc5951783c98ea617215927c59",
+      "bytes": 10251
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_5-1\\codex_request.json": {
+      "sha256": "6bf50ec91d1c0a7e3ac2b5b48c431a4c147cc356d60f66a6e93cb3ec6ee828a9",
+      "bytes": 3199
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_5-1\\codex_stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_5-1\\intent.json": {
+      "sha256": "cad8352488e947cbc8a6e7cd0468e6db32289b175d91f6b65f9cf5cadb5b01b4",
+      "bytes": 3567
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_5-1\\output_schema.json": {
+      "sha256": "83e922997b4d5bda6dbbd91da014cd26b79b7454e0ded227b0ac7d7b0c9aef3e",
+      "bytes": 2746
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_5-1\\process_exit.json": {
+      "sha256": "7a85e4ec973757921afc1bc69aabf9e9b61f671395218b9b32676786aefce532",
+      "bytes": 265
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_5-1\\prompt.txt": {
+      "sha256": "05804b9a3c41605e18fe304539b9b541bb489c4a222cf17e157a20f245d16d7a",
+      "bytes": 38718
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_5-1\\receipt.json": {
+      "sha256": "e08e42a9079920fd6e5d516322614f60d12be6d0e7cc2aaa00d6ab4137c0fdb7",
+      "bytes": 16518
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\calls\\calibration_02_round_5-1\\response.json": {
+      "sha256": "f84969441a24481ade50f534ec3bdea289e4a9a687232b8f85a4d9b79c1e4bae",
+      "bytes": 8638
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\receipts\\calibration_01_20260906T183900327962Z.json": {
+      "sha256": "a878a647a98eb6d84b34c9b1d1016ab8b3e5182bd2876b0f91f04cabdf1f75f2",
+      "bytes": 13188
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\receipts\\calibration_02_20260906T184314732461Z.json": {
+      "sha256": "4aaf75b148eb610adfb55165bb4868b624db54e48a659b0ca0c9014abc57e3df",
+      "bytes": 12520
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\campaign.json": {
+      "sha256": "14c1c22a1e0124d88e83f1bcf3b616f9065f528950efd532336d7e7b41686bb2",
+      "bytes": 23244
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\cases\\calibration_01\\public\\packet.json": {
+      "sha256": "00659e319e2038e9726c1d117f8122f7b8a80633242489ba778a8e440c395b0e",
+      "bytes": 5794
+    },
+    "experiment_traces\\meta_calibration_prototypes\\attempts\\20260906T164840172917Z\\calibration_01\\evaluator_private\\independent_accounting.json": {
+      "sha256": "70ecceede40aee117105c8b7b3961211f7209c3ab3058945173b798d5cd0c341",
+      "bytes": 11682
+    },
+    "experiment_traces\\meta_calibration_prototypes\\attempts\\20260906T164840172917Z\\calibration_01\\evaluator_private\\independent_identifiability.json": {
+      "sha256": "e205acdb776b7b3a6000dcf94fa7def0723d82666f5c5d2bdedc649fa9ffd39f",
+      "bytes": 49018
+    },
+    "experiment_traces\\meta_calibration_prototypes\\attempts\\20260906T164840172917Z\\calibration_01\\evaluator_private\\independent_horizons.json": {
+      "sha256": "c643cc1c28b21c88eb76d566fc4ac5a8d5ae8899b05bde6194a7de174ac26fb4",
+      "bytes": 1201
+    },
+    "experiment_traces\\meta_diagnostic_calibrations\\campaigns\\diagnostic_20260906T183231732416Z\\cases\\calibration_02\\public\\packet.json": {
+      "sha256": "7ebfdf91fb20a71450c538e3735247d15c5a509ff0f4fdc9bb774f459700df6a",
+      "bytes": 5163
+    },
+    "experiment_traces\\meta_calibration_prototypes\\attempts\\20260906T164840172917Z\\calibration_02\\evaluator_private\\independent_accounting.json": {
+      "sha256": "b5c6df288ea74b782e4dd24397629dccace39aa6fdb2bcf3a47dddb492c40ee9",
+      "bytes": 9780
+    },
+    "experiment_traces\\meta_calibration_prototypes\\attempts\\20260906T164840172917Z\\calibration_02\\evaluator_private\\independent_identifiability.json": {
+      "sha256": "1fccc138b822d8b6ee453b977a4c24f234fb3c2cf8bc226fab2e66cfb0334a5f",
+      "bytes": 27209
+    }
+  },
+  "audit_source_sha256": "6048455018f08c0605f79bd8431b44bca4c179fb9e1dca7e21431c9dac25b08e",
+  "reused_arithmetic_source_sha256": "bf4231169437bd42e07687882912c3e6ab1a98ea7a43292648ab5654e7def8f4",
+  "read_only_database_policy": "mode=ro SELECT only",
+  "new_research_gateway_calls": 0,
+  "engineering_model_usage": "unknown; not metered by study ledger",
+  "original_campaign_modified": false
+}

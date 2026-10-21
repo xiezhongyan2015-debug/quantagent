@@ -1,0 +1,518 @@
+{
+  "status": "availability_audit_complete_row_level_2024_calibration_inputs_not_locally_available",
+  "created_local_date": "2026-10-09",
+  "scope": "Read-only availability inventory; no fitting, score transformation, retraining, inference or portfolio replay.",
+  "metadata_anchor": {
+    "path": "C:\\Users\\aethe\\Desktop\\兴证杯量化比赛\\research\\gru_risk_repair_20261009\\freeze.json",
+    "sha256": "e9759fbf67ffbeacec23bcc321751160359b64ab4b7c326ce8ba36ee2388c2f3"
+  },
+  "frozen_visible_signal_manifest": {
+    "path": "C:\\Users\\aethe\\Desktop\\兴证杯量化比赛\\research\\gru_index_enhancement_20261008\\data\\remote\\outputs\\gru_index_enhancement_20261008\\visible_signals\\manifest.json",
+    "sha256": "6f4bc9c28c6fd4f13f924cd00844b762b8eead35f6e30c25e3e4b07fd585fc2b"
+  },
+  "current_five_seed_checkpoint_lineage_matches_archived_2024_replays": true,
+  "all_2024_signal_timestamps_strictly_before2025": true,
+  "five_seed_2024_cohorts_identical": true,
+  "current_model": {
+    "model": "original B0/full/patch4",
+    "layers": 2,
+    "hidden_size": 128,
+    "continuous_fields": 122,
+    "sequence_steps": 80,
+    "training_label": "raw y3 -> Qlib linear rank",
+    "training_loss": "1 minus correlation against transformed rank label3; score has no monetary return unit",
+    "checkpoint_selection": "original 2024 Pearson IC best.pt",
+    "ensemble": "per-visible-cross-section seed zscore then equal average"
+  },
+  "seed_inventory": [
+    {
+      "seed": 11,
+      "remote_checkpoint_path": "/home/users/s1155284034/gru_hourly_20261001/outputs/ranklabel_factor_ablation_20261007/patch4_seed11/fit/best.pt",
+      "checkpoint_sha256": "3b28fec2294f92beaa1d52ad8a37f70359d629cb8f10444656e1e45bd8252d2b",
+      "best_epoch": 8,
+      "epochs_completed": 17,
+      "local_checkpoint_present": false,
+      "local_replay_path": "C:\\Users\\aethe\\Desktop\\兴证杯量化比赛\\research\\ranklabel_future_evaluation_20261008\\results\\completed_20261008\\raw\\outputs\\ranklabel_future_evaluation_20261008\\evaluation\\patch4_seed11\\replay_2024.json",
+      "replay_sha256": "a259be4f5617f610d9ba7ac0642d23751e6bb270938b5acd1fc799db0ac6a366",
+      "archive_receipt_match": true,
+      "replay_proof": {
+        "status": "passed",
+        "absolute_tolerance": 1e-06,
+        "per_section_max_absolute_difference": {
+          "ic": 0.0,
+          "rank_ic": 0.0
+        },
+        "cross_sections": 955,
+        "trading_days": 239
+      },
+      "all_slot_sections": 955,
+      "slot2_sections": 239,
+      "slot2_first_signal_day": "2024-01-02",
+      "slot2_last_signal_day": "2024-12-26",
+      "signal_clock": [
+        "14:00"
+      ],
+      "slot2_rank_ic": 0.0595899348748308,
+      "record_fields": [
+        "signal_time_ns",
+        "date",
+        "slot",
+        "ic",
+        "rank_ic",
+        "pool_count",
+        "scored_count"
+      ],
+      "per_stock_prediction_or_raw_return_values_present": false
+    },
+    {
+      "seed": 22,
+      "remote_checkpoint_path": "/home/users/s1155284034/gru_hourly_20261001/outputs/ranklabel_factor_ablation_20261007/patch4_seed22/fit/best.pt",
+      "checkpoint_sha256": "9c834c9cc807de872c3bd358f5a4eb56f7ee463665fdd457bc9525d6c9835bf0",
+      "best_epoch": 8,
+      "epochs_completed": 17,
+      "local_checkpoint_present": false,
+      "local_replay_path": "C:\\Users\\aethe\\Desktop\\兴证杯量化比赛\\research\\ranklabel_future_evaluation_20261008\\results\\completed_20261008\\raw\\outputs\\ranklabel_future_evaluation_20261008\\evaluation\\patch4_seed22\\replay_2024.json",
+      "replay_sha256": "e8966259ecf09815c4a76c905ed8c3b9b63a83da1badef0c30b44d1a2267a9ca",
+      "archive_receipt_match": true,
+      "replay_proof": {
+        "status": "passed",
+        "absolute_tolerance": 1e-06,
+        "per_section_max_absolute_difference": {
+          "ic": 0.0,
+          "rank_ic": 0.0
+        },
+        "cross_sections": 955,
+        "trading_days": 239
+      },
+      "all_slot_sections": 955,
+      "slot2_sections": 239,
+      "slot2_first_signal_day": "2024-01-02",
+      "slot2_last_signal_day": "2024-12-26",
+      "signal_clock": [
+        "14:00"
+      ],
+      "slot2_rank_ic": 0.07010706802801106,
+      "record_fields": [
+        "signal_time_ns",
+        "date",
+        "slot",
+        "ic",
+        "rank_ic",
+        "pool_count",
+        "scored_count"
+      ],
+      "per_stock_prediction_or_raw_return_values_present": false
+    },
+    {
+      "seed": 33,
+      "remote_checkpoint_path": "/home/users/s1155284034/gru_hourly_20261001/outputs/ranklabel_factor_ablation_20261007/patch4_seed33/fit/best.pt",
+      "checkpoint_sha256": "42d61aceda1b55f8857270513f35f56e9b2587533c5b5d632b3bc40b89afbbdf",
+      "best_epoch": 4,
+      "epochs_completed": 13,
+      "local_checkpoint_present": false,
+      "local_replay_path": "C:\\Users\\aethe\\Desktop\\兴证杯量化比赛\\research\\ranklabel_future_evaluation_20261008\\results\\completed_20261008\\raw\\outputs\\ranklabel_future_evaluation_20261008\\evaluation\\patch4_seed33\\replay_2024.json",
+      "replay_sha256": "0f370b32fd37eee8e2545f595c2460e476ae633d29747cce09582b2edb518447",
+      "archive_receipt_match": true,
+      "replay_proof": {
+        "status": "passed",
+        "absolute_tolerance": 1e-06,
+        "per_section_max_absolute_difference": {
+          "ic": 0.0,
+          "rank_ic": 0.0
+        },
+        "cross_sections": 955,
+        "trading_days": 239
+      },
+      "all_slot_sections": 955,
+      "slot2_sections": 239,
+      "slot2_first_signal_day": "2024-01-02",
+      "slot2_last_signal_day": "2024-12-26",
+      "signal_clock": [
+        "14:00"
+      ],
+      "slot2_rank_ic": 0.06292510773482315,
+      "record_fields": [
+        "signal_time_ns",
+        "date",
+        "slot",
+        "ic",
+        "rank_ic",
+        "pool_count",
+        "scored_count"
+      ],
+      "per_stock_prediction_or_raw_return_values_present": false
+    },
+    {
+      "seed": 44,
+      "remote_checkpoint_path": "/home/users/s1155284034/gru_hourly_20261001/outputs/ranklabel_factor_ablation_20261007/patch4_seed44/fit/best.pt",
+      "checkpoint_sha256": "709a3666f400574f0d9a68b80b9b3a185cfa8d9dac0c8748891d96384e7ad19d",
+      "best_epoch": 10,
+      "epochs_completed": 19,
+      "local_checkpoint_present": false,
+      "local_replay_path": "C:\\Users\\aethe\\Desktop\\兴证杯量化比赛\\research\\ranklabel_future_evaluation_20261008\\results\\completed_20261008\\raw\\outputs\\ranklabel_future_evaluation_20261008\\evaluation\\patch4_seed44\\replay_2024.json",
+      "replay_sha256": "b1807b09b3b8b4426f74a079afdec91cf3c632b48c4b2e718adcf682bc971e17",
+      "archive_receipt_match": true,
+      "replay_proof": {
+        "status": "passed",
+        "absolute_tolerance": 1e-06,
+        "per_section_max_absolute_difference": {
+          "ic": 0.0,
+          "rank_ic": 0.0
+        },
+        "cross_sections": 955,
+        "trading_days": 239
+      },
+      "all_slot_sections": 955,
+      "slot2_sections": 239,
+      "slot2_first_signal_day": "2024-01-02",
+      "slot2_last_signal_day": "2024-12-26",
+      "signal_clock": [
+        "14:00"
+      ],
+      "slot2_rank_ic": 0.054751593270380323,
+      "record_fields": [
+        "signal_time_ns",
+        "date",
+        "slot",
+        "ic",
+        "rank_ic",
+        "pool_count",
+        "scored_count"
+      ],
+      "per_stock_prediction_or_raw_return_values_present": false
+    },
+    {
+      "seed": 55,
+      "remote_checkpoint_path": "/home/users/s1155284034/gru_hourly_20261001/outputs/ranklabel_factor_ablation_20261007/patch4_seed55/fit/best.pt",
+      "checkpoint_sha256": "b9ffb7b0dd62508b02f50dbf08b9dc7b17c2a5dcc3c1374371412556c1b35e45",
+      "best_epoch": 12,
+      "epochs_completed": 21,
+      "local_checkpoint_present": false,
+      "local_replay_path": "C:\\Users\\aethe\\Desktop\\兴证杯量化比赛\\research\\ranklabel_future_evaluation_20261008\\results\\completed_20261008\\raw\\outputs\\ranklabel_future_evaluation_20261008\\evaluation\\patch4_seed55\\replay_2024.json",
+      "replay_sha256": "bf7f2ded57ad500505bc419eb98b992e6a6400de8df82ab8015639dd86a4353b",
+      "archive_receipt_match": true,
+      "replay_proof": {
+        "status": "passed",
+        "absolute_tolerance": 1e-06,
+        "per_section_max_absolute_difference": {
+          "ic": 0.0,
+          "rank_ic": 0.0
+        },
+        "cross_sections": 955,
+        "trading_days": 239
+      },
+      "all_slot_sections": 955,
+      "slot2_sections": 239,
+      "slot2_first_signal_day": "2024-01-02",
+      "slot2_last_signal_day": "2024-12-26",
+      "signal_clock": [
+        "14:00"
+      ],
+      "slot2_rank_ic": 0.05203834707881496,
+      "record_fields": [
+        "signal_time_ns",
+        "date",
+        "slot",
+        "ic",
+        "rank_ic",
+        "pool_count",
+        "scored_count"
+      ],
+      "per_stock_prediction_or_raw_return_values_present": false
+    }
+  ],
+  "verified_archive_files": [
+    {
+      "path": "C:\\Users\\aethe\\Desktop\\兴证杯量化比赛\\research\\ranklabel_future_evaluation_20261008\\results\\completed_20261008\\raw\\outputs\\ranklabel_future_evaluation_20261008\\evaluation\\evaluation_manifest.json",
+      "sha256": "b6996b5ae701fb5889b3fc4fe242b27049dbe3dc1f34d1a02f43ba4214f1712e",
+      "bytes": 65824,
+      "archive_receipt_match": true
+    },
+    {
+      "path": "C:\\Users\\aethe\\Desktop\\兴证杯量化比赛\\research\\ranklabel_future_evaluation_20261008\\results\\completed_20261008\\raw\\outputs\\ranklabel_future_evaluation_20261008\\preparation\\patch4\\descriptor.json",
+      "sha256": "8b3cd5113887457dcffe1665952b6564ef3e255f2aa2af084123e6255eb27937",
+      "bytes": 8698,
+      "archive_receipt_match": true
+    },
+    {
+      "path": "C:\\Users\\aethe\\Desktop\\兴证杯量化比赛\\research\\ranklabel_future_evaluation_20261008\\results\\completed_20261008\\raw\\outputs\\ranklabel_future_evaluation_20261008\\evaluation\\patch4_seed11\\replay_2024.json",
+      "sha256": "a259be4f5617f610d9ba7ac0642d23751e6bb270938b5acd1fc799db0ac6a366",
+      "bytes": 221079,
+      "archive_receipt_match": true
+    },
+    {
+      "path": "C:\\Users\\aethe\\Desktop\\兴证杯量化比赛\\research\\ranklabel_future_evaluation_20261008\\results\\completed_20261008\\raw\\outputs\\ranklabel_future_evaluation_20261008\\evaluation\\patch4_seed22\\replay_2024.json",
+      "sha256": "e8966259ecf09815c4a76c905ed8c3b9b63a83da1badef0c30b44d1a2267a9ca",
+      "bytes": 221086,
+      "archive_receipt_match": true
+    },
+    {
+      "path": "C:\\Users\\aethe\\Desktop\\兴证杯量化比赛\\research\\ranklabel_future_evaluation_20261008\\results\\completed_20261008\\raw\\outputs\\ranklabel_future_evaluation_20261008\\evaluation\\patch4_seed33\\replay_2024.json",
+      "sha256": "0f370b32fd37eee8e2545f595c2460e476ae633d29747cce09582b2edb518447",
+      "bytes": 221120,
+      "archive_receipt_match": true
+    },
+    {
+      "path": "C:\\Users\\aethe\\Desktop\\兴证杯量化比赛\\research\\ranklabel_future_evaluation_20261008\\results\\completed_20261008\\raw\\outputs\\ranklabel_future_evaluation_20261008\\evaluation\\patch4_seed44\\replay_2024.json",
+      "sha256": "b1807b09b3b8b4426f74a079afdec91cf3c632b48c4b2e718adcf682bc971e17",
+      "bytes": 221291,
+      "archive_receipt_match": true
+    },
+    {
+      "path": "C:\\Users\\aethe\\Desktop\\兴证杯量化比赛\\research\\ranklabel_future_evaluation_20261008\\results\\completed_20261008\\raw\\outputs\\ranklabel_future_evaluation_20261008\\evaluation\\patch4_seed55\\replay_2024.json",
+      "sha256": "bf7f2ded57ad500505bc419eb98b992e6a6400de8df82ab8015639dd86a4353b",
+      "bytes": 221211,
+      "archive_receipt_match": true
+    }
+  ],
+  "byte_identical_method_sources": [
+    {
+      "source_identity": "gru_research/assemble.py",
+      "local_path": "C:\\Users\\aethe\\Desktop\\兴证杯量化比赛\\research\\review_followup_20261006\\evidence\\gru_research\\assemble.py",
+      "sha256": "269bc47bd14ddae5028f778faab0e99e8f80e539e2648cccc12b692012103d7b",
+      "expected_sha256": "269bc47bd14ddae5028f778faab0e99e8f80e539e2648cccc12b692012103d7b",
+      "byte_identity_verified": true
+    },
+    {
+      "source_identity": "gru_research/minute_data.py",
+      "local_path": "C:\\Users\\aethe\\Desktop\\兴证杯量化比赛\\research\\review_followup_20261006\\evidence\\gru_research\\minute_data.py",
+      "sha256": "8770b08a5398c2f34f786bc0df7535b93f5c05280678d983aac41c15df2b5299",
+      "expected_sha256": "8770b08a5398c2f34f786bc0df7535b93f5c05280678d983aac41c15df2b5299",
+      "byte_identity_verified": true
+    },
+    {
+      "source_identity": "gru_research/train.py",
+      "local_path": "C:\\Users\\aethe\\Desktop\\兴证杯量化比赛\\research\\rankglu_20261003\\reference\\gru_research\\train.py",
+      "sha256": "15d3b0f9e31671b5926caca9842b40de51fe4bfe2924bb6289ef661e19d85ea1",
+      "expected_sha256": "15d3b0f9e31671b5926caca9842b40de51fe4bfe2924bb6289ef661e19d85ea1",
+      "byte_identity_verified": true
+    },
+    {
+      "source_identity": "gru_research/model.py",
+      "local_path": "C:\\Users\\aethe\\Desktop\\兴证杯量化比赛\\research\\rankglu_20261003\\reference\\gru_research\\model.py",
+      "sha256": "b22e45fcb9814a0d088daa979217e34af97e2263856c62de13ee317a9c0aea49",
+      "expected_sha256": "b22e45fcb9814a0d088daa979217e34af97e2263856c62de13ee317a9c0aea49",
+      "byte_identity_verified": true
+    }
+  ],
+  "label_semantics": {
+    "raw_y4_is_gross_log_return": true,
+    "raw_y4_is_rank": false,
+    "unit": "dimensionless log price ratio, no percent scaling",
+    "formula": "log(mean adjusted exit-window open / mean adjusted entry-window open)",
+    "slot2_signal": "14:00",
+    "entry": "signal day14:01-14:05 old window",
+    "raw_y4_exit": "next actual trading day14:01-14:05 old window",
+    "label_end_timestamp": "exit-window right boundary14:06",
+    "horizon": "four trading-grid hour advances, not four wall-clock hours",
+    "training_y3_exit": "next trading day13:01-13:05 for slot2 signal",
+    "fees_deducted": false,
+    "benchmark_deducted": false,
+    "arithmetic_target": "expm1(raw_y4) per outcome; exp(mean(log_return))-1 is not mean arithmetic return",
+    "expected_return_scale_recoverable_from_IC_only": false
+  },
+  "cohort": {
+    "train_interval": [
+      "2019-01-01",
+      "2024-01-01"
+    ],
+    "validation_interval": [
+      "2024-01-01",
+      "2025-01-01"
+    ],
+    "actual_scored_slot2_interval": [
+      "2024-01-02",
+      "2024-12-26"
+    ],
+    "embargo_sessions": 2,
+    "all4_label_ends_required_before_embargo_cutoff": true,
+    "existing_validation_eligibility": "current membership + complete80 + all4 finite future labels + all4 maturity + minimum100 + raw variance gates",
+    "current_replay_eligibility": "current membership + complete80, require_labels=False",
+    "future_label_filtered_existing_cohort": true,
+    "section_IC_records_cannot_reconstruct_per_stock_visible_pool_seed_ensemble_or_return_scale": true
+  },
+  "local_2025_2026_exports": {
+    "visible_signals": {
+      "path": "C:\\Users\\aethe\\Desktop\\兴证杯量化比赛\\research\\gru_index_enhancement_20261008\\data\\remote\\outputs\\gru_index_enhancement_20261008\\visible_signals\\scores.npz",
+      "sha256": "2a662e3d299db1cbdbe6443f333b395a31efa768635a5641e08e9726c9d72405",
+      "keys": [
+        "scores",
+        "dates",
+        "signal_time_ns",
+        "symbols",
+        "ensemble_raw_scores"
+      ],
+      "sessions": 420,
+      "first_day": "2025-01-02",
+      "last_day": "2026-09-23",
+      "sessions_2024": 0,
+      "usable_for_2024_calibration": false
+    },
+    "legacy_execution": {
+      "path": "C:\\Users\\aethe\\Desktop\\兴证杯量化比赛\\research\\gru_index_enhancement_20261008\\data\\remote\\outputs\\gru_index_enhancement_20261008\\execution\\execution.npz",
+      "sha256": "54eb976d28791eef78a9d6676b1d1762fe62b3dd7b4c043a401387af098ae100",
+      "keys": [
+        "signal_adjusted",
+        "signal_raw",
+        "signal_factor",
+        "execution_adjusted",
+        "execution_raw",
+        "daily_close_adjusted",
+        "daily_close_raw",
+        "daily_close_factor",
+        "execution_complete",
+        "execution_tradable",
+        "execution_all_flat",
+        "members",
+        "score_mask",
+        "dates",
+        "symbols",
+        "signal_time_ns",
+        "earliest_execution_time_ns",
+        "execution_right_boundary_ns",
+        "daily_close_time_ns",
+        "source_time_indices",
+        "execution_factor"
+      ],
+      "sessions": 420,
+      "first_day": "2025-01-02",
+      "last_day": "2026-09-23",
+      "sessions_2024": 0,
+      "usable_for_2024_calibration": false
+    }
+  },
+  "related_local_numeric_files": [
+    "research/gru_index_enhancement_20261008/data\\benchmark_daily.parquet",
+    "research/gru_index_enhancement_20261008/data\\industry_cap.parquet",
+    "research/gru_index_enhancement_20261008/data\\daily_risk_source.parquet",
+    "research/gru_index_enhancement_20261008/data\\remote\\outputs\\gru_index_enhancement_20261008\\visible_signals\\scores.npz",
+    "research/gru_index_enhancement_20261008/data\\remote\\outputs\\gru_index_enhancement_20261008\\visible_signals\\mask.npz",
+    "research/gru_index_enhancement_20261008/data\\remote\\outputs\\gru_index_enhancement_20261008\\execution\\execution.npz"
+  ],
+  "remote_assets_from_metadata": [
+    {
+      "remote_path": "/data/users/s1155284034/gru_hourly_20261001/dataset/X.npy",
+      "recorded_sha256": "0b2914ca29e67f60d5dcbe60201318df5694f47c1a91c0733601f87e0357a587",
+      "local_2024_copy_found": false,
+      "server_existence_checked_now": false,
+      "prior_evaluation_core_rehash_recorded": true
+    },
+    {
+      "remote_path": "/data/users/s1155284034/gru_hourly_20261001/dataset/hour_complete.npy",
+      "recorded_sha256": "ea5e6566e4f6a447202f76fb57d209a29c47cfc129fd5fb086bf8765927f5659",
+      "local_2024_copy_found": false,
+      "server_existence_checked_now": false,
+      "prior_evaluation_core_rehash_recorded": true
+    },
+    {
+      "remote_path": "/data/users/s1155284034/gru_hourly_20261001/dataset/members.npy",
+      "recorded_sha256": "aa267782f7c00ad7a5fa4ba3cdb359bfede257418f4ec574a7c80b2523bf47fd",
+      "local_2024_copy_found": false,
+      "server_existence_checked_now": false,
+      "prior_evaluation_core_rehash_recorded": true
+    },
+    {
+      "remote_path": "/data/users/s1155284034/gru_hourly_20261001/dataset/labels.npy",
+      "recorded_sha256": "9757b4cb4a08ebcae0b8281d4557d1347c65581ee45a2e7bc84ad63f2ce589fa",
+      "local_2024_copy_found": false,
+      "server_existence_checked_now": false,
+      "prior_evaluation_core_rehash_recorded": true
+    },
+    {
+      "remote_path": "/data/users/s1155284034/gru_hourly_20261001/dataset/label_end_times.npy",
+      "recorded_sha256": "02570353382c3273eb6ddf12e862a1ef133d53d8d5ab31d3adfca34b50ba228f",
+      "local_2024_copy_found": false,
+      "server_existence_checked_now": false,
+      "prior_evaluation_core_rehash_recorded": true
+    },
+    {
+      "remote_path": "/data/users/s1155284034/gru_hourly_20261001/dataset/times.npy",
+      "recorded_sha256": "f06cd65a663cb3969b4e50725434dae94097a8f01fe6fc812f6b403eb42eefb4",
+      "local_2024_copy_found": false,
+      "server_existence_checked_now": false,
+      "prior_evaluation_core_rehash_recorded": true
+    },
+    {
+      "remote_path": "/data/users/s1155284034/gru_hourly_20261001/dataset/earliest_execution_times.npy",
+      "recorded_sha256": "3ad4e0566dd0f47ee74594abd0fae6d5b2955580d85a7a04c64e677602956eef",
+      "local_2024_copy_found": false,
+      "server_existence_checked_now": false,
+      "prior_evaluation_core_rehash_recorded": true
+    },
+    {
+      "remote_path": "/data/users/s1155284034/gru_hourly_20261001/dataset/symbols.json",
+      "recorded_sha256": "ee2dbf9ea6c052b68167c644586bcf6384ba4dfa215f2a4c12b6dfac79fb6ba8",
+      "local_2024_copy_found": false,
+      "server_existence_checked_now": false,
+      "prior_evaluation_core_rehash_recorded": true
+    },
+    {
+      "remote_path": "/data/users/s1155284034/gru_hourly_20261001/dataset/execution_prices.npy",
+      "recorded_sha256": "b4ae89786ee86ccbbeebf6006f3fc7c8e9716394e94ee956917781f22fbd2e4c",
+      "local_2024_copy_found": false,
+      "server_existence_checked_now": false,
+      "prior_evaluation_core_rehash_recorded": false
+    }
+  ],
+  "remote_patch4_training_descriptor": {
+    "path": "/home/users/s1155284034/gru_hourly_20261001/outputs/cs_factor_repair_20261007/patch4/descriptor.json",
+    "sha256": "9549494c7bdcc2ea25879847ffad30142678a86db02fe109376f5d13acdac524",
+    "fingerprint": "3e4456f221040d2b4fe877743871d34bde2f3e9c96f20ebbf99a775c1ef74cf6"
+  },
+  "benchmark_availability": {
+    "path": "C:\\Users\\aethe\\Desktop\\兴证杯量化比赛\\research\\gru_data_supplement_20261008\\data\\minimum150\\benchmark_daily.parquet",
+    "sha256": "a5073af56d4b3de5a4c7fe91a02e03f15ffbf50c1ca0b8e1e91a4164618d54f8",
+    "columns": [
+      "date",
+      "close",
+      "index_code",
+      "return_close",
+      "source"
+    ],
+    "first_day": "2023-03-01",
+    "last_day": "2026-09-23",
+    "has_2024_daily_close": true,
+    "same_1401_window_official_benchmark_present": false
+  },
+  "readiness": {
+    "local_frozen_checkpoints": false,
+    "local2024_stock_seed_scores": false,
+    "local2024_score_raw_y4_pairs": false,
+    "local2024_legacy_execution_prices": false,
+    "raw_label_definition_and_remote_lineage_verified": true,
+    "may_fit_from_current_local_artifacts": false,
+    "can_reproduce_using_preexisting_server_arrays_in_principle": true,
+    "server_access_or_array_existence_verified_now": false
+  },
+  "minimal_remaining_if_authorized": [
+    "Read existing canonical server2024 rows only; no fresh minute collection or bulk extraction.",
+    "Inference only from exact five frozen patch4 best.pt, using historically visible complete80/current member eligibility, require_labels=False.",
+    "Compact2024 slot2 export: symbol, signal timestamp, membership/input qualification, five seed scores, rawy4, entry/exit quotes and label-end timestamps, plus checkpoint/source/data hashes.",
+    "Retain original per-visible-cross-section seed zscore/equal ensemble; finite/mature historical outcomes qualify fitting pairs only, never prediction-universe construction.",
+    "Define expected arithmetic-return units and same holding horizon. Cross-sectional or total-cap proxy excess must name its reference; official daily-close returns do not match14:01-to-next14:01 labels."
+  ],
+  "selection_bias": {
+    "validation2024_used_for_checkpoint_and_factor_selection": true,
+    "checkpoint_chosen_by_max2024_Pearson_y4_IC": true,
+    "calibration_on_same2024_may_be_optimistic": true,
+    "posthoc_splitting2024_does_not_remove_full_year_checkpoint_selection_bias": true,
+    "five_seeds_are_not_independent_market_samples": true,
+    "using_only_pre2025_outcomes_avoids_direct2025_2026_outcome_fitting_but2024_is_not_untouched": true,
+    "years2025_2026_remain_exposed_research": true
+  },
+  "exclusions": {
+    "old_rank_winrate_summaries_have_other_checkpoint_hashes_and_are_not_substituted": true,
+    "IC_as_expected_return": false,
+    "return_based_parameter_retuning": false,
+    "calibration_performed": false,
+    "signal_transformation": false,
+    "model_training": false,
+    "large_package_extraction": false,
+    "new_execution_or1406_data_used": false
+  },
+  "limitations": [
+    "Remote array paths and hashes are prior manifest evidence, not a fresh server existence check.",
+    "Archived2024 evaluation records contain cross-section metrics/counts, not per-stock prediction-return pairs.",
+    "Same-year checkpoint selection makes2024 calibration potentially optimistic; these frozen checkpoints cannot turn2024 into an untouched calibration test."
+  ]
+}

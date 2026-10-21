@@ -1,0 +1,172 @@
+{
+  "actual_seeds": [
+    66,
+    77,
+    88,
+    99,
+    111
+  ],
+  "architecture": {
+    "active_attention_or_film": false,
+    "heads": 4,
+    "history_hour_slots": 80,
+    "industry_classes": 39,
+    "input_fields": 122,
+    "name": "MarketGRU",
+    "registered_parameters": 410116,
+    "variant": "control"
+  },
+  "factor_transform": {
+    "cohort": "each factor uses complete historical member row, before forward-window eligibility; independent of labels",
+    "columns_zero_based": "40:104",
+    "dtype": "float32",
+    "formula": "sqrt(12)*((average_tied_rank-.5)/finite_historical_member_count-.5)",
+    "original_canonical_rank_cache_sha256": "6ed8121079997d73d43e950745d349d6253799b12c17b585d42db7997c9ab169",
+    "source": "original frozen clipped-z artificial factors"
+  },
+  "limitations": [
+    "2024 was used for validation and selection; warmup signals are retrospective and not independent OOS.",
+    "2026 uses same T2025 weights; not annual walk-forward retraining.",
+    "2025/2026 historical outcomes were already exposed in prior research; no untouched OOS claim.",
+    "1178 is the union stock axis; unavailable PCF scores must stay neutral, not be excluded.",
+    "Raw four-head output is not the exported neutralized and EMA score.",
+    "No complete raw-market-data-to-122-feature production pipeline or live data update service included.",
+    "Minute-statistic134 experiment is a separate running study; it is not part of these weights."
+  ],
+  "model_id": "OLD_RANK_122_uniform64_y4_T2025_5seed",
+  "original_checkpoint_identities": {
+    "111": {
+      "bytes": 3319257,
+      "logical_id": "rank/control_seed111/best.pt",
+      "selected_epoch": 3,
+      "sha256": "118ce2fd012a963d78fc152cfaa304d8c88f3cb5913dfe20812a77239c7ec3b3",
+      "tensor_state_sha256": "466e5190e029e788a7810b2e4fb8c10ace2f6c3f02e83e337f7656a261da5e57"
+    },
+    "66": {
+      "bytes": 3319193,
+      "logical_id": "rank/control_seed66/best.pt",
+      "selected_epoch": 2,
+      "sha256": "336849919446fbb180b58c4dbf29f6a76b5aad653aa38864bcbec4090bf97cb8",
+      "tensor_state_sha256": "454c2e8e0f2db4ef9fb47ec7995c3ac853ae133602cf35a31f6b025b6719fe79"
+    },
+    "77": {
+      "bytes": 3319257,
+      "logical_id": "rank/control_seed77/best.pt",
+      "selected_epoch": 5,
+      "sha256": "1e066034aac3060e059d0eaba5752e869f1bddd97502a8c2630858268b055354",
+      "tensor_state_sha256": "fcb08f07eb8e7686f2adc0b714e6297428b96a3d5ebc13cc529f834acfdfc482"
+    },
+    "88": {
+      "bytes": 3319321,
+      "logical_id": "rank/control_seed88/best.pt",
+      "selected_epoch": 1,
+      "sha256": "77252824c1115e2fc7945348f407edb3059f0e5817dd79dbe11daa73d301ffaf",
+      "tensor_state_sha256": "77673f5d707a7735f3ff0350628f773df215db6c11a80351583f5ffa8784a6c8"
+    },
+    "99": {
+      "bytes": 3319129,
+      "logical_id": "rank/control_seed99/best.pt",
+      "selected_epoch": 6,
+      "sha256": "f425b9e92feb8b7d242afaceaabe0470b67432a59e2b7ebc1a4f97864c56836c",
+      "tensor_state_sha256": "6bd8fed84a6d6fec95603fe7bd57dcbc836455cb629bb3649376f19713bf5173"
+    }
+  },
+  "pcf_usage": {
+    "default_k": 0.5,
+    "helper_calculates_returns": false,
+    "historical_comparison_fee_per_side": 0.0002,
+    "missing_score_multiplier": 1,
+    "preserve_original_pcf_stock_budget": true,
+    "score_clip": [
+      -2,
+      2
+    ],
+    "suggested_execution": "next trading session after T15 signal, exact mapping supplied by backtester"
+  },
+  "schema": "gru_old_rank_public_model_card_v1",
+  "signal": {
+    "bytes": 2760533,
+    "end": "2026-09-23",
+    "finite_scores": 318086,
+    "path": "signals/OLD_RANK_ensemble_signals.npz",
+    "processed_score": true,
+    "raw_y4": false,
+    "roles": {
+      "carry2026": 177,
+      "primary2025": 243,
+      "warmup2024": 242
+    },
+    "sha256": "e402d5a3c48ad45bd3d4c5e8c4fde068f5a9d37933a12295519f035e5ee63b1f",
+    "shape": [
+      662,
+      1178
+    ],
+    "start": "2024-01-02",
+    "time": "T15 Asia/Shanghai; timestamp field UTC int64 nanoseconds"
+  },
+  "signal_pipeline": [
+    "per-seed y4 population-z",
+    "equal five-seed mean",
+    "original volatility/turnover/log_cap/beta60 OLS neutralization",
+    "EMA alpha .2 across year boundaries",
+    "current-member population-z"
+  ],
+  "training": {
+    "embargo_trading_days": 2,
+    "end_exclusive": "2024-01-01",
+    "fresh_oos_claim": false,
+    "label_formula": "original y_h=log(P[g+1+h]/P[g+1]),h=1,2,3,4; P=original execution-window mean adjusted opens; g indexes original hourly execution grid",
+    "labels_are_new_5_or_20_day_vwap": false,
+    "loss": "equal-weight four-head cross-sectional Pearson loss on inverse-normal average-rank labels",
+    "maximum_epochs": 40,
+    "selection": "2024 slot14 y4 mean cross-sectional RankIC, validation_best",
+    "start": "2019-01-01",
+    "training_slots": [
+      "10:30",
+      "11:30",
+      "14:00",
+      "15:00"
+    ],
+    "validation_end_exclusive": "2025-01-01",
+    "validation_start": "2024-01-01"
+  },
+  "weight_format": "bare_tensor_state_dict; torch.load(weights_only=True)",
+  "weights": {
+    "111": {
+      "bytes": 1653525,
+      "format": "state_dict",
+      "path": "checkpoints/rank_seed111.pt",
+      "sha256": "99b697f04850fa6dd1d88e37d38d245528214684347f785c06b54d436b630ba5",
+      "source_checkpoint_sha256": "118ce2fd012a963d78fc152cfaa304d8c88f3cb5913dfe20812a77239c7ec3b3"
+    },
+    "66": {
+      "bytes": 1653477,
+      "format": "state_dict",
+      "path": "checkpoints/rank_seed66.pt",
+      "sha256": "36484109893d86c184625da12687871458bd45a7eb01c70691586d40a8259385",
+      "source_checkpoint_sha256": "336849919446fbb180b58c4dbf29f6a76b5aad653aa38864bcbec4090bf97cb8"
+    },
+    "77": {
+      "bytes": 1653477,
+      "format": "state_dict",
+      "path": "checkpoints/rank_seed77.pt",
+      "sha256": "b71171f65d6b39d3b6c44168bebc4e37018938a92bf2883ed7a351427f3e9b31",
+      "source_checkpoint_sha256": "1e066034aac3060e059d0eaba5752e869f1bddd97502a8c2630858268b055354"
+    },
+    "88": {
+      "bytes": 1653477,
+      "format": "state_dict",
+      "path": "checkpoints/rank_seed88.pt",
+      "sha256": "85b791ae1194e957d66cf60c2a7ebed02ce50b723f76782af78a6fe11b2ba933",
+      "source_checkpoint_sha256": "77252824c1115e2fc7945348f407edb3059f0e5817dd79dbe11daa73d301ffaf"
+    },
+    "99": {
+      "bytes": 1653477,
+      "format": "state_dict",
+      "path": "checkpoints/rank_seed99.pt",
+      "sha256": "d342b8636e83b054d6b138b4296fab94eb81087efda7b812c5bf5a79197fd243",
+      "source_checkpoint_sha256": "f425b9e92feb8b7d242afaceaabe0470b67432a59e2b7ebc1a4f97864c56836c"
+    }
+  },
+  "weights_manifest_sha256": "9021e8e79c6064f947b2525e552a127cd851c9e7781ee734714c1c909d14b782"
+}

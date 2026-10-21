@@ -1,0 +1,88 @@
+{
+  "status": "complete",
+  "jobs": [
+    {
+      "seed": 11,
+      "variant": "market_attention",
+      "job_id": 417937
+    },
+    {
+      "seed": 11,
+      "variant": "control",
+      "job_id": 417938
+    },
+    {
+      "seed": 22,
+      "variant": "market_attention",
+      "job_id": 417940
+    },
+    {
+      "seed": 22,
+      "variant": "control",
+      "job_id": 417941
+    },
+    {
+      "seed": 33,
+      "variant": "market_attention",
+      "job_id": 417942
+    },
+    {
+      "seed": 33,
+      "variant": "control",
+      "job_id": 417943
+    },
+    {
+      "seed": 44,
+      "variant": "market_attention",
+      "job_id": 417944
+    },
+    {
+      "seed": 44,
+      "variant": "control",
+      "job_id": 417945
+    },
+    {
+      "seed": 55,
+      "variant": "market_attention",
+      "job_id": 417946
+    },
+    {
+      "seed": 55,
+      "variant": "control",
+      "job_id": 417947
+    }
+  ],
+  "observed_first_epoch": {
+    "variant": "market_attention",
+    "seed": 11,
+    "epoch": 1,
+    "validation14_rank_ic": 0.054125743287472564,
+    "validation14_ic": 0.029221157399036586,
+    "seconds": 161.560122966766
+  },
+  "not_final_results": false,
+  "remote_output": "/home/users/s1155284034/gru_hourly_20261001/outputs/gru_market_attention_20261007",
+  "queue_note": "All ten training/export jobs and dependent backtest completed; initial queue details are historical.",
+  "no_automatic_notification_promised": true,
+  "report_job_id": 417949,
+  "report_dependency": "afterok:417937:417938:417940:417941:417942:417943:417944:417945:417946:417947",
+  "source_package_hashes_verified_on_server": true,
+  "synthetic_model_tests": "passed",
+  "synthetic_replay_tests": "passed",
+  "simulation_cost": {
+    "confirmed_by_user": true,
+    "per_buy": 0.0002,
+    "per_sell": 0.0002,
+    "minimum": 0,
+    "additional_taxes": 0,
+    "transfer_fee": 0,
+    "added_slippage": 0
+  },
+  "report_cost_updated_and_tests_passed": true,
+  "old_model_fee_correction_job": 417952,
+  "completion_evidence": "../outputs/gru_market_attention_report_20261007/evidence/completion.json",
+  "models_completed": 10,
+  "exports_completed": 10,
+  "backtest_cases_completed": 56,
+  "verified_at": "2026-10-07T18:02:27.159036+08:00"
+}

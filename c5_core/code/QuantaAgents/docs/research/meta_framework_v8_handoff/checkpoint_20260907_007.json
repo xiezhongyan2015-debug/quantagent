@@ -1,0 +1,33 @@
+{
+  "checkpoint_kind": "append_only_handoff",
+  "checkpoint_number": 7,
+  "recorded_at": "2026-09-07T02:04:00+08:00",
+  "controller_thread_id": "01a0774d-4327-7701-948f-2796de6fccd3",
+  "automation_id": "a",
+  "phase": "P2_offline_horizon_wiring_and_matching_core_in_progress_GUI_race_closed",
+  "stage": "experiment_traces/meta_ashare_revision12",
+  "stage_state": "P2 implementation and independent review in progress; full revision not accepted",
+  "paid_dispatch_permitted": false,
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "monitor_url": "http://192.0.2.10:8776/",
+  "monitor_source": "v12 read-only saved-record monitor",
+  "monitor_source_sha256": "c9fab3683cf6f5a6ad48ef428a57e43124a5e4b9e40b8df3d74c6a876b787bea",
+  "monitor_parent_pid": 63820,
+  "monitor_evidence": "experiment_traces/meta_diagnostic_monitor_v12/browser_check_001.json",
+  "monitor_review": "docs/research/meta_framework_v12_handoff/monitor_repair_review_001.md",
+  "monitor_checks": "13 backend checks, original independent 7 delayed-response counterexamples, actual browser source replacement/case switching/paging/clearing all passed within the recorded scope",
+  "prior_monitor_retirement": "Task-owned v11 PIDs 66932/66064 verified by command line and stopped; v12 replaced them on 8776. Prior v10 8775 retired; legacy 8769/8773 preserved.",
+  "last_campaign_root": "experiment_traces/meta_diagnostic_calibrations/campaigns/diagnostic_20260906T172850309804Z",
+  "last_campaign_result": "completed controller; 13 completed calls, 238797 research tokens, no unsettled; two failed legal-final outcomes remain unchanged",
+  "next_work": "Complete bounded P2 generic horizon wiring and pure condition/matching module, then freeze and run affected joint tests plus independent counterexamples. No new model campaign, real market data or backtest in this stage.",
+  "source_evidence_added": "experiment_traces/meta_historical_fee_sources/20260906T175900Z: 4 searches, 3 opens (2 successful/1 timeout), partial official stamp-duty evidence only. Transfer-fee notices and complete fee/account coverage remain unverified; no cost values or execution gates changed.",
+  "execution_valid": false,
+  "formal_target_success": false,
+  "target_achieved": false,
+  "self_check": {
+    "assessment": "The GUI identity defect is closed by captured request identities and stale-response suppression, with independent delayed-response checks and actual normal browser actions. P2 tool work is still unfinished and cannot inherit this GUI acceptance.",
+    "next_step": "Require exact action-to-kernel reachability, three recorded horizon subattempts, no recovery recomputation, and matching plans frozen before outcomes. Keep formal execution blocked until historical market/action/state/capacity evidence is complete.",
+    "falsifiers": "Any stale response displayed under a new identity reopens GUI failure; any unrecorded scan, outcome-informed control choice, cross-day match or silent dropped holding/fee gate blocks P2 progression."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "checkpoint_kind": "append_only_handoff",
+  "checkpoint_number": 5,
+  "recorded_at": "2026-09-07T01:42:00+08:00",
+  "controller_thread_id": "01a0774d-4327-7701-948f-2796de6fccd3",
+  "automation_id": "a",
+  "phase": "P1_live_diagnostics_finished_two_submission_failures_offline_root_cause_review",
+  "stage": "experiment_traces/meta_ashare_revision10",
+  "source_hash": "3384cbbe9266d08d00da64c307fb70942ed3809d1a67a9332420ac1068a4fc6e",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "paid_dispatch_permitted": false,
+  "campaign_root": "experiment_traces/meta_diagnostic_calibrations/campaigns/diagnostic_20260906T172850309804Z",
+  "campaign_plan_hash": "326562d60206dcdc123c9404e382354c8a89dcc8cb6f0f78e7db92ef2f2cadb8",
+  "campaign_status": "completed",
+  "worker_observation": "Controller command session 85183 exited with code 0 after both frozen cases terminated; no restart authorized by this checkpoint.",
+  "result": {
+    "calls_started": 13,
+    "calls_completed": 13,
+    "reported_research_tokens": 238797,
+    "unsettled_calls": 0,
+    "reserved_tokens": 0,
+    "accepted_final_reports": 0,
+    "calibration_01": {"status": "failed", "calls": 7, "queries": 6, "tokens": 138417, "rejection": "non-numeric finding must not contain a number"},
+    "calibration_02": {"status": "failed", "calls": 6, "queries": 5, "tokens": 100380, "rejection": "numeric quantity is unknown or duplicated"}
+  },
+  "result_boundary": "Provider-call completion, interface-valid final and semantic correctness are separate. Original paid answers and failed case statuses remain immutable; offline diagnosis or edited fixtures cannot become successful live repeats.",
+  "next_work": "Read-only independent review of both frozen reports and their actually visible contract; prepare a separately versioned minimal interface correction and saved-output regression. No feedback to the finished researchers and no paid replacement calls.",
+  "monitor_url": "http://192.0.2.10:8775/",
+  "monitor_scope": "Read-only saved status; root owns implementation. Existing heartbeat a must stay quiet for unchanged state, read latest numbered checkpoint and never duplicate a dispatcher.",
+  "legacy_q_control": "Preserve paused Q and legacy services; no retries or stop-command workarounds.",
+  "engineering_usage_observation": {"goal_tracker_tokens_used": 2919440, "scope": "Platform goal counter at completion inspection, separate from the research ledger; not a reconciled supplier invoice."},
+  "execution_valid": false,
+  "formal_target_success": false,
+  "target_achieved": false,
+  "self_check": {
+    "assessment": "P0 completion and accounting held in this bounded live exercise. Both legal-final outcomes failed, revealing gaps not caught by reference-client fixtures; semantic quality requires independent review.",
+    "uncertainty": "The two errors may combine insufficiently public cross-field rules and model reporting choices. No hidden-mechanism, real execution, architecture comparison or strategy stability evidence is established.",
+    "falsifiers": "If rules were clearly present in the actual saved prompts, interface under-specification is weakened. If an original answer contradicts public numeric evidence, that remains a model diagnosis error regardless of interface repair. A permissive parser accepting false or unbound claims is not a fix.",
+    "next_step": "Publish exact executable contract, preserve strict provenance and one-final budget, verify saved cases and adversarial invalid inputs offline before considering any newly frozen independent study."
+  }
+}

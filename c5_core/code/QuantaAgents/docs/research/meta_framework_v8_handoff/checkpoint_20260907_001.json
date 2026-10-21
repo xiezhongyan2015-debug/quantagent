@@ -1,0 +1,48 @@
+{
+  "checkpoint_kind": "append_only_handoff",
+  "controller_thread_id": "01a0774d-4327-7701-948f-2796de6fccd3",
+  "automation_id": "a",
+  "phase": "P1_P2_offline_calibration_implementation",
+  "stage": "experiment_traces/meta_ashare_revision8",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "paid_dispatch_permitted": false,
+  "p0_source_hash": "fc6543a181d7c1fc71967b44272cd6a85cfceafef43ed5eeb576ed49925c429b",
+  "p0_receipt": "experiment_traces/meta_ashare_revision7/validation_attempts/20260906T155410352749Z/receipt.json",
+  "p0_joint_tests_passed": 776,
+  "p0_javascript_tests_passed": 14,
+  "p0_report": "docs/META_REVISION7_P0_REPORT.md",
+  "p0_recovered_answers": 3,
+  "p0_historical_recovered_tokens_reference": 61758,
+  "p0_new_research_gateway_calls": 0,
+  "q_status_preserved": "3 failed, 1 paused; batch paused",
+  "q_historical_known_tokens": 81279,
+  "gui_url": "http://192.0.2.10:8774/",
+  "gui_root": "experiment_traces/meta_ashare_v7_gui_verified",
+  "gui_scope": "offline_fixture_only",
+  "gui_final_health": {"active_run": null, "offline_only": true},
+  "gui_browser_observations": [
+    "Initial ready: 8 not_started, 0 active, live start disabled",
+    "Batch pause persisted after reload",
+    "Resume returned ready: 8 not_started, 0 active, 0 known tokens",
+    "Left fixture batch paused; no dispatcher started",
+    "4887667-byte diagnostic copy rendered first and second 65536-character pages",
+    "Previous page and close dialog worked"
+  ],
+  "preserved_service_ports": [8769, 8771, 8773],
+  "p1_current_checks": {"public_contract_tests": 18, "independent_oracle": "in_progress", "common_horizons": "in_progress", "evidence_queries": "in_progress"},
+  "next": "Finish the two exposed diagnostic prototypes with independent arithmetic and public reference paths; freeze actual model calibration budget only after offline gates pass",
+  "target_achieved": false,
+  "formal_target_success": false,
+  "execution_valid": false,
+  "engineering_model_usage": "Separate from research gateway count; supplier bill not precisely reconciled",
+  "approval_notes": [
+    "Automatic approval rejected stopping/restarting verification port 8773: blocked by policy; no stop was executed and no alternate stopping method was attempted",
+    "Automatic approval rejected a bulk shell command creating acceptance files and replacing the main checkpoint: blocked by policy; that command made no changes",
+    "This additive handoff preserves the existing main checkpoint and all existing acceptance artifacts; final joint receipt already exists at p0_receipt"
+  ],
+  "self_check": {
+    "assessment": "P0 has offline joint and browser evidence, including saved failures and corrected activity display. No new research or strategy evidence is inferred from these tests.",
+    "next_step": "Verify data identity, common event membership, cash/stock accounting, bounded queries, immutable final reports and absence of evaluator feedback. Any mismatch or leak blocks the affected calibration task."
+  }
+}

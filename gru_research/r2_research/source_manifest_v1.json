@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "protocol_sha256": "e8d5f6a15bba4496ab1895c9d9b781340acc1ef90782440a0b6c23822384205f",
+  "files_sha256": {
+    "gru_research/r2_research/__init__.py": "327c07cdac3bea90a4ab14c1ca2cdb6eac59b79919b712a71b8b514f6c06df6d",
+    "gru_research/r2_research/protocol.py": "9dae783dae024e8e5520659294206ffdd0fc264438fe4afb3daf150738c6df19",
+    "gru_research/r2_research/protocol_v1.json": "e8d5f6a15bba4496ab1895c9d9b781340acc1ef90782440a0b6c23822384205f",
+    "gru_research/r2_research/folds.py": "7d6650c9d9a1cf0bc9a560ddc4670901418f8d0f3a14d3cca56b54009a50bd57",
+    "gru_research/r2_research/causal_gate.py": "4e47992986afec794b3f815b57fa20286fb5881be4ca4367267901710c7ed9b7",
+    "gru_research/r2_research/runner.py": "0e543e3c98bda417654b80ca62c2f972cfbbcc49c7380884b7ea0e09a26f1f23",
+    "gru_research/r2_research/transport.py": "9371e3323d46baabdb67c009639e05b0421a11eb271dfdaf88cc6fc6007897b5",
+    "gru_research/r2_research/causal_minute_adapter.py": "bc9e79ca05854cd0f7452f25487407a9eec87712013e62500f2717bea7aab33c"
+  },
+  "runtime_source_count": 8,
+  "status": "PREPARED_SOURCE_SEAL_NOT_REMOTE_EXECUTED"
+}

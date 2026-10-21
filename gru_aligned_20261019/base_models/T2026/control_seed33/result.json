@@ -1,0 +1,109 @@
+{
+  "status": "complete",
+  "signature": {
+    "config": {
+      "sequence_length": 80,
+      "hidden": 128,
+      "gru_layers": 2,
+      "attention_layers": 1,
+      "attention_heads": 4,
+      "attention_ffn": 512,
+      "attention_dropout": 0.2,
+      "film_hidden": 32,
+      "heads": 4,
+      "output_head": "y4",
+      "training_loss": "equal per-head mean Pearson loss on inverse-normal average ranks",
+      "label_transform": "ndtri((average_rank - 0.5) / n); separate finite mask per target",
+      "batch_cross_sections": 8,
+      "microbatch_cross_sections": 2,
+      "epochs": 40,
+      "patience": 8,
+      "lr_patience": 3,
+      "learning_rate": 0.0003,
+      "min_learning_rate": 1e-05,
+      "weight_decay": 0.0001,
+      "gradient_clip": 1.0,
+      "min_stocks": 100,
+      "embargo_trading_days": 2,
+      "label_variance_floor": 1e-12,
+      "seeds": [
+        11,
+        22,
+        33,
+        44,
+        55
+      ],
+      "training": "2019-01-01..2025-01-01 (end exclusive; two-trading-day embargo and label maturity unchanged)",
+      "validation": "2025-01-01..2026-01-01",
+      "checkpoint_selection": "validation slot14 y4 RankIC on 2025-01-01..2026-01-01",
+      "historical_test": "2026-01-01..2026-09-24; never used for checkpoint selection",
+      "dtype": "float32",
+      "experiment_comparison": "control versus attention+FiLM bundle; all other new training/input choices identical",
+      "retained_upstream_limitation": "Original feature panel retained; historical day-quality anomaly trigger count zero, latent code issue remains. No live certification.",
+      "walkforward": {
+        "train_start": "2019-01-01",
+        "train_end": "2025-01-01",
+        "val_start": "2025-01-01",
+        "val_end": "2026-01-01",
+        "test_start": "2026-01-01",
+        "test_end": "2026-09-24"
+      },
+      "panel_dir": "/data/users/s1155284034/gru_hourly_20261001/dataset",
+      "panel_hour_complete_sha256": "ea5e6566e4f6a447202f76fb57d209a29c47cfc129fd5fb086bf8765927f5659",
+      "wrapper_source_sha256": "221ee02ec553541ad3e6e5c53aa8f6c68ec1c81d06aa9bc4b4785a64c6c972ec"
+    },
+    "variant": "control",
+    "seed": 33,
+    "dataset": "6c2426b3f0d03421914a8c38b1a19bed5943a16f7dd74d93ca988dea73e4a2a4",
+    "context": "e0feca171e3c0ad4167818fce441ab6cb3d28fa87cafaca7806e3034db7ac2ce",
+    "source_sha256": "83982c9aa668888501d464dfc0208422e9a15d98fdc50cf6385ca838549d7bba",
+    "model_source_sha256": "b22e45fcb9814a0d088daa979217e34af97e2263856c62de13ee317a9c0aea49"
+  },
+  "best_epoch": 4,
+  "epochs_completed": 12,
+  "best_validation14_rank_ic": 0.07308074655588885,
+  "best_checkpoint_sha256": "fd1b27fa87049046fc354404791c9a0d077d1a8fd691a9d1f3d48b0a0870c64f",
+  "validation": {
+    "overall": {
+      "ic": 0.03775287455691474,
+      "rank_ic": 0.06816564393505227
+    },
+    "slot": {
+      "0": {
+        "ic": 0.03194907106305673,
+        "rank_ic": 0.0717132720046673
+      },
+      "1": {
+        "ic": 0.04968096465850415,
+        "rank_ic": 0.07059313925297545
+      },
+      "2": {
+        "ic": 0.05358890960135055,
+        "rank_ic": 0.07308074655588885
+      },
+      "3": {
+        "ic": 0.015700668713734274,
+        "rank_ic": 0.05722985212747924
+      }
+    },
+    "quarter": {
+      "2025Q1": {
+        "ic": 0.03837914329087921,
+        "rank_ic": 0.06187821642657606
+      },
+      "2025Q2": {
+        "ic": 0.058789338924559176,
+        "rank_ic": 0.08697509371012391
+      },
+      "2025Q3": {
+        "ic": 0.016261016386350437,
+        "rank_ic": 0.0482804338095804
+      },
+      "2025Q4": {
+        "ic": 0.03987758749722492,
+        "rank_ic": 0.07772053820395075
+      }
+    }
+  },
+  "historical_test_used_for_selection": false
+}

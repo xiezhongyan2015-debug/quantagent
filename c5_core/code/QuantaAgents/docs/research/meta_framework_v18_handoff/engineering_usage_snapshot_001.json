@@ -1,0 +1,17 @@
+{
+  "kind": "platform_goal_counter_observation",
+  "observed_tool_updatedAt": 1788753614,
+  "goal": {
+    "threadId": "01a0774d-4327-7701-948f-2796de6fccd3",
+    "objective": "落实 QuantaAgents 元框架改造并持续研究、开发、诊断与迭代；内部正式研究、评审及架构比较统一 gpt-6-astra/xhigh。首先取得唯一主控、接管已有监控，在下一隔离修订中用原始保存事件零模型费用修复并验证 P0；继而完成校准题库、可信执行与研究工具、自主迭代及 GUI、公平架构比较和冻结正式验证。按实施提示词的跨案例、独立重复和新增前瞻证据标准，验证真实成本后冻结样本外净夏普严格大于1且稳定达标；证据不足保持未达标，不放宽标准，不重复付费或无限重跑。",
+    "status": "active",
+    "tokensUsed": 13034382,
+    "timeUsedSeconds": 33975,
+    "createdAt": 1788708013,
+    "updatedAt": 1788753614
+  },
+  "remainingTokens": null,
+  "scope": "Platform goal counter for this task, including implementation and coordination as reported by the platform; not a supplier invoice or a per-campaign attribution. Retained separately from research calls and unknown reserves.",
+  "real_dispatch_authorized": false,
+  "formal_target_success": false
+}

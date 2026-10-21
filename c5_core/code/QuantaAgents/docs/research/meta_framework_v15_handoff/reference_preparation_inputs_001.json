@@ -1,0 +1,19 @@
+{
+  "kind": "preparation_input_consistency_review",
+  "status": "passed",
+  "created_at": "2026-09-06T21:01:19.326809+00:00",
+  "scope_path": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_v15_handoff/reference_scope_001.json",
+  "scope_sha256": "e72076081931c38629e4d096111f1eb156fa6add815789f3d2bbc4ecf404d8c9",
+  "evaluation_and_budget_pins": {
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_v15_handoff/reference_budget_001.json": "5e57b6cb9308fa3389c7aa102d24242a7825d2ce82cda37b15a9553fa2dcacd5",
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_v15_handoff/reference_evaluation_prereg_001.md": "381352961490781c5cc05f64ac835d57003e3587ab13bb7ec9815ee7ff8effbe"
+  },
+  "v15_validation_sha256": "f8a567f2d3d4cc68edb0b4a481e0b6267c982dfa4ac6204c53d2199d835ba50d",
+  "model": "gpt-6-astra",
+  "effort": "xhigh",
+  "independent_preregistered_evaluation_review": true,
+  "ready_for_preparation": true,
+  "real_dispatch_authorized": false,
+  "execution_valid": false,
+  "note": "User authorizes autonomous implementation and necessary research. This checks only frozen preparation inputs; it cannot authorize run. Concrete plan needs separate independent admission."
+}

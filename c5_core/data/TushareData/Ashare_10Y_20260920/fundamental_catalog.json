@@ -1,0 +1,4338 @@
+{
+  "daily_basic": {
+    "url": "https://tushare.pro/document/2?doc_id=32",
+    "fields": [
+      {
+        "field": "ts_code",
+        "type": "str",
+        "default": "Y",
+        "description": "TS股票代码"
+      },
+      {
+        "field": "trade_date",
+        "type": "str",
+        "default": "Y",
+        "description": "交易日期"
+      },
+      {
+        "field": "close",
+        "type": "float",
+        "default": "Y",
+        "description": "当日收盘价"
+      },
+      {
+        "field": "turnover_rate",
+        "type": "float",
+        "default": "Y",
+        "description": "换手率（%） (成交量/无限售流通股数)"
+      },
+      {
+        "field": "turnover_rate_f",
+        "type": "float",
+        "default": "Y",
+        "description": "换手率（%）（自由流通股）(成交量/自由流通股数)"
+      },
+      {
+        "field": "volume_ratio",
+        "type": "float",
+        "default": "Y",
+        "description": "量比 VOL/MA"
+      },
+      {
+        "field": "pe",
+        "type": "float",
+        "default": "Y",
+        "description": "市盈率（总市值/净利润， 亏损的PE为空）"
+      },
+      {
+        "field": "pe_ttm",
+        "type": "float",
+        "default": "Y",
+        "description": "市盈率（ 总市值/净利润TTM，亏损的PE为空）"
+      },
+      {
+        "field": "pb",
+        "type": "float",
+        "default": "Y",
+        "description": "市净率（总市值/(净资产-其他权益工具)）"
+      },
+      {
+        "field": "ps",
+        "type": "float",
+        "default": "Y",
+        "description": "市销率 (总市值/营业收入(最新年报))"
+      },
+      {
+        "field": "ps_ttm",
+        "type": "float",
+        "default": "Y",
+        "description": "市销率（TTM）(总市值/营业收入TTM)"
+      },
+      {
+        "field": "dv_ratio",
+        "type": "float",
+        "default": "Y",
+        "description": "股息率 （%），除息日发生在去年期间的派现"
+      },
+      {
+        "field": "dv_ttm",
+        "type": "float",
+        "default": "Y",
+        "description": "股息率（TTM）（%），除息日在近12个月且分红报告期在12个月以内的派现"
+      },
+      {
+        "field": "total_share",
+        "type": "float",
+        "default": "Y",
+        "description": "总股本 （万股）"
+      },
+      {
+        "field": "float_share",
+        "type": "float",
+        "default": "Y",
+        "description": "流通股本 （万股）"
+      },
+      {
+        "field": "free_share",
+        "type": "float",
+        "default": "Y",
+        "description": "自由流通股本 （万股）"
+      },
+      {
+        "field": "total_mv",
+        "type": "float",
+        "default": "Y",
+        "description": "总市值 （万元）"
+      },
+      {
+        "field": "circ_mv",
+        "type": "float",
+        "default": "Y",
+        "description": "流通市值（万元）"
+      },
+      {
+        "field": "limit_status",
+        "type": "int",
+        "default": "N",
+        "description": "收盘涨跌状态：0-平盘，1-上涨(不含涨停)，2-涨停(不含一字涨停)，3-一字涨停，4-下跌(不含跌停)，5-跌停(不含一字跌停)，6-一字跌停"
+      }
+    ]
+  },
+  "fina_indicator": {
+    "url": "https://tushare.pro/document/2?doc_id=79",
+    "fields": [
+      {
+        "field": "ts_code",
+        "type": "str",
+        "default": "Y",
+        "description": "TS代码"
+      },
+      {
+        "field": "ann_date",
+        "type": "str",
+        "default": "Y",
+        "description": "公告日期"
+      },
+      {
+        "field": "end_date",
+        "type": "str",
+        "default": "Y",
+        "description": "报告期"
+      },
+      {
+        "field": "eps",
+        "type": "float",
+        "default": "Y",
+        "description": "基本每股收益"
+      },
+      {
+        "field": "dt_eps",
+        "type": "float",
+        "default": "Y",
+        "description": "稀释每股收益"
+      },
+      {
+        "field": "total_revenue_ps",
+        "type": "float",
+        "default": "Y",
+        "description": "每股营业总收入"
+      },
+      {
+        "field": "revenue_ps",
+        "type": "float",
+        "default": "Y",
+        "description": "每股营业收入"
+      },
+      {
+        "field": "capital_rese_ps",
+        "type": "float",
+        "default": "Y",
+        "description": "每股资本公积"
+      },
+      {
+        "field": "surplus_rese_ps",
+        "type": "float",
+        "default": "Y",
+        "description": "每股盈余公积"
+      },
+      {
+        "field": "undist_profit_ps",
+        "type": "float",
+        "default": "Y",
+        "description": "每股未分配利润"
+      },
+      {
+        "field": "extra_item",
+        "type": "float",
+        "default": "Y",
+        "description": "非经常性损益"
+      },
+      {
+        "field": "profit_dedt",
+        "type": "float",
+        "default": "Y",
+        "description": "扣除非经常性损益后的净利润（扣非净利润）"
+      },
+      {
+        "field": "gross_margin",
+        "type": "float",
+        "default": "Y",
+        "description": "毛利"
+      },
+      {
+        "field": "current_ratio",
+        "type": "float",
+        "default": "Y",
+        "description": "流动比率"
+      },
+      {
+        "field": "quick_ratio",
+        "type": "float",
+        "default": "Y",
+        "description": "速动比率"
+      },
+      {
+        "field": "cash_ratio",
+        "type": "float",
+        "default": "Y",
+        "description": "保守速动比率"
+      },
+      {
+        "field": "invturn_days",
+        "type": "float",
+        "default": "N",
+        "description": "存货周转天数"
+      },
+      {
+        "field": "arturn_days",
+        "type": "float",
+        "default": "N",
+        "description": "应收账款周转天数"
+      },
+      {
+        "field": "inv_turn",
+        "type": "float",
+        "default": "N",
+        "description": "存货周转率"
+      },
+      {
+        "field": "ar_turn",
+        "type": "float",
+        "default": "Y",
+        "description": "应收账款周转率"
+      },
+      {
+        "field": "ca_turn",
+        "type": "float",
+        "default": "Y",
+        "description": "流动资产周转率"
+      },
+      {
+        "field": "fa_turn",
+        "type": "float",
+        "default": "Y",
+        "description": "固定资产周转率"
+      },
+      {
+        "field": "assets_turn",
+        "type": "float",
+        "default": "Y",
+        "description": "总资产周转率"
+      },
+      {
+        "field": "op_income",
+        "type": "float",
+        "default": "Y",
+        "description": "经营活动净收益"
+      },
+      {
+        "field": "valuechange_income",
+        "type": "float",
+        "default": "N",
+        "description": "价值变动净收益"
+      },
+      {
+        "field": "interst_income",
+        "type": "float",
+        "default": "N",
+        "description": "利息费用"
+      },
+      {
+        "field": "daa",
+        "type": "float",
+        "default": "N",
+        "description": "折旧与摊销"
+      },
+      {
+        "field": "ebit",
+        "type": "float",
+        "default": "Y",
+        "description": "息税前利润"
+      },
+      {
+        "field": "ebitda",
+        "type": "float",
+        "default": "Y",
+        "description": "息税折旧摊销前利润"
+      },
+      {
+        "field": "fcff",
+        "type": "float",
+        "default": "Y",
+        "description": "企业自由现金流量"
+      },
+      {
+        "field": "fcfe",
+        "type": "float",
+        "default": "Y",
+        "description": "股权自由现金流量"
+      },
+      {
+        "field": "current_exint",
+        "type": "float",
+        "default": "Y",
+        "description": "无息流动负债"
+      },
+      {
+        "field": "noncurrent_exint",
+        "type": "float",
+        "default": "Y",
+        "description": "无息非流动负债"
+      },
+      {
+        "field": "interestdebt",
+        "type": "float",
+        "default": "Y",
+        "description": "带息债务"
+      },
+      {
+        "field": "netdebt",
+        "type": "float",
+        "default": "Y",
+        "description": "净债务"
+      },
+      {
+        "field": "tangible_asset",
+        "type": "float",
+        "default": "Y",
+        "description": "有形资产"
+      },
+      {
+        "field": "working_capital",
+        "type": "float",
+        "default": "Y",
+        "description": "营运资金"
+      },
+      {
+        "field": "networking_capital",
+        "type": "float",
+        "default": "Y",
+        "description": "营运流动资本"
+      },
+      {
+        "field": "invest_capital",
+        "type": "float",
+        "default": "Y",
+        "description": "全部投入资本"
+      },
+      {
+        "field": "retained_earnings",
+        "type": "float",
+        "default": "Y",
+        "description": "留存收益"
+      },
+      {
+        "field": "diluted2_eps",
+        "type": "float",
+        "default": "Y",
+        "description": "期末摊薄每股收益"
+      },
+      {
+        "field": "bps",
+        "type": "float",
+        "default": "Y",
+        "description": "每股净资产"
+      },
+      {
+        "field": "ocfps",
+        "type": "float",
+        "default": "Y",
+        "description": "每股经营活动产生的现金流量净额"
+      },
+      {
+        "field": "retainedps",
+        "type": "float",
+        "default": "Y",
+        "description": "每股留存收益"
+      },
+      {
+        "field": "cfps",
+        "type": "float",
+        "default": "Y",
+        "description": "每股现金流量净额"
+      },
+      {
+        "field": "ebit_ps",
+        "type": "float",
+        "default": "Y",
+        "description": "每股息税前利润"
+      },
+      {
+        "field": "fcff_ps",
+        "type": "float",
+        "default": "Y",
+        "description": "每股企业自由现金流量"
+      },
+      {
+        "field": "fcfe_ps",
+        "type": "float",
+        "default": "Y",
+        "description": "每股股东自由现金流量"
+      },
+      {
+        "field": "netprofit_margin",
+        "type": "float",
+        "default": "Y",
+        "description": "销售净利率"
+      },
+      {
+        "field": "grossprofit_margin",
+        "type": "float",
+        "default": "Y",
+        "description": "销售毛利率"
+      },
+      {
+        "field": "cogs_of_sales",
+        "type": "float",
+        "default": "Y",
+        "description": "销售成本率"
+      },
+      {
+        "field": "expense_of_sales",
+        "type": "float",
+        "default": "Y",
+        "description": "销售期间费用率"
+      },
+      {
+        "field": "profit_to_gr",
+        "type": "float",
+        "default": "Y",
+        "description": "净利润/营业总收入"
+      },
+      {
+        "field": "saleexp_to_gr",
+        "type": "float",
+        "default": "Y",
+        "description": "销售费用/营业总收入"
+      },
+      {
+        "field": "adminexp_of_gr",
+        "type": "float",
+        "default": "Y",
+        "description": "管理费用/营业总收入"
+      },
+      {
+        "field": "finaexp_of_gr",
+        "type": "float",
+        "default": "Y",
+        "description": "财务费用/营业总收入"
+      },
+      {
+        "field": "impai_ttm",
+        "type": "float",
+        "default": "Y",
+        "description": "资产减值损失/营业总收入"
+      },
+      {
+        "field": "gc_of_gr",
+        "type": "float",
+        "default": "Y",
+        "description": "营业总成本/营业总收入"
+      },
+      {
+        "field": "op_of_gr",
+        "type": "float",
+        "default": "Y",
+        "description": "营业利润/营业总收入"
+      },
+      {
+        "field": "ebit_of_gr",
+        "type": "float",
+        "default": "Y",
+        "description": "息税前利润/营业总收入"
+      },
+      {
+        "field": "roe",
+        "type": "float",
+        "default": "Y",
+        "description": "净资产收益率"
+      },
+      {
+        "field": "roe_waa",
+        "type": "float",
+        "default": "Y",
+        "description": "加权平均净资产收益率"
+      },
+      {
+        "field": "roe_dt",
+        "type": "float",
+        "default": "Y",
+        "description": "净资产收益率(扣除非经常损益)"
+      },
+      {
+        "field": "roa",
+        "type": "float",
+        "default": "Y",
+        "description": "总资产报酬率"
+      },
+      {
+        "field": "npta",
+        "type": "float",
+        "default": "Y",
+        "description": "总资产净利润"
+      },
+      {
+        "field": "roic",
+        "type": "float",
+        "default": "Y",
+        "description": "投入资本回报率"
+      },
+      {
+        "field": "roe_yearly",
+        "type": "float",
+        "default": "Y",
+        "description": "年化净资产收益率"
+      },
+      {
+        "field": "roa2_yearly",
+        "type": "float",
+        "default": "Y",
+        "description": "年化总资产报酬率"
+      },
+      {
+        "field": "roe_avg",
+        "type": "float",
+        "default": "N",
+        "description": "平均净资产收益率(增发条件)"
+      },
+      {
+        "field": "opincome_of_ebt",
+        "type": "float",
+        "default": "N",
+        "description": "经营活动净收益/利润总额"
+      },
+      {
+        "field": "investincome_of_ebt",
+        "type": "float",
+        "default": "N",
+        "description": "价值变动净收益/利润总额"
+      },
+      {
+        "field": "n_op_profit_of_ebt",
+        "type": "float",
+        "default": "N",
+        "description": "营业外收支净额/利润总额"
+      },
+      {
+        "field": "tax_to_ebt",
+        "type": "float",
+        "default": "N",
+        "description": "所得税/利润总额"
+      },
+      {
+        "field": "dtprofit_to_profit",
+        "type": "float",
+        "default": "N",
+        "description": "扣除非经常损益后的净利润/净利润"
+      },
+      {
+        "field": "salescash_to_or",
+        "type": "float",
+        "default": "N",
+        "description": "销售商品提供劳务收到的现金/营业收入"
+      },
+      {
+        "field": "ocf_to_or",
+        "type": "float",
+        "default": "N",
+        "description": "经营活动产生的现金流量净额/营业收入"
+      },
+      {
+        "field": "ocf_to_opincome",
+        "type": "float",
+        "default": "N",
+        "description": "经营活动产生的现金流量净额/经营活动净收益"
+      },
+      {
+        "field": "capitalized_to_da",
+        "type": "float",
+        "default": "N",
+        "description": "资本支出/折旧和摊销"
+      },
+      {
+        "field": "debt_to_assets",
+        "type": "float",
+        "default": "Y",
+        "description": "资产负债率"
+      },
+      {
+        "field": "assets_to_eqt",
+        "type": "float",
+        "default": "Y",
+        "description": "权益乘数"
+      },
+      {
+        "field": "dp_assets_to_eqt",
+        "type": "float",
+        "default": "Y",
+        "description": "权益乘数(杜邦分析)"
+      },
+      {
+        "field": "ca_to_assets",
+        "type": "float",
+        "default": "Y",
+        "description": "流动资产/总资产"
+      },
+      {
+        "field": "nca_to_assets",
+        "type": "float",
+        "default": "Y",
+        "description": "非流动资产/总资产"
+      },
+      {
+        "field": "tbassets_to_totalassets",
+        "type": "float",
+        "default": "Y",
+        "description": "有形资产/总资产"
+      },
+      {
+        "field": "int_to_talcap",
+        "type": "float",
+        "default": "Y",
+        "description": "带息债务/全部投入资本"
+      },
+      {
+        "field": "eqt_to_talcapital",
+        "type": "float",
+        "default": "Y",
+        "description": "归属于母公司的股东权益/全部投入资本"
+      },
+      {
+        "field": "currentdebt_to_debt",
+        "type": "float",
+        "default": "Y",
+        "description": "流动负债/负债合计"
+      },
+      {
+        "field": "longdeb_to_debt",
+        "type": "float",
+        "default": "Y",
+        "description": "非流动负债/负债合计"
+      },
+      {
+        "field": "ocf_to_shortdebt",
+        "type": "float",
+        "default": "Y",
+        "description": "经营活动产生的现金流量净额/流动负债"
+      },
+      {
+        "field": "debt_to_eqt",
+        "type": "float",
+        "default": "Y",
+        "description": "产权比率"
+      },
+      {
+        "field": "eqt_to_debt",
+        "type": "float",
+        "default": "Y",
+        "description": "归属于母公司的股东权益/负债合计"
+      },
+      {
+        "field": "eqt_to_interestdebt",
+        "type": "float",
+        "default": "Y",
+        "description": "归属于母公司的股东权益/带息债务"
+      },
+      {
+        "field": "tangibleasset_to_debt",
+        "type": "float",
+        "default": "Y",
+        "description": "有形资产/负债合计"
+      },
+      {
+        "field": "tangasset_to_intdebt",
+        "type": "float",
+        "default": "Y",
+        "description": "有形资产/带息债务"
+      },
+      {
+        "field": "tangibleasset_to_netdebt",
+        "type": "float",
+        "default": "Y",
+        "description": "有形资产/净债务"
+      },
+      {
+        "field": "ocf_to_debt",
+        "type": "float",
+        "default": "Y",
+        "description": "经营活动产生的现金流量净额/负债合计"
+      },
+      {
+        "field": "ocf_to_interestdebt",
+        "type": "float",
+        "default": "N",
+        "description": "经营活动产生的现金流量净额/带息债务"
+      },
+      {
+        "field": "ocf_to_netdebt",
+        "type": "float",
+        "default": "N",
+        "description": "经营活动产生的现金流量净额/净债务"
+      },
+      {
+        "field": "ebit_to_interest",
+        "type": "float",
+        "default": "N",
+        "description": "已获利息倍数(EBIT/利息费用)"
+      },
+      {
+        "field": "longdebt_to_workingcapital",
+        "type": "float",
+        "default": "N",
+        "description": "长期债务与营运资金比率"
+      },
+      {
+        "field": "ebitda_to_debt",
+        "type": "float",
+        "default": "N",
+        "description": "息税折旧摊销前利润/负债合计"
+      },
+      {
+        "field": "turn_days",
+        "type": "float",
+        "default": "Y",
+        "description": "营业周期"
+      },
+      {
+        "field": "roa_yearly",
+        "type": "float",
+        "default": "Y",
+        "description": "年化总资产净利率"
+      },
+      {
+        "field": "roa_dp",
+        "type": "float",
+        "default": "Y",
+        "description": "总资产净利率(杜邦分析)"
+      },
+      {
+        "field": "fixed_assets",
+        "type": "float",
+        "default": "Y",
+        "description": "固定资产合计"
+      },
+      {
+        "field": "profit_prefin_exp",
+        "type": "float",
+        "default": "N",
+        "description": "扣除财务费用前营业利润"
+      },
+      {
+        "field": "non_op_profit",
+        "type": "float",
+        "default": "N",
+        "description": "非营业利润"
+      },
+      {
+        "field": "op_to_ebt",
+        "type": "float",
+        "default": "N",
+        "description": "营业利润／利润总额"
+      },
+      {
+        "field": "nop_to_ebt",
+        "type": "float",
+        "default": "N",
+        "description": "非营业利润／利润总额"
+      },
+      {
+        "field": "ocf_to_profit",
+        "type": "float",
+        "default": "N",
+        "description": "经营活动产生的现金流量净额／营业利润"
+      },
+      {
+        "field": "cash_to_liqdebt",
+        "type": "float",
+        "default": "N",
+        "description": "货币资金／流动负债"
+      },
+      {
+        "field": "cash_to_liqdebt_withinterest",
+        "type": "float",
+        "default": "N",
+        "description": "货币资金／带息流动负债"
+      },
+      {
+        "field": "op_to_liqdebt",
+        "type": "float",
+        "default": "N",
+        "description": "营业利润／流动负债"
+      },
+      {
+        "field": "op_to_debt",
+        "type": "float",
+        "default": "N",
+        "description": "营业利润／负债合计"
+      },
+      {
+        "field": "roic_yearly",
+        "type": "float",
+        "default": "N",
+        "description": "年化投入资本回报率"
+      },
+      {
+        "field": "total_fa_trun",
+        "type": "float",
+        "default": "N",
+        "description": "固定资产合计周转率"
+      },
+      {
+        "field": "profit_to_op",
+        "type": "float",
+        "default": "Y",
+        "description": "利润总额／营业收入"
+      },
+      {
+        "field": "q_opincome",
+        "type": "float",
+        "default": "N",
+        "description": "经营活动单季度净收益"
+      },
+      {
+        "field": "q_investincome",
+        "type": "float",
+        "default": "N",
+        "description": "价值变动单季度净收益"
+      },
+      {
+        "field": "q_dtprofit",
+        "type": "float",
+        "default": "N",
+        "description": "扣除非经常损益后的单季度净利润"
+      },
+      {
+        "field": "q_eps",
+        "type": "float",
+        "default": "N",
+        "description": "每股收益(单季度)"
+      },
+      {
+        "field": "q_netprofit_margin",
+        "type": "float",
+        "default": "N",
+        "description": "销售净利率(单季度)"
+      },
+      {
+        "field": "q_gsprofit_margin",
+        "type": "float",
+        "default": "N",
+        "description": "销售毛利率(单季度)"
+      },
+      {
+        "field": "q_exp_to_sales",
+        "type": "float",
+        "default": "N",
+        "description": "销售期间费用率(单季度)"
+      },
+      {
+        "field": "q_profit_to_gr",
+        "type": "float",
+        "default": "N",
+        "description": "净利润／营业总收入(单季度)"
+      },
+      {
+        "field": "q_saleexp_to_gr",
+        "type": "float",
+        "default": "Y",
+        "description": "销售费用／营业总收入 (单季度)"
+      },
+      {
+        "field": "q_adminexp_to_gr",
+        "type": "float",
+        "default": "N",
+        "description": "管理费用／营业总收入 (单季度)"
+      },
+      {
+        "field": "q_finaexp_to_gr",
+        "type": "float",
+        "default": "N",
+        "description": "财务费用／营业总收入 (单季度)"
+      },
+      {
+        "field": "q_impair_to_gr_ttm",
+        "type": "float",
+        "default": "N",
+        "description": "资产减值损失／营业总收入(单季度)"
+      },
+      {
+        "field": "q_gc_to_gr",
+        "type": "float",
+        "default": "Y",
+        "description": "营业总成本／营业总收入 (单季度)"
+      },
+      {
+        "field": "q_op_to_gr",
+        "type": "float",
+        "default": "N",
+        "description": "营业利润／营业总收入(单季度)"
+      },
+      {
+        "field": "q_roe",
+        "type": "float",
+        "default": "Y",
+        "description": "净资产收益率(单季度)"
+      },
+      {
+        "field": "q_dt_roe",
+        "type": "float",
+        "default": "Y",
+        "description": "净资产单季度收益率(扣除非经常损益)"
+      },
+      {
+        "field": "q_npta",
+        "type": "float",
+        "default": "Y",
+        "description": "总资产净利润(单季度)"
+      },
+      {
+        "field": "q_opincome_to_ebt",
+        "type": "float",
+        "default": "N",
+        "description": "经营活动净收益／利润总额(单季度)"
+      },
+      {
+        "field": "q_investincome_to_ebt",
+        "type": "float",
+        "default": "N",
+        "description": "价值变动净收益／利润总额(单季度)"
+      },
+      {
+        "field": "q_dtprofit_to_profit",
+        "type": "float",
+        "default": "N",
+        "description": "扣除非经常损益后的净利润／净利润(单季度)"
+      },
+      {
+        "field": "q_salescash_to_or",
+        "type": "float",
+        "default": "N",
+        "description": "销售商品提供劳务收到的现金／营业收入(单季度)"
+      },
+      {
+        "field": "q_ocf_to_sales",
+        "type": "float",
+        "default": "Y",
+        "description": "经营活动产生的现金流量净额／营业收入(单季度)"
+      },
+      {
+        "field": "q_ocf_to_or",
+        "type": "float",
+        "default": "N",
+        "description": "经营活动产生的现金流量净额／经营活动净收益(单季度)"
+      },
+      {
+        "field": "basic_eps_yoy",
+        "type": "float",
+        "default": "Y",
+        "description": "基本每股收益同比增长率(%)"
+      },
+      {
+        "field": "dt_eps_yoy",
+        "type": "float",
+        "default": "Y",
+        "description": "稀释每股收益同比增长率(%)"
+      },
+      {
+        "field": "cfps_yoy",
+        "type": "float",
+        "default": "Y",
+        "description": "每股经营活动产生的现金流量净额同比增长率(%)"
+      },
+      {
+        "field": "op_yoy",
+        "type": "float",
+        "default": "Y",
+        "description": "营业利润同比增长率(%)"
+      },
+      {
+        "field": "ebt_yoy",
+        "type": "float",
+        "default": "Y",
+        "description": "利润总额同比增长率(%)"
+      },
+      {
+        "field": "netprofit_yoy",
+        "type": "float",
+        "default": "Y",
+        "description": "归属母公司股东的净利润同比增长率(%)"
+      },
+      {
+        "field": "dt_netprofit_yoy",
+        "type": "float",
+        "default": "Y",
+        "description": "归属母公司股东的净利润-扣除非经常损益同比增长率(%)"
+      },
+      {
+        "field": "ocf_yoy",
+        "type": "float",
+        "default": "Y",
+        "description": "经营活动产生的现金流量净额同比增长率(%)"
+      },
+      {
+        "field": "roe_yoy",
+        "type": "float",
+        "default": "Y",
+        "description": "净资产收益率(摊薄)同比增长率(%)"
+      },
+      {
+        "field": "bps_yoy",
+        "type": "float",
+        "default": "Y",
+        "description": "每股净资产相对年初增长率(%)"
+      },
+      {
+        "field": "assets_yoy",
+        "type": "float",
+        "default": "Y",
+        "description": "资产总计相对年初增长率(%)"
+      },
+      {
+        "field": "eqt_yoy",
+        "type": "float",
+        "default": "Y",
+        "description": "归属母公司的股东权益相对年初增长率(%)"
+      },
+      {
+        "field": "tr_yoy",
+        "type": "float",
+        "default": "Y",
+        "description": "营业总收入同比增长率(%)"
+      },
+      {
+        "field": "or_yoy",
+        "type": "float",
+        "default": "Y",
+        "description": "营业收入同比增长率(%)"
+      },
+      {
+        "field": "q_gr_yoy",
+        "type": "float",
+        "default": "N",
+        "description": "营业总收入同比增长率(%)(单季度)"
+      },
+      {
+        "field": "q_gr_qoq",
+        "type": "float",
+        "default": "N",
+        "description": "营业总收入环比增长率(%)(单季度)"
+      },
+      {
+        "field": "q_sales_yoy",
+        "type": "float",
+        "default": "Y",
+        "description": "营业收入同比增长率(%)(单季度)"
+      },
+      {
+        "field": "q_sales_qoq",
+        "type": "float",
+        "default": "N",
+        "description": "营业收入环比增长率(%)(单季度)"
+      },
+      {
+        "field": "q_op_yoy",
+        "type": "float",
+        "default": "N",
+        "description": "营业利润同比增长率(%)(单季度)"
+      },
+      {
+        "field": "q_op_qoq",
+        "type": "float",
+        "default": "Y",
+        "description": "营业利润环比增长率(%)(单季度)"
+      },
+      {
+        "field": "q_profit_yoy",
+        "type": "float",
+        "default": "N",
+        "description": "净利润同比增长率(%)(单季度)"
+      },
+      {
+        "field": "q_profit_qoq",
+        "type": "float",
+        "default": "N",
+        "description": "净利润环比增长率(%)(单季度)"
+      },
+      {
+        "field": "q_netprofit_yoy",
+        "type": "float",
+        "default": "N",
+        "description": "归属母公司股东的净利润同比增长率(%)(单季度)"
+      },
+      {
+        "field": "q_netprofit_qoq",
+        "type": "float",
+        "default": "N",
+        "description": "归属母公司股东的净利润环比增长率(%)(单季度)"
+      },
+      {
+        "field": "equity_yoy",
+        "type": "float",
+        "default": "Y",
+        "description": "净资产同比增长率"
+      },
+      {
+        "field": "rd_exp",
+        "type": "float",
+        "default": "N",
+        "description": "研发投入合计"
+      },
+      {
+        "field": "update_flag",
+        "type": "str",
+        "default": "N",
+        "description": "更新标识"
+      }
+    ]
+  },
+  "income": {
+    "url": "https://tushare.pro/document/2?doc_id=33",
+    "fields": [
+      {
+        "field": "ts_code",
+        "type": "str",
+        "default": "Y",
+        "description": "TS代码"
+      },
+      {
+        "field": "ann_date",
+        "type": "str",
+        "default": "Y",
+        "description": "公告日期"
+      },
+      {
+        "field": "f_ann_date",
+        "type": "str",
+        "default": "Y",
+        "description": "实际公告日期"
+      },
+      {
+        "field": "end_date",
+        "type": "str",
+        "default": "Y",
+        "description": "报告期"
+      },
+      {
+        "field": "report_type",
+        "type": "str",
+        "default": "Y",
+        "description": "报告类型 见底部表"
+      },
+      {
+        "field": "comp_type",
+        "type": "str",
+        "default": "Y",
+        "description": "公司类型(1一般工商业2银行3保险4证券7多元金融)"
+      },
+      {
+        "field": "end_type",
+        "type": "str",
+        "default": "Y",
+        "description": "报告期类型"
+      },
+      {
+        "field": "basic_eps",
+        "type": "float",
+        "default": "Y",
+        "description": "基本每股收益"
+      },
+      {
+        "field": "diluted_eps",
+        "type": "float",
+        "default": "Y",
+        "description": "稀释每股收益"
+      },
+      {
+        "field": "total_revenue",
+        "type": "float",
+        "default": "Y",
+        "description": "营业总收入"
+      },
+      {
+        "field": "revenue",
+        "type": "float",
+        "default": "Y",
+        "description": "营业收入"
+      },
+      {
+        "field": "int_income",
+        "type": "float",
+        "default": "Y",
+        "description": "利息收入"
+      },
+      {
+        "field": "prem_earned",
+        "type": "float",
+        "default": "Y",
+        "description": "已赚保费"
+      },
+      {
+        "field": "comm_income",
+        "type": "float",
+        "default": "Y",
+        "description": "手续费及佣金收入"
+      },
+      {
+        "field": "n_commis_income",
+        "type": "float",
+        "default": "Y",
+        "description": "手续费及佣金净收入"
+      },
+      {
+        "field": "n_oth_income",
+        "type": "float",
+        "default": "Y",
+        "description": "其他经营净收益"
+      },
+      {
+        "field": "n_oth_b_income",
+        "type": "float",
+        "default": "Y",
+        "description": "加:其他业务净收益"
+      },
+      {
+        "field": "prem_income",
+        "type": "float",
+        "default": "Y",
+        "description": "保险业务收入"
+      },
+      {
+        "field": "out_prem",
+        "type": "float",
+        "default": "Y",
+        "description": "减:分出保费"
+      },
+      {
+        "field": "une_prem_reser",
+        "type": "float",
+        "default": "Y",
+        "description": "提取未到期责任准备金"
+      },
+      {
+        "field": "reins_income",
+        "type": "float",
+        "default": "Y",
+        "description": "其中:分保费收入"
+      },
+      {
+        "field": "n_sec_tb_income",
+        "type": "float",
+        "default": "Y",
+        "description": "代理买卖证券业务净收入"
+      },
+      {
+        "field": "n_sec_uw_income",
+        "type": "float",
+        "default": "Y",
+        "description": "证券承销业务净收入"
+      },
+      {
+        "field": "n_asset_mg_income",
+        "type": "float",
+        "default": "Y",
+        "description": "受托客户资产管理业务净收入"
+      },
+      {
+        "field": "oth_b_income",
+        "type": "float",
+        "default": "Y",
+        "description": "其他业务收入"
+      },
+      {
+        "field": "fv_value_chg_gain",
+        "type": "float",
+        "default": "Y",
+        "description": "加:公允价值变动净收益"
+      },
+      {
+        "field": "invest_income",
+        "type": "float",
+        "default": "Y",
+        "description": "加:投资净收益"
+      },
+      {
+        "field": "ass_invest_income",
+        "type": "float",
+        "default": "Y",
+        "description": "其中:对联营企业和合营企业的投资收益"
+      },
+      {
+        "field": "forex_gain",
+        "type": "float",
+        "default": "Y",
+        "description": "加:汇兑净收益"
+      },
+      {
+        "field": "total_cogs",
+        "type": "float",
+        "default": "Y",
+        "description": "营业总成本"
+      },
+      {
+        "field": "oper_cost",
+        "type": "float",
+        "default": "Y",
+        "description": "减:营业成本"
+      },
+      {
+        "field": "int_exp",
+        "type": "float",
+        "default": "Y",
+        "description": "减:利息支出"
+      },
+      {
+        "field": "comm_exp",
+        "type": "float",
+        "default": "Y",
+        "description": "减:手续费及佣金支出"
+      },
+      {
+        "field": "biz_tax_surchg",
+        "type": "float",
+        "default": "Y",
+        "description": "减:营业税金及附加"
+      },
+      {
+        "field": "sell_exp",
+        "type": "float",
+        "default": "Y",
+        "description": "减:销售费用"
+      },
+      {
+        "field": "admin_exp",
+        "type": "float",
+        "default": "Y",
+        "description": "减:管理费用"
+      },
+      {
+        "field": "fin_exp",
+        "type": "float",
+        "default": "Y",
+        "description": "减:财务费用"
+      },
+      {
+        "field": "assets_impair_loss",
+        "type": "float",
+        "default": "Y",
+        "description": "减:资产减值损失"
+      },
+      {
+        "field": "prem_refund",
+        "type": "float",
+        "default": "Y",
+        "description": "退保金"
+      },
+      {
+        "field": "compens_payout",
+        "type": "float",
+        "default": "Y",
+        "description": "赔付总支出"
+      },
+      {
+        "field": "reser_insur_liab",
+        "type": "float",
+        "default": "Y",
+        "description": "提取保险责任准备金"
+      },
+      {
+        "field": "div_payt",
+        "type": "float",
+        "default": "Y",
+        "description": "保户红利支出"
+      },
+      {
+        "field": "reins_exp",
+        "type": "float",
+        "default": "Y",
+        "description": "分保费用"
+      },
+      {
+        "field": "oper_exp",
+        "type": "float",
+        "default": "Y",
+        "description": "营业支出"
+      },
+      {
+        "field": "compens_payout_refu",
+        "type": "float",
+        "default": "Y",
+        "description": "减:摊回赔付支出"
+      },
+      {
+        "field": "insur_reser_refu",
+        "type": "float",
+        "default": "Y",
+        "description": "减:摊回保险责任准备金"
+      },
+      {
+        "field": "reins_cost_refund",
+        "type": "float",
+        "default": "Y",
+        "description": "减:摊回分保费用"
+      },
+      {
+        "field": "other_bus_cost",
+        "type": "float",
+        "default": "Y",
+        "description": "其他业务成本"
+      },
+      {
+        "field": "operate_profit",
+        "type": "float",
+        "default": "Y",
+        "description": "营业利润"
+      },
+      {
+        "field": "non_oper_income",
+        "type": "float",
+        "default": "Y",
+        "description": "加:营业外收入"
+      },
+      {
+        "field": "non_oper_exp",
+        "type": "float",
+        "default": "Y",
+        "description": "减:营业外支出"
+      },
+      {
+        "field": "nca_disploss",
+        "type": "float",
+        "default": "Y",
+        "description": "其中:减:非流动资产处置净损失"
+      },
+      {
+        "field": "total_profit",
+        "type": "float",
+        "default": "Y",
+        "description": "利润总额"
+      },
+      {
+        "field": "income_tax",
+        "type": "float",
+        "default": "Y",
+        "description": "所得税费用"
+      },
+      {
+        "field": "n_income",
+        "type": "float",
+        "default": "Y",
+        "description": "净利润(含少数股东损益)"
+      },
+      {
+        "field": "n_income_attr_p",
+        "type": "float",
+        "default": "Y",
+        "description": "净利润(不含少数股东损益)"
+      },
+      {
+        "field": "minority_gain",
+        "type": "float",
+        "default": "Y",
+        "description": "少数股东损益"
+      },
+      {
+        "field": "oth_compr_income",
+        "type": "float",
+        "default": "Y",
+        "description": "其他综合收益"
+      },
+      {
+        "field": "t_compr_income",
+        "type": "float",
+        "default": "Y",
+        "description": "综合收益总额"
+      },
+      {
+        "field": "compr_inc_attr_p",
+        "type": "float",
+        "default": "Y",
+        "description": "归属于母公司(或股东)的综合收益总额"
+      },
+      {
+        "field": "compr_inc_attr_m_s",
+        "type": "float",
+        "default": "Y",
+        "description": "归属于少数股东的综合收益总额"
+      },
+      {
+        "field": "ebit",
+        "type": "float",
+        "default": "Y",
+        "description": "息税前利润"
+      },
+      {
+        "field": "ebitda",
+        "type": "float",
+        "default": "Y",
+        "description": "息税折旧摊销前利润"
+      },
+      {
+        "field": "insurance_exp",
+        "type": "float",
+        "default": "Y",
+        "description": "保险业务支出"
+      },
+      {
+        "field": "undist_profit",
+        "type": "float",
+        "default": "Y",
+        "description": "年初未分配利润"
+      },
+      {
+        "field": "distable_profit",
+        "type": "float",
+        "default": "Y",
+        "description": "可分配利润"
+      },
+      {
+        "field": "rd_exp",
+        "type": "float",
+        "default": "Y",
+        "description": "研发费用"
+      },
+      {
+        "field": "fin_exp_int_exp",
+        "type": "float",
+        "default": "Y",
+        "description": "财务费用:利息费用"
+      },
+      {
+        "field": "fin_exp_int_inc",
+        "type": "float",
+        "default": "Y",
+        "description": "财务费用:利息收入"
+      },
+      {
+        "field": "transfer_surplus_rese",
+        "type": "float",
+        "default": "Y",
+        "description": "盈余公积转入"
+      },
+      {
+        "field": "transfer_housing_imprest",
+        "type": "float",
+        "default": "Y",
+        "description": "住房周转金转入"
+      },
+      {
+        "field": "transfer_oth",
+        "type": "float",
+        "default": "Y",
+        "description": "其他转入"
+      },
+      {
+        "field": "adj_lossgain",
+        "type": "float",
+        "default": "Y",
+        "description": "调整以前年度损益"
+      },
+      {
+        "field": "withdra_legal_surplus",
+        "type": "float",
+        "default": "Y",
+        "description": "提取法定盈余公积"
+      },
+      {
+        "field": "withdra_legal_pubfund",
+        "type": "float",
+        "default": "Y",
+        "description": "提取法定公益金"
+      },
+      {
+        "field": "withdra_biz_devfund",
+        "type": "float",
+        "default": "Y",
+        "description": "提取企业发展基金"
+      },
+      {
+        "field": "withdra_rese_fund",
+        "type": "float",
+        "default": "Y",
+        "description": "提取储备基金"
+      },
+      {
+        "field": "withdra_oth_ersu",
+        "type": "float",
+        "default": "Y",
+        "description": "提取任意盈余公积金"
+      },
+      {
+        "field": "workers_welfare",
+        "type": "float",
+        "default": "Y",
+        "description": "职工奖金福利"
+      },
+      {
+        "field": "distr_profit_shrhder",
+        "type": "float",
+        "default": "Y",
+        "description": "可供股东分配的利润"
+      },
+      {
+        "field": "prfshare_payable_dvd",
+        "type": "float",
+        "default": "Y",
+        "description": "应付优先股股利"
+      },
+      {
+        "field": "comshare_payable_dvd",
+        "type": "float",
+        "default": "Y",
+        "description": "应付普通股股利"
+      },
+      {
+        "field": "capit_comstock_div",
+        "type": "float",
+        "default": "Y",
+        "description": "转作股本的普通股股利"
+      },
+      {
+        "field": "net_after_nr_lp_correct",
+        "type": "float",
+        "default": "N",
+        "description": "扣除非经常性损益后的净利润（更正前）"
+      },
+      {
+        "field": "credit_impa_loss",
+        "type": "float",
+        "default": "N",
+        "description": "信用减值损失"
+      },
+      {
+        "field": "net_expo_hedging_benefits",
+        "type": "float",
+        "default": "N",
+        "description": "净敞口套期收益"
+      },
+      {
+        "field": "oth_impair_loss_assets",
+        "type": "float",
+        "default": "N",
+        "description": "其他资产减值损失"
+      },
+      {
+        "field": "total_opcost",
+        "type": "float",
+        "default": "N",
+        "description": "营业总成本（二）"
+      },
+      {
+        "field": "amodcost_fin_assets",
+        "type": "float",
+        "default": "N",
+        "description": "以摊余成本计量的金融资产终止确认收益"
+      },
+      {
+        "field": "oth_income",
+        "type": "float",
+        "default": "N",
+        "description": "其他收益"
+      },
+      {
+        "field": "asset_disp_income",
+        "type": "float",
+        "default": "N",
+        "description": "资产处置收益"
+      },
+      {
+        "field": "continued_net_profit",
+        "type": "float",
+        "default": "N",
+        "description": "持续经营净利润"
+      },
+      {
+        "field": "end_net_profit",
+        "type": "float",
+        "default": "N",
+        "description": "终止经营净利润"
+      },
+      {
+        "field": "update_flag",
+        "type": "str",
+        "default": "Y",
+        "description": "更新标识"
+      }
+    ]
+  },
+  "balancesheet": {
+    "url": "https://tushare.pro/document/2?doc_id=36",
+    "fields": [
+      {
+        "field": "ts_code",
+        "type": "str",
+        "default": "Y",
+        "description": "TS股票代码"
+      },
+      {
+        "field": "ann_date",
+        "type": "str",
+        "default": "Y",
+        "description": "公告日期"
+      },
+      {
+        "field": "f_ann_date",
+        "type": "str",
+        "default": "Y",
+        "description": "实际公告日期"
+      },
+      {
+        "field": "end_date",
+        "type": "str",
+        "default": "Y",
+        "description": "报告期"
+      },
+      {
+        "field": "report_type",
+        "type": "str",
+        "default": "Y",
+        "description": "报表类型"
+      },
+      {
+        "field": "comp_type",
+        "type": "str",
+        "default": "Y",
+        "description": "公司类型(1一般工商业2银行3保险4证券7多元金融)"
+      },
+      {
+        "field": "end_type",
+        "type": "str",
+        "default": "Y",
+        "description": "报告期类型"
+      },
+      {
+        "field": "total_share",
+        "type": "float",
+        "default": "Y",
+        "description": "期末总股本（股）"
+      },
+      {
+        "field": "cap_rese",
+        "type": "float",
+        "default": "Y",
+        "description": "资本公积金"
+      },
+      {
+        "field": "undistr_porfit",
+        "type": "float",
+        "default": "Y",
+        "description": "未分配利润"
+      },
+      {
+        "field": "surplus_rese",
+        "type": "float",
+        "default": "Y",
+        "description": "盈余公积金"
+      },
+      {
+        "field": "special_rese",
+        "type": "float",
+        "default": "Y",
+        "description": "专项储备"
+      },
+      {
+        "field": "money_cap",
+        "type": "float",
+        "default": "Y",
+        "description": "货币资金"
+      },
+      {
+        "field": "trad_asset",
+        "type": "float",
+        "default": "Y",
+        "description": "交易性金融资产"
+      },
+      {
+        "field": "notes_receiv",
+        "type": "float",
+        "default": "Y",
+        "description": "应收票据"
+      },
+      {
+        "field": "accounts_receiv",
+        "type": "float",
+        "default": "Y",
+        "description": "应收账款"
+      },
+      {
+        "field": "oth_receiv",
+        "type": "float",
+        "default": "Y",
+        "description": "其他应收款"
+      },
+      {
+        "field": "prepayment",
+        "type": "float",
+        "default": "Y",
+        "description": "预付款项"
+      },
+      {
+        "field": "div_receiv",
+        "type": "float",
+        "default": "Y",
+        "description": "应收股利"
+      },
+      {
+        "field": "int_receiv",
+        "type": "float",
+        "default": "Y",
+        "description": "应收利息"
+      },
+      {
+        "field": "inventories",
+        "type": "float",
+        "default": "Y",
+        "description": "存货"
+      },
+      {
+        "field": "amor_exp",
+        "type": "float",
+        "default": "Y",
+        "description": "待摊费用"
+      },
+      {
+        "field": "nca_within_1y",
+        "type": "float",
+        "default": "Y",
+        "description": "一年内到期的非流动资产"
+      },
+      {
+        "field": "sett_rsrv",
+        "type": "float",
+        "default": "Y",
+        "description": "结算备付金"
+      },
+      {
+        "field": "loanto_oth_bank_fi",
+        "type": "float",
+        "default": "Y",
+        "description": "拆出资金"
+      },
+      {
+        "field": "premium_receiv",
+        "type": "float",
+        "default": "Y",
+        "description": "应收保费"
+      },
+      {
+        "field": "reinsur_receiv",
+        "type": "float",
+        "default": "Y",
+        "description": "应收分保账款"
+      },
+      {
+        "field": "reinsur_res_receiv",
+        "type": "float",
+        "default": "Y",
+        "description": "应收分保合同准备金"
+      },
+      {
+        "field": "pur_resale_fa",
+        "type": "float",
+        "default": "Y",
+        "description": "买入返售金融资产"
+      },
+      {
+        "field": "oth_cur_assets",
+        "type": "float",
+        "default": "Y",
+        "description": "其他流动资产"
+      },
+      {
+        "field": "total_cur_assets",
+        "type": "float",
+        "default": "Y",
+        "description": "流动资产合计"
+      },
+      {
+        "field": "fa_avail_for_sale",
+        "type": "float",
+        "default": "Y",
+        "description": "可供出售金融资产"
+      },
+      {
+        "field": "htm_invest",
+        "type": "float",
+        "default": "Y",
+        "description": "持有至到期投资"
+      },
+      {
+        "field": "lt_eqt_invest",
+        "type": "float",
+        "default": "Y",
+        "description": "长期股权投资"
+      },
+      {
+        "field": "invest_real_estate",
+        "type": "float",
+        "default": "Y",
+        "description": "投资性房地产"
+      },
+      {
+        "field": "time_deposits",
+        "type": "float",
+        "default": "Y",
+        "description": "定期存款"
+      },
+      {
+        "field": "oth_assets",
+        "type": "float",
+        "default": "Y",
+        "description": "其他资产"
+      },
+      {
+        "field": "lt_rec",
+        "type": "float",
+        "default": "Y",
+        "description": "长期应收款"
+      },
+      {
+        "field": "fix_assets",
+        "type": "float",
+        "default": "Y",
+        "description": "固定资产"
+      },
+      {
+        "field": "cip",
+        "type": "float",
+        "default": "Y",
+        "description": "在建工程"
+      },
+      {
+        "field": "const_materials",
+        "type": "float",
+        "default": "Y",
+        "description": "工程物资"
+      },
+      {
+        "field": "fixed_assets_disp",
+        "type": "float",
+        "default": "Y",
+        "description": "固定资产清理"
+      },
+      {
+        "field": "produc_bio_assets",
+        "type": "float",
+        "default": "Y",
+        "description": "生产性生物资产"
+      },
+      {
+        "field": "oil_and_gas_assets",
+        "type": "float",
+        "default": "Y",
+        "description": "油气资产"
+      },
+      {
+        "field": "intan_assets",
+        "type": "float",
+        "default": "Y",
+        "description": "无形资产"
+      },
+      {
+        "field": "r_and_d",
+        "type": "float",
+        "default": "Y",
+        "description": "研发支出"
+      },
+      {
+        "field": "goodwill",
+        "type": "float",
+        "default": "Y",
+        "description": "商誉"
+      },
+      {
+        "field": "lt_amor_exp",
+        "type": "float",
+        "default": "Y",
+        "description": "长期待摊费用"
+      },
+      {
+        "field": "defer_tax_assets",
+        "type": "float",
+        "default": "Y",
+        "description": "递延所得税资产"
+      },
+      {
+        "field": "decr_in_disbur",
+        "type": "float",
+        "default": "Y",
+        "description": "发放贷款及垫款"
+      },
+      {
+        "field": "oth_nca",
+        "type": "float",
+        "default": "Y",
+        "description": "其他非流动资产"
+      },
+      {
+        "field": "total_nca",
+        "type": "float",
+        "default": "Y",
+        "description": "非流动资产合计"
+      },
+      {
+        "field": "cash_reser_cb",
+        "type": "float",
+        "default": "Y",
+        "description": "现金及存放中央银行款项"
+      },
+      {
+        "field": "depos_in_oth_bfi",
+        "type": "float",
+        "default": "Y",
+        "description": "存放同业和其它金融机构款项"
+      },
+      {
+        "field": "prec_metals",
+        "type": "float",
+        "default": "Y",
+        "description": "贵金属"
+      },
+      {
+        "field": "deriv_assets",
+        "type": "float",
+        "default": "Y",
+        "description": "衍生金融资产"
+      },
+      {
+        "field": "rr_reins_une_prem",
+        "type": "float",
+        "default": "Y",
+        "description": "应收分保未到期责任准备金"
+      },
+      {
+        "field": "rr_reins_outstd_cla",
+        "type": "float",
+        "default": "Y",
+        "description": "应收分保未决赔款准备金"
+      },
+      {
+        "field": "rr_reins_lins_liab",
+        "type": "float",
+        "default": "Y",
+        "description": "应收分保寿险责任准备金"
+      },
+      {
+        "field": "rr_reins_lthins_liab",
+        "type": "float",
+        "default": "Y",
+        "description": "应收分保长期健康险责任准备金"
+      },
+      {
+        "field": "refund_depos",
+        "type": "float",
+        "default": "Y",
+        "description": "存出保证金"
+      },
+      {
+        "field": "ph_pledge_loans",
+        "type": "float",
+        "default": "Y",
+        "description": "保户质押贷款"
+      },
+      {
+        "field": "refund_cap_depos",
+        "type": "float",
+        "default": "Y",
+        "description": "存出资本保证金"
+      },
+      {
+        "field": "indep_acct_assets",
+        "type": "float",
+        "default": "Y",
+        "description": "独立账户资产"
+      },
+      {
+        "field": "client_depos",
+        "type": "float",
+        "default": "Y",
+        "description": "其中：客户资金存款"
+      },
+      {
+        "field": "client_prov",
+        "type": "float",
+        "default": "Y",
+        "description": "其中：客户备付金"
+      },
+      {
+        "field": "transac_seat_fee",
+        "type": "float",
+        "default": "Y",
+        "description": "其中:交易席位费"
+      },
+      {
+        "field": "invest_as_receiv",
+        "type": "float",
+        "default": "Y",
+        "description": "应收款项类投资"
+      },
+      {
+        "field": "total_assets",
+        "type": "float",
+        "default": "Y",
+        "description": "资产总计"
+      },
+      {
+        "field": "lt_borr",
+        "type": "float",
+        "default": "Y",
+        "description": "长期借款"
+      },
+      {
+        "field": "st_borr",
+        "type": "float",
+        "default": "Y",
+        "description": "短期借款"
+      },
+      {
+        "field": "cb_borr",
+        "type": "float",
+        "default": "Y",
+        "description": "向中央银行借款"
+      },
+      {
+        "field": "depos_ib_deposits",
+        "type": "float",
+        "default": "Y",
+        "description": "吸收存款及同业存放"
+      },
+      {
+        "field": "loan_oth_bank",
+        "type": "float",
+        "default": "Y",
+        "description": "拆入资金"
+      },
+      {
+        "field": "trading_fl",
+        "type": "float",
+        "default": "Y",
+        "description": "交易性金融负债"
+      },
+      {
+        "field": "notes_payable",
+        "type": "float",
+        "default": "Y",
+        "description": "应付票据"
+      },
+      {
+        "field": "acct_payable",
+        "type": "float",
+        "default": "Y",
+        "description": "应付账款"
+      },
+      {
+        "field": "adv_receipts",
+        "type": "float",
+        "default": "Y",
+        "description": "预收款项"
+      },
+      {
+        "field": "sold_for_repur_fa",
+        "type": "float",
+        "default": "Y",
+        "description": "卖出回购金融资产款"
+      },
+      {
+        "field": "comm_payable",
+        "type": "float",
+        "default": "Y",
+        "description": "应付手续费及佣金"
+      },
+      {
+        "field": "payroll_payable",
+        "type": "float",
+        "default": "Y",
+        "description": "应付职工薪酬"
+      },
+      {
+        "field": "taxes_payable",
+        "type": "float",
+        "default": "Y",
+        "description": "应交税费"
+      },
+      {
+        "field": "int_payable",
+        "type": "float",
+        "default": "Y",
+        "description": "应付利息"
+      },
+      {
+        "field": "div_payable",
+        "type": "float",
+        "default": "Y",
+        "description": "应付股利"
+      },
+      {
+        "field": "oth_payable",
+        "type": "float",
+        "default": "Y",
+        "description": "其他应付款"
+      },
+      {
+        "field": "acc_exp",
+        "type": "float",
+        "default": "Y",
+        "description": "预提费用"
+      },
+      {
+        "field": "deferred_inc",
+        "type": "float",
+        "default": "Y",
+        "description": "递延收益"
+      },
+      {
+        "field": "st_bonds_payable",
+        "type": "float",
+        "default": "Y",
+        "description": "应付短期债券"
+      },
+      {
+        "field": "payable_to_reinsurer",
+        "type": "float",
+        "default": "Y",
+        "description": "应付分保账款"
+      },
+      {
+        "field": "rsrv_insur_cont",
+        "type": "float",
+        "default": "Y",
+        "description": "保险合同准备金"
+      },
+      {
+        "field": "acting_trading_sec",
+        "type": "float",
+        "default": "Y",
+        "description": "代理买卖证券款"
+      },
+      {
+        "field": "acting_uw_sec",
+        "type": "float",
+        "default": "Y",
+        "description": "代理承销证券款"
+      },
+      {
+        "field": "non_cur_liab_due_1y",
+        "type": "float",
+        "default": "Y",
+        "description": "一年内到期的非流动负债"
+      },
+      {
+        "field": "oth_cur_liab",
+        "type": "float",
+        "default": "Y",
+        "description": "其他流动负债"
+      },
+      {
+        "field": "total_cur_liab",
+        "type": "float",
+        "default": "Y",
+        "description": "流动负债合计"
+      },
+      {
+        "field": "bond_payable",
+        "type": "float",
+        "default": "Y",
+        "description": "应付债券"
+      },
+      {
+        "field": "lt_payable",
+        "type": "float",
+        "default": "Y",
+        "description": "长期应付款"
+      },
+      {
+        "field": "specific_payables",
+        "type": "float",
+        "default": "Y",
+        "description": "专项应付款"
+      },
+      {
+        "field": "estimated_liab",
+        "type": "float",
+        "default": "Y",
+        "description": "预计负债"
+      },
+      {
+        "field": "defer_tax_liab",
+        "type": "float",
+        "default": "Y",
+        "description": "递延所得税负债"
+      },
+      {
+        "field": "defer_inc_non_cur_liab",
+        "type": "float",
+        "default": "Y",
+        "description": "递延收益-非流动负债"
+      },
+      {
+        "field": "oth_ncl",
+        "type": "float",
+        "default": "Y",
+        "description": "其他非流动负债"
+      },
+      {
+        "field": "total_ncl",
+        "type": "float",
+        "default": "Y",
+        "description": "非流动负债合计"
+      },
+      {
+        "field": "depos_oth_bfi",
+        "type": "float",
+        "default": "Y",
+        "description": "同业和其它金融机构存放款项"
+      },
+      {
+        "field": "deriv_liab",
+        "type": "float",
+        "default": "Y",
+        "description": "衍生金融负债"
+      },
+      {
+        "field": "depos",
+        "type": "float",
+        "default": "Y",
+        "description": "吸收存款"
+      },
+      {
+        "field": "agency_bus_liab",
+        "type": "float",
+        "default": "Y",
+        "description": "代理业务负债"
+      },
+      {
+        "field": "oth_liab",
+        "type": "float",
+        "default": "Y",
+        "description": "其他负债"
+      },
+      {
+        "field": "prem_receiv_adva",
+        "type": "float",
+        "default": "Y",
+        "description": "预收保费"
+      },
+      {
+        "field": "depos_received",
+        "type": "float",
+        "default": "Y",
+        "description": "存入保证金"
+      },
+      {
+        "field": "ph_invest",
+        "type": "float",
+        "default": "Y",
+        "description": "保户储金及投资款"
+      },
+      {
+        "field": "reser_une_prem",
+        "type": "float",
+        "default": "Y",
+        "description": "未到期责任准备金"
+      },
+      {
+        "field": "reser_outstd_claims",
+        "type": "float",
+        "default": "Y",
+        "description": "未决赔款准备金"
+      },
+      {
+        "field": "reser_lins_liab",
+        "type": "float",
+        "default": "Y",
+        "description": "寿险责任准备金"
+      },
+      {
+        "field": "reser_lthins_liab",
+        "type": "float",
+        "default": "Y",
+        "description": "长期健康险责任准备金"
+      },
+      {
+        "field": "indept_acc_liab",
+        "type": "float",
+        "default": "Y",
+        "description": "独立账户负债"
+      },
+      {
+        "field": "pledge_borr",
+        "type": "float",
+        "default": "Y",
+        "description": "其中:质押借款"
+      },
+      {
+        "field": "indem_payable",
+        "type": "float",
+        "default": "Y",
+        "description": "应付赔付款"
+      },
+      {
+        "field": "policy_div_payable",
+        "type": "float",
+        "default": "Y",
+        "description": "应付保单红利"
+      },
+      {
+        "field": "total_liab",
+        "type": "float",
+        "default": "Y",
+        "description": "负债合计"
+      },
+      {
+        "field": "treasury_share",
+        "type": "float",
+        "default": "Y",
+        "description": "减:库存股"
+      },
+      {
+        "field": "ordin_risk_reser",
+        "type": "float",
+        "default": "Y",
+        "description": "一般风险准备"
+      },
+      {
+        "field": "forex_differ",
+        "type": "float",
+        "default": "Y",
+        "description": "外币报表折算差额"
+      },
+      {
+        "field": "invest_loss_unconf",
+        "type": "float",
+        "default": "Y",
+        "description": "未确认的投资损失"
+      },
+      {
+        "field": "minority_int",
+        "type": "float",
+        "default": "Y",
+        "description": "少数股东权益"
+      },
+      {
+        "field": "total_hldr_eqy_exc_min_int",
+        "type": "float",
+        "default": "Y",
+        "description": "股东权益合计(不含少数股东权益)"
+      },
+      {
+        "field": "total_hldr_eqy_inc_min_int",
+        "type": "float",
+        "default": "Y",
+        "description": "股东权益合计(含少数股东权益)"
+      },
+      {
+        "field": "total_liab_hldr_eqy",
+        "type": "float",
+        "default": "Y",
+        "description": "负债及股东权益总计"
+      },
+      {
+        "field": "lt_payroll_payable",
+        "type": "float",
+        "default": "Y",
+        "description": "长期应付职工薪酬"
+      },
+      {
+        "field": "oth_comp_income",
+        "type": "float",
+        "default": "Y",
+        "description": "其他综合收益"
+      },
+      {
+        "field": "oth_eqt_tools",
+        "type": "float",
+        "default": "Y",
+        "description": "其他权益工具"
+      },
+      {
+        "field": "oth_eqt_tools_p_shr",
+        "type": "float",
+        "default": "Y",
+        "description": "其他权益工具(优先股)"
+      },
+      {
+        "field": "lending_funds",
+        "type": "float",
+        "default": "Y",
+        "description": "融出资金"
+      },
+      {
+        "field": "acc_receivable",
+        "type": "float",
+        "default": "Y",
+        "description": "应收款项"
+      },
+      {
+        "field": "st_fin_payable",
+        "type": "float",
+        "default": "Y",
+        "description": "应付短期融资款"
+      },
+      {
+        "field": "payables",
+        "type": "float",
+        "default": "Y",
+        "description": "应付款项"
+      },
+      {
+        "field": "hfs_assets",
+        "type": "float",
+        "default": "Y",
+        "description": "持有待售的资产"
+      },
+      {
+        "field": "hfs_sales",
+        "type": "float",
+        "default": "Y",
+        "description": "持有待售的负债"
+      },
+      {
+        "field": "cost_fin_assets",
+        "type": "float",
+        "default": "Y",
+        "description": "以摊余成本计量的金融资产"
+      },
+      {
+        "field": "fair_value_fin_assets",
+        "type": "float",
+        "default": "Y",
+        "description": "以公允价值计量且其变动计入其他综合收益的金融资产"
+      },
+      {
+        "field": "cip_total",
+        "type": "float",
+        "default": "Y",
+        "description": "在建工程(合计)(元)"
+      },
+      {
+        "field": "oth_pay_total",
+        "type": "float",
+        "default": "Y",
+        "description": "其他应付款(合计)(元)"
+      },
+      {
+        "field": "long_pay_total",
+        "type": "float",
+        "default": "Y",
+        "description": "长期应付款(合计)(元)"
+      },
+      {
+        "field": "debt_invest",
+        "type": "float",
+        "default": "Y",
+        "description": "债权投资(元)"
+      },
+      {
+        "field": "oth_debt_invest",
+        "type": "float",
+        "default": "Y",
+        "description": "其他债权投资(元)"
+      },
+      {
+        "field": "oth_eq_invest",
+        "type": "float",
+        "default": "N",
+        "description": "其他权益工具投资(元)"
+      },
+      {
+        "field": "oth_illiq_fin_assets",
+        "type": "float",
+        "default": "N",
+        "description": "其他非流动金融资产(元)"
+      },
+      {
+        "field": "oth_eq_ppbond",
+        "type": "float",
+        "default": "N",
+        "description": "其他权益工具:永续债(元)"
+      },
+      {
+        "field": "receiv_financing",
+        "type": "float",
+        "default": "N",
+        "description": "应收款项融资"
+      },
+      {
+        "field": "use_right_assets",
+        "type": "float",
+        "default": "N",
+        "description": "使用权资产"
+      },
+      {
+        "field": "lease_liab",
+        "type": "float",
+        "default": "N",
+        "description": "租赁负债"
+      },
+      {
+        "field": "contract_assets",
+        "type": "float",
+        "default": "Y",
+        "description": "合同资产"
+      },
+      {
+        "field": "contract_liab",
+        "type": "float",
+        "default": "Y",
+        "description": "合同负债"
+      },
+      {
+        "field": "accounts_receiv_bill",
+        "type": "float",
+        "default": "Y",
+        "description": "应收票据及应收账款"
+      },
+      {
+        "field": "accounts_pay",
+        "type": "float",
+        "default": "Y",
+        "description": "应付票据及应付账款"
+      },
+      {
+        "field": "oth_rcv_total",
+        "type": "float",
+        "default": "Y",
+        "description": "其他应收款(合计)（元）"
+      },
+      {
+        "field": "fix_assets_total",
+        "type": "float",
+        "default": "Y",
+        "description": "固定资产(合计)(元)"
+      },
+      {
+        "field": "update_flag",
+        "type": "str",
+        "default": "Y",
+        "description": "更新标识"
+      }
+    ]
+  },
+  "cashflow": {
+    "url": "https://tushare.pro/document/2?doc_id=44",
+    "fields": [
+      {
+        "field": "ts_code",
+        "type": "str",
+        "default": "Y",
+        "description": "TS股票代码"
+      },
+      {
+        "field": "ann_date",
+        "type": "str",
+        "default": "Y",
+        "description": "公告日期"
+      },
+      {
+        "field": "f_ann_date",
+        "type": "str",
+        "default": "Y",
+        "description": "实际公告日期"
+      },
+      {
+        "field": "end_date",
+        "type": "str",
+        "default": "Y",
+        "description": "报告期"
+      },
+      {
+        "field": "comp_type",
+        "type": "str",
+        "default": "Y",
+        "description": "公司类型(1一般工商业2银行3保险4证券7多元金融)"
+      },
+      {
+        "field": "report_type",
+        "type": "str",
+        "default": "Y",
+        "description": "报表类型"
+      },
+      {
+        "field": "end_type",
+        "type": "str",
+        "default": "Y",
+        "description": "报告期类型"
+      },
+      {
+        "field": "net_profit",
+        "type": "float",
+        "default": "Y",
+        "description": "净利润"
+      },
+      {
+        "field": "finan_exp",
+        "type": "float",
+        "default": "Y",
+        "description": "财务费用"
+      },
+      {
+        "field": "c_fr_sale_sg",
+        "type": "float",
+        "default": "Y",
+        "description": "销售商品、提供劳务收到的现金"
+      },
+      {
+        "field": "recp_tax_rends",
+        "type": "float",
+        "default": "Y",
+        "description": "收到的税费返还"
+      },
+      {
+        "field": "n_depos_incr_fi",
+        "type": "float",
+        "default": "Y",
+        "description": "客户存款和同业存放款项净增加额"
+      },
+      {
+        "field": "n_incr_loans_cb",
+        "type": "float",
+        "default": "Y",
+        "description": "向中央银行借款净增加额"
+      },
+      {
+        "field": "n_inc_borr_oth_fi",
+        "type": "float",
+        "default": "Y",
+        "description": "向其他金融机构拆入资金净增加额"
+      },
+      {
+        "field": "prem_fr_orig_contr",
+        "type": "float",
+        "default": "Y",
+        "description": "收到原保险合同保费取得的现金"
+      },
+      {
+        "field": "n_incr_insured_dep",
+        "type": "float",
+        "default": "Y",
+        "description": "保户储金净增加额"
+      },
+      {
+        "field": "n_reinsur_prem",
+        "type": "float",
+        "default": "Y",
+        "description": "收到再保业务现金净额"
+      },
+      {
+        "field": "n_incr_disp_tfa",
+        "type": "float",
+        "default": "Y",
+        "description": "处置交易性金融资产净增加额"
+      },
+      {
+        "field": "ifc_cash_incr",
+        "type": "float",
+        "default": "Y",
+        "description": "收取利息和手续费净增加额"
+      },
+      {
+        "field": "n_incr_disp_faas",
+        "type": "float",
+        "default": "Y",
+        "description": "处置可供出售金融资产净增加额"
+      },
+      {
+        "field": "n_incr_loans_oth_bank",
+        "type": "float",
+        "default": "Y",
+        "description": "拆入资金净增加额"
+      },
+      {
+        "field": "n_cap_incr_repur",
+        "type": "float",
+        "default": "Y",
+        "description": "回购业务资金净增加额"
+      },
+      {
+        "field": "c_fr_oth_operate_a",
+        "type": "float",
+        "default": "Y",
+        "description": "收到其他与经营活动有关的现金"
+      },
+      {
+        "field": "c_inf_fr_operate_a",
+        "type": "float",
+        "default": "Y",
+        "description": "经营活动现金流入小计"
+      },
+      {
+        "field": "c_paid_goods_s",
+        "type": "float",
+        "default": "Y",
+        "description": "购买商品、接受劳务支付的现金"
+      },
+      {
+        "field": "c_paid_to_for_empl",
+        "type": "float",
+        "default": "Y",
+        "description": "支付给职工以及为职工支付的现金"
+      },
+      {
+        "field": "c_paid_for_taxes",
+        "type": "float",
+        "default": "Y",
+        "description": "支付的各项税费"
+      },
+      {
+        "field": "n_incr_clt_loan_adv",
+        "type": "float",
+        "default": "Y",
+        "description": "客户贷款及垫款净增加额"
+      },
+      {
+        "field": "n_incr_dep_cbob",
+        "type": "float",
+        "default": "Y",
+        "description": "存放央行和同业款项净增加额"
+      },
+      {
+        "field": "c_pay_claims_orig_inco",
+        "type": "float",
+        "default": "Y",
+        "description": "支付原保险合同赔付款项的现金"
+      },
+      {
+        "field": "pay_handling_chrg",
+        "type": "float",
+        "default": "Y",
+        "description": "支付手续费的现金"
+      },
+      {
+        "field": "pay_comm_insur_plcy",
+        "type": "float",
+        "default": "Y",
+        "description": "支付保单红利的现金"
+      },
+      {
+        "field": "oth_cash_pay_oper_act",
+        "type": "float",
+        "default": "Y",
+        "description": "支付其他与经营活动有关的现金"
+      },
+      {
+        "field": "st_cash_out_act",
+        "type": "float",
+        "default": "Y",
+        "description": "经营活动现金流出小计"
+      },
+      {
+        "field": "n_cashflow_act",
+        "type": "float",
+        "default": "Y",
+        "description": "经营活动产生的现金流量净额"
+      },
+      {
+        "field": "oth_recp_ral_inv_act",
+        "type": "float",
+        "default": "Y",
+        "description": "收到其他与投资活动有关的现金"
+      },
+      {
+        "field": "c_disp_withdrwl_invest",
+        "type": "float",
+        "default": "Y",
+        "description": "收回投资收到的现金"
+      },
+      {
+        "field": "c_recp_return_invest",
+        "type": "float",
+        "default": "Y",
+        "description": "取得投资收益收到的现金"
+      },
+      {
+        "field": "n_recp_disp_fiolta",
+        "type": "float",
+        "default": "Y",
+        "description": "处置固定资产、无形资产和其他长期资产收回的现金净额"
+      },
+      {
+        "field": "n_recp_disp_sobu",
+        "type": "float",
+        "default": "Y",
+        "description": "处置子公司及其他营业单位收到的现金净额"
+      },
+      {
+        "field": "stot_inflows_inv_act",
+        "type": "float",
+        "default": "Y",
+        "description": "投资活动现金流入小计"
+      },
+      {
+        "field": "c_pay_acq_const_fiolta",
+        "type": "float",
+        "default": "Y",
+        "description": "购建固定资产、无形资产和其他长期资产支付的现金"
+      },
+      {
+        "field": "c_paid_invest",
+        "type": "float",
+        "default": "Y",
+        "description": "投资支付的现金"
+      },
+      {
+        "field": "n_disp_subs_oth_biz",
+        "type": "float",
+        "default": "Y",
+        "description": "取得子公司及其他营业单位支付的现金净额"
+      },
+      {
+        "field": "oth_pay_ral_inv_act",
+        "type": "float",
+        "default": "Y",
+        "description": "支付其他与投资活动有关的现金"
+      },
+      {
+        "field": "n_incr_pledge_loan",
+        "type": "float",
+        "default": "Y",
+        "description": "质押贷款净增加额"
+      },
+      {
+        "field": "stot_out_inv_act",
+        "type": "float",
+        "default": "Y",
+        "description": "投资活动现金流出小计"
+      },
+      {
+        "field": "n_cashflow_inv_act",
+        "type": "float",
+        "default": "Y",
+        "description": "投资活动产生的现金流量净额"
+      },
+      {
+        "field": "c_recp_borrow",
+        "type": "float",
+        "default": "Y",
+        "description": "取得借款收到的现金"
+      },
+      {
+        "field": "proc_issue_bonds",
+        "type": "float",
+        "default": "Y",
+        "description": "发行债券收到的现金"
+      },
+      {
+        "field": "oth_cash_recp_ral_fnc_act",
+        "type": "float",
+        "default": "Y",
+        "description": "收到其他与筹资活动有关的现金"
+      },
+      {
+        "field": "stot_cash_in_fnc_act",
+        "type": "float",
+        "default": "Y",
+        "description": "筹资活动现金流入小计"
+      },
+      {
+        "field": "free_cashflow",
+        "type": "float",
+        "default": "Y",
+        "description": "企业自由现金流量"
+      },
+      {
+        "field": "c_prepay_amt_borr",
+        "type": "float",
+        "default": "Y",
+        "description": "偿还债务支付的现金"
+      },
+      {
+        "field": "c_pay_dist_dpcp_int_exp",
+        "type": "float",
+        "default": "Y",
+        "description": "分配股利、利润或偿付利息支付的现金"
+      },
+      {
+        "field": "incl_dvd_profit_paid_sc_ms",
+        "type": "float",
+        "default": "Y",
+        "description": "其中:子公司支付给少数股东的股利、利润"
+      },
+      {
+        "field": "oth_cashpay_ral_fnc_act",
+        "type": "float",
+        "default": "Y",
+        "description": "支付其他与筹资活动有关的现金"
+      },
+      {
+        "field": "stot_cashout_fnc_act",
+        "type": "float",
+        "default": "Y",
+        "description": "筹资活动现金流出小计"
+      },
+      {
+        "field": "n_cash_flows_fnc_act",
+        "type": "float",
+        "default": "Y",
+        "description": "筹资活动产生的现金流量净额"
+      },
+      {
+        "field": "eff_fx_flu_cash",
+        "type": "float",
+        "default": "Y",
+        "description": "汇率变动对现金的影响"
+      },
+      {
+        "field": "n_incr_cash_cash_equ",
+        "type": "float",
+        "default": "Y",
+        "description": "现金及现金等价物净增加额"
+      },
+      {
+        "field": "c_cash_equ_beg_period",
+        "type": "float",
+        "default": "Y",
+        "description": "期初现金及现金等价物余额"
+      },
+      {
+        "field": "c_cash_equ_end_period",
+        "type": "float",
+        "default": "Y",
+        "description": "期末现金及现金等价物余额"
+      },
+      {
+        "field": "c_recp_cap_contrib",
+        "type": "float",
+        "default": "Y",
+        "description": "吸收投资收到的现金"
+      },
+      {
+        "field": "incl_cash_rec_saims",
+        "type": "float",
+        "default": "Y",
+        "description": "其中:子公司吸收少数股东投资收到的现金"
+      },
+      {
+        "field": "uncon_invest_loss",
+        "type": "float",
+        "default": "Y",
+        "description": "未确认投资损失"
+      },
+      {
+        "field": "prov_depr_assets",
+        "type": "float",
+        "default": "Y",
+        "description": "加:资产减值准备"
+      },
+      {
+        "field": "depr_fa_coga_dpba",
+        "type": "float",
+        "default": "Y",
+        "description": "固定资产折旧、油气资产折耗、生产性生物资产折旧"
+      },
+      {
+        "field": "amort_intang_assets",
+        "type": "float",
+        "default": "Y",
+        "description": "无形资产摊销"
+      },
+      {
+        "field": "lt_amort_deferred_exp",
+        "type": "float",
+        "default": "Y",
+        "description": "长期待摊费用摊销"
+      },
+      {
+        "field": "decr_deferred_exp",
+        "type": "float",
+        "default": "Y",
+        "description": "待摊费用减少"
+      },
+      {
+        "field": "incr_acc_exp",
+        "type": "float",
+        "default": "Y",
+        "description": "预提费用增加"
+      },
+      {
+        "field": "loss_disp_fiolta",
+        "type": "float",
+        "default": "Y",
+        "description": "处置固定、无形资产和其他长期资产的损失"
+      },
+      {
+        "field": "loss_scr_fa",
+        "type": "float",
+        "default": "Y",
+        "description": "固定资产报废损失"
+      },
+      {
+        "field": "loss_fv_chg",
+        "type": "float",
+        "default": "Y",
+        "description": "公允价值变动损失"
+      },
+      {
+        "field": "invest_loss",
+        "type": "float",
+        "default": "Y",
+        "description": "投资损失"
+      },
+      {
+        "field": "decr_def_inc_tax_assets",
+        "type": "float",
+        "default": "Y",
+        "description": "递延所得税资产减少"
+      },
+      {
+        "field": "incr_def_inc_tax_liab",
+        "type": "float",
+        "default": "Y",
+        "description": "递延所得税负债增加"
+      },
+      {
+        "field": "decr_inventories",
+        "type": "float",
+        "default": "Y",
+        "description": "存货的减少"
+      },
+      {
+        "field": "decr_oper_payable",
+        "type": "float",
+        "default": "Y",
+        "description": "经营性应收项目的减少"
+      },
+      {
+        "field": "incr_oper_payable",
+        "type": "float",
+        "default": "Y",
+        "description": "经营性应付项目的增加"
+      },
+      {
+        "field": "others",
+        "type": "float",
+        "default": "Y",
+        "description": "其他"
+      },
+      {
+        "field": "im_net_cashflow_oper_act",
+        "type": "float",
+        "default": "Y",
+        "description": "经营活动产生的现金流量净额(间接法)"
+      },
+      {
+        "field": "conv_debt_into_cap",
+        "type": "float",
+        "default": "Y",
+        "description": "债务转为资本"
+      },
+      {
+        "field": "conv_copbonds_due_within_1y",
+        "type": "float",
+        "default": "Y",
+        "description": "一年内到期的可转换公司债券"
+      },
+      {
+        "field": "fa_fnc_leases",
+        "type": "float",
+        "default": "Y",
+        "description": "融资租入固定资产"
+      },
+      {
+        "field": "im_n_incr_cash_equ",
+        "type": "float",
+        "default": "Y",
+        "description": "现金及现金等价物净增加额(间接法)"
+      },
+      {
+        "field": "net_dism_capital_add",
+        "type": "float",
+        "default": "Y",
+        "description": "拆出资金净增加额"
+      },
+      {
+        "field": "net_cash_rece_sec",
+        "type": "float",
+        "default": "Y",
+        "description": "代理买卖证券收到的现金净额(元)"
+      },
+      {
+        "field": "credit_impa_loss",
+        "type": "float",
+        "default": "Y",
+        "description": "信用减值损失"
+      },
+      {
+        "field": "use_right_asset_dep",
+        "type": "float",
+        "default": "Y",
+        "description": "使用权资产折旧"
+      },
+      {
+        "field": "oth_loss_asset",
+        "type": "float",
+        "default": "Y",
+        "description": "其他资产减值损失"
+      },
+      {
+        "field": "end_bal_cash",
+        "type": "float",
+        "default": "Y",
+        "description": "现金的期末余额"
+      },
+      {
+        "field": "beg_bal_cash",
+        "type": "float",
+        "default": "Y",
+        "description": "减:现金的期初余额"
+      },
+      {
+        "field": "end_bal_cash_equ",
+        "type": "float",
+        "default": "Y",
+        "description": "加:现金等价物的期末余额"
+      },
+      {
+        "field": "beg_bal_cash_equ",
+        "type": "float",
+        "default": "Y",
+        "description": "减:现金等价物的期初余额"
+      },
+      {
+        "field": "update_flag",
+        "type": "str",
+        "default": "Y",
+        "description": "更新标志(1最新）"
+      }
+    ]
+  },
+  "report_rc": {
+    "url": "https://tushare.pro/document/2?doc_id=292",
+    "fields": [
+      {
+        "field": "ts_code",
+        "type": "str",
+        "default": "Y",
+        "description": "股票代码"
+      },
+      {
+        "field": "name",
+        "type": "str",
+        "default": "Y",
+        "description": "股票名称"
+      },
+      {
+        "field": "report_date",
+        "type": "str",
+        "default": "Y",
+        "description": "研报日期"
+      },
+      {
+        "field": "report_title",
+        "type": "str",
+        "default": "Y",
+        "description": "报告标题"
+      },
+      {
+        "field": "report_type",
+        "type": "str",
+        "default": "Y",
+        "description": "报告类型"
+      },
+      {
+        "field": "classify",
+        "type": "str",
+        "default": "Y",
+        "description": "报告分类"
+      },
+      {
+        "field": "org_name",
+        "type": "str",
+        "default": "Y",
+        "description": "机构名称"
+      },
+      {
+        "field": "author_name",
+        "type": "str",
+        "default": "Y",
+        "description": "作者"
+      },
+      {
+        "field": "quarter",
+        "type": "str",
+        "default": "Y",
+        "description": "预测报告期"
+      },
+      {
+        "field": "op_rt",
+        "type": "float",
+        "default": "Y",
+        "description": "预测营业收入（万元）"
+      },
+      {
+        "field": "op_pr",
+        "type": "float",
+        "default": "Y",
+        "description": "预测营业利润（万元）"
+      },
+      {
+        "field": "tp",
+        "type": "float",
+        "default": "Y",
+        "description": "预测利润总额（万元）"
+      },
+      {
+        "field": "np",
+        "type": "float",
+        "default": "Y",
+        "description": "预测净利润（万元）"
+      },
+      {
+        "field": "eps",
+        "type": "float",
+        "default": "Y",
+        "description": "预测每股收益（元）"
+      },
+      {
+        "field": "pe",
+        "type": "float",
+        "default": "Y",
+        "description": "预测市盈率"
+      },
+      {
+        "field": "rd",
+        "type": "float",
+        "default": "Y",
+        "description": "预测股息率"
+      },
+      {
+        "field": "roe",
+        "type": "float",
+        "default": "Y",
+        "description": "预测净资产收益率"
+      },
+      {
+        "field": "ev_ebitda",
+        "type": "float",
+        "default": "Y",
+        "description": "预测EV/EBITDA"
+      },
+      {
+        "field": "rating",
+        "type": "str",
+        "default": "Y",
+        "description": "卖方评级"
+      },
+      {
+        "field": "max_price",
+        "type": "float",
+        "default": "Y",
+        "description": "预测最高目标价"
+      },
+      {
+        "field": "min_price",
+        "type": "float",
+        "default": "Y",
+        "description": "预测最低目标价"
+      },
+      {
+        "field": "imp_dg",
+        "type": "str",
+        "default": "N",
+        "description": "机构关注度"
+      },
+      {
+        "field": "create_time",
+        "type": "datetime",
+        "default": "N",
+        "description": "TS数据更新时间"
+      }
+    ]
+  },
+  "dividend": {
+    "url": "https://tushare.pro/document/2?doc_id=103",
+    "fields": [
+      {
+        "field": "ts_code",
+        "type": "str",
+        "default": "Y",
+        "description": "TS代码"
+      },
+      {
+        "field": "end_date",
+        "type": "str",
+        "default": "Y",
+        "description": "分红年度"
+      },
+      {
+        "field": "ann_date",
+        "type": "str",
+        "default": "Y",
+        "description": "公告日(预案，决案)"
+      },
+      {
+        "field": "div_proc",
+        "type": "str",
+        "default": "Y",
+        "description": "实施进度"
+      },
+      {
+        "field": "stk_div",
+        "type": "float",
+        "default": "Y",
+        "description": "每股送转"
+      },
+      {
+        "field": "stk_bo_rate",
+        "type": "float",
+        "default": "Y",
+        "description": "每股送股比例"
+      },
+      {
+        "field": "stk_co_rate",
+        "type": "float",
+        "default": "Y",
+        "description": "每股转增比例"
+      },
+      {
+        "field": "cash_div",
+        "type": "float",
+        "default": "Y",
+        "description": "每股分红（税后）"
+      },
+      {
+        "field": "cash_div_tax",
+        "type": "float",
+        "default": "Y",
+        "description": "每股分红（税前）"
+      },
+      {
+        "field": "record_date",
+        "type": "str",
+        "default": "Y",
+        "description": "股权登记日"
+      },
+      {
+        "field": "ex_date",
+        "type": "str",
+        "default": "Y",
+        "description": "除权除息日"
+      },
+      {
+        "field": "pay_date",
+        "type": "str",
+        "default": "Y",
+        "description": "派息日"
+      },
+      {
+        "field": "div_listdate",
+        "type": "str",
+        "default": "Y",
+        "description": "红股上市日"
+      },
+      {
+        "field": "imp_ann_date",
+        "type": "str",
+        "default": "Y",
+        "description": "实施公告日"
+      },
+      {
+        "field": "base_date",
+        "type": "str",
+        "default": "N",
+        "description": "基准日"
+      },
+      {
+        "field": "base_share",
+        "type": "float",
+        "default": "N",
+        "description": "基准股本（万）"
+      }
+    ]
+  },
+  "forecast": {
+    "url": "https://tushare.pro/document/2?doc_id=45",
+    "fields": [
+      {
+        "field": "ts_code",
+        "type": "str",
+        "default": "Y",
+        "description": "TS股票代码"
+      },
+      {
+        "field": "ann_date",
+        "type": "str",
+        "default": "Y",
+        "description": "公告日期"
+      },
+      {
+        "field": "end_date",
+        "type": "str",
+        "default": "Y",
+        "description": "报告期"
+      },
+      {
+        "field": "type",
+        "type": "str",
+        "default": "Y",
+        "description": "业绩预告类型(预增/预减/扭亏/首亏/续亏/续盈/略增/略减)"
+      },
+      {
+        "field": "p_change_min",
+        "type": "float",
+        "default": "Y",
+        "description": "预告净利润变动幅度下限（%）"
+      },
+      {
+        "field": "p_change_max",
+        "type": "float",
+        "default": "Y",
+        "description": "预告净利润变动幅度上限（%）"
+      },
+      {
+        "field": "net_profit_min",
+        "type": "float",
+        "default": "Y",
+        "description": "预告净利润下限（万元）"
+      },
+      {
+        "field": "net_profit_max",
+        "type": "float",
+        "default": "Y",
+        "description": "预告净利润上限（万元）"
+      },
+      {
+        "field": "last_parent_net",
+        "type": "float",
+        "default": "Y",
+        "description": "上年同期归属母公司净利润"
+      },
+      {
+        "field": "first_ann_date",
+        "type": "str",
+        "default": "Y",
+        "description": "首次公告日"
+      },
+      {
+        "field": "summary",
+        "type": "str",
+        "default": "Y",
+        "description": "业绩预告摘要"
+      },
+      {
+        "field": "change_reason",
+        "type": "str",
+        "default": "Y",
+        "description": "业绩变动原因"
+      }
+    ]
+  },
+  "express": {
+    "url": "https://tushare.pro/document/2?doc_id=46",
+    "fields": [
+      {
+        "field": "ts_code",
+        "type": "str",
+        "default": "Y",
+        "description": "TS股票代码"
+      },
+      {
+        "field": "ann_date",
+        "type": "str",
+        "default": "Y",
+        "description": "公告日期"
+      },
+      {
+        "field": "end_date",
+        "type": "str",
+        "default": "Y",
+        "description": "报告期"
+      },
+      {
+        "field": "revenue",
+        "type": "float",
+        "default": "Y",
+        "description": "营业收入(元)"
+      },
+      {
+        "field": "operate_profit",
+        "type": "float",
+        "default": "Y",
+        "description": "营业利润(元)"
+      },
+      {
+        "field": "total_profit",
+        "type": "float",
+        "default": "Y",
+        "description": "利润总额(元)"
+      },
+      {
+        "field": "n_income",
+        "type": "float",
+        "default": "Y",
+        "description": "净利润(元)"
+      },
+      {
+        "field": "total_assets",
+        "type": "float",
+        "default": "Y",
+        "description": "总资产(元)"
+      },
+      {
+        "field": "total_hldr_eqy_exc_min_int",
+        "type": "float",
+        "default": "Y",
+        "description": "股东权益合计(不含少数股东权益)(元)"
+      },
+      {
+        "field": "diluted_eps",
+        "type": "float",
+        "default": "Y",
+        "description": "每股收益(摊薄)(元)"
+      },
+      {
+        "field": "diluted_roe",
+        "type": "float",
+        "default": "Y",
+        "description": "净资产收益率(摊薄)(%)"
+      },
+      {
+        "field": "yoy_net_profit",
+        "type": "float",
+        "default": "Y",
+        "description": "去年同期修正后净利润"
+      },
+      {
+        "field": "bps",
+        "type": "float",
+        "default": "Y",
+        "description": "每股净资产"
+      },
+      {
+        "field": "yoy_sales",
+        "type": "float",
+        "default": "N",
+        "description": "同比增长率:营业收入"
+      },
+      {
+        "field": "yoy_op",
+        "type": "float",
+        "default": "N",
+        "description": "同比增长率:营业利润"
+      },
+      {
+        "field": "yoy_tp",
+        "type": "float",
+        "default": "N",
+        "description": "同比增长率:利润总额"
+      },
+      {
+        "field": "yoy_dedu_np",
+        "type": "float",
+        "default": "N",
+        "description": "同比增长率:归属母公司股东的净利润"
+      },
+      {
+        "field": "yoy_eps",
+        "type": "float",
+        "default": "N",
+        "description": "同比增长率:基本每股收益"
+      },
+      {
+        "field": "yoy_roe",
+        "type": "float",
+        "default": "N",
+        "description": "同比增减:加权平均净资产收益率"
+      },
+      {
+        "field": "growth_assets",
+        "type": "float",
+        "default": "N",
+        "description": "比年初增长率:总资产"
+      },
+      {
+        "field": "yoy_equity",
+        "type": "float",
+        "default": "N",
+        "description": "比年初增长率:归属母公司的股东权益"
+      },
+      {
+        "field": "growth_bps",
+        "type": "float",
+        "default": "N",
+        "description": "比年初增长率:归属于母公司股东的每股净资产"
+      },
+      {
+        "field": "or_last_year",
+        "type": "float",
+        "default": "N",
+        "description": "去年同期营业收入"
+      },
+      {
+        "field": "op_last_year",
+        "type": "float",
+        "default": "N",
+        "description": "去年同期营业利润"
+      },
+      {
+        "field": "tp_last_year",
+        "type": "float",
+        "default": "N",
+        "description": "去年同期利润总额"
+      },
+      {
+        "field": "np_last_year",
+        "type": "float",
+        "default": "N",
+        "description": "去年同期净利润"
+      },
+      {
+        "field": "eps_last_year",
+        "type": "float",
+        "default": "N",
+        "description": "去年同期每股收益"
+      },
+      {
+        "field": "open_net_assets",
+        "type": "float",
+        "default": "N",
+        "description": "期初净资产"
+      },
+      {
+        "field": "open_bps",
+        "type": "float",
+        "default": "N",
+        "description": "期初每股净资产"
+      },
+      {
+        "field": "perf_summary",
+        "type": "str",
+        "default": "N",
+        "description": "业绩简要说明"
+      },
+      {
+        "field": "is_audit",
+        "type": "int",
+        "default": "N",
+        "description": "是否审计： 1是 0否"
+      },
+      {
+        "field": "remark",
+        "type": "str",
+        "default": "N",
+        "description": "备注"
+      }
+    ]
+  },
+  "index_weight": {
+    "url": "https://tushare.pro/document/2?doc_id=96",
+    "fields": [
+      {
+        "field": "index_code",
+        "type": "str",
+        "default": null,
+        "description": "指数代码"
+      },
+      {
+        "field": "con_code",
+        "type": "str",
+        "default": null,
+        "description": "成分代码"
+      },
+      {
+        "field": "trade_date",
+        "type": "str",
+        "default": null,
+        "description": "交易日期"
+      },
+      {
+        "field": "weight",
+        "type": "float",
+        "default": null,
+        "description": "权重"
+      }
+    ]
+  },
+  "factor_list": {
+    "url": "https://tushare.pro/document/2?doc_id=486",
+    "fields": [
+      {
+        "field": "factor_name",
+        "type": "str",
+        "default": "Y",
+        "description": "因子名称"
+      },
+      {
+        "field": "asset_type",
+        "type": "str",
+        "default": "Y",
+        "description": "证券类型：STK股票，IDX指数，ETF，CB可转债 【当前只提供STK股票】"
+      },
+      {
+        "field": "factor_type",
+        "type": "str",
+        "default": "Y",
+        "description": "因子分类"
+      },
+      {
+        "field": "factor_desc",
+        "type": "str",
+        "default": "Y",
+        "description": "因子描述及算法逻辑"
+      }
+    ]
+  },
+  "factor_value": {
+    "url": "https://tushare.pro/document/2?doc_id=490",
+    "fields": [
+      {
+        "field": "factor_name",
+        "type": "str",
+        "default": "Y",
+        "description": "因子名称"
+      },
+      {
+        "field": "ts_code",
+        "type": "str",
+        "default": "Y",
+        "description": "证券代码"
+      },
+      {
+        "field": "trade_date",
+        "type": "str",
+        "default": "Y",
+        "description": "交易日期，格式YYYYMMDD"
+      },
+      {
+        "field": "factor_value",
+        "type": "float",
+        "default": "Y",
+        "description": "因子值"
+      }
+    ]
+  },
+  "fina_audit": {
+    "url": "https://tushare.pro/document/2?doc_id=80",
+    "fields": [
+      {
+        "field": "ts_code",
+        "type": "str",
+        "description": "TS股票代码"
+      },
+      {
+        "field": "ann_date",
+        "type": "str",
+        "description": "公告日期"
+      },
+      {
+        "field": "end_date",
+        "type": "str",
+        "description": "报告期"
+      },
+      {
+        "field": "audit_result",
+        "type": "str",
+        "description": "审计结果"
+      },
+      {
+        "field": "audit_fees",
+        "type": "float",
+        "description": "审计总费用（元）"
+      },
+      {
+        "field": "audit_agency",
+        "type": "str",
+        "description": "会计事务所"
+      },
+      {
+        "field": "audit_sign",
+        "type": "str",
+        "description": "签字会计师"
+      }
+    ],
+    "retrieved_at": "2026-09-20T06:03:30.114234+00:00"
+  },
+  "fina_mainbz": {
+    "url": "https://tushare.pro/document/2?doc_id=81",
+    "fields": [
+      {
+        "field": "ts_code",
+        "type": "str",
+        "description": "TS代码"
+      },
+      {
+        "field": "end_date",
+        "type": "str",
+        "description": "报告期"
+      },
+      {
+        "field": "bz_item",
+        "type": "str",
+        "description": "主营业务来源"
+      },
+      {
+        "field": "bz_code",
+        "type": "str",
+        "description": "主营业务来源类型（P-按产品 D-按地区 I-按行业）"
+      },
+      {
+        "field": "bz_sales",
+        "type": "float",
+        "description": "主营业务收入(元)"
+      },
+      {
+        "field": "bz_profit",
+        "type": "float",
+        "description": "主营业务利润(元)"
+      },
+      {
+        "field": "bz_cost",
+        "type": "float",
+        "description": "主营业务成本(元)"
+      },
+      {
+        "field": "curr_type",
+        "type": "str",
+        "description": "货币代码（CNY）"
+      },
+      {
+        "field": "update_flag",
+        "type": "str",
+        "description": "是否更新"
+      }
+    ],
+    "retrieved_at": "2026-09-20T06:03:30.220397+00:00"
+  },
+  "disclosure_date": {
+    "url": "https://tushare.pro/document/2?doc_id=162",
+    "fields": [
+      {
+        "field": "ts_code",
+        "type": "str",
+        "description": "TS代码"
+      },
+      {
+        "field": "ann_date",
+        "type": "str",
+        "description": "最新披露公告日"
+      },
+      {
+        "field": "end_date",
+        "type": "str",
+        "description": "报告期"
+      },
+      {
+        "field": "pre_date",
+        "type": "str",
+        "description": "预计披露日期"
+      },
+      {
+        "field": "actual_date",
+        "type": "str",
+        "description": "实际披露日期"
+      },
+      {
+        "field": "modify_date",
+        "type": "str",
+        "description": "披露日期修正记录"
+      }
+    ],
+    "retrieved_at": "2026-09-20T06:03:30.140116+00:00"
+  },
+  "top10_holders": {
+    "url": "https://tushare.pro/document/2?doc_id=61",
+    "fields": [
+      {
+        "field": "ts_code",
+        "type": "str",
+        "description": "TS股票代码"
+      },
+      {
+        "field": "ann_date",
+        "type": "str",
+        "description": "公告日期"
+      },
+      {
+        "field": "end_date",
+        "type": "str",
+        "description": "报告期"
+      },
+      {
+        "field": "holder_name",
+        "type": "str",
+        "description": "股东名称"
+      },
+      {
+        "field": "hold_amount",
+        "type": "float",
+        "description": "持有数量（股）"
+      },
+      {
+        "field": "hold_ratio",
+        "type": "float",
+        "description": "占总股本比例(%)"
+      },
+      {
+        "field": "hold_float_ratio",
+        "type": "float",
+        "description": "占流通股本比例(%)"
+      },
+      {
+        "field": "hold_change",
+        "type": "float",
+        "description": "持股变动"
+      },
+      {
+        "field": "holder_type",
+        "type": "str",
+        "description": "股东类型"
+      }
+    ],
+    "retrieved_at": "2026-09-20T06:03:30.397197+00:00"
+  },
+  "top10_floatholders": {
+    "url": "https://tushare.pro/document/2?doc_id=62",
+    "fields": [
+      {
+        "field": "ts_code",
+        "type": "str",
+        "description": "TS股票代码"
+      },
+      {
+        "field": "ann_date",
+        "type": "str",
+        "description": "公告日期"
+      },
+      {
+        "field": "end_date",
+        "type": "str",
+        "description": "报告期"
+      },
+      {
+        "field": "holder_name",
+        "type": "str",
+        "description": "股东名称"
+      },
+      {
+        "field": "hold_amount",
+        "type": "float",
+        "description": "持有数量（股）"
+      },
+      {
+        "field": "hold_ratio",
+        "type": "float",
+        "description": "占总股本比例(%)"
+      },
+      {
+        "field": "hold_float_ratio",
+        "type": "float",
+        "description": "占流通股本比例(%)"
+      },
+      {
+        "field": "hold_change",
+        "type": "float",
+        "description": "持股变动（0表示不变，空值表示 新进）"
+      },
+      {
+        "field": "holder_type",
+        "type": "str",
+        "description": "股东类型"
+      }
+    ],
+    "retrieved_at": "2026-09-20T06:03:30.421783+00:00"
+  },
+  "stk_holdernumber": {
+    "url": "https://tushare.pro/document/2?doc_id=166",
+    "fields": [
+      {
+        "field": "ts_code",
+        "type": "str",
+        "description": "TS股票代码"
+      },
+      {
+        "field": "ann_date",
+        "type": "str",
+        "description": "公告日期"
+      },
+      {
+        "field": "end_date",
+        "type": "str",
+        "description": "截止日期"
+      },
+      {
+        "field": "holder_num",
+        "type": "int",
+        "description": "股东户数"
+      }
+    ],
+    "retrieved_at": "2026-09-20T06:03:30.508718+00:00"
+  },
+  "stk_holdertrade": {
+    "url": "https://tushare.pro/document/2?doc_id=175",
+    "fields": [
+      {
+        "field": "ts_code",
+        "type": "str",
+        "description": "TS代码"
+      },
+      {
+        "field": "ann_date",
+        "type": "str",
+        "description": "公告日期"
+      },
+      {
+        "field": "holder_name",
+        "type": "str",
+        "description": "股东名称"
+      },
+      {
+        "field": "holder_type",
+        "type": "str",
+        "description": "股东类型G高管P个人C公司"
+      },
+      {
+        "field": "in_de",
+        "type": "str",
+        "description": "类型IN增持DE减持"
+      },
+      {
+        "field": "change_vol",
+        "type": "float",
+        "description": "变动数量"
+      },
+      {
+        "field": "change_ratio",
+        "type": "float",
+        "description": "占流通比例（%）"
+      },
+      {
+        "field": "after_share",
+        "type": "float",
+        "description": "变动后持股"
+      },
+      {
+        "field": "after_ratio",
+        "type": "float",
+        "description": "变动后占流通比例（%）"
+      },
+      {
+        "field": "avg_price",
+        "type": "float",
+        "description": "平均价格"
+      },
+      {
+        "field": "total_share",
+        "type": "float",
+        "description": "持股总数"
+      },
+      {
+        "field": "begin_date",
+        "type": "str",
+        "description": "增减持开始日期"
+      },
+      {
+        "field": "close_date",
+        "type": "str",
+        "description": "增减持结束日期"
+      }
+    ],
+    "retrieved_at": "2026-09-20T06:03:30.702031+00:00"
+  },
+  "pledge_stat": {
+    "url": "https://tushare.pro/document/2?doc_id=110",
+    "fields": [
+      {
+        "field": "ts_code",
+        "type": "str",
+        "description": "TS代码"
+      },
+      {
+        "field": "end_date",
+        "type": "str",
+        "description": "截止日期"
+      },
+      {
+        "field": "pledge_count",
+        "type": "int",
+        "description": "质押次数"
+      },
+      {
+        "field": "unrest_pledge",
+        "type": "float",
+        "description": "无限售股质押数量（万）"
+      },
+      {
+        "field": "rest_pledge",
+        "type": "float",
+        "description": "限售股份质押数量（万）"
+      },
+      {
+        "field": "total_share",
+        "type": "float",
+        "description": "总股本（万股）"
+      },
+      {
+        "field": "pledge_ratio",
+        "type": "float",
+        "description": "质押比例（%）"
+      }
+    ],
+    "retrieved_at": "2026-09-20T06:03:30.721410+00:00"
+  },
+  "repurchase": {
+    "url": "https://tushare.pro/document/2?doc_id=124",
+    "fields": [
+      {
+        "field": "ts_code",
+        "type": "str",
+        "description": "TS代码"
+      },
+      {
+        "field": "ann_date",
+        "type": "str",
+        "description": "公告日期"
+      },
+      {
+        "field": "end_date",
+        "type": "str",
+        "description": "截止日期"
+      },
+      {
+        "field": "proc",
+        "type": "str",
+        "description": "进度"
+      },
+      {
+        "field": "exp_date",
+        "type": "str",
+        "description": "过期日期"
+      },
+      {
+        "field": "vol",
+        "type": "float",
+        "description": "回购数量"
+      },
+      {
+        "field": "amount",
+        "type": "float",
+        "description": "回购金额"
+      },
+      {
+        "field": "high_limit",
+        "type": "float",
+        "description": "回购最高价"
+      },
+      {
+        "field": "low_limit",
+        "type": "float",
+        "description": "回购最低价"
+      }
+    ],
+    "retrieved_at": "2026-09-20T06:03:30.754217+00:00"
+  },
+  "share_float": {
+    "url": "https://tushare.pro/document/2?doc_id=160",
+    "fields": [
+      {
+        "field": "ts_code",
+        "type": "str",
+        "description": "TS代码"
+      },
+      {
+        "field": "ann_date",
+        "type": "str",
+        "description": "公告日期"
+      },
+      {
+        "field": "float_date",
+        "type": "str",
+        "description": "解禁日期"
+      },
+      {
+        "field": "float_share",
+        "type": "float",
+        "description": "流通股份(股)"
+      },
+      {
+        "field": "float_ratio",
+        "type": "float",
+        "description": "流通股份占总股本比率(%)"
+      },
+      {
+        "field": "holder_name",
+        "type": "str",
+        "description": "股东名称"
+      },
+      {
+        "field": "share_type",
+        "type": "str",
+        "description": "股份类型"
+      }
+    ],
+    "retrieved_at": "2026-09-20T06:03:30.988059+00:00"
+  },
+  "namechange": {
+    "url": "https://tushare.pro/document/2?doc_id=100",
+    "fields": [
+      {
+        "field": "ts_code",
+        "type": "str",
+        "description": "TS代码"
+      },
+      {
+        "field": "name",
+        "type": "str",
+        "description": "证券名称"
+      },
+      {
+        "field": "start_date",
+        "type": "str",
+        "description": "开始日期"
+      },
+      {
+        "field": "end_date",
+        "type": "str",
+        "description": "结束日期"
+      },
+      {
+        "field": "ann_date",
+        "type": "str",
+        "description": "公告日期"
+      },
+      {
+        "field": "change_reason",
+        "type": "str",
+        "description": "变更原因"
+      }
+    ],
+    "retrieved_at": "2026-09-20T06:03:31.002903+00:00"
+  }
+}

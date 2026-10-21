@@ -1,0 +1,17 @@
+{
+  "recorded_at": "2026-09-07T02:23:00+08:00",
+  "validation_receipt": "experiment_traces/meta_ashare_revision12/validation_attempts/20260906T181855964601Z/receipt.json",
+  "validation_source_hash": "6abf192420312765c42b115c217fd05c760bb3b432e05dc1b4e76fed94c977b9",
+  "fixture_plan": "experiment_traces/meta_ashare_revision12/fixture_attempts/20260906T181747593151Z_horizon_wiring/plan.json",
+  "fixture_source_hash": "b81b3cf1fc80642af0a75b0a23ee90c14a326fc9e993c915f2a1e5ae7bb82646",
+  "hashes_equal": false,
+  "reason": "Different declared manifest serialization and path namespaces. Validation keys are package-relative Windows paths with default JSON formatting; fixture keys include src/quanta_agents/, use POSIX separators, sorted indented JSON and trailing newline.",
+  "performed_check": "Normalize validation file keys to src/quanta_agents/ plus POSIX separators; require exact file-key sets and each saved SHA256 equal",
+  "source_files_compared": 89,
+  "same_file_set": true,
+  "changed_file_count": 0,
+  "fixture_output_files_independently_hash_checked": 15,
+  "fixture_output_hashes_match": true,
+  "old_manifests_modified": false,
+  "scope": "Equivalent local source bytes under two different manifest schemes; no provider/data authenticity claim"
+}

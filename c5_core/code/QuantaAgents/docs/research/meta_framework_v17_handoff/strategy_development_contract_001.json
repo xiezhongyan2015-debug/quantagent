@@ -1,0 +1,122 @@
+{
+  "version": "strategy_development_v17_1",
+  "kind": "exposed_synthetic_engineering_contract",
+  "recorded_at": "2026-09-06T22:34:25.678057+00:00",
+  "budget": {
+    "max_actions": 24,
+    "develop_candidates": 4,
+    "internal_variants": 4,
+    "query_actions": 16,
+    "manual_memory_actions": 4,
+    "max_symbols": 2,
+    "max_sessions": 16,
+    "max_factors": 4,
+    "max_expressions": 5,
+    "max_public_fields": 8,
+    "max_request_bytes": 65536,
+    "parent_record_bytes": 1048576,
+    "parent_total_bytes": 16777216,
+    "max_raw_executions": 4,
+    "admission_window_seconds": 600
+  },
+  "raw_child_budget": {
+    "per_candidate_archive_bytes": 134217728,
+    "per_candidate_records": 4096,
+    "per_candidate_event_intents": 64,
+    "per_candidate_record_bytes": 4194304,
+    "maximum_children": 4,
+    "included_in_parent_total_bytes": false
+  },
+  "program": {
+    "version": "factor_strategy_program_v1",
+    "fields": [
+      "version",
+      "factors",
+      "target_weight_expression",
+      "hypothesis",
+      "applicability",
+      "invalidation_conditions"
+    ],
+    "factor_fields": [
+      "name",
+      "expression"
+    ],
+    "expression_characters": 4096,
+    "expression_ast_nodes": 256,
+    "expression_depth": 24,
+    "max_window": 120
+  },
+  "actions": {
+    "develop_strategy": {
+      "fields": [
+        "action",
+        "program"
+      ],
+      "charge": {
+        "actions": 1,
+        "develop_candidates": 1,
+        "internal_variants": 1
+      },
+      "subattempts": [
+        "compile",
+        "target_generation",
+        "raw_mechanical_execution"
+      ]
+    },
+    "record_memory": {
+      "fields": [
+        "action",
+        "claim_text",
+        "source_evidence_ids",
+        "applicable_conditions",
+        "invalidation_conditions"
+      ],
+      "charge": {
+        "actions": 1,
+        "manual_memory_actions": 1
+      }
+    },
+    "invalidate_memory": {
+      "fields": [
+        "action",
+        "memory_id",
+        "reason_code",
+        "source_evidence_ids",
+        "explanation"
+      ],
+      "charge": {
+        "actions": 1,
+        "manual_memory_actions": 1
+      }
+    },
+    "query": {
+      "fields": [
+        "observation_id",
+        "table",
+        "cursor",
+        "limit"
+      ],
+      "max_limit": 50,
+      "charge": {
+        "actions": 1,
+        "query_actions": 1
+      }
+    }
+  },
+  "semantics": {
+    "decision_cutoff": "15:10:00+08:00",
+    "late_values": "permanently masked in their original session; no historical backfill",
+    "target": "explicit every symbol, exactly next supplied session; final session forced zero",
+    "invalid_weight": "missing/nonfinite becomes zero with reason; finite negative/>1 or aggregate>1 fails candidate; no renormalization",
+    "same_slot": "saved only; original hash/bytes exact; no new opportunity",
+    "new_slot_duplicate": "charge all declared opportunities and requested subattempts; reuse settled result without compute",
+    "unknown": "blocks any new action; saved-only verification allowed",
+    "finite_oversize": "known action charged and rejected with original hash/bytes bounded envelope",
+    "memory": "author claims and verified engineering facts remain distinct; invalidation append only",
+    "deadline": "next-stage admission deadline, not a hard interrupt of already running finite computation",
+    "execution_valid": false,
+    "formal_target_success": false,
+    "new_gateway_calls": 0,
+    "existing_scopes_modified": false
+  }
+}

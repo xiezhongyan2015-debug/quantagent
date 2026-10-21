@@ -1,0 +1,180 @@
+{
+  "kind": "v15_composite_offline_acceptance",
+  "paid_dispatch_permission": false,
+  "allowed_changed_inherited_files": [
+    "src/quanta_agents/raw_portfolio_backtest.py",
+    "src/quanta_agents/meta/diagnostic_monitor.py"
+  ],
+  "components": [
+    {
+      "name": "research_author",
+      "receipt": "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/author_001/receipt.json",
+      "receipt_sha256": "cbad490d188871a7e543c9c21d6932874bb505d84d67a8f1b8ed2c0808b406ed",
+      "counted_tests": 15,
+      "required_receipt_fields": {
+        "counts": {
+          "tests": 15,
+          "passed": 15,
+          "failures": 0
+        }
+      }
+    },
+    {
+      "name": "research_independent",
+      "receipt": "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/independent_001/receipt.json",
+      "receipt_sha256": "cc2cd378f519552793652a16746635636f739b3b33e18be6040f003993532847",
+      "counted_tests": 6,
+      "required_receipt_fields": {
+        "status": "bounded_independent_review_tests_passed",
+        "counts": {
+          "tests": 6,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "name": "raw_author_final",
+      "receipt": "experiment_traces/meta_ashare_revision15/raw_saved_validation/003_resource_and_tamper_final.json",
+      "receipt_sha256": "cfa064a442df89a5eb3bdd1fd1f63c6120e8a2072b8418487c24686c5780ab64",
+      "counted_tests": 24,
+      "required_receipt_fields": {
+        "passed": 24,
+        "failed": 0,
+        "exit_code": 0
+      }
+    },
+    {
+      "name": "raw_prior_regression_only",
+      "receipt": "experiment_traces/meta_ashare_revision15/raw_saved_validation/002_own_and_old_regression.json",
+      "receipt_sha256": "f9ba15df01c846fb440ef10974c30a0eb66ce651ab3bfd64895dff4118faa8df",
+      "counted_tests": 30,
+      "required_receipt_fields": {
+        "passed": 51,
+        "failed": 0,
+        "exit_code": 0
+      },
+      "count_note": "30 old simulator checks only; the 21 earlier author checks are superseded by final24, not added again."
+    },
+    {
+      "name": "raw_root_independent",
+      "receipt": "experiment_traces/meta_ashare_revision15/raw_saved_validation/root_independent_001.json",
+      "receipt_sha256": "2bf667dce487931ce8a8f1044ab2a6f8f8994148fef328f3d115f0ca3fba8244",
+      "counted_tests": 6,
+      "required_receipt_fields": {
+        "counts": {
+          "tests": 6,
+          "errors": 0,
+          "failures": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "name": "entrypoint_final",
+      "receipt": "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/entrypoint_parameter_after_002/receipt.json",
+      "receipt_sha256": "025f330663fd11edb9fb19508efc3e2c41ffe6e04149e4b4e93e47bf175a50bf",
+      "counted_tests": 2,
+      "required_receipt_fields": {
+        "status": "passed",
+        "counts": {
+          "tests": 2,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      }
+    },
+    {
+      "name": "monitor_backend",
+      "receipt": "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/monitor_author_20260906T205027203267Z/receipt.json",
+      "receipt_sha256": "2c03d1697b83fc8092c9e39af74f2b94aaa8c3d9e2a698fd3b9dbf35ddf94c0e",
+      "counted_tests": 29,
+      "required_receipt_fields": {
+        "exit_code": 0,
+        "inputs_unchanged": true
+      },
+      "verified_junit_counts": {
+        "tests": 29,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    },
+    {
+      "name": "monitor_javascript",
+      "receipt": "experiment_traces/meta_ashare_revision15/validation_artifacts/monitor_js_001/receipt.json",
+      "receipt_sha256": "7f6d4d054e5cdedd988c3a5a2e0285e1e471348d908ebeeb24397ffbaa03e2f3",
+      "counted_tests": 0,
+      "required_receipt_fields": {
+        "status": "passed",
+        "passed": 7,
+        "total": 7
+      },
+      "javascript_checks": 7
+    }
+  ],
+  "receipt_and_review_pins": {
+    "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/author_001/receipt.json": "cbad490d188871a7e543c9c21d6932874bb505d84d67a8f1b8ed2c0808b406ed",
+    "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/independent_001/receipt.json": "cc2cd378f519552793652a16746635636f739b3b33e18be6040f003993532847",
+    "experiment_traces/meta_ashare_revision15/raw_saved_validation/003_resource_and_tamper_final.json": "cfa064a442df89a5eb3bdd1fd1f63c6120e8a2072b8418487c24686c5780ab64",
+    "experiment_traces/meta_ashare_revision15/raw_saved_validation/002_own_and_old_regression.json": "f9ba15df01c846fb440ef10974c30a0eb66ce651ab3bfd64895dff4118faa8df",
+    "experiment_traces/meta_ashare_revision15/raw_saved_validation/root_independent_001.json": "2bf667dce487931ce8a8f1044ab2a6f8f8994148fef328f3d115f0ca3fba8244",
+    "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/entrypoint_parameter_after_002/receipt.json": "025f330663fd11edb9fb19508efc3e2c41ffe6e04149e4b4e93e47bf175a50bf",
+    "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/monitor_author_20260906T205027203267Z/receipt.json": "2c03d1697b83fc8092c9e39af74f2b94aaa8c3d9e2a698fd3b9dbf35ddf94c0e",
+    "experiment_traces/meta_ashare_revision15/validation_artifacts/monitor_js_001/receipt.json": "7f6d4d054e5cdedd988c3a5a2e0285e1e471348d908ebeeb24397ffbaa03e2f3",
+    "docs/research/meta_framework_v15_handoff/casebank_research_loop_001.md": "8f102a86e714df7c262ea359c9facb1e0c92de42ce5a3749353252fea047d54d",
+    "docs/research/meta_framework_v15_handoff/casebank_live_independent_001.md": "70cb7eafce024589f549512c21dd9c28dfc4448b97b5a64bd7373691a86fe10f",
+    "docs/research/meta_framework_v15_handoff/casebank_reference_entrypoint_review_001.md": "98c5008ae7a95f0627ad488a147713b5b0a96d4b90afc2055dd4cf4e3a0b5a3c",
+    "docs/research/meta_framework_v15_handoff/casebank_monitor_001.md": "27c7310183ffa2d27821a062679e2b977b81fe64f85226ee13fdb62e1f3d5eb0",
+    "docs/research/meta_framework_v15_handoff/casebank_monitor_review_001.md": "bfc8e0bb3dd164334a377c74a8fabf4acbfb05bbabd7569b1929c9ae2127f5ba",
+    "docs/research/meta_framework_v15_handoff/raw_saved_bridge_001.md": "9ceaeaad86d0f4d67f9432adb833c769cdf8e4cee05b2afa1e259982f7d30980",
+    "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/entrypoint_parameter_before_001/input_hashes.json": "85702d5847fbfcad35204bba9087ad1fc26acf85c650bcccc7bbf979d0007a82",
+    "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/entrypoint_parameter_before_001/junit.xml": "f6c91e5caf28fd8e0486a4e1b3134b049e408d32448e968b6e8b18d0aa4f6e17",
+    "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/entrypoint_parameter_before_001/preserved_run_casebank_reference.py": "28d2e5d667d3f004ce2e172a46a3969057ca1e769ff929caf4fb07a7a61738c8",
+    "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/entrypoint_parameter_before_001/pytest.txt": "d965d2b8047c3dbd3fd432f4873b27d865333754b82e6afb8d5797e7a7043a5e",
+    "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/entrypoint_parameter_before_001/receipt.json": "9768b42b727b9fc7d3ebe109866b7fc13f7658a8ba76ba12cdf87f5a4e5ca6e5",
+    "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/entrypoint_parameter_before_002/junit.xml": "60bb88b9fdc54003d8cb1bb0440e7c70c3ec2a01e7b84880caa1a32b976642bf",
+    "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/entrypoint_parameter_before_002/preserved_run_casebank_reference.py": "699ec8b6017a06730cd4dc2326ba577ca82787cb0f1e783898ccadb74ae730c4",
+    "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/entrypoint_parameter_before_002/pytest.txt": "621f661f6cb020e8466d3343b4c7e0bf915aab1ce542a70a08f1b187c87343a6",
+    "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/entrypoint_parameter_before_002/receipt.json": "a470b49e18f552965bf20a3a2fdbaac57107908c02dfce71d299a1a5fc012193",
+    "docs/research/meta_framework_v15_handoff/raw_bridge_independent_001.md": "5ad041df75859ed47bb935653419df593e36398b59a338f064dee4c9f0c8c120",
+    "docs/research/meta_framework_v15_handoff/casebank_reference_pin_repair_001.md": "ed02c4735b3f8f29d710974f23abb7068c7df3d0fe4d023b03c22f951e85e8b0",
+    "docs/research/meta_framework_v15_handoff/casebank_reference_pin_repair_002.md": "7907253441b0fd274c6270245298bda817adff6189f65707d2d8c5cfce9c3b3e"
+  },
+  "applicable_source_test_artifact_pins": {
+    "experiment_traces/meta_ashare_revision15/src/quanta_agents/meta/casebank_campaign.py": "4e56a278715b672d422c4aebe7468217c58920640c8f0b820efcb11c84e5d02a",
+    "experiment_traces/meta_ashare_revision15/src/quanta_agents/meta/casebank_live.py": "8bd36896ed1445cae29addf3f7decabad05c171367ee60240c4f9a0603074a60",
+    "experiment_traces/meta_ashare_revision15/tests/test_meta_casebank_campaign_v15.py": "fb31f80d920a923ceb45ba0a546d1914073c0d95d242be05d4155928eee67086",
+    "experiment_traces/meta_ashare_revision15/tests/test_meta_casebank_live_v15.py": "8749f335cd69eb839a41e7d01c084fa68badcad3ec57dd9352d7cd52a4794fe2",
+    "experiment_traces/meta_ashare_revision15/tests/test_meta_casebank_live_independent_v15.py": "4d354b9e506f36a958357ca7ffa3c5e92b9734033dc9fd01ad8b6afab207b56f",
+    "experiment_traces/meta_ashare_revision15/tests/test_meta_diagnostic_live_v10.py": "aca3c81880b8fa138eb83b82d471fae600e93d760b48a8d8464d24521ec95c12",
+    "experiment_traces/meta_ashare_revision15/tests/test_meta_gateway.py": "ce6a4e0093557b0d657ab55416ee730f9a8fb0988c1e67e1a52f864143d8696b",
+    "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/independent_001/input_hashes.json": "223c4935a66f03e6bb3c35a5fd96f6549d448d0b66e27227b6e7f37f13bb8b06",
+    "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/independent_001/junit.xml": "e39bca3bbfe2b5874fae81ca1cb3763251e4e36b9adc53cffac198b42bd20d8b",
+    "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/independent_001/pytest.txt": "c4cc89b29b6e9d102bdf10afa17d8f3bb5fc9ede25df02985312478e3257bee6",
+    "experiment_traces/meta_ashare_revision15/src/quanta_agents/raw_saved_research.py": "fbebcfa6a1e0bd288e4d736d9c903ccba8a1bcede401e178a11a6b34c70bc5cb",
+    "experiment_traces/meta_ashare_revision15/src/quanta_agents/raw_portfolio_backtest.py": "cfdd9ae7da28014c0e3a2c4e89febce69ff5f73a803e5e047d763304e69cd23a",
+    "experiment_traces/meta_ashare_revision15/tests/test_raw_saved_research_v15.py": "7db71b1844f5354c19999565b726dd033a509b2a3d058f099dc4b2bfa78aab4e",
+    "experiment_traces/meta_ashare_revision15/tests/test_raw_saved_independent_v15.py": "0f9be6aab591532e7f3a002857917ece42305acf57378ea622d363578d37c3ff",
+    "experiment_traces/meta_ashare_revision15/scripts/run_casebank_reference.py": "d9796523fd2724491ce40a382981d24aafbb680de24e6de54989283fa6603cdb",
+    "experiment_traces/meta_ashare_revision15/tests/test_meta_casebank_reference_cli_v15.py": "365739069cf023af6e7cbf46c28ddfa2eb3524c4821053d06ad3a4e2e22c8170",
+    "experiment_traces/meta_ashare_revision15/tests/test_meta_casebank_reference_pins_v15.py": "4b3d322d105cb1af902be5f9e3fab0e8db467af80d77ad77af5808b6e8410ce2",
+    "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/entrypoint_parameter_after_002/input_hashes.json": "ac6a21cfe4184b59c872a49dfbc386be3b96136df9ead8f81b811873d61a9757",
+    "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/entrypoint_parameter_after_002/pytest.txt": "89fc90778536d914ef722d3c0603e760e570cd69f9fe694b6a88497120f269d0",
+    "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/entrypoint_parameter_after_002/junit.xml": "7b0090e51b339c3e5851dcb468f35ffded28786611b9c3fc41e9bf7e69a0c132",
+    "experiment_traces/meta_ashare_revision15/src/quanta_agents/meta/diagnostic_monitor.py": "e9b7784c68411c8b67d9a9c884129d6052e9b4b2e816fb7f5b85673ade4e4a4e",
+    "experiment_traces/meta_ashare_revision15/tests/test_meta_casebank_monitor_v15.py": "85f1b05f7ca86e3a9a373ceef10ed913351d94ff0150f063e0e1a6145ac4025f",
+    "experiment_traces/meta_ashare_revision15/tests/test_meta_diagnostic_monitor_v10.py": "debd4913d2f563b344ad8aa1f7978be5b5474e586fcea4ed021d66d5d4ef9065",
+    "experiment_traces/meta_ashare_revision15/tests/test_meta_diagnostic_monitor_v11.py": "d518c59a4982f4d02abb82e908d06f412f68d1e9d9008c3a17ba16ece43b0f61",
+    "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/monitor_author_20260906T205027203267Z/input_hashes.json": "e2c7f0b40e30aaa3296b922cb6ed9937c3b72b2b57fe8b8a319340d67a64b49b",
+    "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/monitor_author_20260906T205027203267Z/junit.xml": "457518a4748a384ecb5b5206a197e8707319cba0c7a6827a9a9f0d322f1c85b9",
+    "experiment_traces/meta_ashare_revision15/casebank_engineering_attempts/monitor_author_20260906T205027203267Z/pytest.txt": "65225f4ba8480863cf97964dd0edd729d934ebda9c87229e17a9cea1720ed70a",
+    "experiment_traces/meta_ashare_revision15/validation_artifacts/monitor_js_001/monitor.js": "2d8ba6c7d2712abe40a34eb5bb31000adcf0430abb96960cf393075eb6ffbb15",
+    "experiment_traces/meta_ashare_revision15/validation_artifacts/monitor_js_001/result.json": "0b5c866618d32a320816c6775349156c14f02363d068355d23593c0ace2c9bcc",
+    "experiment_traces/meta_ashare_revision15/validation_artifacts/monitor_js_001/output.txt": "7ef4bc0539c240d159f5340d835be008517b9d063f2e2423397a8532e267737b",
+    "experiment_traces/meta_ashare_revision15/raw_saved_validation/root_independent_001.xml": "eeab13c84db1024490dd1bec8599f1d92a8a67f05a247d65b7ac5f6fa5cd2af6"
+  },
+  "count_note": "Separate completed runs are inherited by exact byte identity: research15+6, entrypoint2, raw24+30+6, monitor29 and JavaScript7. Raw earlier21, earlier entrypoint passes and repair counterexample failures are preserved and not counted again. This composition performs no new tests or model calls."
+}

@@ -1,0 +1,44 @@
+{
+  "checkpoint_kind": "append_only_handoff",
+  "checkpoint_number": 3,
+  "controller_thread_id": "01a0774d-4327-7701-948f-2796de6fccd3",
+  "automation_id": "a",
+  "phase": "P1_P2_controlled_live_diagnostic_harness_implementation",
+  "stage": "experiment_traces/meta_ashare_revision10",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "xhigh",
+  "paid_dispatch_permitted": false,
+  "predecessor": "docs/research/meta_framework_v8_handoff/checkpoint_20260907_002.json",
+  "accepted_v9_prototype_attempt": "experiment_traces/meta_calibration_prototypes/attempts/20260906T164840172917Z",
+  "v9_prototype_receipt_sha256": "f1f8460434b15226c3816832d1f5b9e5babb7be691049dca67c04ee135aaee98",
+  "v9_tests": {"passed": 233, "errors": 0, "failures": 0, "skipped": 0},
+  "v9_validation_receipt": "experiment_traces/meta_ashare_revision9/validation_attempts/20260906T164810966591Z/receipt.json",
+  "v9_semantic_review": "docs/research/meta_framework_v9_handoff/prototype_semantic_review_002.md",
+  "v9_semantic_review_sha256": "e13275f786e93e6e075529caed843262190d2835eff4d5a1ce1abd35c8842c6b",
+  "v9_scope": "Accepted exposed diagnostic reachability and arithmetic prototypes; no model behavior scored yet",
+  "v9_identifiability": {
+    "calibration_01": "15 dates, 136 amount/availability comparisons passed; terminal sole-stock scalar not applicable",
+    "calibration_02": "7 dates, 64 comparisons passed; only 2019-12-30/31 multi-stock values unidentified; terminal A unrealized -9.45 CNY"
+  },
+  "v10_in_progress": [
+    "A separate campaign ledger and project diagnostic registry; shared cross-case reservation and finite rounds",
+    "Public JSON-only model actions and input pinning; no parent task, evaluator or reference context in prompts",
+    "Saved-only reconciliation without another model invocation",
+    "Execution evidence coverage checker preserving all 63 original pilot stock-days and unresolved obligations"
+  ],
+  "new_research_gateway_calls_this_takeover": 0,
+  "budget_findings": "Existing Store budget is run-scoped. V10 will use one shared campaign plus one active campaign in the dedicated project registry; this does not cap unrelated account use or old services.",
+  "execution_readiness_report": "docs/research/meta_framework_v9_handoff/execution_readiness_001.md",
+  "execution_scope": "846 historical development candidate codes / 1217 sessions / 559770 membership stock-days are metadata, not verified tradable coverage; no accepted real execution scope",
+  "legacy_q_control": "paused; no retry or dispatcher started",
+  "gui_url": "http://192.0.2.10:8774/",
+  "gui_scope": "P0 offline fixture, not a live diagnostic campaign monitor",
+  "execution_valid": false,
+  "formal_target_success": false,
+  "target_achieved": false,
+  "self_check": {
+    "assessment": "Separate semantic review now confirms the two repaired prototypes; old limited outcomes remain preserved. The new live harness is still implementation, not an accepted live experiment.",
+    "next_step": "Freeze and test campaign admission, identity, bounded actions, recovery and public inputs before creating a finite Astra/xhigh campaign. Implement and run the execution-coverage rejection example in parallel.",
+    "falsifiers": "Any duplicated paid intent, lost unknown reserve, cross-case evidence leak or unsupported execution certificate blocks progression. Strong diagnostic behavior would still not establish strategy Sharpe or formal stability."
+  }
+}

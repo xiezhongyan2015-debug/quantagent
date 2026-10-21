@@ -1,0 +1,54 @@
+{
+  "source": "read-only original V7 responses and saved pytest XML; generated algebraic control example",
+  "test_count": 319,
+  "test_groups": {
+    "tests.test_research_kernel_assets": 28,
+    "tests.test_research_kernel_compiler": 57,
+    "tests.test_research_kernel_controller": 21,
+    "tests.test_research_kernel_execution": 20,
+    "tests.test_research_kernel_protocol": 31,
+    "tests.test_meta_v7_assets": 42,
+    "tests.test_meta_v7_benchmarks": 13,
+    "tests.test_meta_v7_controller": 9,
+    "tests.test_meta_v7_factor_lab": 13,
+    "tests.test_meta_v7_ledger": 16,
+    "tests.test_meta_v7_model": 20,
+    "tests.test_meta_v7_protocol": 21,
+    "tests.test_meta_v7_temporal": 8,
+    "tests.test_meta_v7_validation": 20
+  },
+  "v7_tests": 162,
+  "research_kernel_tests": 157,
+  "cross_round_changes": {
+    "top_n": [
+      40,
+      20
+    ],
+    "risk_epsilon": [
+      1e-06,
+      1e-08
+    ]
+  },
+  "generated_cap_example": {
+    "stocks": 2,
+    "cap": 0.5,
+    "equal_weights": [
+      0.5,
+      0.5
+    ],
+    "inverse_coefficients": [
+      1.0,
+      2.0
+    ],
+    "inverse_weights_after_cap": [
+      0.3333333333333333,
+      0.5
+    ],
+    "inverse_target_exposure": 0.8333333333333333,
+    "conclusion": "normalization followed by a binding cap reduces gross exposure; weighting and exposure are not separated"
+  },
+  "model_calls": 0,
+  "account_executions": 0,
+  "market_array_reads": 0,
+  "numeric_2025_read": false
+}

@@ -1,0 +1,565 @@
+{
+  "case_id": "calibration_02",
+  "frozen_case_status": "completed",
+  "legal_unique_final": true,
+  "model_calls": 6,
+  "queries": 5,
+  "findings": 12,
+  "input_tokens": 99507,
+  "output_tokens": 6011,
+  "queries_by_table": [
+    "summary",
+    "daily",
+    "trades",
+    "inventory",
+    "target_weights"
+  ],
+  "evidence_tables": {
+    "evidence-05e21d347b2ef8cde49e1835c2ade41efa8c42cfac43c4fa6417a32a579b9f3e": "summary",
+    "evidence-96f641b748677649fcf60a8e0e242aa937367811c28cda0021bbe4690efb17fd": "daily",
+    "evidence-1978d33e33b1c6e324d58e8d1acf75fd4f6ddf2316dd7a20116a5ab41de3b855": "trades",
+    "evidence-941acbe1a92b9c623ac9307fa9be2aaebcfe7c7a5bf2684c4a66e40ef4006a91": "inventory",
+    "evidence-2bb9002d6def55cf8383b767c15819cc8b26d31f2a634dd0089e408c3954d594": "target_weights"
+  },
+  "all_citations_returned_to_this_case": true,
+  "numeric_claims": [
+    {
+      "quantity_id": "net_pnl_cny",
+      "claimed": "-92.00",
+      "v9_oracle": "-92",
+      "independent_returned_rows_arithmetic": "-92.00",
+      "absolute_residual": "0.00",
+      "correct": true,
+      "cited_tables": [
+        "daily"
+      ]
+    },
+    {
+      "quantity_id": "fees_cny",
+      "claimed": "16.00",
+      "v9_oracle": "16",
+      "independent_returned_rows_arithmetic": "16.0",
+      "absolute_residual": "0.00",
+      "correct": true,
+      "cited_tables": [
+        "trades"
+      ]
+    },
+    {
+      "quantity_id": "slippage_cny",
+      "claimed": "60.00",
+      "v9_oracle": "60",
+      "independent_returned_rows_arithmetic": "60.0",
+      "absolute_residual": "0.00",
+      "correct": true,
+      "cited_tables": [
+        "trades"
+      ]
+    },
+    {
+      "quantity_id": "reference_pnl_cny",
+      "claimed": "-16.00",
+      "v9_oracle": "-16",
+      "independent_returned_rows_arithmetic": "-16.00",
+      "absolute_residual": "0.00",
+      "correct": true,
+      "cited_tables": [
+        "daily",
+        "trades"
+      ]
+    },
+    {
+      "quantity_id": "realized_net_pnl_cny",
+      "claimed": "-82.55",
+      "v9_oracle": "-82.55",
+      "independent_returned_rows_arithmetic": "-82.55000000000000000000000000000000000000000000000",
+      "absolute_residual": "0.00",
+      "correct": true,
+      "cited_tables": [
+        "trades",
+        "inventory"
+      ]
+    },
+    {
+      "quantity_id": "unrealized_change_cny",
+      "claimed": "-9.45",
+      "v9_oracle": "-9.45",
+      "independent_returned_rows_arithmetic": "-9.450",
+      "absolute_residual": "0.00",
+      "correct": true,
+      "cited_tables": [
+        "public_packet",
+        "daily",
+        "inventory"
+      ]
+    },
+    {
+      "quantity_id": "terminal_single_stock_unrealized_cny",
+      "claimed": "-9.45",
+      "v9_oracle": "-9.45",
+      "independent_returned_rows_arithmetic": "-9.450",
+      "absolute_residual": "0.00",
+      "correct": true,
+      "cited_tables": [
+        "daily",
+        "inventory",
+        "trades"
+      ]
+    },
+    {
+      "quantity_id": "closed_spells_count",
+      "claimed": "2",
+      "v9_oracle": "2",
+      "independent_returned_rows_arithmetic": "2",
+      "absolute_residual": "0",
+      "correct": true,
+      "cited_tables": [
+        "trades",
+        "summary"
+      ]
+    },
+    {
+      "quantity_id": "closed_duration_sessions",
+      "claimed": "3",
+      "v9_oracle": "3",
+      "independent_returned_rows_arithmetic": "3",
+      "absolute_residual": "0",
+      "correct": true,
+      "cited_tables": [
+        "summary",
+        "daily",
+        "trades"
+      ]
+    },
+    {
+      "quantity_id": "right_censored_count",
+      "claimed": "1",
+      "v9_oracle": "1",
+      "independent_returned_rows_arithmetic": "1",
+      "absolute_residual": "0",
+      "correct": true,
+      "cited_tables": [
+        "inventory",
+        "summary"
+      ]
+    }
+  ],
+  "frozen_numeric_coverage_inventory_omitted_as_numeric": [],
+  "computed_arithmetic": {
+    "totals": {
+      "net_pnl_cny": "-92.00",
+      "reference_pnl_cny": "-16.00",
+      "fees_cny": "16.0",
+      "slippage_cny": "60.0",
+      "realized_net_pnl_cny": "-82.55000000000000000000000000000000000000000000000",
+      "unrealized_change_cny": "-9.450",
+      "closed_spells_count": "2",
+      "right_censored_count": "1",
+      "closed_duration_sessions": "3",
+      "terminal_single_stock_unrealized_cny": "-9.450"
+    },
+    "daily": [
+      {
+        "date": "2019-12-27",
+        "cash": "20000.00",
+        "basis": "0",
+        "portfolio_unrealized": "0.0",
+        "inventory": {}
+      },
+      {
+        "date": "2019-12-30",
+        "cash": "17976.00",
+        "basis": "2024.00",
+        "portfolio_unrealized": "51.00",
+        "inventory": {
+          "A": {
+            "quantity": "100.0",
+            "basis": "1012.00"
+          },
+          "B": {
+            "quantity": "50.0",
+            "basis": "1012.00"
+          }
+        }
+      },
+      {
+        "date": "2019-12-31",
+        "cash": "17783.800",
+        "basis": "2226.200",
+        "portfolio_unrealized": "203.800",
+        "inventory": {
+          "A": {
+            "quantity": "150.0",
+            "basis": "1619.000"
+          },
+          "B": {
+            "quantity": "30.0",
+            "basis": "607.20"
+          }
+        }
+      },
+      {
+        "date": "2020-01-02",
+        "cash": "19298.800",
+        "basis": "755.53333333333333333333333333333333333333333333333",
+        "portfolio_unrealized": "14.46666666666666666666666666666666666666666666667",
+        "inventory": {
+          "A": {
+            "quantity": "70.0",
+            "basis": "755.53333333333333333333333333333333333333333333333"
+          },
+          "B": {
+            "quantity": "0.0",
+            "basis": "0"
+          }
+        }
+      },
+      {
+        "date": "2020-01-03",
+        "cash": "19555.900",
+        "basis": "364.600",
+        "portfolio_unrealized": "15.400",
+        "inventory": {
+          "A": {
+            "quantity": "40.0",
+            "basis": "364.600"
+          },
+          "B": {
+            "quantity": "0.0",
+            "basis": "0"
+          }
+        }
+      },
+      {
+        "date": "2020-01-06",
+        "cash": "19555.900",
+        "basis": "364.600",
+        "portfolio_unrealized": "3.400",
+        "inventory": {
+          "A": {
+            "quantity": "40.0",
+            "basis": "364.600"
+          },
+          "B": {
+            "quantity": "0.0",
+            "basis": "0"
+          }
+        }
+      },
+      {
+        "date": "2020-01-07",
+        "cash": "19644.000",
+        "basis": "273.450",
+        "portfolio_unrealized": "-9.450",
+        "inventory": {
+          "A": {
+            "quantity": "30.0",
+            "basis": "273.450"
+          },
+          "B": {
+            "quantity": "0.0",
+            "basis": "0"
+          }
+        }
+      }
+    ],
+    "closed": [
+      {
+        "code": "B",
+        "entry_date": "2019-12-30",
+        "exit_date": "2020-01-02",
+        "duration_sessions": 2
+      },
+      {
+        "code": "A",
+        "entry_date": "2019-12-30",
+        "exit_date": "2020-01-03",
+        "duration_sessions": 3
+      }
+    ],
+    "sell_checks": [
+      {
+        "source_order_ordinal": 3,
+        "computed_realized": "10.000",
+        "reported_realized": "10.0",
+        "absolute_residual": "0.000"
+      },
+      {
+        "source_order_ordinal": 4,
+        "computed_realized": "4.73333333333333333333333333333333333333333333333",
+        "reported_realized": "4.733333333333333",
+        "absolute_residual": "3.3333333333333333333333333333333E-16"
+      },
+      {
+        "source_order_ordinal": 6,
+        "computed_realized": "39.600",
+        "reported_realized": "39.6",
+        "absolute_residual": "0.000"
+      },
+      {
+        "source_order_ordinal": 7,
+        "computed_realized": "-133.83333333333333333333333333333333333333333333333",
+        "reported_realized": "-133.83333333333334",
+        "absolute_residual": "6.66666666666666666666666666666667E-15"
+      },
+      {
+        "source_order_ordinal": 9,
+        "computed_realized": "-3.050",
+        "reported_realized": "-3.05",
+        "absolute_residual": "0.000"
+      }
+    ],
+    "terminal_held_codes": [
+      "A"
+    ],
+    "realized_by_code": {
+      "B": "49.600",
+      "A": "-132.15000000000000000000000000000000000000000000000"
+    },
+    "buy_turnover": "3171.4",
+    "sell_turnover": "2831.4",
+    "buy_slippage": "31.4",
+    "sell_slippage": "28.6",
+    "cash_only_days": 1,
+    "no_trade_dates": [
+      "2019-12-27",
+      "2020-01-06"
+    ],
+    "initial_capital_return": "-0.0046"
+  },
+  "extended_arithmetic": {
+    "availability": [
+      {
+        "date": "2019-12-27",
+        "held_codes": [],
+        "stock_pnl_status": "complete",
+        "stocks": [
+          {
+            "code": "A",
+            "quantity": "0",
+            "cost_basis_cny": "0",
+            "marked_value_cny": "0",
+            "unrealized_pnl_cny": "0",
+            "identifiable": true
+          },
+          {
+            "code": "B",
+            "quantity": "0",
+            "cost_basis_cny": "0",
+            "marked_value_cny": "0",
+            "unrealized_pnl_cny": "0",
+            "identifiable": true
+          }
+        ]
+      },
+      {
+        "date": "2019-12-30",
+        "held_codes": [
+          "A",
+          "B"
+        ],
+        "stock_pnl_status": "partial",
+        "stocks": [
+          {
+            "code": "A",
+            "quantity": "100.0",
+            "cost_basis_cny": "1012.00",
+            "marked_value_cny": null,
+            "unrealized_pnl_cny": null,
+            "identifiable": false
+          },
+          {
+            "code": "B",
+            "quantity": "50.0",
+            "cost_basis_cny": "1012.00",
+            "marked_value_cny": null,
+            "unrealized_pnl_cny": null,
+            "identifiable": false
+          }
+        ]
+      },
+      {
+        "date": "2019-12-31",
+        "held_codes": [
+          "A",
+          "B"
+        ],
+        "stock_pnl_status": "partial",
+        "stocks": [
+          {
+            "code": "A",
+            "quantity": "150.0",
+            "cost_basis_cny": "1619.000",
+            "marked_value_cny": null,
+            "unrealized_pnl_cny": null,
+            "identifiable": false
+          },
+          {
+            "code": "B",
+            "quantity": "30.0",
+            "cost_basis_cny": "607.20",
+            "marked_value_cny": null,
+            "unrealized_pnl_cny": null,
+            "identifiable": false
+          }
+        ]
+      },
+      {
+        "date": "2020-01-02",
+        "held_codes": [
+          "A"
+        ],
+        "stock_pnl_status": "complete",
+        "stocks": [
+          {
+            "code": "A",
+            "quantity": "70.0",
+            "cost_basis_cny": "755.53333333333333333333333333333333333333333333333",
+            "marked_value_cny": "770.0",
+            "unrealized_pnl_cny": "14.46666666666666666666666666666666666666666666667",
+            "identifiable": true
+          },
+          {
+            "code": "B",
+            "quantity": "0.0",
+            "cost_basis_cny": "0",
+            "marked_value_cny": "0",
+            "unrealized_pnl_cny": "0",
+            "identifiable": true
+          }
+        ]
+      },
+      {
+        "date": "2020-01-03",
+        "held_codes": [
+          "A"
+        ],
+        "stock_pnl_status": "complete",
+        "stocks": [
+          {
+            "code": "A",
+            "quantity": "40.0",
+            "cost_basis_cny": "364.600",
+            "marked_value_cny": "380.0",
+            "unrealized_pnl_cny": "15.400",
+            "identifiable": true
+          },
+          {
+            "code": "B",
+            "quantity": "0.0",
+            "cost_basis_cny": "0",
+            "marked_value_cny": "0",
+            "unrealized_pnl_cny": "0",
+            "identifiable": true
+          }
+        ]
+      },
+      {
+        "date": "2020-01-06",
+        "held_codes": [
+          "A"
+        ],
+        "stock_pnl_status": "complete",
+        "stocks": [
+          {
+            "code": "A",
+            "quantity": "40.0",
+            "cost_basis_cny": "364.600",
+            "marked_value_cny": "368.0",
+            "unrealized_pnl_cny": "3.400",
+            "identifiable": true
+          },
+          {
+            "code": "B",
+            "quantity": "0.0",
+            "cost_basis_cny": "0",
+            "marked_value_cny": "0",
+            "unrealized_pnl_cny": "0",
+            "identifiable": true
+          }
+        ]
+      },
+      {
+        "date": "2020-01-07",
+        "held_codes": [
+          "A"
+        ],
+        "stock_pnl_status": "complete",
+        "stocks": [
+          {
+            "code": "A",
+            "quantity": "30.0",
+            "cost_basis_cny": "273.450",
+            "marked_value_cny": "264.0",
+            "unrealized_pnl_cny": "-9.450",
+            "identifiable": true
+          },
+          {
+            "code": "B",
+            "quantity": "0.0",
+            "cost_basis_cny": "0",
+            "marked_value_cny": "0",
+            "unrealized_pnl_cny": "0",
+            "identifiable": true
+          }
+        ]
+      }
+    ],
+    "unknown_multistock_dates": [
+      "2019-12-30",
+      "2019-12-31"
+    ],
+    "target_units": [],
+    "target_zero_and_nonzero_inventory": [
+      {
+        "date": "2020-01-03",
+        "code": "A",
+        "quantity": "40.0"
+      },
+      {
+        "date": "2020-01-07",
+        "code": "A",
+        "quantity": "30.0"
+      }
+    ],
+    "closed_spells": [
+      {
+        "code": "B",
+        "entry_date": "2019-12-30",
+        "exit_date": "2020-01-02"
+      },
+      {
+        "code": "A",
+        "entry_date": "2019-12-30",
+        "exit_date": "2020-01-03"
+      }
+    ],
+    "open_inventory": [
+      {
+        "code": "A",
+        "quantity": "30.0",
+        "entry_date": "2020-01-03",
+        "observed_sessions": 2
+      }
+    ],
+    "yearly_unrealized": [
+      {
+        "year": "2019",
+        "ending_unrealized_cny": "203.800",
+        "unrealized_change_cny": "203.800"
+      },
+      {
+        "year": "2020",
+        "ending_unrealized_cny": "-9.450",
+        "unrealized_change_cny": "-213.250"
+      }
+    ]
+  },
+  "oracle_terminal_scalar_status": "derived",
+  "query_logical_sha256": "ffae824deaee599660bc49ca26e90d05f06928f1458ee34a5b1530d7ec715c34",
+  "final_response_sha256": "f84969441a24481ade50f534ec3bdea289e4a9a687232b8f85a4d9b79c1e4bae",
+  "provider_request_binding_verified": false,
+  "new_research_gateway_calls": 0,
+  "new_backtests": 0,
+  "original_records_modified": false
+}

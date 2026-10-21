@@ -1,0 +1,69 @@
+{
+  "source_sha256": "4278d6439cb5231d22ac2102fb6f1fba1b9800547fb7b42f8ebad24b1da1a8f4",
+  "results": [
+    {
+      "name": "late_previous_answer_cannot_replace_new_call",
+      "passed": false,
+      "observed": {
+        "label": "call_B · 字符 1—8 / 8",
+        "text": "ANSWER_A"
+      }
+    },
+    {
+      "name": "late_previous_answer_error_cannot_replace_current_status",
+      "passed": false,
+      "observed": {
+        "label": "STALE_ANSWER_ERROR",
+        "text": "ANSWER_B"
+      }
+    },
+    {
+      "name": "late_previous_campaign_calls_cannot_replace_new_list",
+      "passed": false,
+      "observed": {
+        "selected": "saved_B",
+        "rows": "A_ONLY · 第 1 次 · 已完成 · rejected "
+      }
+    },
+    {
+      "name": "late_previous_campaign_error_cannot_replace_current_status",
+      "passed": false,
+      "observed": {
+        "selected": "saved_B",
+        "label": "STALE_CALLS_ERROR",
+        "rows": "B_ONLY · 第 1 次 · 已完成 · rejected "
+      }
+    },
+    {
+      "name": "campaign_change_invalidates_previous_pending_answer",
+      "passed": false,
+      "observed": {
+        "selected": "saved_B",
+        "label": "call_A · 字符 1—19 / 19",
+        "text": "OLD_CAMPAIGN_ANSWER"
+      }
+    },
+    {
+      "name": "late_page_cannot_override_newer_navigation",
+      "passed": false,
+      "observed": {
+        "label": "call_A · 字符 8193—10000 / 10000",
+        "text_prefix": "ZZZZZZZZ"
+      }
+    },
+    {
+      "name": "older_status_error_cannot_replace_new_success",
+      "passed": false,
+      "observed": {
+        "status": "读取失败，保留上次画面；请核对监控服务。"
+      }
+    }
+  ],
+  "passed": 0,
+  "total": 7,
+  "scope": "offline deterministic out-of-order responses using unchanged extracted UI code; no real browser assertion",
+  "real_network_calls": 0,
+  "real_campaign_reads": 0,
+  "model_calls": 0,
+  "source_modified": false
+}

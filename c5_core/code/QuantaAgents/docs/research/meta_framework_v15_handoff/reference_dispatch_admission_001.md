@@ -1,0 +1,19 @@
+# Concrete dispatch admission 001
+
+Verdict: passed for the one prepared `reference_v15_original4_001` plan. The companion JSON authorizes root to dispatch this exact plan after its GUI/control check. This reviewer did not construct a Gateway, execute a query, reconcile state, rerun tests, or dispatch research.
+
+- Plan content hash: `3cda519a83180b6b5b4fe96c447a406efee82b5df73b31cc450fd10555437173`. The isolated registry contains only this campaign, with the matching active owner. It is separate from the old two-case diagnostic registry.
+- Current 96-source manifest matches `ffb9cc962428aac3eb89aa7f9c3d0645493fd61a21970b7f6bb2f3f6dc15a393` and composite validation `f8a567f2d3d4cc68edb0b4a481e0b6267c982dfa4ac6204c53d2199d835ba50d`; all eight component receipt hashes were rechecked. The ten research dependencies and complete entrypoint `d9796523fd2724491ce40a382981d24aafbb680de24e6de54989283fa6603cdb` match the frozen plan. No engineering test counts are represented as a new combined run.
+- Original rubric, budget and scope SHA values match their frozen files and the transitive preparation-review chain. The four task/scope/initial-state identities and four distinct 32-byte controller keys match; only lengths and hashes were recorded.
+- Every workbench remains ready at 0 queries, 0 candidates, 0 finals and 0 actions. Campaign calls, reported tokens, pending reserves and unsettled calls are all 0. All four actual initial public prompts were produced through existing read-only functions; they contain the matching ordinary packet, shared public overlay, own scope and empty own histories. No private specification, other-case identity, evaluator rubric or controller path occurs. Original ordinary-input text contains zero U+FFFD characters.
+- The original packet still records its historical contract-only/no-dispatch preparation status. The separately published executable overlay and campaign protocol explain current available actions; the original packet was not rewritten. This admission applies to that explicit overlay contract.
+
+Scope remains descriptive autonomous discovery, evidence accuracy, abstention and resource behavior on exposed synthetic inputs. Workbench diagnostics do not apply costs. Formal strategy/P4/net-positive-control denominator increment stays zero. There is no same-budget hidden-control qualification or architecture result. Private knowledge held by reviewers was not passed to the researcher. Interface isolation is not OS isolation.
+
+Budget is exactly the preregistered 2,400,000 stage / 600,000 per task, 80,000 reserve, 300,000 soft warning, 68 total / 17 per-task calls, 16 queries / 12 candidates / 1 final / 1 attempt, 3,600 seconds per call, 21,600 seconds next-admission duration from creation, and 1 MiB untruncated context. Reserve is nominal exposure, not an invoice cap. Any admission stop or uncertainty stops the whole stage; unfinished original tasks remain not_started. No automatic extension, replacement, truncation or skip is authorized.
+
+Read-only audit boundary: the first SQLite `mode=ro` connection produced empty WAL and SHM cache sidefiles; it performed no SQL writes or model/tool actions. They were retained. Final verification used `mode=ro&immutable=1` only after verifying empty WALs and confirmed all 18 original record files unchanged. The JSON preserves exact prompt and schema hashes, bindings, and this side effect.
+
+Self-check 1: Is an unresolved contract, identity, fee-accounting or zero-state issue being hidden to permit dispatch? No such blocker was observed for the frozen narrow investigation; non-execution and nominal-budget limitations remain explicit.
+
+Self-check 2: Does this acceptance claim model success or authorize anything beyond the exact plan? No. Root still owns exclusive worker/GUI checks and actual run; this review offers no answer correctness, positive-control, strategy-success or OS-sandbox certification.

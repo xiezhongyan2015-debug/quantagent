@@ -1,0 +1,31 @@
+{
+  "kind": "static_worker_restart_source_review",
+  "source_files": {
+    "continue_remaining_original_cases_001.py": "6db92725742d3fd112a00ed2286d7ba6c8c4f8e903533c08e64e7845be677ca5",
+    "manage_original_budget_stop_001.py": "4ea0d6b5206a38f9195ec6e7eb61e77b64856fd94ec9fb1a7576682aa7c08f0f"
+  },
+  "syntax_valid": true,
+  "actual_wrapper_executions": 0,
+  "actual_db_connections": 0,
+  "new_gateway_or_workbench_calls": 0,
+  "popen_expression_count": 1,
+  "resume_expression_count": 1,
+  "line_references": {
+    "57": "controller.resume",
+    "64": "subprocess.Popen",
+    "73": "child.wait",
+    "83": "child.poll"
+  },
+  "findings": [
+    {
+      "id": "exit_propagation",
+      "severity": "supervision_semantics",
+      "finding": "Saved child nonzero returncode does not affect wrapper default process exit status."
+    },
+    {
+      "id": "post_spawn_start_persistence_failure",
+      "severity": "supervision_completion_gap",
+      "finding": "If start.json write fails after Popen, outer exception exits supervisor while child may still run; failure records unknown rather than falsely stopped, but later exit may not be observed."
+    }
+  ]
+}

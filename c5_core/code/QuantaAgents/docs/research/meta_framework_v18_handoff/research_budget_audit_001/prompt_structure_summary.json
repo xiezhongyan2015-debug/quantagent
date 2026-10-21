@@ -1,0 +1,20 @@
+{
+  "initial_protocol_budget_is_generic_not_numeric": "Stage totals are shared by all fixed tasks. Per-task caps are equal. Reservation is nominal exposure, not an absolute invoice cap. Unused budget does not authorize replacement tasks.",
+  "last_public_history_field_value_byte_subtotals": {
+    "accounting": 2692,
+    "action": 244,
+    "arm": 130,
+    "body": 123148,
+    "case_id": 117,
+    "evidence_id": 897,
+    "full_artifact": 1575,
+    "independent_research_samples": 13,
+    "new_strategy_backtests": 13,
+    "scope_hash": 858,
+    "slot": 17,
+    "status": 143,
+    "sub_attempt_count": 13,
+    "sub_attempt_ids": 7250
+  },
+  "measurement": "Canonical JSON UTF-8 lengths only; values of observations and model claims were not exposed to reviewer."
+}

@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "protocol_sha256": "b87a29808a478303472809968a59a07a4d409e00dca32de9ab1a8b58ff2b254b",
+  "files_sha256": {
+    "gru_research/r2_comparison/__init__.py": "68557239023bf3341c5355902f5d75d839a594eedfefb523c95a2661b89e49f5",
+    "gru_research/r2_comparison/tool.py": "91812ab4e2a804041675c77e1d9b62e99c2b1b3dd8ce333e583b84960c52a7de",
+    "gru_research/r2_comparison/protocol_v1.json": "b87a29808a478303472809968a59a07a4d409e00dca32de9ab1a8b58ff2b254b"
+  },
+  "status": "PREPARED_SOURCE_NOT_ACTUAL_R2_PROJECTION_OR_COMPARISON"
+}

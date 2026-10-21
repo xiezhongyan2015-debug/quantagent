@@ -1,0 +1,13 @@
+backtest_datasets:
+  - table_key: "vnpy_stock_daily_qfq"
+    description: "股票日线回测数据集（前复权）"
+    interval: "1d"
+  - table_key: "vnpy_futures_daily_hfq"
+    description: "期货日线回测数据集（前复权）"
+    interval: "1d"
+  - table_key: "periodic_minute_events"
+    description: "分钟量能规律候选事件回测；按确认后下一分钟开盘到指定分钟收盘计算"
+    interval: "event_1m"
+  - table_key: "periodic_level2_events"
+    description: "分钟量能规律加逐笔主动买入特征的候选事件回测"
+    interval: "event_level2"

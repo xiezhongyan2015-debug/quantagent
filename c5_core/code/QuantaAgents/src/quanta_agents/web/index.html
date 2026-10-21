@@ -1,0 +1,1000 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuantaAgents Monitor</title>
+  <style>
+    :root {
+      --bg: #f4f6f8;
+      --card: #ffffff;
+      --text: #1b1f23;
+      --muted: #5a6573;
+      --line: #d8dee4;
+      --active: #0d6efd;
+      --done: #198754;
+      --idle: #adb5bd;
+      --terminal: #0e1116;
+      --terminal-text: #d7e0ea;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "PingFang SC", "Hiragino Sans GB", sans-serif;
+      color: var(--text);
+      background: linear-gradient(135deg, #f8f9fb 0%, #eef3f8 100%);
+      min-height: 100vh;
+    }
+
+    .app {
+      display: grid;
+      grid-template-columns: 330px 1fr;
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      border-right: 1px solid var(--line);
+      background: var(--card);
+      padding: 14px;
+      overflow: auto;
+    }
+
+    .sidebar-section + .sidebar-section {
+      margin-top: 18px;
+    }
+
+    .content {
+      padding: 14px;
+      display: grid;
+      grid-template-rows: auto auto minmax(180px, 1fr) minmax(220px, 1fr) minmax(260px, 1fr);
+      gap: 12px;
+      overflow: hidden;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 12px;
+    }
+
+    .title {
+      margin: 0 0 8px;
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .exp-item {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px;
+      margin-bottom: 8px;
+      cursor: pointer;
+    }
+
+    .source-item {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 8px;
+      margin-bottom: 8px;
+      cursor: pointer;
+      background: #fbfcfe;
+    }
+
+    .source-item.active {
+      border-color: var(--done);
+      box-shadow: 0 0 0 1px var(--done) inset;
+      background: #eef9f2;
+    }
+
+    .exp-item.active {
+      border-color: var(--active);
+      box-shadow: 0 0 0 1px var(--active) inset;
+    }
+
+    .exp-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      align-items: baseline;
+    }
+
+    .exp-id {
+      font-size: 12px;
+      font-weight: 600;
+      line-height: 1.3;
+      word-break: break-all;
+    }
+
+    .tree {
+      margin-top: 8px;
+      padding-top: 8px;
+      border-top: 1px dashed var(--line);
+      font-size: 12px;
+      color: #2f3944;
+      max-height: 240px;
+      overflow: auto;
+    }
+
+    .tree ul {
+      list-style: none;
+      margin: 0;
+      padding-left: 14px;
+    }
+
+    .tree li {
+      margin: 2px 0;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+
+    .tree-node {
+      cursor: pointer;
+      display: inline-block;
+      padding: 1px 4px;
+      border-radius: 4px;
+    }
+
+    .tree-node:hover {
+      background: #edf3f9;
+    }
+
+    .tree-node.file.selected {
+      background: #e9f2ff;
+      color: #0d6efd;
+      font-weight: 600;
+    }
+
+    .file-info {
+      display: grid;
+      gap: 4px;
+      margin-bottom: 8px;
+      font-size: 12px;
+      color: var(--muted);
+      word-break: break-all;
+    }
+
+    .file-preview {
+      background: #f8fbff;
+      border: 1px solid #dce8f7;
+      color: #233142;
+      border-radius: 8px;
+      padding: 10px;
+      font-family: "Consolas", "SFMono-Regular", monospace;
+      font-size: 12px;
+      line-height: 1.4;
+      overflow: auto;
+      white-space: pre-wrap;
+    }
+
+    .file-preview img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+      border: 1px solid #dce8f7;
+      background: #fff;
+    }
+
+    .editor-toolbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .editor-status {
+      min-height: 16px;
+    }
+
+    .editor-actions {
+      display: flex;
+      gap: 8px;
+    }
+
+    .editor-btn {
+      border: 1px solid #c8d3e0;
+      background: #f8fbff;
+      color: #2f4054;
+      border-radius: 6px;
+      padding: 4px 10px;
+      font-size: 12px;
+      cursor: pointer;
+    }
+
+    .editor-btn.primary {
+      border-color: #0d6efd;
+      background: #0d6efd;
+      color: #fff;
+    }
+
+    .editor-btn:disabled {
+      cursor: not-allowed;
+      opacity: 0.6;
+    }
+
+    .source-editor {
+      width: 100%;
+      height: 220px;
+      border: 1px solid #d6e2ef;
+      border-radius: 8px;
+      padding: 10px;
+      font-family: "Consolas", "SFMono-Regular", monospace;
+      font-size: 12px;
+      line-height: 1.4;
+      resize: vertical;
+      background: #fbfdff;
+      color: #233142;
+    }
+
+    .flow {
+      position: relative;
+      height: 320px;
+      border: 1px dashed #d9e2ec;
+      border-radius: 10px;
+      background: radial-gradient(circle at center, #f7fbff 0%, #ffffff 60%);
+      overflow: hidden;
+    }
+
+    .flow-svg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+
+    .flow-node {
+      position: absolute;
+      transform: translate(-50%, -50%);
+    }
+
+    .node {
+      min-width: 96px;
+      text-align: center;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 7px 10px;
+      font-size: 13px;
+      color: #3b4754;
+      background: #f9fbfd;
+    }
+
+    .node.active {
+      border-color: var(--active);
+      color: var(--active);
+      background: #e9f2ff;
+      font-weight: 700;
+    }
+
+    .node.done {
+      border-color: var(--done);
+      color: var(--done);
+      background: #e8f6ee;
+    }
+
+    .node.idle {
+      opacity: 0.7;
+    }
+
+    .node.center {
+      min-width: 84px;
+      font-size: 12px;
+      border-style: dashed;
+    }
+
+    .flow-legend {
+      position: absolute;
+      right: 8px;
+      bottom: 8px;
+      font-size: 11px;
+      color: #718096;
+      background: rgba(255, 255, 255, 0.88);
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 3px 6px;
+    }
+
+    .status-row {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .terminal {
+      background: var(--terminal);
+      color: var(--terminal-text);
+      border-radius: 10px;
+      border: 1px solid #18212b;
+      padding: 10px;
+      font-family: "Consolas", "SFMono-Regular", monospace;
+      font-size: 12px;
+      line-height: 1.4;
+      height: 320px;
+      max-height: 320px;
+      overflow-y: auto;
+      overflow-x: auto;
+      white-space: pre-wrap;
+    }
+
+    @media (max-width: 980px) {
+      .app {
+        grid-template-columns: 1fr;
+      }
+      .sidebar {
+        max-height: 42vh;
+      }
+      .content {
+        grid-template-rows: auto auto minmax(180px, 1fr) minmax(240px, 1fr) minmax(280px, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <section class="sidebar-section">
+        <h2 class="title">Source YAML Files</h2>
+        <div id="source-files"></div>
+      </section>
+
+      <section class="sidebar-section">
+        <h2 class="title">Trace Experiments</h2>
+        <div id="experiments"></div>
+      </section>
+    </aside>
+
+    <main class="content">
+      <section class="card">
+        <h2 class="title">LangGraph Flow</h2>
+        <div class="flow" id="flow"></div>
+      </section>
+
+      <section class="card">
+        <h2 class="title">Current Status</h2>
+        <div class="status-row">
+          <div id="selected-exp">selected: none</div>
+          <div id="selected-epoch">epoch: -</div>
+          <div id="active-stage">active: -</div>
+          <div id="last-updated">updated: -</div>
+        </div>
+      </section>
+
+      <section class="card" style="display:grid;grid-template-rows:auto auto 1fr;min-height:180px;">
+        <h2 class="title">Trace File Preview</h2>
+        <div class="file-info">
+          <div id="file-relative-path">relative: -</div>
+          <div id="file-absolute-path">absolute: -</div>
+        </div>
+        <div class="file-preview" id="file-preview">Select a trace file from the left tree.</div>
+      </section>
+
+      <section class="card" style="display:grid;grid-template-rows:auto auto 1fr;min-height:220px;">
+        <h2 class="title">Experiment Source File</h2>
+        <div class="editor-toolbar">
+          <div id="source-file-path">source: -</div>
+          <div class="editor-actions">
+            <button class="editor-btn" id="source-reload-btn" type="button">Reload</button>
+            <button class="editor-btn primary" id="source-save-btn" type="button">Save</button>
+          </div>
+        </div>
+        <div>
+          <div class="editor-status" id="source-status"></div>
+          <textarea class="source-editor" id="source-editor" spellcheck="false" placeholder="Select an experiment to load its source YAML file"></textarea>
+        </div>
+      </section>
+
+      <section class="card" style="display:grid;grid-template-rows:auto 1fr;min-height:280px;">
+        <h2 class="title">Terminal Output (Realtime)</h2>
+        <div class="terminal" id="terminal"></div>
+      </section>
+    </main>
+  </div>
+
+  <script>
+    const FLOW_STAGES = [
+      { key: 'manager', label: 'Manager' },
+      { key: 'hypothesis', label: 'Hypothesis' },
+      { key: 'strategy', label: 'Strategy' },
+      { key: 'validate', label: 'Validate' },
+      { key: 'test', label: 'Test' },
+      { key: 'done', label: 'Done' },
+    ];
+
+    let selectedExperimentId = null;
+    let selectedFilePath = null;
+    let expanded = new Set();
+    let expandedDirs = new Set();
+    let trees = new Map();
+    let treeFetchInFlight = new Set();
+    let treeVersionByExperiment = new Map();
+    let treeScrollTopByExperiment = new Map();
+    let lastTreeRefreshAt = 0;
+    let latestSnapshot = null;
+    let sourceFiles = [];
+    let selectedSourcePath = null;
+    let sourceLoadedPath = null;
+    let sourceDirty = false;
+
+    const sourceFilesEl = document.getElementById('source-files');
+    const experimentsEl = document.getElementById('experiments');
+    const flowEl = document.getElementById('flow');
+    const terminalEl = document.getElementById('terminal');
+    const filePreviewEl = document.getElementById('file-preview');
+    const fileRelativePathEl = document.getElementById('file-relative-path');
+    const fileAbsolutePathEl = document.getElementById('file-absolute-path');
+    const sourceFilePathEl = document.getElementById('source-file-path');
+    const sourceStatusEl = document.getElementById('source-status');
+    const sourceEditorEl = document.getElementById('source-editor');
+    const sourceReloadBtn = document.getElementById('source-reload-btn');
+    const sourceSaveBtn = document.getElementById('source-save-btn');
+
+    function fmtTime(ts) {
+      if (!ts) return '-';
+      try {
+        return new Date(ts).toLocaleString();
+      } catch (e) {
+        return String(ts);
+      }
+    }
+
+    async function openTraceFile(path) {
+      if (!path) return;
+      const lower = String(path).toLowerCase();
+      const isImage = ['.png', '.jpg', '.jpeg', '.gif', '.webp', '.bmp', '.svg'].some((ext) => lower.endsWith(ext));
+
+      if (isImage) {
+        selectedFilePath = path;
+        fileRelativePathEl.textContent = `relative: ${path}`;
+        fileAbsolutePathEl.textContent = 'absolute: loading...';
+
+        const metaResp = await fetch(`/api/file?path=${encodeURIComponent(path)}`);
+        if (metaResp.ok) {
+          const meta = await metaResp.json();
+          selectedFilePath = meta.path || path;
+          fileRelativePathEl.textContent = `relative: ${meta.path || path}`;
+          fileAbsolutePathEl.textContent = `absolute: ${meta.absolute_path || '-'}`;
+        }
+
+        const src = `/api/file/raw?path=${encodeURIComponent(path)}`;
+        filePreviewEl.innerHTML = `<img src="${src}" alt="${path}" />`;
+        renderAll();
+        return;
+      }
+
+      const resp = await fetch(`/api/file?path=${encodeURIComponent(path)}`);
+      if (!resp.ok) {
+        filePreviewEl.textContent = `Failed to read file: ${path}`;
+        fileRelativePathEl.textContent = `relative: ${path}`;
+        fileAbsolutePathEl.textContent = 'absolute: -';
+        return;
+      }
+      const data = await resp.json();
+      selectedFilePath = data.path;
+      fileRelativePathEl.textContent = `relative: ${data.path || '-'}`;
+      fileAbsolutePathEl.textContent = `absolute: ${data.absolute_path || '-'}`;
+      filePreviewEl.textContent = data.content || '';
+      if (data.truncated) {
+        filePreviewEl.textContent += '\n\n...[truncated]';
+      }
+      renderAll();
+    }
+
+    async function fetchSourceFiles() {
+      const resp = await fetch('/api/source-files');
+      if (!resp.ok) {
+        sourceFiles = [];
+        renderAll();
+        return;
+      }
+
+      const data = await resp.json();
+      sourceFiles = data.files || [];
+      if (selectedSourcePath && !sourceFiles.find((item) => item.relative_path === selectedSourcePath)) {
+        selectedSourcePath = null;
+        sourceLoadedPath = null;
+      }
+      if (!selectedSourcePath && sourceFiles.length) {
+        selectedSourcePath = sourceFiles[0].relative_path;
+      }
+      renderAll();
+    }
+
+    async function loadSourceFile(sourcePath, force = false) {
+      if (!sourcePath) return;
+      if (!force && sourceLoadedPath === sourcePath) return;
+
+      sourceStatusEl.textContent = 'loading source file...';
+      const resp = await fetch(`/api/source-file?path=${encodeURIComponent(sourcePath)}`);
+      if (!resp.ok) {
+        sourceLoadedPath = null;
+        sourceFilePathEl.textContent = 'source: not found';
+        sourceStatusEl.textContent = 'source file not found for this experiment';
+        sourceEditorEl.value = '';
+        sourceEditorEl.disabled = true;
+        sourceReloadBtn.disabled = true;
+        sourceSaveBtn.disabled = true;
+        return;
+      }
+
+      const data = await resp.json();
+      selectedSourcePath = data.source_relative_path || sourcePath;
+      sourceLoadedPath = selectedSourcePath;
+      sourceFilePathEl.textContent = `source: ${data.source_relative_path || data.source_file || '-'}`;
+      sourceEditorEl.value = data.content || '';
+      sourceEditorEl.dataset.lastSaved = sourceEditorEl.value;
+      sourceDirty = false;
+      sourceStatusEl.textContent = 'source loaded';
+      sourceEditorEl.disabled = false;
+      sourceReloadBtn.disabled = false;
+      sourceSaveBtn.disabled = true;
+    }
+
+    async function saveSourceFile() {
+      if (!selectedSourcePath) return;
+      sourceStatusEl.textContent = 'saving...';
+      const resp = await fetch(`/api/source-file?path=${encodeURIComponent(selectedSourcePath)}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ content: sourceEditorEl.value }),
+      });
+      if (!resp.ok) {
+        sourceStatusEl.textContent = 'save failed';
+        return;
+      }
+      sourceEditorEl.dataset.lastSaved = sourceEditorEl.value;
+      sourceDirty = false;
+      sourceStatusEl.textContent = 'saved';
+      sourceSaveBtn.disabled = true;
+      await fetchSourceFiles();
+    }
+
+    async function selectSourceFile(sourcePath, force = false) {
+      selectedSourcePath = sourcePath;
+      await loadSourceFile(sourcePath, force);
+      renderAll();
+    }
+
+    function renderSourceFiles() {
+      sourceFilesEl.innerHTML = '';
+      if (!sourceFiles.length) {
+        const empty = document.createElement('div');
+        empty.className = 'small';
+        empty.textContent = 'No YAML files found in experiments';
+        sourceFilesEl.appendChild(empty);
+        return;
+      }
+
+      sourceFiles.forEach((file) => {
+        const item = document.createElement('div');
+        item.className = 'source-item' + (file.relative_path === selectedSourcePath ? ' active' : '');
+
+        const name = document.createElement('div');
+        name.className = 'exp-id';
+        name.textContent = file.name;
+
+        const meta = document.createElement('div');
+        meta.className = 'small';
+        meta.textContent = `${file.relative_path} · ${fmtTime(file.last_updated)}`;
+
+        item.appendChild(name);
+        item.appendChild(meta);
+        item.addEventListener('click', async () => {
+          await selectSourceFile(file.relative_path, sourceLoadedPath !== file.relative_path);
+        });
+
+        sourceFilesEl.appendChild(item);
+      });
+    }
+
+    function renderTreeNode(node, depth = 0) {
+      const li = document.createElement('li');
+      const label = document.createElement('span');
+      label.className = `tree-node ${node.type}`;
+      const dirKey = node.relative_path || `${node.name}-${depth}`;
+      const isDirExpanded = depth === 0 || expandedDirs.has(dirKey);
+      if (node.type === 'dir') {
+        label.textContent = `${isDirExpanded ? '▾' : '▸'} ${node.name}/`;
+      } else {
+        label.textContent = node.name;
+      }
+      if (node.relative_path) {
+        label.title = node.relative_path;
+      }
+      if (node.type === 'file' && node.relative_path === selectedFilePath) {
+        label.classList.add('selected');
+      }
+      if (node.type === 'file' && node.relative_path) {
+        label.addEventListener('click', async (ev) => {
+          ev.stopPropagation();
+          await openTraceFile(node.relative_path);
+        });
+      } else if (node.type === 'dir') {
+        label.addEventListener('click', (ev) => {
+          ev.stopPropagation();
+          if (expandedDirs.has(dirKey)) {
+            expandedDirs.delete(dirKey);
+          } else {
+            expandedDirs.add(dirKey);
+          }
+          renderAll();
+        });
+      }
+      li.appendChild(label);
+
+      if (node.children && node.children.length) {
+        const ul = document.createElement('ul');
+        ul.style.display = isDirExpanded ? 'block' : 'none';
+        node.children.forEach((child) => ul.appendChild(renderTreeNode(child, depth + 1)));
+        li.appendChild(ul);
+      } else if (node.truncated) {
+        const ul = document.createElement('ul');
+        const tip = document.createElement('li');
+        tip.className = 'small';
+        tip.textContent = '... depth limit reached';
+        ul.appendChild(tip);
+        li.appendChild(ul);
+      }
+      return li;
+    }
+
+    function renderTree(root) {
+      if (!root || !root.children || root.children.length === 0) {
+        const div = document.createElement('div');
+        div.className = 'small';
+        div.textContent = 'No trace files yet';
+        return div;
+      }
+      const wrap = document.createElement('div');
+      wrap.className = 'tree';
+      const ul = document.createElement('ul');
+      root.children.forEach((child) => ul.appendChild(renderTreeNode(child)));
+      wrap.appendChild(ul);
+      return wrap;
+    }
+
+    function captureTreeScrollPositions() {
+      const treePanels = experimentsEl.querySelectorAll('.exp-item[data-exp-id] .tree');
+      treePanels.forEach((panel) => {
+        const parent = panel.closest('.exp-item[data-exp-id]');
+        const expId = parent?.dataset?.expId;
+        if (!expId) return;
+        treeScrollTopByExperiment.set(expId, panel.scrollTop || 0);
+      });
+    }
+
+    async function ensureTree(experimentId, force = false) {
+      if (!force && trees.has(experimentId)) return;
+      if (treeFetchInFlight.has(experimentId)) return;
+      treeFetchInFlight.add(experimentId);
+      const resp = await fetch(`/api/experiments/${encodeURIComponent(experimentId)}/tree`);
+      try {
+        if (!resp.ok) return;
+        const data = await resp.json();
+        trees.set(experimentId, data.tree);
+        if (latestSnapshot && latestSnapshot.experiments) {
+          const exp = latestSnapshot.experiments.find((x) => x.experiment_id === experimentId);
+          if (exp) {
+            treeVersionByExperiment.set(experimentId, exp.last_updated || '');
+          }
+        }
+      } finally {
+        treeFetchInFlight.delete(experimentId);
+      }
+    }
+
+    async function refreshExpandedTrees(snapshot) {
+      if (!expanded.size) return;
+
+      const now = Date.now();
+      const refreshIntervalMs = 5000;
+      if (now - lastTreeRefreshAt < refreshIntervalMs) {
+        return;
+      }
+
+      const list = snapshot?.experiments || [];
+      const activeIds = new Set(list.map((x) => x.experiment_id));
+      const versionById = new Map(list.map((x) => [x.experiment_id, x.last_updated || '']));
+      const tasks = [];
+      for (const expId of expanded) {
+        if (!activeIds.has(expId)) {
+          continue;
+        }
+        const currentVersion = versionById.get(expId) || '';
+        const previousVersion = treeVersionByExperiment.get(expId) || '';
+        if (currentVersion !== previousVersion) {
+          tasks.push(ensureTree(expId, true));
+          treeVersionByExperiment.set(expId, currentVersion);
+        }
+      }
+      if (tasks.length) {
+        await Promise.all(tasks);
+        lastTreeRefreshAt = now;
+      }
+    }
+
+    function renderExperiments(snapshot) {
+      captureTreeScrollPositions();
+      experimentsEl.innerHTML = '';
+      const list = snapshot?.experiments || [];
+      if (!list.length) {
+        const empty = document.createElement('div');
+        empty.className = 'small';
+        empty.textContent = 'No experiments found';
+        experimentsEl.appendChild(empty);
+        return;
+      }
+
+      if (!selectedExperimentId || !list.find((x) => x.experiment_id === selectedExperimentId)) {
+        selectedExperimentId = list[0].experiment_id;
+        expanded.add(selectedExperimentId);
+        ensureTree(selectedExperimentId);
+      }
+
+      list.forEach((exp) => {
+        const item = document.createElement('div');
+        item.className = 'exp-item' + (exp.experiment_id === selectedExperimentId ? ' active' : '');
+        item.dataset.expId = exp.experiment_id;
+
+        const head = document.createElement('div');
+        head.className = 'exp-head';
+        const id = document.createElement('div');
+        id.className = 'exp-id';
+        id.textContent = exp.experiment_id;
+        const stage = document.createElement('div');
+        stage.className = 'small';
+        stage.textContent = exp.active_stage || '-';
+        head.appendChild(id);
+        head.appendChild(stage);
+
+        const meta = document.createElement('div');
+        meta.className = 'small';
+        meta.textContent = `updated: ${fmtTime(exp.last_updated)}`;
+
+        item.appendChild(head);
+        item.appendChild(meta);
+
+        item.addEventListener('click', async () => {
+          selectedExperimentId = exp.experiment_id;
+          expanded.add(exp.experiment_id);
+          await ensureTree(exp.experiment_id);
+          if (exp.source_relative_path) {
+            await selectSourceFile(exp.source_relative_path);
+          }
+          renderAll();
+        });
+
+        item.addEventListener('dblclick', async () => {
+          if (expanded.has(exp.experiment_id)) {
+            expanded.delete(exp.experiment_id);
+          } else {
+            expanded.add(exp.experiment_id);
+            await ensureTree(exp.experiment_id);
+          }
+          renderAll();
+        });
+
+        if (expanded.has(exp.experiment_id)) {
+          const tree = trees.get(exp.experiment_id);
+          const treeEl = renderTree(tree);
+          item.appendChild(treeEl);
+
+          if (treeEl.classList && treeEl.classList.contains('tree')) {
+            const savedTop = treeScrollTopByExperiment.get(exp.experiment_id);
+            if (typeof savedTop === 'number') {
+              treeEl.scrollTop = savedTop;
+            }
+          }
+        }
+
+        experimentsEl.appendChild(item);
+      });
+    }
+
+    function renderFlow(snapshot) {
+      flowEl.innerHTML = '';
+      const selected = snapshot?.workflow_by_experiment?.[selectedExperimentId] || {};
+      const active = selected.active_stage || 'idle';
+      const completed = new Set(selected.completed_stages || []);
+
+      const ringStages = FLOW_STAGES.filter((stage) => stage.key !== 'done');
+      const width = Math.max(flowEl.clientWidth || 0, 360);
+      const height = Math.max(flowEl.clientHeight || 0, 280);
+      const cx = width / 2;
+      const cy = height / 2;
+      const radius = Math.max(90, Math.min(width, height) / 2 - 52);
+
+      const angles = {
+        manager: -90,
+        hypothesis: -18,
+        strategy: 54,
+        validate: 126,
+        test: 198,
+      };
+
+      const pointByKey = {};
+      for (const stage of ringStages) {
+        const angleDeg = angles[stage.key] ?? 0;
+        const angle = (angleDeg * Math.PI) / 180;
+        pointByKey[stage.key] = {
+          x: cx + radius * Math.cos(angle),
+          y: cy + radius * Math.sin(angle),
+        };
+      }
+
+      const svgNS = 'http://www.w3.org/2000/svg';
+      const svg = document.createElementNS(svgNS, 'svg');
+      svg.setAttribute('class', 'flow-svg');
+      svg.setAttribute('viewBox', `0 0 ${width} ${height}`);
+
+      const defs = document.createElementNS(svgNS, 'defs');
+      const marker = document.createElementNS(svgNS, 'marker');
+      marker.setAttribute('id', 'arrowhead');
+      marker.setAttribute('markerWidth', '8');
+      marker.setAttribute('markerHeight', '6');
+      marker.setAttribute('refX', '7');
+      marker.setAttribute('refY', '3');
+      marker.setAttribute('orient', 'auto');
+      const arrowPath = document.createElementNS(svgNS, 'path');
+      arrowPath.setAttribute('d', 'M0,0 L8,3 L0,6 Z');
+      arrowPath.setAttribute('fill', '#98a6b5');
+      marker.appendChild(arrowPath);
+      defs.appendChild(marker);
+      svg.appendChild(defs);
+
+      function addLink(fromKey, toKey, emphasized = false) {
+        const from = pointByKey[fromKey];
+        const to = pointByKey[toKey];
+        if (!from || !to) return;
+        const path = document.createElementNS(svgNS, 'path');
+        const ctrlX = cx + (from.x + to.x - 2 * cx) * 0.26;
+        const ctrlY = cy + (from.y + to.y - 2 * cy) * 0.26;
+        path.setAttribute('d', `M ${from.x} ${from.y} Q ${ctrlX} ${ctrlY} ${to.x} ${to.y}`);
+        path.setAttribute('fill', 'none');
+        path.setAttribute('stroke', emphasized ? '#0d6efd' : '#b8c4d2');
+        path.setAttribute('stroke-width', emphasized ? '2.2' : '1.5');
+        path.setAttribute('marker-end', 'url(#arrowhead)');
+        if (emphasized) {
+          path.setAttribute('stroke-dasharray', '5 4');
+        }
+        svg.appendChild(path);
+      }
+
+      addLink('manager', 'hypothesis');
+      addLink('hypothesis', 'strategy');
+      addLink('strategy', 'validate');
+      addLink('validate', 'test');
+      addLink('test', 'manager', true);
+
+      flowEl.appendChild(svg);
+
+      for (const stage of ringStages) {
+        const p = pointByKey[stage.key];
+        const wrap = document.createElement('div');
+        wrap.className = 'flow-node';
+        wrap.style.left = `${p.x}px`;
+        wrap.style.top = `${p.y}px`;
+
+        const node = document.createElement('div');
+        node.className = 'node idle';
+        node.textContent = stage.label;
+        if (completed.has(stage.key)) node.className = 'node done';
+        if (active === stage.key) node.className = 'node active';
+
+        wrap.appendChild(node);
+        flowEl.appendChild(wrap);
+      }
+
+      const centerWrap = document.createElement('div');
+      centerWrap.className = 'flow-node';
+      centerWrap.style.left = `${cx}px`;
+      centerWrap.style.top = `${cy}px`;
+      const centerNode = document.createElement('div');
+      centerNode.className = 'node center idle';
+      centerNode.textContent = 'Done';
+      if (completed.has('done') || active === 'done') centerNode.className = 'node center done';
+      if (active === 'done') centerNode.className = 'node center active';
+      centerWrap.appendChild(centerNode);
+      flowEl.appendChild(centerWrap);
+
+      const doneLink = document.createElementNS(svgNS, 'path');
+      const m = pointByKey['manager'];
+      doneLink.setAttribute('d', `M ${m.x} ${m.y} Q ${cx} ${m.y - 24} ${cx} ${cy}`);
+      doneLink.setAttribute('fill', 'none');
+      doneLink.setAttribute('stroke', '#6b7280');
+      doneLink.setAttribute('stroke-width', '1.6');
+      doneLink.setAttribute('stroke-dasharray', '4 4');
+      doneLink.setAttribute('marker-end', 'url(#arrowhead)');
+      svg.appendChild(doneLink);
+
+      const legend = document.createElement('div');
+      legend.className = 'flow-legend';
+      legend.textContent = 'manager decision: done or hypothesis';
+      flowEl.appendChild(legend);
+
+      document.getElementById('selected-exp').textContent = `selected: ${selectedExperimentId || 'none'}`;
+      document.getElementById('selected-epoch').textContent = `epoch: ${selected.latest_epoch || '-'}`;
+      document.getElementById('active-stage').textContent = `active: ${active}`;
+      document.getElementById('last-updated').textContent = `updated: ${fmtTime(selected.last_event_at || selected.last_updated)}`;
+    }
+
+    function renderTerminal(snapshot) {
+      const lines = snapshot?.terminal_lines || [];
+      terminalEl.textContent = lines.join('\n');
+      terminalEl.scrollTop = terminalEl.scrollHeight;
+    }
+
+    function renderAll() {
+      renderSourceFiles();
+      renderExperiments(latestSnapshot || {});
+      renderFlow(latestSnapshot || {});
+      renderTerminal(latestSnapshot || {});
+    }
+
+    sourceReloadBtn.addEventListener('click', async () => {
+      if (!selectedSourcePath) return;
+      await loadSourceFile(selectedSourcePath, true);
+    });
+
+    sourceSaveBtn.addEventListener('click', async () => {
+      await saveSourceFile();
+    });
+
+    sourceEditorEl.addEventListener('input', () => {
+      const lastSaved = sourceEditorEl.dataset.lastSaved || '';
+      sourceDirty = sourceEditorEl.value !== lastSaved;
+      if (sourceDirty) {
+        sourceStatusEl.textContent = 'unsaved changes';
+      } else if (sourceLoadedPath) {
+        sourceStatusEl.textContent = 'source loaded';
+      }
+      sourceSaveBtn.disabled = !sourceDirty || sourceEditorEl.disabled;
+    });
+
+    function connect() {
+      const protocol = location.protocol === 'https:' ? 'wss' : 'ws';
+      const ws = new WebSocket(`${protocol}://${location.host}/ws/live`);
+      ws.onmessage = async (evt) => {
+        try {
+          const data = JSON.parse(evt.data);
+          if (data.type === 'snapshot') {
+            latestSnapshot = data;
+            await fetchSourceFiles();
+            if (selectedExperimentId && !selectedSourcePath) {
+              const selectedExperiment = data.experiments?.find((item) => item.experiment_id === selectedExperimentId);
+              if (selectedExperiment?.source_relative_path) {
+                await selectSourceFile(selectedExperiment.source_relative_path);
+              }
+            } else if (selectedSourcePath) {
+              await loadSourceFile(selectedSourcePath);
+            }
+            await refreshExpandedTrees(data);
+            renderAll();
+          }
+        } catch (e) {
+          console.error(e);
+        }
+      };
+      ws.onclose = () => {
+        setTimeout(connect, 1200);
+      };
+    }
+
+    connect();
+  </script>
+</body>
+</html>

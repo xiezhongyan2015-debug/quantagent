@@ -1,0 +1,7 @@
+{
+  "status": "failed_before_new_file_created",
+  "cause": "Root manually transcribed prior hash as 0fbf350da97eabf9f... rather than actual 0fbf350da97eab9f5...; assertion rejected it. Current original bytes match original recorded hash after correcting transcription.",
+  "actual_prior_sha256": "0fbf350da97eab9f5e733731bf4711ae22f3c0c9e799510f089a851322b1a065",
+  "prior_checkpoint_modified": false,
+  "new_model_calls": 0
+}

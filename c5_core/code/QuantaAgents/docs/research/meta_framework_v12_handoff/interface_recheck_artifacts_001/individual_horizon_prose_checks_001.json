@@ -1,0 +1,78 @@
+{
+  "source": "this case returned horizon_inputs/events/session_calendar only",
+  "checks": [
+    {
+      "symbol": "asset_01",
+      "horizon_sessions": 1,
+      "signal_date": "2020-01-01",
+      "entry_date": "2020-01-02",
+      "exit_date": "2020-01-03",
+      "entry_open": "100",
+      "exit_open": "101",
+      "computed_gross_return": "0.01",
+      "report_individual_return_claim": "0.01",
+      "correct": true
+    },
+    {
+      "symbol": "asset_01",
+      "horizon_sessions": 5,
+      "signal_date": "2020-01-01",
+      "entry_date": "2020-01-02",
+      "exit_date": "2020-01-09",
+      "entry_open": "100",
+      "exit_open": "106",
+      "computed_gross_return": "0.06",
+      "report_individual_return_claim": "0.06",
+      "correct": true
+    },
+    {
+      "symbol": "asset_01",
+      "horizon_sessions": 10,
+      "signal_date": "2020-01-01",
+      "entry_date": "2020-01-02",
+      "exit_date": "2020-01-16",
+      "entry_open": "100",
+      "exit_open": "110",
+      "computed_gross_return": "0.1",
+      "report_individual_return_claim": "0.10",
+      "correct": true
+    },
+    {
+      "symbol": "asset_02",
+      "horizon_sessions": 1,
+      "signal_date": "2020-01-01",
+      "entry_date": "2020-01-02",
+      "exit_date": "2020-01-03",
+      "entry_open": "200",
+      "exit_open": "198",
+      "computed_gross_return": "-0.01",
+      "report_individual_return_claim": "-0.01",
+      "correct": true
+    },
+    {
+      "symbol": "asset_02",
+      "horizon_sessions": 5,
+      "signal_date": "2020-01-01",
+      "entry_date": "2020-01-02",
+      "exit_date": "2020-01-09",
+      "entry_open": "200",
+      "exit_open": "208",
+      "computed_gross_return": "0.04",
+      "report_individual_return_claim": "0.04",
+      "correct": true
+    },
+    {
+      "symbol": "asset_02",
+      "horizon_sessions": 10,
+      "signal_date": "2020-01-01",
+      "entry_date": "2020-01-02",
+      "exit_date": "2020-01-16",
+      "entry_open": "200",
+      "exit_open": "218",
+      "computed_gross_return": "0.09",
+      "report_individual_return_claim": "0.09",
+      "correct": true
+    }
+  ],
+  "new_research_gateway_calls": 0
+}

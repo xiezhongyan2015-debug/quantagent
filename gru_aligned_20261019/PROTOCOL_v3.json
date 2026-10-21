@@ -1,0 +1,111 @@
+{
+  "schema": "gru_aligned_protocol_v3",
+  "frozen_at": "2026-10-19 (before any training run)",
+  "author": "project team",
+  "source_sha256": {
+    "aligned.py": "46ffe045c22071a6cbcfcd9a3f721310de997d5918ba40d6bc0c547c12de8674",
+    "finetune.py": "7a61c5e1f84e5ab1f9825f3ba565694739808119de1fe50052192a789a400fb5",
+    "test_aligned.py": "1cb0a8020cf8fec9bdce874db66faa8bf0f9cecbf8fe00e9c7d8cde42c7211a7",
+    "build_aux.py": "6d1661004375e8221346ce6a7777f0a1414f1cf6226c28f912ffb2bb7bebee2f",
+    "aux/aligned_aux_20261019.npz": "c2d5161c67d2c5fbedb09e2fe345c68c18ea30a22ce75f04d3ebcf7515aa69ec"
+  },
+  "base_recipe": "gru_walkforward_20261010 control (= live ctrl5 recipe): 122 inputs, 4 heads, Gaussian-rank Pearson loss, 4 train slots, AdamW 3e-4, patience 8, 40 epochs, embargo 2 trading days",
+  "windows": {
+    "T2024": "train 2019..2022, val 2023, test 2024",
+    "T2025": "train 2019..2023, val 2024, test 2025",
+    "T2026": "train 2019..2024, val 2025, test 2026-01..2026-09-23"
+  },
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "arms": {
+    "C0": "original loss",
+    "G1a": "alpha .5, gamma 0",
+    "G1b": "alpha .5, gamma 1",
+    "G1c": "alpha .2, gamma .5",
+    "G2b": "G1b with 10-day 0.8-discounted y4 target",
+    "G4": "original loss + SAM rho .05"
+  },
+  "checkpoints": {
+    "primary": "best15n (validation 15:00 production-neutralised RankIC)",
+    "secondary": [
+      "best (original 14:00 y4 RankIC)",
+      "best15b (validation 15:00 b-weighted covariance)"
+    ],
+    "G0": "C0 best15n vs C0 best (same training run)"
+  },
+  "early_stopping": "unchanged for every arm: validation 14:00 y4 RankIC, patience 8",
+  "registered_comparisons": {
+    "count_training_arms": 6,
+    "count_checkpoint_kinds": 3,
+    "count_finetune_variants": 5,
+    "count_finetune_cuts": 10,
+    "multiple_testing_note": "18 arm x checkpoint combinations; report all, Bonferroni-style caution in the write-up"
+  },
+  "winner_selection": "Among G1a/G1b/G1c (primary checkpoint) choose the arm with the best T2024-window live-construction account replay (test year 2024); G2b/G4 judged against C0 only. 2025-2026 results confirm, never select.",
+  "evaluation": {
+    "signal_chain": "per-seed head4 zscore -> 5-seed mean -> production neutralize -> EMA 0.2 -> member zscore (gru_live_extend_20261012/signals_ext.py)",
+    "construction": "live construction: c5 blend 50/50, PCF skeleton, same-industry refill, beta tilt (P3), k=0.5, 10k CNY deadband, fees 2bp per side",
+    "comparisons": [
+      "ctrl5(C0 primary) vs cand5",
+      "all15 vs all15 with cand5 replacing ctrl5"
+    ],
+    "metrics": [
+      "15:00 neutralised RankIC by year",
+      "b-weighted covariance",
+      "account active return vs C0, 20-day block bootstrap 2000 reps seed 20261011",
+      "turnover",
+      "CSI500 share of NAV",
+      "portfolio beta",
+      "max industry deviation",
+      "worst 20-day"
+    ]
+  },
+  "go_live_gate": {
+    "all_required": true,
+    "1": "comparison object is the live construction",
+    "2": ">=4 of 5 seed pairs positive in 2025 and in 2026 separately",
+    "3": "2025-01..2026-09 daily active-return difference: block-bootstrap mean >= +0.8 pp/yr and 90% lower bound >= -0.5 pp/yr",
+    "4": "CSI500 share of NAV, beta, max industry deviation, worst 20-day not worse; turnover increase <= 10%",
+    "plus": "shadow >= 5 trading days without faults, then explicit user approval; at most one change per week"
+  },
+  "falsification": {
+    "G1": "stop G2/G3 stacking if in T2025 and T2026 the live-construction b-weighted active return does not improve on >=4/5 seed pairs, or improvement only in 2024, or raw IC falls >20% with no account gain",
+    "G2b": "not better than G1b on >=4/5 pairs, or higher volatility/size exposure of the final signal",
+    "G4": "top-quantile return and account do not improve in >=2 of 3 windows (RankIC not used)",
+    "G6": "any cut worse than A beyond seed noise, or majority of cuts not positive -> fall back to E (equal average of old and new) or no update"
+  },
+  "g6_finetune": {
+    "cuts": [
+      "2024-04-01",
+      "2024-07-01",
+      "2024-10-08",
+      "2025-01-02",
+      "2025-04-01",
+      "2025-07-01",
+      "2025-10-09",
+      "2026-01-05",
+      "2026-04-01",
+      "2026-06-02"
+    ],
+    "data": "last 60 trading days with all four labels matured before the 2-day embargo cut preceding the cut date",
+    "lr": 3e-05,
+    "variants": {
+      "A": "none",
+      "B1": "all params 1 epoch",
+      "B3": "all params 3 epochs",
+      "C1": "head + GRU layer 2, 1 epoch",
+      "C3": "head + GRU layer 2, 3 epochs"
+    },
+    "evaluation": "next 34 and 60 trading days; report distribution across cuts (positives, worst), not only the mean"
+  },
+  "not_in_this_wave": [
+    "G3 turnover term (needs paired consecutive-day batches)",
+    "G7 minute expert (waits for Z3/Z4 gates)",
+    "G8 all-A pretraining (waits for data)"
+  ]
+}

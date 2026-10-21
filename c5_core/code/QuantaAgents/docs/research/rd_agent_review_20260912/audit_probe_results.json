@@ -1,0 +1,12 @@
+{
+  "commit": "32b3d395e73d9db5eee3fe9063d69aec0fdc83bd",
+  "scope": "original standalone functions; synthetic inputs; no LLM or market backtest",
+  "standard_key_arr_input": 0.12,
+  "extracted_arr": 0.0,
+  "extracted_sharpe": 0.0,
+  "posterior_scalar_after_one_observation": 0.5,
+  "posterior_scalar_after_two_observations": 0.8333333333333334,
+  "correct_conjugate_posterior_after_two_observations": 0.6666666666666666,
+  "reward_all_other_metrics_zero_mdd_negative_005": 0.005000000000000001,
+  "reward_all_other_metrics_zero_mdd_negative_030": 0.03
+}

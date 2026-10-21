@@ -1,0 +1,37 @@
+{
+  "kind": "independent_static_remaining_original_cases_supervisor_review",
+  "decision": "bounded_static_review_passed",
+  "source_sha256": {
+    "continue_remaining_original_cases_001.py": "6db92725742d3fd112a00ed2286d7ba6c8c4f8e903533c08e64e7845be677ca5",
+    "manage_original_budget_stop_001.py": "4ea0d6b5206a38f9195ec6e7eb61e77b64856fd94ec9fb1a7576682aa7c08f0f"
+  },
+  "initial_observed_supervisor_sha256": "18e4ccda47e0bb21e65ace3529f769d7a958aa61bac3d2684edd5b5aa8485d60",
+  "resolved_findings": [
+    "Child exit now propagated by SystemExit(code).",
+    "Failure writing start record after Popen retains supervision of the same child until wait returns; exit saved before supervision failure is raised."
+  ],
+  "checks": {
+    "syntax_parses_without_execution": true,
+    "one_resume_and_one_popen_expression": true,
+    "fixed_output_directory_exclusive_creation": true,
+    "gate_wrapper_scope_admission_runtime_and_management_poststate_pinned": true,
+    "original_15_transport_491954_known_80000_reserve_checked": true,
+    "case01_budget_terminal_and_case02_successor_checked": true,
+    "original_budget_window_and_model_contract_unchanged": true,
+    "original_kernel_dispatch_lease_still_applies": true,
+    "new_final_or_retry_generated": false,
+    "management_failure_readback_only_not_reexecute": true,
+    "unknown_child_exit_not_claimed_stopped": true
+  },
+  "initial_snapshot_clarification": "001_before copied source after the author had already applied the fixes; its finding text describes the earlier 18e4 source read. It is not a failing execution or evidence of those findings in 6db9. This final receipt pins the corrected source.",
+  "limitations": [
+    "Static review only; no wrapper/CLI/controller/database execution or mock fault test.",
+    "Fixed OUT excludes repeating this wrapper; kernel lease prevents simultaneous research dispatch. This is not an OS guarantee against arbitrary separately launched programs.",
+    "If the supervisor is forcibly killed or durable storage becomes unavailable, exit evidence may remain unknown and requires explicit read-only process/ledger review; never automatic retry.",
+    "Gate poststate is checked before resume; controlled sole-worker management and kernel rechecks remain necessary."
+  ],
+  "actual_wrapper_executions": 0,
+  "actual_db_connections": 0,
+  "gateway_or_workbench_calls": 0,
+  "paid_dispatch_permission_created": false
+}

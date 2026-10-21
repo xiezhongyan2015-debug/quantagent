@@ -1,3 +1,9 @@
+# 中证500比赛代码与 QuantaAgents
+
+本分支新增 60 分钟 GRU 与 c5 的完整本地代码链路。**请先读 [比赛背景、进度、代码入口和复现条件](README_CSI500_PIPELINE.md)。**
+
+下面保留原项目说明。
+
 # quantagent
 
 A 股策略与因子研究项目，沿用原 Python 包名 `quanta_agents`。

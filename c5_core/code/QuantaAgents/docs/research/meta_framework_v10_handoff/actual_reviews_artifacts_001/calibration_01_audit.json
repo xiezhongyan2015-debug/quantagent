@@ -1,0 +1,420 @@
+{
+  "case_id": "calibration_01",
+  "original_status": "failed",
+  "original_reason": "non-numeric finding must not contain a number",
+  "public_schema_structurally_valid": true,
+  "semantic_interface_errors": [
+    {
+      "finding_number": 6,
+      "reason": "non-numeric finding must not contain a number",
+      "finding": {
+        "claim_type": "limitation",
+        "quantity_id": "terminal_single_stock_unrealized_cny",
+        "availability": "not_identifiable",
+        "value_decimal": "",
+        "unit": "CNY",
+        "statement": "2020-01-21期末库存股票数为0，因此“期末唯一持仓股票未实现损益”不适用，不能填0或指定某只股票。可确定为0的是组合期末未实现损益。",
+        "evidence_ids": [
+          "evidence-0bb257fc2148758194cdac86dc753c4e712b3cb8aefe87e364cbe6d32300794c",
+          "58b06b2b84b858aa9255c97ecf185f02f6175f92f2b6bc1ca9d50c95cad83cf3"
+        ]
+      }
+    }
+  ],
+  "model_calls": 7,
+  "queries": 6,
+  "accepted_final_submissions": 0,
+  "reported_input_tokens": 131368,
+  "reported_output_tokens": 7049,
+  "reported_io_tokens": 138417,
+  "queries_by_table": [
+    "summary",
+    "horizon_curve",
+    "horizon_inputs",
+    "target_weights",
+    "trades",
+    "daily"
+  ],
+  "all_citations_returned_to_this_case": true,
+  "final_artifact_hashes_match_saved_receipt": true,
+  "numeric_claims": [
+    {
+      "finding_number": 1,
+      "quantity_id": "net_pnl_cny",
+      "claimed": "669.3",
+      "oracle": "669.3",
+      "absolute_residual": "0.0",
+      "arithmetic_correct": true,
+      "registered": true
+    },
+    {
+      "finding_number": 2,
+      "quantity_id": "realized_net_pnl_cny",
+      "claimed": "669.3",
+      "oracle": "669.3",
+      "absolute_residual": "0.0",
+      "arithmetic_correct": true,
+      "registered": true
+    },
+    {
+      "finding_number": 3,
+      "quantity_id": "reference_pnl_cny",
+      "claimed": "700",
+      "oracle": "700",
+      "absolute_residual": "0",
+      "arithmetic_correct": true,
+      "registered": true
+    },
+    {
+      "finding_number": 4,
+      "quantity_id": "unrealized_change_cny",
+      "claimed": "0",
+      "oracle": "0",
+      "absolute_residual": "0",
+      "arithmetic_correct": true,
+      "registered": true
+    },
+    {
+      "finding_number": 5,
+      "quantity_id": "closed_duration_sessions",
+      "claimed": "7",
+      "oracle": "7",
+      "absolute_residual": "0",
+      "arithmetic_correct": true,
+      "registered": true
+    },
+    {
+      "finding_number": 7,
+      "quantity_id": "common_event_count",
+      "claimed": "2",
+      "oracle": "2",
+      "absolute_residual": "0",
+      "arithmetic_correct": true,
+      "registered": true
+    },
+    {
+      "finding_number": 8,
+      "quantity_id": "horizon_1_mean",
+      "claimed": "0",
+      "oracle": "0.00",
+      "absolute_residual": "0.00",
+      "arithmetic_correct": true,
+      "registered": true
+    },
+    {
+      "finding_number": 9,
+      "quantity_id": "horizon_5_mean",
+      "claimed": "0.05",
+      "oracle": "0.05",
+      "absolute_residual": "0.00",
+      "arithmetic_correct": true,
+      "registered": true
+    },
+    {
+      "finding_number": 10,
+      "quantity_id": "horizon_10_mean",
+      "claimed": "0.095",
+      "oracle": "0.095",
+      "absolute_residual": "0.000",
+      "arithmetic_correct": true,
+      "registered": true
+    }
+  ],
+  "computed_arithmetic": {
+    "totals": {
+      "net_pnl_cny": "669.3",
+      "reference_pnl_cny": "700.0",
+      "fees_cny": "10.0",
+      "slippage_cny": "20.7",
+      "realized_net_pnl_cny": "669.3000",
+      "unrealized_change_cny": "0.0",
+      "closed_spells_count": "1",
+      "right_censored_count": "0",
+      "closed_duration_sessions": "7",
+      "terminal_single_stock_unrealized_cny": null,
+      "common_event_count": "2",
+      "horizon_1_mean": "0.00",
+      "horizon_5_mean": "0.05",
+      "horizon_10_mean": "0.095"
+    },
+    "daily": [
+      {
+        "date": "2020-01-01",
+        "cash": "20000",
+        "basis": "0",
+        "portfolio_unrealized": "0.0",
+        "inventory": {}
+      },
+      {
+        "date": "2020-01-02",
+        "cash": "9985.00",
+        "basis": "10015.00",
+        "portfolio_unrealized": "-15.00",
+        "inventory": {
+          "asset_01": {
+            "quantity": "100.0",
+            "basis": "10015.00"
+          }
+        }
+      },
+      {
+        "date": "2020-01-03",
+        "cash": "9985.00",
+        "basis": "10015.00",
+        "portfolio_unrealized": "85.00",
+        "inventory": {
+          "asset_01": {
+            "quantity": "100.0",
+            "basis": "10015.00"
+          }
+        }
+      },
+      {
+        "date": "2020-01-06",
+        "cash": "9985.00",
+        "basis": "10015.00",
+        "portfolio_unrealized": "285.00",
+        "inventory": {
+          "asset_01": {
+            "quantity": "100.0",
+            "basis": "10015.00"
+          }
+        }
+      },
+      {
+        "date": "2020-01-07",
+        "cash": "9985.00",
+        "basis": "10015.00",
+        "portfolio_unrealized": "185.00",
+        "inventory": {
+          "asset_01": {
+            "quantity": "100.0",
+            "basis": "10015.00"
+          }
+        }
+      },
+      {
+        "date": "2020-01-08",
+        "cash": "9985.00",
+        "basis": "10015.00",
+        "portfolio_unrealized": "385.00",
+        "inventory": {
+          "asset_01": {
+            "quantity": "100.0",
+            "basis": "10015.00"
+          }
+        }
+      },
+      {
+        "date": "2020-01-09",
+        "cash": "9985.00",
+        "basis": "10015.00",
+        "portfolio_unrealized": "585.00",
+        "inventory": {
+          "asset_01": {
+            "quantity": "100.0",
+            "basis": "10015.00"
+          }
+        }
+      },
+      {
+        "date": "2020-01-10",
+        "cash": "9985.00",
+        "basis": "10015.00",
+        "portfolio_unrealized": "485.00",
+        "inventory": {
+          "asset_01": {
+            "quantity": "100.0",
+            "basis": "10015.00"
+          }
+        }
+      },
+      {
+        "date": "2020-01-13",
+        "cash": "20669.3000",
+        "basis": "0",
+        "portfolio_unrealized": "0.0",
+        "inventory": {
+          "asset_01": {
+            "quantity": "0.0",
+            "basis": "0"
+          }
+        }
+      },
+      {
+        "date": "2020-01-14",
+        "cash": "20669.3000",
+        "basis": "0",
+        "portfolio_unrealized": "0.0",
+        "inventory": {
+          "asset_01": {
+            "quantity": "0.0",
+            "basis": "0"
+          }
+        }
+      },
+      {
+        "date": "2020-01-15",
+        "cash": "20669.3000",
+        "basis": "0",
+        "portfolio_unrealized": "0.0",
+        "inventory": {
+          "asset_01": {
+            "quantity": "0.0",
+            "basis": "0"
+          }
+        }
+      },
+      {
+        "date": "2020-01-16",
+        "cash": "20669.3000",
+        "basis": "0",
+        "portfolio_unrealized": "0.0",
+        "inventory": {
+          "asset_01": {
+            "quantity": "0.0",
+            "basis": "0"
+          }
+        }
+      },
+      {
+        "date": "2020-01-17",
+        "cash": "20669.3000",
+        "basis": "0",
+        "portfolio_unrealized": "0.0",
+        "inventory": {
+          "asset_01": {
+            "quantity": "0.0",
+            "basis": "0"
+          }
+        }
+      },
+      {
+        "date": "2020-01-20",
+        "cash": "20669.3000",
+        "basis": "0",
+        "portfolio_unrealized": "0.0",
+        "inventory": {
+          "asset_01": {
+            "quantity": "0.0",
+            "basis": "0"
+          }
+        }
+      },
+      {
+        "date": "2020-01-21",
+        "cash": "20669.3000",
+        "basis": "0",
+        "portfolio_unrealized": "0.0",
+        "inventory": {
+          "asset_01": {
+            "quantity": "0.0",
+            "basis": "0"
+          }
+        }
+      }
+    ],
+    "closed": [
+      {
+        "code": "asset_01",
+        "entry_date": "2020-01-02",
+        "exit_date": "2020-01-13",
+        "duration_sessions": 7
+      }
+    ],
+    "sell_checks": [
+      {
+        "source_order_ordinal": 1,
+        "computed_realized": "669.3000",
+        "reported_realized": "669.3",
+        "absolute_residual": "0.0000"
+      }
+    ],
+    "terminal_held_codes": [],
+    "realized_by_code": {
+      "asset_01": "669.3000"
+    },
+    "buy_turnover": "10010.0",
+    "sell_turnover": "10689.3",
+    "buy_slippage": "10.0",
+    "sell_slippage": "10.7",
+    "cash_only_days": 8,
+    "no_trade_dates": [
+      "2020-01-01",
+      "2020-01-03",
+      "2020-01-06",
+      "2020-01-07",
+      "2020-01-08",
+      "2020-01-09",
+      "2020-01-10",
+      "2020-01-14",
+      "2020-01-15",
+      "2020-01-16",
+      "2020-01-17",
+      "2020-01-20",
+      "2020-01-21"
+    ],
+    "initial_capital_return": "0.033465",
+    "horizon_events": [
+      {
+        "signal_date": "2020-01-01",
+        "symbol": "asset_01",
+        "entry_date": "2020-01-02",
+        "entry_open": "100",
+        "outcomes": {
+          "1": {
+            "exit_date": "2020-01-03",
+            "gross_return": "0.01"
+          },
+          "5": {
+            "exit_date": "2020-01-09",
+            "gross_return": "0.06"
+          },
+          "10": {
+            "exit_date": "2020-01-16",
+            "gross_return": "0.1"
+          }
+        }
+      },
+      {
+        "signal_date": "2020-01-01",
+        "symbol": "asset_02",
+        "entry_date": "2020-01-02",
+        "entry_open": "200",
+        "outcomes": {
+          "1": {
+            "exit_date": "2020-01-03",
+            "gross_return": "-0.01"
+          },
+          "5": {
+            "exit_date": "2020-01-09",
+            "gross_return": "0.04"
+          },
+          "10": {
+            "exit_date": "2020-01-16",
+            "gross_return": "0.09"
+          }
+        }
+      }
+    ]
+  },
+  "frozen_evaluation_inventory_omitted_as_numeric": [
+    "closed_spells_count",
+    "right_censored_count"
+  ],
+  "registered_quantities_omitted_as_numeric": [
+    "fees_cny",
+    "slippage_cny",
+    "terminal_single_stock_unrealized_cny",
+    "closed_spells_count",
+    "right_censored_count"
+  ],
+  "oracle_unknown_multistock_dates": [],
+  "oracle_terminal_scalar_status": "not_applicable",
+  "ledger_case_calls_sha256": "82f903c95cb6a6c0cdb2cfa81fe6c59b2d85dc3b63b63be0e92b4552b6d10758",
+  "rejected_action_sha256": "d1fb3f744e0f295f385504e73da2e95d456f7a6846ba435f39761c59ac76ac3b",
+  "query_journal_logical_sha256": "24eae641dfdddee5e2b3a1bcfd4297187bb5993dbea1446b4209dc4e54ce5d47",
+  "original_outputs_changed": false,
+  "new_research_gateway_calls": 0,
+  "new_backtests": 0
+}

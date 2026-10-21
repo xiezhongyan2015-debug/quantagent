@@ -1,0 +1,69 @@
+{
+  "observed_utc": "2026-09-13T08:35:33.3732404Z",
+  "state": {
+    "batch": 1,
+    "best_combination_floor": 0.010221788459437366,
+    "best_factor_floor": 0.0009839350456983143,
+    "blocker": null,
+    "canonical_duplicates": 1037,
+    "combination_controls_attempted": 1,
+    "combination_controls_evaluated": 0,
+    "combinations_evaluated": 76,
+    "controls_evaluated": 74,
+    "created_utc": "2026-09-13T00:50:57.226523-04:00",
+    "failures": 0,
+    "framework_versions_completed": [],
+    "historical_target_met": false,
+    "independent_stability_proven": false,
+    "inherited_evaluated": 0,
+    "new_evaluated": 55,
+    "numeric_cpu_seconds": 1609.984375,
+    "numeric_duplicates": 2,
+    "numeric_wall_seconds": 1757.985238399764,
+    "phase": "combination_batch",
+    "plateau_extensions": 0,
+    "primary_evaluated": 100,
+    "profitability_proven": false,
+    "reference_evaluated": 45,
+    "stop_requested": false,
+    "updated_utc": "2026-09-13T04:35:13.628722-04:00",
+    "version": "V10A"
+  },
+  "active_framework": {
+    "approval_file": "F:\\V10A_Factor_Research\\maintenance\\10.0.1\\independent_activation.json",
+    "approval_sha256": "7d1a004421c13d8fd5dd72ef69139b38411a0a9517254bf7c12396ce44ff0c44",
+    "dependency_manifest": "F:\\V10A_Factor_Research\\maintenance\\10.0.1\\dependency_pins.json",
+    "dependency_manifest_sha256": "00ac560dc0cc82be584fe4b64805d995c242f75d1921c798102cdc5e7d469fe8",
+    "historical_target_met": false,
+    "maintenance_release": "10.0.1",
+    "version": "V10A",
+    "workspace": "F:\\V10A_Factor_Research\\workspaces\\V10A_10_0_1"
+  },
+  "resources": {
+    "allowed": true,
+    "available_memory_bytes": 14546436096,
+    "blockers": [],
+    "disk_free_bytes": 36289384448,
+    "disk_path": "F:\\V10A_Factor_Research",
+    "disk_reserve_bytes": 10737418240,
+    "memory_reserve_bytes": 6442450944,
+    "observed_unix": 1789288513.6513605,
+    "process_memory_bytes": 1076334592
+  },
+  "processes": [
+    {
+      "ProcessId": 103660,
+      "ParentProcessId": 18076,
+      "CreationDate": "2026-09-13T04:28:59.557763-04:00",
+      "CommandLine": "\"/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/.venv/Scripts/python.exe/" F:\\V10A_Factor_Research\\workspaces\\V10A_10_0_1\\scripts\\run_factor_campaign_v10.py resume --root F:\\V10A_Factor_Research"
+    },
+    {
+      "ProcessId": 64936,
+      "ParentProcessId": 103660,
+      "CreationDate": "2026-09-13T04:28:59.590469-04:00",
+      "CommandLine": "\"C:\\Users\\xiezh\\AppData\\Local\\Programs\\Python\\Python310\\python.exe\" F:\\V10A_Factor_Research\\workspaces\\V10A_10_0_1\\scripts\\run_factor_campaign_v10.py resume --root F:\\V10A_Factor_Research"
+    }
+  ],
+  "stderr_tail": [],
+  "note": "Read-only documentation snapshot after F drive recovery; no controller start or resume performed by this task."
+}

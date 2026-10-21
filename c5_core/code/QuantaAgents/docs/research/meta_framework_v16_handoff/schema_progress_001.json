@@ -1,0 +1,28 @@
+{
+  "recorded_at": "2026-09-06T21:43:59.738153+00:00",
+  "status": "offline_schema_risk_guard_verified",
+  "parent_246_files_unchanged": true,
+  "original_rejected_request_and_failure_pins_unchanged": true,
+  "new_research_gateway_calls": 0,
+  "base_campaign_calls": 1,
+  "base_unknown_reserve": 80000,
+  "paid_dispatch_permitted": false,
+  "evidence": {
+    "root_initial_95": "experiment_traces/meta_ashare_revision16/schema_admission_validation/002_after_fix/receipt.json",
+    "final_affected_51": "experiment_traces/meta_ashare_revision16/schema_independent_validation/002_after_fix/receipt.json",
+    "schema_rootcause_review": "docs/research/meta_framework_v15_handoff/reference_schema_failure_review_001.md",
+    "accounting_design": "docs/research/meta_framework_v16_handoff/transport_rejection_accounting_design_001.md"
+  },
+  "count_scope": "Initial95 included4new+91oldGateway/P0 with prior helper. After independent tuple counterexample, final affected51=46author+4root+1independent. Do not add overlapping tests or label initial95 final-helper rerun.",
+  "self_check": {
+    "assessment": "Saved rejected schema is blocked before reservation or CLI, strict ordered horizons retained. Independent serialized-tuple bypass reproduced then fixed. This remains narrow local risk lint, not provider compatibility certification.",
+    "next_step": "Implement and independently test same-database one-shot correction budget and monitoring before any exact admission.",
+    "falsifiers": "A transport serialization mismatch, semantic weakening, new process before lint, released original reserve, or current provider rejection invalidates the relevant engineering/compatibility claim."
+  },
+  "evidence_sha256": {
+    "root_initial_95": "19660842e0a1deb437e3928dd60fb4072fb88e8c02e113ef4b1019fe6681054d",
+    "final_affected_51": "6c43e30fe3430bae99c8bcbb0774d078b72c3dff80cea2a93f3ed0df7ee4417c",
+    "schema_rootcause_review": "ab63780423e7f70603ae281e0d6a29a802a42c3ac1447812b4eb4972ee8ffd97",
+    "accounting_design": "760044c8aed03c1edc8cb5f1236c8c250bf31c1cab1b4bd40552426ee5fe8024"
+  }
+}

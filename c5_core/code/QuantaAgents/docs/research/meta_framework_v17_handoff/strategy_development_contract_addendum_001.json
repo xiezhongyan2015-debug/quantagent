@@ -1,0 +1,277 @@
+{
+  "kind": "public_contract_metadata_addendum",
+  "version": 1,
+  "recorded_at": "2026-09-07T02:16:40.213314+00:00",
+  "original_contract_file_sha256": "f98609afb80a6d28e9af7e63d779647c21a45fa013e292d7dded7618c1a9d991",
+  "unchanged_budget": {
+    "max_actions": 24,
+    "develop_candidates": 4,
+    "internal_variants": 4,
+    "query_actions": 16,
+    "manual_memory_actions": 4,
+    "max_symbols": 2,
+    "max_sessions": 16,
+    "max_factors": 4,
+    "max_expressions": 5,
+    "max_public_fields": 8,
+    "max_request_bytes": 65536,
+    "parent_record_bytes": 1048576,
+    "parent_total_bytes": 16777216,
+    "max_raw_executions": 4,
+    "admission_window_seconds": 600
+  },
+  "unchanged_raw_child_budget": {
+    "per_candidate_archive_bytes": 134217728,
+    "per_candidate_records": 4096,
+    "per_candidate_event_intents": 64,
+    "per_candidate_record_bytes": 4194304,
+    "maximum_children": 4,
+    "included_in_parent_total_bytes": false
+  },
+  "change": "Publish already enforced text/condition bounds, exact identifier/program rules and memory invalidation reason enum. No execution/budget change.",
+  "full_current_public_contract": {
+    "version": "strategy_development_v17_1",
+    "kind": "exposed_synthetic_engineering_contract",
+    "budget": {
+      "max_actions": 24,
+      "develop_candidates": 4,
+      "internal_variants": 4,
+      "query_actions": 16,
+      "manual_memory_actions": 4,
+      "max_symbols": 2,
+      "max_sessions": 16,
+      "max_factors": 4,
+      "max_expressions": 5,
+      "max_public_fields": 8,
+      "max_request_bytes": 65536,
+      "parent_record_bytes": 1048576,
+      "parent_total_bytes": 16777216,
+      "max_raw_executions": 4,
+      "admission_window_seconds": 600
+    },
+    "raw_child_budget": {
+      "per_candidate_archive_bytes": 134217728,
+      "per_candidate_records": 4096,
+      "per_candidate_event_intents": 64,
+      "per_candidate_record_bytes": 4194304,
+      "maximum_children": 4,
+      "included_in_parent_total_bytes": false
+    },
+    "language": "factor_strategy_program_v1",
+    "expression_guide": {
+      "language": "causal_factor_algebra_v1",
+      "fields": "Use only the caller-provided field names; every field is a date-by-stock matrix.",
+      "operators": [
+        "+",
+        "-",
+        "*",
+        "/",
+        "<",
+        "<=",
+        ">",
+        ">=",
+        "==",
+        "!=",
+        "&",
+        "|",
+        "^",
+        "~",
+        "and",
+        "or",
+        "not"
+      ],
+      "functions": {
+        "lag(x, periods)": "Earlier rows only; literal integer periods 1..120.",
+        "pct_change(x, periods)": "x / lag(x, periods) - 1; integer periods 1..120; no fill.",
+        "rolling_mean(x, window)": "Per-stock trailing mean including current row; window 2..120.",
+        "rolling_std(x, window)": "Per-stock trailing sample std (ddof=1); window 2..120.",
+        "rolling_min(x, window)": "Per-stock trailing minimum; window 2..120.",
+        "rolling_max(x, window)": "Per-stock trailing maximum; window 2..120.",
+        "rolling_sum(x, window)": "Per-stock trailing sum; window 2..120.",
+        "cs_rank(x)": "Same-row cross-sectional percentile rank within the controller's point-in-time eligible universe; average ties, nonmembers excluded at every nested rank.",
+        "abs(x)": "Elementwise absolute value.",
+        "log(x)": "Natural logarithm; nonpositive inputs become NaN.",
+        "clip(x, lower, upper)": "Elementwise clipping to finite numeric literal bounds.",
+        "where(condition, if_true, if_false)": "Elementwise selection; unknown condition yields NaN."
+      },
+      "semantics": {
+        "windows": "Literal integer row counts on the shared chronological session grid; complete windows required.",
+        "missing": "No filling. Nonfinite values, zero division and invalid arithmetic become NaN.",
+        "booleans": "Output is 1/0/NaN. Comparisons with missing inputs yield NaN; and/or use three-valued logic. Numeric zero is false, nonzero true. Unknown final filters must be excluded by the runner.",
+        "timing": "Current row is available only after its field publication time; the runner controls execution lag and point-in-time eligibility.",
+        "alignment": "All inputs need identical unique axes and increasing rows; output preserves those axes. No field is mutated."
+      },
+      "limits": {
+        "characters": 4096,
+        "ast_nodes": 256,
+        "ast_depth": 24,
+        "max_window": 120
+      },
+      "forbidden": [
+        "attribute access",
+        "subscripts",
+        "imports",
+        "arbitrary functions",
+        "keywords",
+        "future shifts",
+        "full-sample statistics",
+        "comprehensions",
+        "assignments",
+        "power"
+      ]
+    },
+    "program_fields": [
+      "version",
+      "factors",
+      "target_weight_expression",
+      "hypothesis",
+      "applicability",
+      "invalidation_conditions"
+    ],
+    "program_constraints": {
+      "version": "factor_strategy_program_v1",
+      "factors_min_items": 0,
+      "factors_max_items": 4,
+      "factor_fields": [
+        "name",
+        "expression"
+      ],
+      "name_pattern": "[A-Za-z][A-Za-z0-9_]{0,39}",
+      "name_rule": "Unique; cannot shadow fields/functions; references only fields and earlier factors.",
+      "hypothesis_min_characters": 0,
+      "hypothesis_max_characters": 2000,
+      "conditions_min_items": 0,
+      "conditions_max_items": 8,
+      "condition_min_characters": 1,
+      "condition_max_characters": 500,
+      "expression_min_characters": 1,
+      "expression_max_characters": 4096,
+      "expression_whitespace_only_allowed": false,
+      "max_ast_nodes": 256,
+      "max_ast_depth": 24,
+      "json_rule": "Exact fields; finite JSON; total canonical UTF-8 request <=65536 bytes."
+    },
+    "memory_constraints": {
+      "text_min_characters": 1,
+      "text_max_characters": 2000,
+      "text_fields": [
+        "claim_text",
+        "explanation"
+      ],
+      "source_evidence_ids_min_items": 1,
+      "source_evidence_ids_max_items": 16,
+      "source_evidence_rule": "Each ID must name a settled action in this scope.",
+      "conditions_min_items": 0,
+      "conditions_max_items": 8,
+      "condition_min_characters": 1,
+      "condition_max_characters": 500,
+      "memory_id_rule": "Must already exist in this scope.",
+      "reason_code_enum": [
+        "contradicted_by_evidence",
+        "scope_changed",
+        "evidence_unverifiable",
+        "author_withdrawal"
+      ],
+      "invalidation_attribution": "Author assertion; never automatic kernel/statistical invalidation."
+    },
+    "actions": {
+      "develop_strategy": [
+        "action",
+        "program"
+      ],
+      "record_memory": [
+        "action",
+        "claim_text",
+        "source_evidence_ids",
+        "applicable_conditions",
+        "invalidation_conditions"
+      ],
+      "invalidate_memory": [
+        "action",
+        "memory_id",
+        "reason_code",
+        "source_evidence_ids",
+        "explanation"
+      ],
+      "query": [
+        "action",
+        "observation_id",
+        "table",
+        "cursor",
+        "limit"
+      ]
+    },
+    "query_fields": [
+      "observation_id",
+      "table",
+      "cursor",
+      "limit"
+    ],
+    "tables": [
+      "programs",
+      "decisions",
+      "targets",
+      "execution_events",
+      "failures",
+      "memories",
+      "invalidations"
+    ],
+    "query_limit": 50,
+    "policy": {
+      "decision_clock": "15:10:00+08:00",
+      "late_values": "mask_original_session_no_backfill",
+      "execution": "exact_next_session_open",
+      "last_session": "force_zero",
+      "missing_weight": "zero_with_reason",
+      "finite_invalid_weight": "fail_no_normalization"
+    },
+    "subattempts": [
+      "compile",
+      "target_generation",
+      "raw_mechanical_execution"
+    ],
+    "accounting": "Every new action, including known malformed/oversized/duplicate actions, is charged. One candidate and variant per develop; three requested subattempts. Same-slot is saved-only. New-slot settled duplicate reuses without compute; unresolved work blocks new actions.",
+    "timing": "600 seconds only gates next-stage admission; it does not interrupt an admitted finite computation.",
+    "missing": "NaN weight or ineligible stock becomes zero with reason. Finite out-of-range or sum>1 fails; no normalization.",
+    "terminal": "Final trade-session targets forced zero; failed liquidation stays a holding/rejection.",
+    "limitations": [
+      "Synthetic engineering only; no actual market arrival certification or sandbox.",
+      "Late historical data is never backfilled. Full capital, fees, T+1 and rejection rules belong to raw kernel.",
+      "Author memory claims are not established facts. No automatic statistical invalidation."
+    ],
+    "execution_valid": false,
+    "formal_target_success": false,
+    "new_gateway_calls": 0
+  },
+  "changed_top_level_definitions": [
+    "public_contract"
+  ],
+  "ast_outside_public_contract_equal": true,
+  "old_controller_sha256": "0d578f7e15b7780025f32bcfaa637fb748142351c2a5ff674c821c950c2399ff",
+  "new_controller_sha256": "4cf15ec03e2551b0acc3670127089b116fcb053a55bd8a1d82c2d10411de0543",
+  "current_source_pins": {
+    "meta/factor_strategy_program.py": "0ce1ee91ade853a52755eb044b309f4a3d3e22d3275bd1b11c5f0fe0302a1da4",
+    "meta/strategy_development.py": "4cf15ec03e2551b0acc3670127089b116fcb053a55bd8a1d82c2d10411de0543",
+    "meta/factor_algebra.py": "84783c6f907bcc9331602277605cdcd250d3a89680b51b9a2ecaf5bfd8021d30",
+    "raw_saved_research.py": "fbebcfa6a1e0bd288e4d736d9c903ccba8a1bcede401e178a11a6b34c70bc5cb",
+    "raw_portfolio_backtest.py": "cfdd9ae7da28014c0e3a2c4e89febce69ff5f73a803e5e047d763304e69cd23a",
+    "raw_share_ledger.py": "dfac220269f283c40b4956e57fe6d2a8ca8f132c62722a2e5db3ad7d63f3b387",
+    "corporate_action_adapter.py": "166e8d2a4fb94f1e90275fbcac689597f02562ebcfb37ce982528da78a3b7608"
+  },
+  "current_test_pins": {
+    "test_meta_factor_strategy_program_v17.py": "94a865724b8968c05480ba30cd27cdbec5b5cf13ab6aa8c7d83bcffc5bc512a1",
+    "test_meta_strategy_development_v17.py": "b0d615de2eb5d6fd176ab13dcba92bd5bf5ea7f6b8a6afe81c9d0786ed5175c8",
+    "test_meta_strategy_development_independent_v17.py": "8ee0f7ef2474f23498bbb5c04cc156320cd4aa2091fb3c505f34a0580cbc688c"
+  },
+  "current_demo_script_sha256": "196ee114aa0172532e3713d5f4f96751bedca3c232ad884a2d503d92b918c411",
+  "narrow_before_receipt_sha256": "e3bef1fe5bd08fdf40b4e8efd08d0bfbca58746656ccb7ee4a0c035eb54c90a6",
+  "narrow_after_receipt_sha256": "60076467b2e5a48ca2dd7ab273666c4ba7b4da6fb95d491e7a38138ac8e9dccc",
+  "old_demo_receipt_sha256": "7e354700aa463c7d8d64bca4161726720bce73b61b8c098ce69aa0271d4d0d70",
+  "old_demo_scope_sha256": "211f462ad1636320f333e0984307e3632cd4f5f11792e3c42f70052d2ae18772",
+  "old_demo_readonly_binding_verified": true,
+  "old_demo_not_rerun": true,
+  "old_scope_note": "Original scope/receipt/source identities remain frozen. Current source intentionally has a different public contract/source pin; no old scope was loaded, migrated or replayed.",
+  "new_gateway_calls": 0,
+  "actual_scope_writes": 0,
+  "real_market_reads": 0
+}

@@ -1,0 +1,788 @@
+{
+  "kind": "readonly_transport_permit_scope_report",
+  "version": 1,
+  "recorded_at": "2026-09-06T22:12:59.451737+00:00",
+  "status": "static_checks_pass_pending_separate_admission",
+  "prepared_is_approved": false,
+  "real_dispatch_authorized": false,
+  "controller_constructed": false,
+  "store_constructed": false,
+  "actual_sql_writes": 0,
+  "new_gateway_calls": 0,
+  "new_workbench_actions": 0,
+  "public_price_csv_reads": 0,
+  "key_reads": 0,
+  "provider_acceptance_certified": false,
+  "permit_sha256": "5af20e57af525105fff9484d2c763282e9edc377282f3bf80f874c76e6a1198c",
+  "permit_content_hash": "963bd640f0241ed30902e6bbaba500b1a08c1ff31a772dba2a17791c9ae3a6eb",
+  "scope_sha256": "349eddbd9771ccb2ebd860d3454ef35104a53f39582ec0aaddaacf618a42c970",
+  "preparation_receipt_sha256": "117e8116a749658a1ea213d3468ae5a64ecf8d583abc71757ee0d252f9bdbefc",
+  "base_run_id": "reference_v15_original4_001",
+  "base_call_id": "reference_v15_original4_001/reference_v15_original4_001_case_01_reference_round_0-1",
+  "base_plan_hash": "3cda519a83180b6b5b4fe96c447a406efee82b5df73b31cc450fd10555437173",
+  "base_run_hash": "49cf9914f95cd353b430cb8eacfc25d07f44b62cd26a60bcbcc7344296c40f79",
+  "base_call_hash": "7e7f62a97f07919c022fa58e303df9c889f39c1a52769a9f0db7e44faa0bef80",
+  "new_source_pins": {
+    "transport_correction.py": "5fa687acd947870d4b4fd2896a1a693e6f1e3de9c8a28614336e82ffbff0d3f1",
+    "codex_gateway.py": "5afa3dcbbd8d8c6f2a649aebfc86f787cd83d54ddfb547ec2967e68c2e6b2b95",
+    "structured_output_profile.py": "276481336f2b647717c83bb46be1def6a366fa5e1de072f61c58b1f78a8bdf38",
+    "diagnostic_campaign.py": "9ce41fff24d71099edfaa8f037b67906bc56c63878b2d61cadb9bf4ee7e29dfb",
+    "store.py": "a722ca5256125f3eb10cedce51e3324f9eea8740672a6152597c795c3e2e9929"
+  },
+  "old_source_pins": {
+    "casebank_campaign.py": "4e56a278715b672d422c4aebe7468217c58920640c8f0b820efcb11c84e5d02a",
+    "casebank_live.py": "8bd36896ed1445cae29addf3f7decabad05c171367ee60240c4f9a0603074a60",
+    "casebank_workbench.py": "ea2941fc5776e72c32a47f67b01c169b94a754945b0ce85ee8a3af8b04fb9ff3",
+    "casebank_public.py": "44387f637d7bfbb78a11c6cf415037d2f2b7624e8c976b8d13b5de56d3dc5695",
+    "horizon_diagnostics.py": "13c60faf9272e794291d20ddeb0aa12f694ec968a901a7c563e88aa9318553e5",
+    "event_conditioning.py": "f06a0038fe09cd7a5a31158a08100febc7d00e0a7f8401f8b01dcc60e07ebaef",
+    "diagnostic_campaign.py": "9ce41fff24d71099edfaa8f037b67906bc56c63878b2d61cadb9bf4ee7e29dfb",
+    "diagnostic_live.py": "9c84be10746f88b5ca854e561c03ea2fe6ac787ccc137e4cf341f190acfb9992",
+    "codex_gateway.py": "f4b7d865ce2de39765324cad1afcd2a2f42cd856514eac997c2845ebb9f20e99",
+    "store.py": "a722ca5256125f3eb10cedce51e3324f9eea8740672a6152597c795c3e2e9929"
+  },
+  "checks": [
+    {
+      "check": "permit_file_hash",
+      "pass": true
+    },
+    {
+      "check": "permit_content_hash",
+      "pass": true
+    },
+    {
+      "check": "preparation_receipt_hash",
+      "pass": true
+    },
+    {
+      "check": "original_scope_hash",
+      "pass": true
+    },
+    {
+      "check": "prepared_only",
+      "pass": true
+    },
+    {
+      "check": "fixed_campaign_registry",
+      "pass": true
+    },
+    {
+      "check": "registry_kind",
+      "pass": true
+    },
+    {
+      "check": "active_owner",
+      "pass": true
+    },
+    {
+      "check": "plan_hash",
+      "pass": true
+    },
+    {
+      "check": "run_hash",
+      "pass": true
+    },
+    {
+      "check": "paused_no_actions",
+      "pass": true
+    },
+    {
+      "check": "original_budget_clock",
+      "pass": true
+    },
+    {
+      "check": "four_baseline_protocol",
+      "pass": true
+    },
+    {
+      "check": "task_set_exact",
+      "pass": true
+    },
+    {
+      "check": "all_tasks_unused",
+      "pass": true
+    },
+    {
+      "check": "only_one_call",
+      "pass": true
+    },
+    {
+      "check": "call_identity",
+      "pass": true
+    },
+    {
+      "check": "call_failed_billing_unknown",
+      "pass": true
+    },
+    {
+      "check": "same_first_task",
+      "pass": true
+    },
+    {
+      "check": "old_source_root",
+      "pass": true
+    },
+    {
+      "check": "old_ten_sources",
+      "pass": true
+    },
+    {
+      "check": "new_five_sources",
+      "pass": true
+    },
+    {
+      "check": "artifact:calls/reference_v15_original4_001_case_01_reference_round_0-1/codex_events.jsonl",
+      "pass": true
+    },
+    {
+      "check": "artifact:calls/reference_v15_original4_001_case_01_reference_round_0-1/codex_request.json",
+      "pass": true
+    },
+    {
+      "check": "artifact:calls/reference_v15_original4_001_case_01_reference_round_0-1/codex_stderr.log",
+      "pass": true
+    },
+    {
+      "check": "artifact:calls/reference_v15_original4_001_case_01_reference_round_0-1/intent.json",
+      "pass": true
+    },
+    {
+      "check": "artifact:calls/reference_v15_original4_001_case_01_reference_round_0-1/output_schema.json",
+      "pass": true
+    },
+    {
+      "check": "artifact:calls/reference_v15_original4_001_case_01_reference_round_0-1/process_exit.json",
+      "pass": true
+    },
+    {
+      "check": "artifact:calls/reference_v15_original4_001_case_01_reference_round_0-1/prompt.txt",
+      "pass": true
+    },
+    {
+      "check": "artifact:campaign.json",
+      "pass": true
+    },
+    {
+      "check": "artifact:root_worker_001/launch_intent.json",
+      "pass": true
+    },
+    {
+      "check": "artifact:root_worker_001/start.json",
+      "pass": true
+    },
+    {
+      "check": "artifact:root_worker_001/stdout.log",
+      "pass": true
+    },
+    {
+      "check": "artifact:root_worker_001/stderr.log",
+      "pass": true
+    },
+    {
+      "check": "artifact:failure_audit_001/receipt.json",
+      "pass": true
+    },
+    {
+      "check": "thirteen_bounded_originals",
+      "pass": true
+    },
+    {
+      "check": "exact_invocation_files",
+      "pass": true
+    },
+    {
+      "check": "mandatory_artifact_pins",
+      "pass": true
+    },
+    {
+      "check": "scope_artifact_pins",
+      "pass": true
+    },
+    {
+      "check": "original_prompt_bytes",
+      "pass": true
+    },
+    {
+      "check": "original_horizon_contract",
+      "pass": true
+    },
+    {
+      "check": "semantic_identity",
+      "pass": true
+    },
+    {
+      "check": "wire_exact_repair",
+      "pass": true
+    },
+    {
+      "check": "request_intent",
+      "pass": true
+    },
+    {
+      "check": "exit_evidence",
+      "pass": true
+    },
+    {
+      "check": "event_sequence",
+      "pass": true
+    },
+    {
+      "check": "no_usage:0",
+      "pass": true
+    },
+    {
+      "check": "no_usage:1",
+      "pass": true
+    },
+    {
+      "check": "only_code_mode_warning",
+      "pass": true
+    },
+    {
+      "check": "no_usage:2",
+      "pass": true
+    },
+    {
+      "check": "no_usage:3",
+      "pass": true
+    },
+    {
+      "check": "definite_schema_rejection:3",
+      "pass": true
+    },
+    {
+      "check": "no_usage:4",
+      "pass": true
+    },
+    {
+      "check": "definite_schema_rejection:4",
+      "pass": true
+    },
+    {
+      "check": "closed_checkpoint",
+      "pass": true
+    },
+    {
+      "check": "four_wb_pins",
+      "pass": true
+    },
+    {
+      "check": "wb_state:reference_v15_original4_001_case_01_reference",
+      "pass": true
+    },
+    {
+      "check": "wb_original_preparation_path:reference_v15_original4_001_case_01_reference",
+      "pass": true
+    },
+    {
+      "check": "wb_state:reference_v15_original4_001_case_02_reference",
+      "pass": true
+    },
+    {
+      "check": "wb_original_preparation_path:reference_v15_original4_001_case_02_reference",
+      "pass": true
+    },
+    {
+      "check": "wb_state:reference_v15_original4_001_case_03_reference",
+      "pass": true
+    },
+    {
+      "check": "wb_original_preparation_path:reference_v15_original4_001_case_03_reference",
+      "pass": true
+    },
+    {
+      "check": "wb_state:reference_v15_original4_001_case_04_reference",
+      "pass": true
+    },
+    {
+      "check": "wb_original_preparation_path:reference_v15_original4_001_case_04_reference",
+      "pass": true
+    },
+    {
+      "check": "no_correction_yet",
+      "pass": true
+    },
+    {
+      "check": "single_scope_exception",
+      "pass": true
+    },
+    {
+      "check": "scope_same_identity",
+      "pass": true
+    },
+    {
+      "check": "no_public_actions_or_success",
+      "pass": true
+    },
+    {
+      "check": "original_six_hour_clock",
+      "pass": true
+    },
+    {
+      "check": "unexpired_snapshot",
+      "pass": true
+    },
+    {
+      "check": "same_budget_room",
+      "pass": true
+    },
+    {
+      "check": "no_ready_in_preparation",
+      "pass": true
+    },
+    {
+      "check": "all_inputs_unchanged",
+      "pass": true
+    }
+  ],
+  "original_artifacts": [
+    {
+      "relative_path": "calls/reference_v15_original4_001_case_01_reference_round_0-1/codex_events.jsonl",
+      "bytes": 1040,
+      "sha256": "ee3b52d18bbe938741fe687925986cc7d2462859d0c8fff2658421dfda5d49a8"
+    },
+    {
+      "relative_path": "calls/reference_v15_original4_001_case_01_reference_round_0-1/codex_request.json",
+      "bytes": 3241,
+      "sha256": "c420f45062b2fd3210740a674b8bd5206073db303f7748f260e333e4d9732534"
+    },
+    {
+      "relative_path": "calls/reference_v15_original4_001_case_01_reference_round_0-1/codex_stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "relative_path": "calls/reference_v15_original4_001_case_01_reference_round_0-1/intent.json",
+      "bytes": 5014,
+      "sha256": "d7f4b01895e73f2c8ca009e2727822739faebe5a7413bb3791b38e687c4ca825"
+    },
+    {
+      "relative_path": "calls/reference_v15_original4_001_case_01_reference_round_0-1/output_schema.json",
+      "bytes": 2564,
+      "sha256": "84b3180cd9c56854e18912279896d3dade48cd29b6020a614015b6bda495cb9d"
+    },
+    {
+      "relative_path": "calls/reference_v15_original4_001_case_01_reference_round_0-1/process_exit.json",
+      "bytes": 274,
+      "sha256": "a3078edb3cf6d24f2ca8ce07c9313a946e153476c0f39aa1ae398641173cb854"
+    },
+    {
+      "relative_path": "calls/reference_v15_original4_001_case_01_reference_round_0-1/prompt.txt",
+      "bytes": 9919,
+      "sha256": "08f715a27ab3c14c5dea62e80991e6215a83dba5ba57953be5e8227d74df73bb"
+    },
+    {
+      "relative_path": "campaign.json",
+      "bytes": 30455,
+      "sha256": "bc3ef9d9acdd918f0a7e28095654f890aeee4946f519a19ac7c4ac0ad6031448"
+    },
+    {
+      "relative_path": "root_worker_001/launch_intent.json",
+      "bytes": 872,
+      "sha256": "7a256230f2709cd9dcd06b390a6337b9a2d01e65531e8f3fce7a95e2acf4c341"
+    },
+    {
+      "relative_path": "root_worker_001/start.json",
+      "bytes": 803,
+      "sha256": "90cab7e310e8611fc2a4e448b48cac7867e661dac0c0c334c35fc1d6d04641ec"
+    },
+    {
+      "relative_path": "root_worker_001/stdout.log",
+      "bytes": 36242,
+      "sha256": "18c919ac3098bfe80869228392883d63853f7b81f378c4cfa87abfea48217371"
+    },
+    {
+      "relative_path": "root_worker_001/stderr.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "relative_path": "failure_audit_001/receipt.json",
+      "bytes": 4019,
+      "sha256": "15bc2fccf3c7344374ce01b5bbd46a19d93441ef08cd983f2b3e3b7968015307"
+    }
+  ],
+  "event_metadata": [
+    {
+      "ordinal": 0,
+      "type": "thread.started",
+      "top_level_keys": [
+        "thread_id",
+        "type"
+      ],
+      "usage_present": false
+    },
+    {
+      "ordinal": 1,
+      "type": "item.completed",
+      "top_level_keys": [
+        "item",
+        "type"
+      ],
+      "usage_present": false,
+      "item_type": "error"
+    },
+    {
+      "ordinal": 2,
+      "type": "turn.started",
+      "top_level_keys": [
+        "type"
+      ],
+      "usage_present": false
+    },
+    {
+      "ordinal": 3,
+      "type": "error",
+      "top_level_keys": [
+        "message",
+        "type"
+      ],
+      "usage_present": false,
+      "error": {
+        "type": "invalid_request_error",
+        "code": "invalid_json_schema",
+        "param": "text.format.schema",
+        "status": 400
+      }
+    },
+    {
+      "ordinal": 4,
+      "type": "turn.failed",
+      "top_level_keys": [
+        "error",
+        "type"
+      ],
+      "usage_present": false,
+      "error": {
+        "type": "invalid_request_error",
+        "code": "invalid_json_schema",
+        "param": "text.format.schema",
+        "status": 400
+      }
+    }
+  ],
+  "original_process": {
+    "invocation_id": "9d0928d9-4217-46d9-8668-24854607bfb7",
+    "exit_observed": true,
+    "process_started": true,
+    "process_exit_code": 1
+  },
+  "prompt": {
+    "bytes": 9919,
+    "raw_sha256": "08f715a27ab3c14c5dea62e80991e6215a83dba5ba57953be5e8227d74df73bb",
+    "gateway_hash": "0fb2c86e2e27ef032643eef39cfe1ceabb25140c231e03edce953e76f467b376",
+    "content_exported": false
+  },
+  "schema": {
+    "changed_json_pointers": [
+      "/properties/candidates/items/properties/horizons/enum",
+      "/properties/candidates/items/properties/horizons/minItems",
+      "/properties/candidates/items/properties/horizons/maxItems"
+    ],
+    "semantic_content_hash": "fd0c6be001d663b0c171d3f7d22c324fad1cbbe80261ccd9f1a7a3ada65b955f",
+    "wire_content_hash": "1c3b18e62c169dc322fceee6e87460a29428ada172fbec50ba4411c1307384c0",
+    "original_horizon_node": {
+      "type": "array",
+      "enum": [
+        [
+          1,
+          5,
+          10
+        ]
+      ],
+      "items": {
+        "type": "integer",
+        "enum": [
+          1,
+          5,
+          10
+        ]
+      }
+    },
+    "wire_horizon_node": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "enum": [
+          1,
+          5,
+          10
+        ]
+      },
+      "minItems": 3,
+      "maxItems": 3
+    }
+  },
+  "workbenches": [
+    {
+      "task_run_id": "reference_v15_original4_001_case_01_reference",
+      "case_id": "case_01",
+      "arm": "baseline",
+      "scope_hash": "f5eec264f261d5e30ebd498d7e1a40dcf3210fb7599255b28598bbffe5272e8f",
+      "root": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_reference_preparations/reference_v15_original4_001/workbenches/reference_v15_original4_001_case_01_reference",
+      "status": "ready",
+      "queries": 0,
+      "candidates": 0,
+      "final_attempts": 0,
+      "frozen_public_sha256": "b747cce56bf366c728edda50fc093c5d4c47e1bd6b755b724fb5b1d0cec61cfb",
+      "state_hash": "89a62c93a6e5f11fc28ed61091d4f98ed59577b3abe354fdbd7a057113846cf7"
+    },
+    {
+      "task_run_id": "reference_v15_original4_001_case_02_reference",
+      "case_id": "case_02",
+      "arm": "baseline",
+      "scope_hash": "63126f0b959a5e3e2838d26e4c1187cdeac595b612a3be6ec16d8eb0a5ddc315",
+      "root": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_reference_preparations/reference_v15_original4_001/workbenches/reference_v15_original4_001_case_02_reference",
+      "status": "ready",
+      "queries": 0,
+      "candidates": 0,
+      "final_attempts": 0,
+      "frozen_public_sha256": "7cbc61e4b093b50f338d0928e192a18b8e51d83393f9a30f853d15e8276dbc2e",
+      "state_hash": "1fac841b90ca6184676f091755b551f2655f4afe56e0ae218b344f0b450c8fe6"
+    },
+    {
+      "task_run_id": "reference_v15_original4_001_case_03_reference",
+      "case_id": "case_03",
+      "arm": "baseline",
+      "scope_hash": "3092ceff9b9392fb876c67116c5dee05a3d81af569efd6f441b0deb389f785eb",
+      "root": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_reference_preparations/reference_v15_original4_001/workbenches/reference_v15_original4_001_case_03_reference",
+      "status": "ready",
+      "queries": 0,
+      "candidates": 0,
+      "final_attempts": 0,
+      "frozen_public_sha256": "81a5265693430f3ca7c496c7fc99c5679fc4fa7ad96d533a79ea9f75809afdb1",
+      "state_hash": "81bcd7a18097a518ac33e37258622cf84c54a4b6dc6b5ad7f2cb4e32a0395abe"
+    },
+    {
+      "task_run_id": "reference_v15_original4_001_case_04_reference",
+      "case_id": "case_04",
+      "arm": "baseline",
+      "scope_hash": "3e806c4709e181fb4fbfc0620d526b4550871f057ed525315f180f7aec2798c3",
+      "root": "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_reference_preparations/reference_v15_original4_001/workbenches/reference_v15_original4_001_case_04_reference",
+      "status": "ready",
+      "queries": 0,
+      "candidates": 0,
+      "final_attempts": 0,
+      "frozen_public_sha256": "faa43ecdaea1f05724e298e63e80f8c96abb06478d88b58b56c24a82e8d8f6b6",
+      "state_hash": "e82a72eea00360dee7fa464629876de34161eabf3253617301e238d8df1397ec"
+    }
+  ],
+  "original_call_count": 1,
+  "correction_table_present": false,
+  "correction_count": 0,
+  "budget": {
+    "per_task_max_calls": 17,
+    "max_queries_per_task": 16,
+    "max_candidates_per_task": 12,
+    "max_finals_per_task": 1,
+    "max_attempts_per_step": 1,
+    "max_calls": 68,
+    "hard_tokens": 2400000,
+    "per_task_hard_tokens": 600000,
+    "reserve_tokens_per_call": 80000,
+    "soft_tokens": 300000,
+    "max_call_seconds": 3600,
+    "max_runtime_seconds": 21600,
+    "max_public_context_bytes": 1048576
+  },
+  "nominal_exposure_before": 80000,
+  "nominal_exposure_if_reserved": 160000,
+  "reported_usage_availability": "unreported_not_zero_bill",
+  "created_epoch": 1788728483.6826499,
+  "deadline_epoch": 1788750083.6826499,
+  "deadline_utc": "2026-09-07T03:01:23.682650+00:00",
+  "seconds_remaining_at_snapshot": 17304.238976240158,
+  "read_input_manifest": {
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_transport_correction_preparations/reference_v15_original4_001_permit_001/permit.json": {
+      "sha256": "5af20e57af525105fff9484d2c763282e9edc377282f3bf80f874c76e6a1198c",
+      "bytes": 17016
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_transport_correction_preparations/reference_v15_original4_001_permit_001/preparation_receipt.json": {
+      "sha256": "117e8116a749658a1ea213d3468ae5a64ecf8d583abc71757ee0d252f9bdbefc",
+      "bytes": 978
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_transport_correction_preparations/reference_v15_original4_001_scope_001/scope.json": {
+      "sha256": "349eddbd9771ccb2ebd860d3454ef35104a53f39582ec0aaddaacf618a42c970",
+      "bytes": 4423
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_references/registry.json": {
+      "sha256": "b6b1d4c0ae1ccabbc4bb27deb5d1233e8b4598f75224d750c412e76e189e0316",
+      "bytes": 100
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_references/active.json": {
+      "sha256": "3150eab7c53e3ba531204f5ec0cf51736353dbf1a0485b22a98707e5465014b2",
+      "bytes": 131
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/campaign.json": {
+      "sha256": "bc3ef9d9acdd918f0a7e28095654f890aeee4946f519a19ac7c4ac0ad6031448",
+      "bytes": 30455
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/ledger.sqlite3": {
+      "sha256": "2415d2a95467ce50c30fa86db59468a35c03a7b665996c51acf3a4942de4154d",
+      "bytes": 61440
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_ashare_revision15/src/quanta_agents/meta/casebank_campaign.py": {
+      "sha256": "4e56a278715b672d422c4aebe7468217c58920640c8f0b820efcb11c84e5d02a",
+      "bytes": 24614
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_ashare_revision15/src/quanta_agents/meta/casebank_live.py": {
+      "sha256": "8bd36896ed1445cae29addf3f7decabad05c171367ee60240c4f9a0603074a60",
+      "bytes": 13605
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_ashare_revision15/src/quanta_agents/meta/casebank_workbench.py": {
+      "sha256": "ea2941fc5776e72c32a47f67b01c169b94a754945b0ce85ee8a3af8b04fb9ff3",
+      "bytes": 52323
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_ashare_revision15/src/quanta_agents/meta/casebank_public.py": {
+      "sha256": "44387f637d7bfbb78a11c6cf415037d2f2b7624e8c976b8d13b5de56d3dc5695",
+      "bytes": 3280
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_ashare_revision15/src/quanta_agents/meta/horizon_diagnostics.py": {
+      "sha256": "13c60faf9272e794291d20ddeb0aa12f694ec968a901a7c563e88aa9318553e5",
+      "bytes": 23449
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_ashare_revision15/src/quanta_agents/meta/event_conditioning.py": {
+      "sha256": "f06a0038fe09cd7a5a31158a08100febc7d00e0a7f8401f8b01dcc60e07ebaef",
+      "bytes": 29162
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_ashare_revision15/src/quanta_agents/meta/diagnostic_campaign.py": {
+      "sha256": "9ce41fff24d71099edfaa8f037b67906bc56c63878b2d61cadb9bf4ee7e29dfb",
+      "bytes": 34945
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_ashare_revision15/src/quanta_agents/meta/diagnostic_live.py": {
+      "sha256": "9c84be10746f88b5ca854e561c03ea2fe6ac787ccc137e4cf341f190acfb9992",
+      "bytes": 20980
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_ashare_revision15/src/quanta_agents/meta/codex_gateway.py": {
+      "sha256": "f4b7d865ce2de39765324cad1afcd2a2f42cd856514eac997c2845ebb9f20e99",
+      "bytes": 43724
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_ashare_revision15/src/quanta_agents/meta/store.py": {
+      "sha256": "a722ca5256125f3eb10cedce51e3324f9eea8740672a6152597c795c3e2e9929",
+      "bytes": 11142
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_ashare_revision16/src/quanta_agents/meta/transport_correction.py": {
+      "sha256": "5fa687acd947870d4b4fd2896a1a693e6f1e3de9c8a28614336e82ffbff0d3f1",
+      "bytes": 33860
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_ashare_revision16/src/quanta_agents/meta/codex_gateway.py": {
+      "sha256": "5afa3dcbbd8d8c6f2a649aebfc86f787cd83d54ddfb547ec2967e68c2e6b2b95",
+      "bytes": 44082
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_ashare_revision16/src/quanta_agents/meta/structured_output_profile.py": {
+      "sha256": "276481336f2b647717c83bb46be1def6a366fa5e1de072f61c58b1f78a8bdf38",
+      "bytes": 3409
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_ashare_revision16/src/quanta_agents/meta/diagnostic_campaign.py": {
+      "sha256": "9ce41fff24d71099edfaa8f037b67906bc56c63878b2d61cadb9bf4ee7e29dfb",
+      "bytes": 34945
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_ashare_revision16/src/quanta_agents/meta/store.py": {
+      "sha256": "a722ca5256125f3eb10cedce51e3324f9eea8740672a6152597c795c3e2e9929",
+      "bytes": 11142
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/calls/reference_v15_original4_001_case_01_reference_round_0-1/codex_events.jsonl": {
+      "sha256": "ee3b52d18bbe938741fe687925986cc7d2462859d0c8fff2658421dfda5d49a8",
+      "bytes": 1040
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/calls/reference_v15_original4_001_case_01_reference_round_0-1/codex_request.json": {
+      "sha256": "c420f45062b2fd3210740a674b8bd5206073db303f7748f260e333e4d9732534",
+      "bytes": 3241
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/calls/reference_v15_original4_001_case_01_reference_round_0-1/codex_stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/calls/reference_v15_original4_001_case_01_reference_round_0-1/intent.json": {
+      "sha256": "d7f4b01895e73f2c8ca009e2727822739faebe5a7413bb3791b38e687c4ca825",
+      "bytes": 5014
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/calls/reference_v15_original4_001_case_01_reference_round_0-1/output_schema.json": {
+      "sha256": "84b3180cd9c56854e18912279896d3dade48cd29b6020a614015b6bda495cb9d",
+      "bytes": 2564
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/calls/reference_v15_original4_001_case_01_reference_round_0-1/process_exit.json": {
+      "sha256": "a3078edb3cf6d24f2ca8ce07c9313a946e153476c0f39aa1ae398641173cb854",
+      "bytes": 274
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/calls/reference_v15_original4_001_case_01_reference_round_0-1/prompt.txt": {
+      "sha256": "08f715a27ab3c14c5dea62e80991e6215a83dba5ba57953be5e8227d74df73bb",
+      "bytes": 9919
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/root_worker_001/launch_intent.json": {
+      "sha256": "7a256230f2709cd9dcd06b390a6337b9a2d01e65531e8f3fce7a95e2acf4c341",
+      "bytes": 872
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/root_worker_001/start.json": {
+      "sha256": "90cab7e310e8611fc2a4e448b48cac7867e661dac0c0c334c35fc1d6d04641ec",
+      "bytes": 803
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/root_worker_001/stdout.log": {
+      "sha256": "18c919ac3098bfe80869228392883d63853f7b81f378c4cfa87abfea48217371",
+      "bytes": 36242
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/root_worker_001/stderr.log": {
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_references/campaigns/reference_v15_original4_001/failure_audit_001/receipt.json": {
+      "sha256": "15bc2fccf3c7344374ce01b5bbd46a19d93441ef08cd983f2b3e3b7968015307",
+      "bytes": 4019
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_transport_correction_preparations/reference_v15_original4_001_scope_001/original_prompt.txt": {
+      "sha256": "08f715a27ab3c14c5dea62e80991e6215a83dba5ba57953be5e8227d74df73bb",
+      "bytes": 9919
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_transport_correction_preparations/reference_v15_original4_001_scope_001/wire_schema.json": {
+      "sha256": "c297833fc1e9d0b2a8fb15da4336982d9db44732946af1856db2c58a47a22d01",
+      "bytes": 5131
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/docs/research/meta_framework_v8_handoff/checkpoint_20260907_018.json": {
+      "sha256": "ecb215c0a778195f6839a1015de34cd1b0eee033141ace74bbe495e6e34d3af3",
+      "bytes": 14419
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_reference_preparations/reference_v15_original4_001/workbenches/reference_v15_original4_001_case_01_reference/frozen_public.json": {
+      "sha256": "b747cce56bf366c728edda50fc093c5d4c47e1bd6b755b724fb5b1d0cec61cfb",
+      "bytes": 370140
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_reference_preparations/reference_v15_original4_001/workbenches/reference_v15_original4_001_case_01_reference/casebank_workbench.sqlite3": {
+      "sha256": "17e1ea892499b63b72f52979e72162367724162600b236399edec82e5fba69ba",
+      "bytes": 45056
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_reference_preparations/reference_v15_original4_001/workbenches/reference_v15_original4_001_case_02_reference/frozen_public.json": {
+      "sha256": "7cbc61e4b093b50f338d0928e192a18b8e51d83393f9a30f853d15e8276dbc2e",
+      "bytes": 370285
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_reference_preparations/reference_v15_original4_001/workbenches/reference_v15_original4_001_case_02_reference/casebank_workbench.sqlite3": {
+      "sha256": "0380f1b960b902f3d95b6eec1628cf8792c03154ef14378e7dd959fe274f6119",
+      "bytes": 45056
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_reference_preparations/reference_v15_original4_001/workbenches/reference_v15_original4_001_case_03_reference/frozen_public.json": {
+      "sha256": "81a5265693430f3ca7c496c7fc99c5679fc4fa7ad96d533a79ea9f75809afdb1",
+      "bytes": 370342
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_reference_preparations/reference_v15_original4_001/workbenches/reference_v15_original4_001_case_03_reference/casebank_workbench.sqlite3": {
+      "sha256": "59dd150c92d6d8559092ec04538e7c3c990d94b4ec728b171b1cae45f89d9e40",
+      "bytes": 45056
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_reference_preparations/reference_v15_original4_001/workbenches/reference_v15_original4_001_case_04_reference/frozen_public.json": {
+      "sha256": "faa43ecdaea1f05724e298e63e80f8c96abb06478d88b58b56c24a82e8d8f6b6",
+      "bytes": 370219
+    },
+    "/Users/leslie/Downloads/中证500量化60min/c5_core/code/QuantaAgents/experiment_traces/meta_casebank_reference_preparations/reference_v15_original4_001/workbenches/reference_v15_original4_001_case_04_reference/casebank_workbench.sqlite3": {
+      "sha256": "583076384cf4d457e2ecdcd85b8e45a0581c924d306775244649f1ae076661b0",
+      "bytes": 45056
+    }
+  },
+  "changed_inputs": [],
+  "audit_harness_note": "An earlier in-memory audit assumed WB roots under campaign and stopped before output on Path.relative_to. Frozen actual plan intentionally places all four WBs in the separate original preparation root; current constructor follows these plan paths. This was an auditor assumption failure, not a product failure. Final checks validate the exact original preparation paths.",
+  "limitations": [
+    "Static metadata checks do not construct a controller or produce approval.",
+    "No current process or lease ownership check was performed; root must freshly establish these before separate admission.",
+    "No provider acceptance or actual model verification is established.",
+    "Saved local rejection is not zero-invoice or supplier-wide liveness evidence.",
+    "Corrective response would remain pending full Workbench validation and unapplied.",
+    "Frozen public files were hashed only; public price CSVs, keys and evaluator-private files were not read.",
+    "Deadline check is only valid at the recorded snapshot."
+  ]
+}
