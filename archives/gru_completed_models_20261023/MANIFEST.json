@@ -1,0 +1,3155 @@
+{
+  "schema": "additional_obsolete_GRU_archive_v1",
+  "repository": "xiezhongyan2015-debug/quantagent",
+  "branch": "archive/gru-results-20261021",
+  "tag": "gru-completed-models-20261023",
+  "files": [
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed188/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7641187,
+      "sha256": "1192f450199ce6426bc70f5dded3eb01d76c31704e6b67fd7fdb7b6dbac71af5"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed188/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579893,
+      "sha256": "de4226cc35ca777ad209a55a872540a2a5732c68bc448c59c473db9f5fa1ed22"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed188/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7629436,
+      "sha256": "af1019cc223bfdc8dd7364420f8966fbef974532efc72b7539b69b7a4a2bc590"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed155/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7646037,
+      "sha256": "107c7c9b069001a7212d0835a0c063e025310d231c0b97800a1e605d490add16"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed155/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579893,
+      "sha256": "d08634c21b10ec03bd151104ce45626b9b4d9cd67d595dd59f1c55e7f2bb3130"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed155/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7623927,
+      "sha256": "7c17229c7a7fd829af0ad6c24d6978fbe3ab3fc721de074478a2e10bf070d557"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed66/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7630754,
+      "sha256": "a39fb1943ea65ffab7ed636bc564c95d03f44a1d2859a2c92775a1017c742b2a"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed66/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579893,
+      "sha256": "78a8db93268b83ff2df36b3891f35763f9ca3ec991b4474a40c6d1666f01b1c6"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed66/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7637263,
+      "sha256": "4674a9d86f35ef3cb96248fb3f878688740fde2957fb4c9e56840fe10093bef7"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed166/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7640859,
+      "sha256": "807e82d9e89fa13eefe91b8d010a9946b072955e122ebf59ecd75679a014dbc4"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed166/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579893,
+      "sha256": "cbebc01ee1202c1e85166a54e7f5a3d2fdc7590f22730cc202afae6f4e149852"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed166/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7641673,
+      "sha256": "520e1edc3033c827d96c563912332e43f49962f4ce2685706428ac849472d4f5"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed144/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7649949,
+      "sha256": "05db18d400ab9d8dd0998775dfc7c24fec821422669af04f8ca69c602da2268e"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed144/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579893,
+      "sha256": "2dd3b60130779f635a9f2b1d8177faf50bee9ab564d38f389bbd0e74d597fcc0"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed144/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7634922,
+      "sha256": "628ed9673f233bb2e01e7e26078e731c156643030bd9249f496308f1d785fca4"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed88/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7662273,
+      "sha256": "c2e2097bd0a9598ef8a4aed29a044c1aa1cd904646b9a962dd4da88207c3504b"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed88/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579957,
+      "sha256": "5b3bc13181e7209b9572fae32f3b170505af16d4a9b0f1d5f7d5e2ec413a134d"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed88/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7669483,
+      "sha256": "64b31153b68391241bf5214182709b7b08fcb3d0431e5e8158736c955567658d"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed122/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7646818,
+      "sha256": "212aab04681308e71acf245901638e85705537206a5e1681472bcaa7547e73c0"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed122/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579893,
+      "sha256": "a03ba26b4193ec402e803c691626cccc45322a0fefc0a881cfff8f0782487874"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed122/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7655080,
+      "sha256": "71fe1d169006d26ad2c6f187d2a699bdd21ecef7403cbe4b6e21a60a2ffecc4b"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed177/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7644463,
+      "sha256": "46e91789fd3422b98d56d326edcdd66f69e996578e70b5e90c06ec30800e8d80"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed177/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579893,
+      "sha256": "f65fb90ddc0b621a7df659180a6c2ff385cc039c1053d49acbc9403aa7c9c081"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed177/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7607976,
+      "sha256": "1cb6992286ffec351d6c928ddfb0c9a38694633edf214538ef27425641608470"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed211/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7631888,
+      "sha256": "b6ce71f9f991f0bffa115fa78f873412bd054588e3081de4af68381e04121cc9"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed211/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579957,
+      "sha256": "f91e0663366734d0e6597811610847d623a7afb3256b26130774de6cdde12716"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed211/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7619563,
+      "sha256": "1359728d136f5444dfc16f15a08da206d7022c31550f79cbc0f52067b996c67d"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed222/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7659136,
+      "sha256": "e9c5914b97a974ac13755c6b51becdd0cca5c897fd8fffe770b16447827747b3"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed222/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579893,
+      "sha256": "59157a9733135a74c5bccc841e79f17f692a8ebf98747688ed0b484977efaa70"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed222/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7651581,
+      "sha256": "fb7822979435ac0a6708253882e66884fe3bc687e9454b0791d8b29c395f8400"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed133/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7660429,
+      "sha256": "ab93888837c6c22b504f4d5401312f639ce576a68d4cdf0f0fc787e3a8e6d3ba"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed133/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579893,
+      "sha256": "20f74aade4b5befdde1b4f3a999c240ea1c3715163b1778b179294b5305e873a"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed133/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7630418,
+      "sha256": "7b4aa81e5b81f2ca7dbb778f336d2cf96e894c9c3de2c504762a16c62cdfd243"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed77/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7675561,
+      "sha256": "f8e755ce00a4b23b3dfdcda517a69ab7db7d51c7614c1fab9fed52836f0d2e9a"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed77/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579893,
+      "sha256": "0347972c0a5cf13a4d73068b64173940d3fcdd1e240bf36a4d0d8cc9d1497857"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed77/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7662857,
+      "sha256": "f23d41af10455947b60f94bd051a6ca01f8de4e6e67576e1de630f8ec649ba28"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed99/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7637431,
+      "sha256": "dc0a1e4c9ba86db7496515d0a8ec835f2968ba2703f9f9b190a2de1a2b26fdac"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed99/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579829,
+      "sha256": "f85afb0544ad58d70eeabb8786b29ec36672b428b7a20886c0f84f77d263acd6"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed99/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7637508,
+      "sha256": "2216264a5a5c3f92e001638f855749b605b991187e1f74b10ec292e237e76624"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed199/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7634855,
+      "sha256": "cc758d1898fbea51620992fa318116677abd691b8f02fcc84783f532f712ea64"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed199/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579829,
+      "sha256": "530669b9b7a3ffb16e01a7d6de03601caef550032ee87cfbc9e6c9a51f892d5a"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed199/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7631197,
+      "sha256": "82c835d2a0cc30473776baff50d7ebfc32b49d2b7b34a5b0ac0b3c69ccbe71a1"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed111/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7602266,
+      "sha256": "c88662832679599a376676bc5714c9be010d433f2e37ac2a7027a62fb6c406de"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed111/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579893,
+      "sha256": "60e51a3911d8da562ffc0bb272113601277e825fff45487e663071e243bd0295"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2022/control_seed111/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7608755,
+      "sha256": "31b97132e336e117acbaee96e9e64cb60cb6a2eafa1374c69040924e4513505e"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed188/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7665242,
+      "sha256": "46eef8a07fec74d318fedd6c0bcbe82f2ed796cedb384bb70df819ecbeb992d7"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed188/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579893,
+      "sha256": "b591443102df7f6e232b60d2cee52fea985b6587d05a6f564c5885450750a025"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed188/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7645956,
+      "sha256": "77c0c044f1819c0228d4d6ef407b3b5dcab8ba49e5d4594d772f802383fdf9da"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed155/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7668849,
+      "sha256": "7971c832fce5f55f8da17ff48887b176d7eddc016094106261965768a4e8c236"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed155/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579893,
+      "sha256": "3493b6d952f73aee69f0432ac266ba2867f38002538aa132003d6a97acdae941"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed155/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7665738,
+      "sha256": "c6dc14e9c3c1381c85dc5cf7cbb9a011a9c3a4284d40ccb1bfac9081437970c9"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed66/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7672014,
+      "sha256": "8ad5e3659c7b8050d9f8566ba6f3f1d2a48a888768de6a24ade90bb84de84450"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed66/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579893,
+      "sha256": "a6b9cb892f16f59106b802b946f8a5ae66d93dea4f8e814bbbd5c02dc13c03c6"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed66/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7664500,
+      "sha256": "bb7fd82159daacb29151354b257a01581764234119bab94242857c085dc4ed03"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed166/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7669975,
+      "sha256": "4b3876251f6e4109248058305454c80ee7f2a102ec09417343903941b2862b93"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed166/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579893,
+      "sha256": "0f350ca1ed2fdd193ba5137585c1675488f430ba140a336f891df196dcefbfcd"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed166/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7642068,
+      "sha256": "106d30569045b0b3c79f48ecefe9cfe64f155be552ac741a4717ee4200aeb75c"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed144/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7651941,
+      "sha256": "39885e4fb39ccc6c3fab5c74a69906a39e8d2336a27d7c5e795308cfe98f4edc"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed144/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579893,
+      "sha256": "86e4c6f84004e424b8c8b77c484ecad9a2ed5d00f8c425cb589b8b0c672c3dd6"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed144/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7642816,
+      "sha256": "7a4671e990fa22aff333f7f169298da3b972a134ec2ca1627a151aacdc6db98a"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed88/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7705875,
+      "sha256": "b4336ed299877f1f6825c4e6f86710bd07c09de5d8c0b70976f38b0ca5e21f13"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed88/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579957,
+      "sha256": "fe1d9b2e0c35c2393f4bf57f9c9cfd26b2014cc53af2fa160ea927a18cbb187e"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed88/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7581473,
+      "sha256": "2dc036810de13ed5806df00afce23651a403e613c347a95d4776c141ae99cc43"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed122/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7681641,
+      "sha256": "ebdf6837e526d222d7c28e25bb6db134cc245ea615f9a03c67ec8a2e891ea5ce"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed122/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579893,
+      "sha256": "cab5fc83b6f6ff3d929e981c4ea7a2e7e89ffa4eb66b38ac2a53fb151774b6c2"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed122/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7691100,
+      "sha256": "304e294692558174f9b35e367dce6f72d704e480d2be9c8325e7c4708a0c917a"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed177/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7676773,
+      "sha256": "8fb66d4b3cba8d9893b90b37b9a248b15c27424e84bfa0bb12a0bdcf05a1064b"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed177/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579893,
+      "sha256": "a864f57779b505fffbc898663fe94bb9a8b921a335a2b2f10562955070beeb81"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed177/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7686412,
+      "sha256": "1187a913bb9a12d2442ec7e76b85b17a9ed1d28d5df71cb72ec97297148dfe53"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed211/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7675458,
+      "sha256": "7ef59406a939f1ff80237bc31c93ebad4b94f67a5d91744521b9f0ada453c0ac"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed211/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579957,
+      "sha256": "fcc309c6c7ff7d3a5663b6a43be2f728befa883ab13dfea9ac40ef2e9b350957"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed211/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7680104,
+      "sha256": "bc9980d6f5642a00aae8af8c818bd891290ff8561867dcaf5a780298d6159e35"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed222/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7672033,
+      "sha256": "a341cdca9bde4422e041c2a9324b6a55e80554b9cfc87147319a65e2b44bc4e9"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed222/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579893,
+      "sha256": "3faf75d1bebd2b150a2014a3dd8dc2e35d9ed7921629aedffb514063f09b2709"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed222/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7650678,
+      "sha256": "e8e1788cd460cb390832216d2100fa0e6e451f59dec23344d58e175ee29fc2f7"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed133/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7650166,
+      "sha256": "0a7580db3f5fc5f3947e5d439a6b58a6dbe799f83fa8ac67d18a2969d6189899"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed133/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579893,
+      "sha256": "30a4c3ec690676b74fc0a3d175c1c9fe39de952f8d0e10e83d5d0b9941ffae6c"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed133/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7620470,
+      "sha256": "91722160df7dcde0f9fcd99700e83ec801ddd3574db4813aad0dc418db4bc728"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed77/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7674993,
+      "sha256": "1737eea03255c4c900fd51501b503eaa449d4663aad186da7a6015a47f44b034"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed77/last.pt",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 11579893,
+      "sha256": "03ec1fa1f231291910c2d1e3c5380f0853b0d0c78ef152346bc4fe1a5ea39991"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed77/test_scores.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7662151,
+      "sha256": "7294b33728d93ba2238ba82f60b484ebabd0f579127452ba17a2abfef16e5bb2"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed99/test_scores_swa.npz",
+      "part": "completed_gru_models_01.tar.gz",
+      "bytes": 7679196,
+      "sha256": "71141514021e20c2d5c7efe0fc9cf1186c2d4e861883b8376d06ff50466a7003"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed99/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579829,
+      "sha256": "04f17514c8ffdf990fdfa34c5dcce9308df796f1619ec93188f6f444e9b6d31f"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed99/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7633916,
+      "sha256": "89b7aec9367a423994f4d144055c1509bdee9c7049bfc7b4180c026a546e92d5"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed199/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7664778,
+      "sha256": "1d761429ba92ad0684d1b7b8a52b78f22df6accfd3598667334d675c120c3e47"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed199/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579829,
+      "sha256": "43210c6d2d603033e22c55090d7fe1ee1a45eafbbfc52a06bb93edc7933363c7"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed199/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7666241,
+      "sha256": "139cf4b25f8bb4f99c98a9d6744fe8d9c0590eefc4edb7eae948886c37b8c43e"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed111/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7643036,
+      "sha256": "b0380834c37d4ab02cb4e5adc3a27fafc3ef2ae940498f9c16e02f70fae7032d"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed111/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579893,
+      "sha256": "df4e36e541cea596c052396ffb24b6ee52580787c31d31779d69f1f2b99c67b6"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2023/control_seed111/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7653373,
+      "sha256": "41af668e42242f709d4d4d5684f350655443037a49a599f26840cca6f02266e7"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed188/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7628380,
+      "sha256": "4a49b998ebc86d510a82c73b00eb6fa028759146eb990e33509878cea045e842"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed188/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579893,
+      "sha256": "9cc1003be343fbad5ec58b49ead66fe74e82cc37e172ea92b8b8dac7e1e9cbf4"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed188/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7631981,
+      "sha256": "391fc724ce0fa8eeec8340d0d7fd03d8a091a419a08da09dc73f2f192c8bc4ab"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed155/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7637678,
+      "sha256": "e6b5d279d72d9287cca1a9e0f8a1938b94b89c1ca22aaf2ffec1560bb112d858"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed155/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579893,
+      "sha256": "c697446e00e07b645e32d5af70e6be1eab592114a6b4e27e110bd94871ac4818"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed155/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7634888,
+      "sha256": "76609abaa300d4b06209ae4284b57aa20f2edcd1b5c482880fe9c24e82822605"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed66/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7628808,
+      "sha256": "0393eb5dd0eaf1e10d6c2e730252c84ee8cbd8a6ddc3c0e0579ff9882bac9a35"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed66/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579893,
+      "sha256": "22f475bd83048ee53f3494c56bed4a219f6575449635babc92ec4834a5a7cba9"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed66/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7604172,
+      "sha256": "998008dc94d6cb53ddeccbd9d200f07df081ce7defa1c3d40e52120fe2fbe78a"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed166/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7647934,
+      "sha256": "aa6e9a256bd93f3ac7201b5c90ac5f75f86c3e2c616933209d00f8d219334701"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed166/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579893,
+      "sha256": "84a6d08958f85d01c5e6da415f73feda66828a0ba9640b3b6b6d456d14a2291b"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed166/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7644515,
+      "sha256": "c43a2dcff569ace654e221bf7873d3d662505af0f1fda03ae4286ad2147c75ba"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed144/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7610714,
+      "sha256": "06ceaab3932f92ddbe3b0c07116939b7ec12869dd3defd1c3c9e03f4e4aaa0fb"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed144/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579893,
+      "sha256": "12ee069081a594db748a81d7b4d9c75210074d46e91980c2a79f26560a7b086b"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed144/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7606433,
+      "sha256": "a5ff39893fd9848526ab562da025b895055de749f53e963d800f2165327159a3"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed88/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7637839,
+      "sha256": "2ba26e3362688dd66dab4fef046ac9a99088cb59ed86f6d5f9e9de33da53d34d"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed88/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579957,
+      "sha256": "413c6b4ef5b7c92edb41c06a52554ebaeb3fa0e0f9df1fb2981530fc344748d4"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed88/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7618592,
+      "sha256": "9c2fdc023c74b414fc549bc5109a25d75e5eb7204e67423d04bdb977a3133328"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed122/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7648114,
+      "sha256": "3e0e13fb6d4c7a4b2fb17e3dc24a8977a1a660e0e48c4e0804d398c725898353"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed122/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579893,
+      "sha256": "1a5c21833507c726e2a4443dcff1fc30fc743d8751377dabefb8b2e89697f333"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed122/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7581295,
+      "sha256": "d604abd179937e34d38d6b3504d343a81bd807ad7dfc9583058bed816b108c32"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed177/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7642162,
+      "sha256": "ad2204c9bf70e9423fc9af8214f199ea2f718ee3784a64bbad71e9b1210cd1db"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed177/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579893,
+      "sha256": "97d17c76ceffbe4433ab8f3d1fefccde1ea071eb3ca490de6ca262cc12a9c26f"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed177/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7633062,
+      "sha256": "4c6c98e7bca48326a9fd012daa237e0d8840010be8bfaea1a9b1420ef2ff8fa4"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed211/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7635340,
+      "sha256": "3560fceea47189bedbad0d243a3918b8b0ea13ab834475b4e306cc6f7ef6c1ff"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed211/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579957,
+      "sha256": "4efb7f816ddf2bcd33f2666f4f8abafdd8cfb11adee3b4645489df210b0c8118"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed211/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7611619,
+      "sha256": "8530332da06cb1653ecc19e1b6b00550966ebe3ee95141df055fe2a932f2ff17"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed222/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7633326,
+      "sha256": "85b090861d781993b97eac5838dd0769af078e04b4d0dda97f5b505832594bf7"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed222/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579893,
+      "sha256": "4445c01379ecc2bf7ee474a8849b4de871811ad54a6802c01eb5d7adc1611b08"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed222/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7633429,
+      "sha256": "474bdfae71d71a8a0bfefc852326cf6efcba71f2c1ef2f885b0d6a0ae38f260f"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed133/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7658653,
+      "sha256": "1f7752134c63d6e17f10c674efe0c5e961da60439776fdc02249094d60cd8e48"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed133/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579893,
+      "sha256": "04f1fe8edcb3b0cd63e0ad4635aa84276ce00cff8a2de6812eec858472d44588"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed133/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7662207,
+      "sha256": "4fa0ec709f92f406a62a3245095fcc675b99d7ac591618bde5221b01e2a9fe40"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed77/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7655289,
+      "sha256": "f68e3d2589a3625b3c6493ccc8c8be0775c78acd5ac8797c08d1f67eb9b3713d"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed77/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579893,
+      "sha256": "9d538d15333614be8fc943808b269763609608386e0babcadd08844dc266cd06"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed77/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7603990,
+      "sha256": "73b2c0e4dc5acfabaef1f08583407bdc0e31a35d316490987a84834f1752941f"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed99/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7658161,
+      "sha256": "04236761c95f8bc49468a9def4db43e4e22747d302483da0d855c205c5ab4edb"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed99/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579829,
+      "sha256": "57091a6dfe7466bf3ef222e5e5d9d8446c6ede355eaa84a372d9fdb298f9d824"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed99/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7661478,
+      "sha256": "1d1da8baa260e6aaaa3c133b8035e5c099efeed6f1ac7564e7bef4a6f41fce47"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed199/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7604006,
+      "sha256": "6d0dac120894afacc5c3994bff3159472702b9d9f96630214ed83d7205462924"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed199/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579829,
+      "sha256": "d57055375dfe5ed95cb3cecaa35837c751ceea9e1877836db056b74de03b25a4"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed199/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7579506,
+      "sha256": "52d8ae52ab94af472eb8659ab83ce56b376f87482051157244d0871632c5fb01"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed111/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7565795,
+      "sha256": "1560fec0597e62729dda2c43c00f0780101e13ee6d23cf5d4fc6f397a9be26f9"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed111/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579893,
+      "sha256": "1ea9a80d7b73148a89da9d87b030fb56d3a0fd145ce982ba61d612e03f46a741"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2021/control_seed111/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7560787,
+      "sha256": "1a3ff68459e6fe07f2040a398d64364fe5aae93fed8e0acd78f1fae3063e7d1e"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed188/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7675018,
+      "sha256": "4a5e36346ebbc7663739d7252f7d5d23d94d52e01bf00ef9cde7c7731a9c0696"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed188/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579893,
+      "sha256": "63148723774da286ae745c36ab702b4e1dfdbf859a0b3ef19c55f77626177a94"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed188/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7701653,
+      "sha256": "2e76262580f95fea3a616aabea47340caceede7e46dcd9cc187b139e5a7e5dc9"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed155/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7677190,
+      "sha256": "b60cda4eab109ec73ecde7432896f8545063402f117732dc7a19390822b3fcda"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed155/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579893,
+      "sha256": "b78434dfb006a42c3c395d51deb6bfbb7b1abb44e50dc864f1dd68fb790f9644"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed155/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7677705,
+      "sha256": "dd3ecea2b2a445deff37284984e8984798c2b67e7a9dcf1864161676e4d9c273"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed66/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7677763,
+      "sha256": "97bd0b8c7010d9d3af8da047bf1c42df0bd1be3d48aac6e5f5c05b97aca11781"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed66/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579893,
+      "sha256": "bf91a2c813e2f33667f1d8c7d497eff1afae3fdce675355675e1a5523e49d1fc"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed66/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7665184,
+      "sha256": "009aed4db35d8155636d789bcf47e7492aafdf4062d13a4706c8b2cb28baa560"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed166/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7677292,
+      "sha256": "a2e938f0a43737239117de0fc54f98fd3ed05643c9628b0796e00b1a0cd809a4"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed166/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579893,
+      "sha256": "79f82f008b4803138d6f18b6ad6bf915a126b7ca146cac211b374e5fcacea4bb"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed166/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7650486,
+      "sha256": "37c828c24a6fd40d1a7732527b2b4283ebf49912ca0feb01bf7e909d76a8b0d8"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed144/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7647549,
+      "sha256": "f2f87dc28f8550dc9f00580ba3c23b38a424b21865eea86f405f7a81e8b3767c"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed144/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579893,
+      "sha256": "d3473f0263a1405058b903ed8b317b53feb78ba1d3948cb4ab410c3e71d122a2"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed144/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7636952,
+      "sha256": "91653758e31fb3de326d5452fc0d21f9ad89676fb744d2b4c13ee0e05b7fbca1"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed88/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7679752,
+      "sha256": "ee084ce6efdd13ba3177efdcfcc4c3bc8ed51d7dc5468f7a1f8862db46b6608f"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed88/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579957,
+      "sha256": "aac20436f10a13ab4d004c07165ccbd166b8ac21c11f1363a228814f027d84a2"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed88/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7588153,
+      "sha256": "9d5f0cefaa3538ca4acf16576ca2ccd70d55ff2be070f13e7044b5c579856cbd"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed122/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7674852,
+      "sha256": "f0159c1046eb819560a3d57420201ef9291540bfb5796736be7fc2701dace620"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed122/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579893,
+      "sha256": "9fd069743a58e7c837ee203a155d66793fc38ff5714abbc33abe05812332b3cf"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed122/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7648186,
+      "sha256": "20f6ee0c99df9250236fc663e6eed2831e5742857d535e85daa1cda97fbf7771"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed177/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7665542,
+      "sha256": "8454f88a3d91a48d2a4c4652ff14cb7820bafecb3a67fb4af10ac124ac1e1f51"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed177/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579893,
+      "sha256": "e4c2f7d745ff5f051a153ce7f1056ca66328b03d532aff442aa4536e03ff8ef1"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed177/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7664314,
+      "sha256": "d805760bb9a21dcef5416be75ec8acca649d6098938cc8d35acb5c5a0aab4edb"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed211/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7660012,
+      "sha256": "7abe671fcbdd768a80c91498391a4fbd7e483953fe85276afbda27e3afa7519b"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed211/last.pt",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 11579957,
+      "sha256": "8a5d08e5f3acc6b8b1b41aa3afc48bb89312b8c0960f31fc87cc8d8aed7e46d2"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed211/test_scores.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7618484,
+      "sha256": "dde0928c117d4cb4b677e1c5d6043480979de57025a95f59f9d4c89445ab579f"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed222/test_scores_swa.npz",
+      "part": "completed_gru_models_02.tar.gz",
+      "bytes": 7665906,
+      "sha256": "1de4631880b93201a02a2f86513d30d59a22daa01c10cc10f089d20835f4b0ae"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed222/last.pt",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 11579893,
+      "sha256": "62cee2c5b7811f4a2f59423bc4fe0408c859a2d2b263647bb8788ca680e59f8b"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed222/test_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7669216,
+      "sha256": "7810d3feaaceef9ef29a9ef55a377ae07308ad3f3ea82e0ac5efe17f96bac123"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed133/test_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7634777,
+      "sha256": "e26cf0c26b9b04631102ebc645e4e2a289886a4895539139e7eb6142bd11fb51"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed133/last.pt",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 11579893,
+      "sha256": "92129935add5cf64c2b787237e4dec5d96d10f68a9494298b0500d88136a1e42"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed133/test_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7608439,
+      "sha256": "ee43c8e657a04edf7fde53ae33ff069fefa98197ecf4cb250ff5adea1fc48e0e"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed77/test_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7702666,
+      "sha256": "8d8d810300960377d0cd457492d6928de273eb0917bfef157096d227f84a4af9"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed77/last.pt",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 11579893,
+      "sha256": "d3e7aeac13cc6007ef5c615fdccf937c22cec59e545edc7a4a0f3ba9ea129ee5"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed77/test_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7665366,
+      "sha256": "65b8a4bba7e262512f2d278f148cc1357357da1451e171416c813e7bc228a0f9"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed99/test_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7673971,
+      "sha256": "0534a7a695e398df8aa2317a7f6a78e1dde6772fe4cd8c7f2695c35ffc070c06"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed99/last.pt",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 11579829,
+      "sha256": "a402458be3cc8a0b7e492b93a82f923b543d0f0c620da2ea609bd7a13cf79b05"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed99/test_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7645761,
+      "sha256": "85e487fa9f006d6bfee2313ab484f2c7c00a03bdee601d8aa23c364a85e1af1e"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed199/test_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7654019,
+      "sha256": "40c74e27a527885bcea2333cdfb71b39f0b3cad41cafc41a186525a3e77aa10f"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed199/last.pt",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 11579829,
+      "sha256": "0f88eb3f17b2c1040558a0116e5f84ba64b1530dcd031d48c982b3695496a24f"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed199/test_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7661963,
+      "sha256": "84a80f9265e7c5d49b3ac8545b31d115a856bdd21bb432256830fd69e4cfdbac"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed111/test_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7654612,
+      "sha256": "55f467597c3d7cb7cc64129f6cb108ab1299e947a324bc450a311fe4b86b4064"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed111/last.pt",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 11579893,
+      "sha256": "e5dc28abb8514ff8976fa66a69b0c321d8bf921f6d3c0f1afb20600353943bb0"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2024/control_seed111/test_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7637980,
+      "sha256": "878ce25326bb1349aa68203f32134b2450395e60a5ba85dc68c3a7595aa1a1dd"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed188/test_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7691100,
+      "sha256": "1bb15fb93aceeecfa42c379dfbedeab3d99cef9de72bca248d335da2a50d587a"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed188/extra2026_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5640722,
+      "sha256": "6692c902f2539fa7d988e3fee86deb0cdd54857a5df3dae300be2a276fb98306"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed188/last.pt",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 11579893,
+      "sha256": "d5b6b765502f2f99f7afb94e8b4a1715eb3aedcfac7cadd61c833baacdf4addf"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed188/extra2026_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5620145,
+      "sha256": "8d41a3c07fa63b0e4940d3bc8451b95d990efead04927831df6d61c212f2323a"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed188/test_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7727758,
+      "sha256": "33499c88aabb2fd279fcf5d18d819a672136d1a47014327c1b2cb5516411ad19"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed155/test_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7676360,
+      "sha256": "4f990379c3a75eeea6ca2b996e34f37dd7132c9b4fc4af0120f58fc2d6776547"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed155/extra2026_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5624622,
+      "sha256": "7a13586c28ba24cfb4f2ab53ce83951ec47556e08b94dd6129aa38ec598ffc9f"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed155/last.pt",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 11579893,
+      "sha256": "34528bcb417f0cf20e3fdda536bffbf900c947753e23c6c60f9d8ee908b2b747"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed155/extra2026_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5611132,
+      "sha256": "59fd99bfd00e7218540f158d33103192b5a0ef3a636c09ef2048fd53851a388c"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed155/test_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7695344,
+      "sha256": "3738d9cece231c6635eca0e7a16a61a2754a048a5e6d3517e23efccc857bc52d"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed66/test_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7688452,
+      "sha256": "1255fa5ebf9479bcbb2328cd1501ca6a1b791d10bf50fe2586899504c52bf5be"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed66/extra2026_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5620981,
+      "sha256": "73b731509d60ddc19e18fe43029010cb433079b8b199d91d9a7808a6b2dfa212"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed66/last.pt",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 11579893,
+      "sha256": "89df64d2a2fd420eeb755cfa28cd47ed107f56217f99851aa982276f231abce3"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed66/extra2026_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5618726,
+      "sha256": "a14e28480cef89529de44025ab636562feaf3b1ad6211d3dfe38559fb962dcc0"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed66/test_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7693662,
+      "sha256": "ba07cfd976f829475f0ff911d52c7421d2b7ef2332863f7ac6a6437708d8b634"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed166/test_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7667640,
+      "sha256": "998c731b31fad0ddb775406183c98172dafe9e0845a001879e9491b1b8ff3f1f"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed166/extra2026_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5607487,
+      "sha256": "41774c28ee05d5dd473df72cf03d105860c397844729b50bc1e9024d19ccb6a9"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed166/last.pt",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 11579893,
+      "sha256": "25e9610a34995d3b8d7001405f982e51b4d1bd7e0f829e2086e8874ef185e9bb"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed166/extra2026_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5604876,
+      "sha256": "b4b0c5b8ae15ee8fa2fbcb703c745a39e3ca9b2d7a733ff6a1c3d74038a2db14"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed166/test_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7669664,
+      "sha256": "de6a8cde59054cb4afed9d1a585bd5c6e262216fb14dd50f61e57b57b8643b03"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed144/test_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7659291,
+      "sha256": "2c411bd887366e2c69cfdf42c330633f9d09942619513cee7f35975f5caa7758"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed144/extra2026_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5586731,
+      "sha256": "e72046d8fdc27b9e3cca0ff9ecd628c3fd2496e59799333117bab155bd96e688"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed144/last.pt",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 11579893,
+      "sha256": "dbdd594650c2e9e3a077cfc9f63dc49d0a0618dad84e41b9d50f53654e822cae"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed144/extra2026_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5599130,
+      "sha256": "49ddb26ad044d470285912029f4a38b21511afa2de23ae630b78d427240c8941"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed144/test_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7642958,
+      "sha256": "3b83d75424b105f023787936c1cbca44f5e062a9a64053ab81ed044c561f5294"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed88/test_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7701451,
+      "sha256": "3bc3fa7a69eb5fe69b6cab9334fb9ed3aee73870d5b1db3478b973f7e5e9da35"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed88/extra2026_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5625943,
+      "sha256": "04977ce4291b8d67f5991d807769f8370d4a7ee392b742669af635b7f62dec2c"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed88/last.pt",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 11579957,
+      "sha256": "9e4d5b5febdea81838b24522db9392e5cb66aac0807e82c8a65d266ecc40b405"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed88/extra2026_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5625332,
+      "sha256": "f231ca553d3ec1669c0fd494743343780f51e75ce5b3ef4e716d3f2d49ef7a62"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed88/test_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7696333,
+      "sha256": "e80f50aa62a9d3ae2dc10ebcc32c0d68a16d4c97bc467db58dc5562ab112d63f"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed122/test_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7681287,
+      "sha256": "464989688edd6d6d361252e62227b9d07b663a69e52b7ddc4e6c907f51229863"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed122/extra2026_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5621863,
+      "sha256": "499fda7cfdb170a8390b0f2a9f1ad948c1505e7fb5f4a25c2ff97df5b612e74f"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed122/last.pt",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 11579893,
+      "sha256": "d487ad809c057e97bacd9f6d8bdc6889e2144a5804ca89b193fe8c3cdd8dca57"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed122/extra2026_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5613413,
+      "sha256": "5d128b6cb05712b40ea8456964277a5cf34ed9a26dd6329b7bd82f32c2734d1e"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed122/test_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7693853,
+      "sha256": "b5b87dea22c03fd3c823f04236738fc8a695396195f24c5ffddd3ba796395d70"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed177/test_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7653355,
+      "sha256": "fcfd89ab5b0e11d939c0fec3de5c385b761e47bf499c07b108cb6ee2994bfde8"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed177/extra2026_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5592160,
+      "sha256": "fd2da8e92dcd2e703c7f638ad059f3cb0e38955283965685c5a32ad4bc157a45"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed177/last.pt",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 11579893,
+      "sha256": "9cf6676e587f7ef2c7e8377ca5c6bc2f7d9164c4895517ab1e2e2ac4d57dd481"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed177/extra2026_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5592250,
+      "sha256": "fedcca9ea6be6e8a519b055f108d290c6e1ded043d77b468d34f4825320e102b"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed177/test_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7653072,
+      "sha256": "cd1d466bae1c34739c04a4894913fb0132dbd4fe33212e1fa272a7c8d286bc32"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed211/test_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7672954,
+      "sha256": "71a1b768896267316782ddd5373b6996a92a790658ba4be882d08047f405ee73"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed211/extra2026_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5611882,
+      "sha256": "a1ceae7af88decc007c6dc7144a1a58827f09bb2a47f5d5312970604c7028603"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed211/last.pt",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 11579957,
+      "sha256": "c212612b3a8ef0022acf7d0cd2bde35e9a9dd528f63dec40d1375af61c884f3e"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed211/extra2026_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5606905,
+      "sha256": "ac05c0f5c186e415f4fce94d54c733a2a721a062a26a40da1aeed797a5519bbf"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed211/test_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7680897,
+      "sha256": "26fcd400204cc49bb4c87aa1bf90e2025a38a533cb1152b5c97e94578a855c8e"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed222/test_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7684078,
+      "sha256": "64e3cd41d75e40d71ba6a76094fe1d8b1440d4716a084f476eb584018246a2c0"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed222/extra2026_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5624570,
+      "sha256": "317038ba5aa37cf442fbc6d3e67b23bdba5c03142431e59282658b87d17dc3e6"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed222/last.pt",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 11579893,
+      "sha256": "da7239e22a56605c17c591ac104162f3e7d16e19fbf37eb25cd05c7eed4717ad"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed222/extra2026_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5612823,
+      "sha256": "4d12ded5941d4f515cae5aee1952a1d189f9f52e16405b40a0e356d716e97437"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed222/test_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7701266,
+      "sha256": "8bc7a689f323ab2eafda2c126313eb3c0522b924143fb0b2655f088c7a0cf8b2"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed133/test_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7669710,
+      "sha256": "bc2d3a34ea0a6bc153676cb16e094d03bf028ae0ba90ccf11898fc0258309cf6"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed133/extra2026_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5618969,
+      "sha256": "1266686247134453f71e865e31e23627416508f1a2608383e36cf3f3d37dabde"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed133/last.pt",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 11579893,
+      "sha256": "d78449a722ae655eeed8a162827fc8027540e7b89fabedc45ae85cb84a5e2335"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed133/extra2026_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5608424,
+      "sha256": "33cb6a33769cbc78eb4843aa491ffd5ef5801e0ec631e45854209bbcd6604db8"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed133/test_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7685854,
+      "sha256": "ed5ed176a2b98792e115d6ab44d582d6c09d569e17c3e90fbe22feec074eef98"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed77/test_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7687363,
+      "sha256": "899e07e48d0d33d3400ca3a4e6f9b4934c97776042faef2c4ef249abb6b3d391"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed77/extra2026_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5618828,
+      "sha256": "f1ed35dda8ab78fc2dd0485d08f7d6658cbf5b990af398141c007939f7cba5f9"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed77/last.pt",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 11579893,
+      "sha256": "474b8079a9881132494b76f1505ce6206da304c62b63618b28dfcca42be74f55"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed77/extra2026_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5615350,
+      "sha256": "243a1f0e0a31c2d9c1578a72f36049e24c2fe4f619b5f6da063d4d3e16cfc7ab"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed77/test_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7690260,
+      "sha256": "39fe0136ba39c510115e7fff6ace82d97de6e4b33e9c8ed43af6d523bb8a8c27"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed99/test_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7700455,
+      "sha256": "6767eb4ab997ecbf22d8bf955c4347c7f553f4b37aa229f54dc160eb71364e28"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed99/extra2026_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5628836,
+      "sha256": "c7f3af9a81b10e5f66b611d52835b23a184a81728a5066103301648027015f63"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed99/last.pt",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 11579829,
+      "sha256": "1928993cb19afc0e0f9c8497fe882ee3cfba2e21f0b8104c737d1037ff974cac"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed99/extra2026_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5624847,
+      "sha256": "85b2f4498b41b5b0df6d1ac67fa718a4eff9728951acac00ced7139779d5963c"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed99/test_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7705444,
+      "sha256": "dfa838a843fe918e8bcee22ff9b7744d9f269a6388702b75f2c932a6cd95a148"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed199/test_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7675120,
+      "sha256": "560631d129529a6da5828778fa38f7859d4242904215a663814b7fcd4faca393"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed199/extra2026_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5611291,
+      "sha256": "5e0b6c06d9e8ed5bad3cfb93b53d4ce0bce7babceea63d2adf0083ff735a675e"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed199/last.pt",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 11579829,
+      "sha256": "6d98a0e409411c6d3e78b41b609de0db20c4bdd19b99f8b811185de39ef3f3c3"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed199/extra2026_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5607103,
+      "sha256": "4c92217a62edaa855009618bc6165c19101599d7a8a3c4867a61cdfa34a374c1"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed199/test_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7684121,
+      "sha256": "97a93fe0dbf6ad7b04c73a781a80d8b9f881d4aab8c90174c217355ddfd03f6d"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed111/test_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7683955,
+      "sha256": "2d80cff0f996a507d4976c2430cec52ad5941e76dfc9d9b2bee5e254b4e0f824"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed111/extra2026_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5633235,
+      "sha256": "bc5c8d00ffda5b72223ccfb4b407b70b300bad9b75ad23471046b34747fc556e"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed111/last.pt",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 11579893,
+      "sha256": "3ba7d85a00e5f91e76504cfb3b66e200832b34bf3940fcfb898ac68d2d5af177"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed111/extra2026_scores_swa.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 5614181,
+      "sha256": "16582008baf15823897bf7089a055af3da7860f86dd16767e7518a6909dde9ee"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2025/control_seed111/test_scores.npz",
+      "part": "completed_gru_models_03.tar.gz",
+      "bytes": 7708317,
+      "sha256": "0cd1e74ab08e818069ef577cc764050b43173b5b6e55c75ee7c1aea093aec78f"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2026/control_seed188/last.pt",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 11579893,
+      "sha256": "bb06bfca032941fbbbdb93f9bbe16be5b79192677777b6d7108ed1a54cb4d4f2"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2026/control_seed155/last.pt",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 11579893,
+      "sha256": "d2d8ab083e7a1bd3b547baaee2161fcb0b81a0b767bc112b6728f29de25327cb"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2026/control_seed66/last.pt",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 11579893,
+      "sha256": "50407849940d1f5cc0d0d0341634872259f568d8f567c2e1bc5c0771c6c6b439"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2026/control_seed166/last.pt",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 11579893,
+      "sha256": "6b075741e708daf528c5ec3f649014e465a011b3107ca8b68b883c1e9e3761ac"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2026/control_seed144/last.pt",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 11579893,
+      "sha256": "d7c317005732961e397b42d621a227d74a86d0ed03e03baa0e72f296b3f3235f"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2026/control_seed88/last.pt",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 11579957,
+      "sha256": "8e1f5abfa91c9a5fc483ec296816a452e1b365b6d89e485317b1fec6224f4698"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2026/control_seed122/last.pt",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 11579893,
+      "sha256": "469d11224351ce39a68335190bd9c925bd1880077ecc1db2e4aac5c85dc37f70"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2026/control_seed177/last.pt",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 11579893,
+      "sha256": "f078cd58b44688d1dec11de4c4c334a2f0c974995b413cfead1f7a01da1453ce"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2026/control_seed211/last.pt",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 11579957,
+      "sha256": "4289a1ccdf1e10008a7730b3ddc89e9992502b4889e2d393dd0960b9f918eb03"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2026/control_seed222/last.pt",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 11579893,
+      "sha256": "29b34870cb6004f1e030b87aa4563151ac3fee8513f5be7a02f89e9d91451d2a"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2026/control_seed133/last.pt",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 11579893,
+      "sha256": "43dd078a9bb320528bf90fb452593339defcde0bbda5c8bac266606b4fe47f5f"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2026/control_seed77/last.pt",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 11579893,
+      "sha256": "d97999b07f249f1c698eb809d4374797f2456422711bf357995d8a3af983e9a0"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2026/control_seed99/last.pt",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 11579829,
+      "sha256": "0f2ff3d15c2fc6167a1629f92b9b5058cabc79a067dc87d4b0ad2138093a6650"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2026/control_seed199/last.pt",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 11579829,
+      "sha256": "34481b55d18f17f833375fab2046103972218a2d2547added8beec3c2dd35beb"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1/T2026/control_seed111/last.pt",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 11579893,
+      "sha256": "12c7c6a041d80d28ab0d9b27369a9a5400613ef673ed2c36e34973096a138a5d"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/C3_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1902915,
+      "sha256": "9e708dc06ffd7eb17c4df93df33b674f3330f92cc29043408cb51ce762d5fd1a"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/C3_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1902744,
+      "sha256": "e440119032ee552ff0f0ea14f68e1c661c0b53ada68c5e177e6dc53a1cfb41b3"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/B3_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1912077,
+      "sha256": "4fd5fd3a572c018df4e4080d2a9d3f26921e33bff82a943bcc8d189acf5b7db3"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/B1_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1903586,
+      "sha256": "3d1da3597a0ae5aaf4bd5cb20e3aa246456f422827dad0687f2392400cc6603d"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/C1_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1912816,
+      "sha256": "370e44d3844bfc1a32f17b85539580e025bcefa7532ba223305fbb64e91ddfe6"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/B3_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1901216,
+      "sha256": "673c5ccfdedbf9c01463ea77dbbf9ba2516429530be530c1c373057dec010ba8"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/C3_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1905491,
+      "sha256": "2551504451a69aa545e9b8da967c5e1579da028c42a0b3639eda8cc5a88c04c1"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/C1_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1912971,
+      "sha256": "a3c2cbbac615430725936971c8b6c6c48958463013bf9b59631dcac0d48cfb52"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/C3_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1912100,
+      "sha256": "21a712a883990c1ed7a4a8c0207e36c513e77ebfb09ba55e55faed861d4323c6"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/B1_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1911283,
+      "sha256": "ad1e5a89fa6a6a50bf71f8e1f1fdb1d1ecc40b52a5b4eadc613a24201de1e8cd"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/C1_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1906849,
+      "sha256": "f138aca0e631d5730e1264411e5b8136d5ebd45ded445a0796087be3ef5251c1"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/C1_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1902735,
+      "sha256": "976ff1cb1be7211e986289dc04d787ab97b148e1d8545c6a5213645ed46c6027"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/B1_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1901935,
+      "sha256": "730fff6137300c7cc0cb41910916e9ce6573763e9cbef22db625fc09b5bf50fd"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/B3_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1904218,
+      "sha256": "248bac6acda26a42b25ecbf7b1e04c2ff808231273d27609bb28fa8247a25c75"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/B1_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1908375,
+      "sha256": "61dc18db38af1bb3df6cbc9ea1ffe7351b5e0b0c3729ebb300e7c0b47efd0d8b"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/C1_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1902887,
+      "sha256": "f92985b5649c1467436301291384e6c27eadada25aa345114fa84910378c7895"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/A_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1907283,
+      "sha256": "95ea36dbdec025d7c7ceabb9b18b6a091405ecf37b553320d6db9f0d8f75a8ee"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/A_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1901360,
+      "sha256": "9b65c9e5dd6d94fa5d1f7261a1a9b6c34389a02cf67a07ea24d69c0b4ae67049"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/B1_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1913492,
+      "sha256": "a32d05844d4f33246a835137d334fe318244c1dc8326a71be996882d27523531"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/C3_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1913291,
+      "sha256": "9f969b7039892ad8db30d28af8a30956d8df23684849d2a359237938b1d4b6b7"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/B3_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1903138,
+      "sha256": "874b5e4a8ba1fdfbd2fde6f2f9cbb15f08db8e6e0b4c39d7ec417b7c6734160c"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/B3_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1910063,
+      "sha256": "a5c3fb1fad5ce1b077d1ab1be93317d20e837c5f8102cb250067b33f20f120ee"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/A_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1913499,
+      "sha256": "41736d20f769055e4c22215124deadcc65951ce3793b7a3ae07cec1b6ee24f22"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/A_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1900214,
+      "sha256": "8f5db0b5186cc59f2f8a7d4d53244ccb1883b3bf7f7558ee9870b15cc8d16c0d"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-01-05/A_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1912532,
+      "sha256": "2b40e43fa81aa4cac5bdfcbc8aa9b8b68adb6779cf9f43cfd5457d6c6df5ae15"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/C3_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1886339,
+      "sha256": "5fb2692baf24ca2b0bd9ed3259f0e3001066a46aa79af5a5d9639a715e3b158a"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/C3_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1894438,
+      "sha256": "51d5f53ff053498d3d6ab2fa1e62c907edf9e3153cb23b10fd4b3566def50986"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/B3_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1874507,
+      "sha256": "26e48a23bfea81cfd77ae1325e43abbd06f0fdc7e5916203666780c8437e00aa"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/B1_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1886731,
+      "sha256": "7b5994c636bdb0459b7d83789334a6a55664ceaf759fb5394a8dca1f0736c32c"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/C1_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1894737,
+      "sha256": "7fb44d5821f186540f1f31cf68f9eaf567c20eddbf6157ca1142f67dc50c3e33"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/B3_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1895374,
+      "sha256": "5c5d764d78c96c51f77055fe6022649e6350a0d6a1417c87eea48ab9ebaa7680"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/C3_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1886555,
+      "sha256": "0e4ee517947ef344f635e10a8c5ccd03fbda4f31d530b898d879a1ca394b464d"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/C1_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1881990,
+      "sha256": "61c3ee8ee4bcff1fe621a6b71abe68c21b3bbb757c78552d437d77aa8fb47b83"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/C3_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1875264,
+      "sha256": "8a044bf2777595a8692b45e7c463df90e89834b97ef69ab1977a73e74b0da6bb"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/B1_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1893339,
+      "sha256": "5753d009246619769a22b92e1218b3893a29af9e8933ade982dffc6db7cce432"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/C1_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1886444,
+      "sha256": "ed246347134441158cde2606d6169a7b2182fb742d0eddb42030ddaef5ffe61b"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/C1_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1897975,
+      "sha256": "0c289226dc92b19d2e6dabe23672580b3bf1be6efadcbad0a47b1eddc81e7f5b"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/B1_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1897671,
+      "sha256": "9aa0c4dfb799d56cac4377a66eb1b9c71d3ca0192e644725db4adde0e3c65014"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/B3_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1889904,
+      "sha256": "6ed7801458580e116c4fd02b9ae02624363ec8b132bc52c10b5e5b554039df43"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/B1_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1886414,
+      "sha256": "9eb22033f89db16cd8472335a45103ed898aea1a8074453c94ba30c0587e438a"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/C1_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1888922,
+      "sha256": "41538686d4ee8c05de55f22d7984597f8388bd4da72d4fc07fdd0cabd82a589d"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/A_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1883934,
+      "sha256": "02aaa2f5d7a3e6fac0b66803f8d3c0a07e61c3dbd047fa0f816dae63afd185ad"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/A_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1889928,
+      "sha256": "c30872f895f0d018959a69cb7ab741a1782347d149a5b397f39e0f044de6c181"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/B1_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1881223,
+      "sha256": "6663cd51010d2cd92e9dfa9a4ad23191341146db73c6daf9344e076fd2eb5699"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/C3_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1897135,
+      "sha256": "026abf30e5c4d811278af51b206c2c1dd19df60212ece87bcd950cd71cb8a1ff"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/B3_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1880081,
+      "sha256": "ed4ddf991fede944123cc608b6587aa93d27b99565616ee06551ee0012febff8"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/B3_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1897018,
+      "sha256": "7dd0feb1d3c606a17bfcc6e7ef2cb203db2bf4651b6f1d151593ad13102b1280"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/A_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1895461,
+      "sha256": "0a00f5aabe7408c8cd515b2044ded6af2c2b12f698d48956cb6e60a7de9e6709"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/A_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1898219,
+      "sha256": "497b7967b204264df7343a968d760ada065311daaf22c5c0a9cb9bd87421e122"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-10-09/A_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1883039,
+      "sha256": "9a4ab8dd1e4599a1e02770e88078f026e88b9f944ee985056517df37baa40b2b"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/C3_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1881709,
+      "sha256": "fa378857958bc261a56832044fb66a94a4a763b928cfdb17c8dcaec4d40c3f9c"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/C3_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1881633,
+      "sha256": "63c01cf0582fc9884e4dda359ae2962db84b55c4deb97d47c70e2c4183d9599e"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/B3_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1900342,
+      "sha256": "5b29e6e9685b76639912f3de182c618a8a93e1d5f86a5922b67cbe3ca628eda0"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/B1_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1881580,
+      "sha256": "2421b54d270dd3cda2eb9e4fa2cc7ccac00caeb2351a4c8a1109a58777395423"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/C1_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1897419,
+      "sha256": "e33b3c601f1d787b0e33548f5204eb7ec954318969a5e7db454d6394c9653afe"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/B3_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1883934,
+      "sha256": "d7a023a692f69fa51c23277e79435f0e83008a12bef374dc3d0487fb6cda685d"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/C3_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1898535,
+      "sha256": "4a581f3fda6043a63341df6a2cb31a7025ddcd13e456fd8fe5846d7a5f556ef0"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/C1_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1899913,
+      "sha256": "e724f3901c02d802187c95e0c5c848e440bdb9dc1c0ab146b88c836546e0c27c"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/C3_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1899548,
+      "sha256": "32d9bc2c4fb3bbb27cd3ddd4ef0235df7b92138a8e603f6516748c0bc9dcb350"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/B1_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1899591,
+      "sha256": "35cfe9c65819894a7b8c8b4cd706b30fb0f5600db81cea430dfa655323fcbd31"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/C1_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1894989,
+      "sha256": "98e01fdddbe0e2733ff4274fcc03d2b82e8ca314e74bf66c258ac88ab1f22493"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/C1_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1875041,
+      "sha256": "e3a1a598b76702b0a9a5fbf64d21a9cf5bd887f6b1322a6ce4cf739b65bd0897"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/B1_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1878838,
+      "sha256": "b514c8bd977493a3068f7b8e5f386596fcf2af257c0f3ffc47d80f8133f8c9ce"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/B3_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1900314,
+      "sha256": "0cc4d108714ee95f6f13a52072cfbcaa2f0352530cb7f258107b6c651749dff3"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/B1_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1894275,
+      "sha256": "09b5f54580d7236acaf7235d3fef8582a9c718af5792d51b74afedd1df018be9"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/C1_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1880457,
+      "sha256": "10585fd081ec707a858c1a8204cd9751fa29c02fb519b67e811b293fb01e81a7"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/A_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1897311,
+      "sha256": "4138a59d54daa83b443edd33597d4ed5370c52fa947e02479eb6d3aa5828778d"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/A_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1882727,
+      "sha256": "19f144b591ad74f8fa76e962130ef11e13e0efe042b049f1945a523157c39439"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/B1_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1898839,
+      "sha256": "43980850f77ff09a025c5b6067cafe5489bfedc1d6e859a703c5e11076033797"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/C3_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1898172,
+      "sha256": "1821eb039808bf4a94097761327c234b6d1348e2ed226e9314fb00bc7f7f7296"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/B3_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1883208,
+      "sha256": "5ccb14bda6a33809d8a42d877adb386c6a49b8a1fc9b6e1afdc2164862d3cbe3"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/B3_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1897663,
+      "sha256": "70efdf5331ab3eabcc5ebe6eae7456d0ca724ef4344016169525383159634eda"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/A_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1898296,
+      "sha256": "63565dfa66d0f36c2175d466e8f4d1442a41fa7a22f6bd9a4e466bc0917009b7"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/A_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1873157,
+      "sha256": "40e577cd85ddd27826dbafb7e15000c6473bc62301b596b2bed7b4926e7a99f2"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-07-01/A_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1900259,
+      "sha256": "6e7f9b8d95b60ad53436755837a54737839c8dcbbcc9254d7862a26ead8dd479"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/C3_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1874392,
+      "sha256": "3452815d3028a1a864a7530438d9e33c260ce92c73965dac3161db4b26372c04"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/C3_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1876942,
+      "sha256": "5f86b070201bcf0df3768cdbc5e02ec7c8604a7a755d293f28cdfbffeba55b46"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/B3_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1884018,
+      "sha256": "bcb9d280b413f66817c7f6b9e69a3ca7406b9fd9d5ecceba40dca6181f562b98"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/B1_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1873459,
+      "sha256": "55818e16759fcd8b01b5827ebac32da160990ed5e2086a72950ba8fb070e0d20"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/C1_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1885075,
+      "sha256": "005c710b48eeaf849be09d7c50f063235e56249922f8360aa03c909067d17d1b"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/B3_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1880783,
+      "sha256": "7bf398033e04e698699e9d11779904a016476e6ace4e5dd7608e7d4f127fcf33"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/C3_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1881336,
+      "sha256": "67881feeb55740d0bdfcc8a7cafba178ce233636a52cb6d619dadc21610b509f"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/C1_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1883157,
+      "sha256": "096fb0a7a6c2cf1ffb6bf8de245b7511bb62d6eb22cb02413057db3d41d0314d"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/C3_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1884666,
+      "sha256": "9dfb522aa873ab7a0253f450394cd38da463d69d71d692dcb3178d16777f38ea"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/B1_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1885036,
+      "sha256": "7fd7227efddf6df95ffe3bd58c098206a06e84f10309544cc494fafa9d2cdb50"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/C1_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1878781,
+      "sha256": "32a3a1cc06119235902988e42db66bb292914a29e0faa118fe72b1e5eb87d283"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/C1_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1875082,
+      "sha256": "5960da41b66d66d6e1aaea37ec06558579c285c967fc336594a2cd052fe63ef7"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/B1_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1878005,
+      "sha256": "bb89e0686bdf8c6c6eb44a71aa0a0b6d9b3a5d054876a7383f9decec99b8012f"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/B3_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1882599,
+      "sha256": "960a2746b8f643945ad9253acc6715ae8dbd3e4079b552b55746ec7a3929f44c"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/B1_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1878737,
+      "sha256": "cfc0f35ce66d13f565a14ccdbda5445faca59e544b37fba85518b957060cb303"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/C1_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1874451,
+      "sha256": "2246e71d4d2f3a50cd99247e108ff00932080a3e63f9ea2c5b00e26f1e409add"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/A_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1879544,
+      "sha256": "6470fbe6566e0559ac190102f829392d4aab2a61868c1f7c6baed9d61db80dd4"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/A_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1873063,
+      "sha256": "e88dd5dd22ef7de77698b28ade68ef8f3113c183e78dca75d35ea77231606d3c"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/B1_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1882955,
+      "sha256": "ab9c7a746ed54132f38b1b7b2be828bdc1065f8b5609fb68275dcd79463c3182"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/C3_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1884059,
+      "sha256": "36bc213686c1b582f2d61092ab42c154178fbd83af6c521fb6b1b3cea15bf268"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/B3_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1877128,
+      "sha256": "980f01fc42a3071fcbc813529089831038a31a087b162ea2725209f9f668408d"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/B3_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1884729,
+      "sha256": "1eb2abcec1853136d220927a5ea3f30b8192e34494423c87675a382d3d14ae3b"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/A_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1886628,
+      "sha256": "53dc164c96676983fdd2770fbeb35f58b53421e60e89067fa098ce22c00a83fa"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/A_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1872653,
+      "sha256": "8ac368cf743055e7c2b107a6e9e7e92f7c7718199d485e51511bbb4f6dae7c28"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-06-02/A_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1884440,
+      "sha256": "5af24830c5d2e600a8c35e4d795589bb63e8a619cb5e26a127015112f0fa19dd"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/C3_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1899894,
+      "sha256": "47a15503cdefc4af9af78497083f1f3153d3eba5114852831c77fe3bea53f7d9"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/C3_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1912872,
+      "sha256": "add64f214987cd962f26b1e349ef6032f97612adce4ab63c93c7b0a6e08638d2"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/B3_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1890924,
+      "sha256": "46250a1dae14c5de2b2a53ecce8fc21139175bfcfa5dfecae26732594c0c583e"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/B1_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1898117,
+      "sha256": "e868481f387d5d7c698236db8fdc29898bda21bd179b3e0810da5a57e395cfdb"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/C1_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1906291,
+      "sha256": "682fcfadda8ecab379408a5d6566884ac894088c4bc5b8072a08bc414a74c398"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/B3_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1912060,
+      "sha256": "bb8e56da8f965951a75f805dc1827080a2cdc4763f0a97501ff063a7da0fa475"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/C3_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1899669,
+      "sha256": "8b7f4ce9233e4ec1bceab548d0bf49d1d7c3a2d993d1422124a5e58aae9d4a45"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/C1_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1891273,
+      "sha256": "4801ce3296a6258a9d22097473a93969508150c65ec0ec5d1d4c462c13ab508c"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/C3_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1889234,
+      "sha256": "fcf1c3dfc0ef4d606365303b7a8406a41653d9b7f11b4f5d269301ad2daa426b"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/B1_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1906352,
+      "sha256": "0c125287749a91aac479ad091c3a0dbdd0033321e1dac91c4468042aa49003c3"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/C1_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1896658,
+      "sha256": "8a8ce3e86d17ac3326b8c4e87660c77c199fa342f94cd1bd41a29c6f72a16454"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/C1_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1909683,
+      "sha256": "160117891ba90792b6ee14c3a3e48782fedada0307bf401e2e4e572649eb4402"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/B1_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1911350,
+      "sha256": "6b1fc728d4ecb486859e8127aba18f420fdbde71a8dbc55cf46b91a8e1b4932f"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/B3_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1899581,
+      "sha256": "1128155ce0514dbf6bdf70edd3173bc52ae4c95b3fe0e8c7e53dfe345927faae"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/B1_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1897372,
+      "sha256": "991ecb42e9c677979009632c2a671e472fe945e91e180920a9e2d4814d69380a"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/C1_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1897662,
+      "sha256": "66cac6fab9a87e2aee55dcb6b6bcb4fae223257c9bf0a93a9161b7c46c1ccaa7"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/A_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1894602,
+      "sha256": "05b53fc96eec84af93613007e41a44c6539a9e74e94c0e2924c93cdb39d928c6"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/A_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1899088,
+      "sha256": "cc70d225acbea2c48bad88ec1b2fda854c1951c9cba2d84345edb1d7e1050420"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/B1_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1890023,
+      "sha256": "650726d4fc1dffe33e0bd93e68d80c0522b482fcd8211eb3c5ea2311563ad05d"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/C3_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1910678,
+      "sha256": "c9fc581403cebc9aecf858747db6f47d32573d4cece8fdc9f9830b540d1f51f1"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/B3_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1899597,
+      "sha256": "9c9125d231dc006885f4ef3c83febe4f47b4d7dd4fe51ace3d639440e11fcc9c"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/B3_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1908976,
+      "sha256": "311b628b98d668aaac9c6559eb8199e371ab3cc76e8678d5b428a091ea1bddd6"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/A_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1905990,
+      "sha256": "c97a659ef7378117f074e01eb81927640c813ea38704c3720dc922fb681f8d1b"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/A_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1910078,
+      "sha256": "6250669424450abd3966a1a2f0f3fdcc34de2631fc63a721b8741085535e2abf"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-01-02/A_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1889958,
+      "sha256": "fc4d6693f66915778f695479703f2a7e2ef3e4d1fa66e967a3fa961c640375dd"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/C3_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1873012,
+      "sha256": "d1d6a18d3819238becb1ecddb6eaa284656ec3fa24e86375bc190112e70cf2c6"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/C3_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1865228,
+      "sha256": "b205422f66322317a2873f146b1a2f717150d24e8491d198367cb2cbd76f14f2"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/B3_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1896749,
+      "sha256": "7845828caeb15709820fac6939da5b572e190650bf8aba5fa01826c7387da1d0"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/B1_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1875001,
+      "sha256": "7c87bf887ef9f21e7d84dbf1883943c548d59c6699d17b71d3532b16f6712149"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/C1_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1892493,
+      "sha256": "728685ddc11dcd376848be017e3b8f65bf17482e19e50c7e1b688a19edec4f2e"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/B3_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1867849,
+      "sha256": "bf66048917b75e3bd2f0af0cf41774c77c81fcf87b4aa0d4b21811e9b25c50da"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/C3_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1890478,
+      "sha256": "6ea7eab0e513cc15c66642c738c49404b9882d126fab3e6a46f207625ac10210"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/C1_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1895961,
+      "sha256": "ddc1f28acb3985c2dfd037d47ca47c32964259ebf7aefbff4840ce76111dc128"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/C3_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1896355,
+      "sha256": "3f88a5ba31acb92a377114ead92723dacfb5d2f387a6eeba43d2f3ed2333f18a"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/B1_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1889110,
+      "sha256": "3a2a358b5e2731b14cbdb7ac35e357303861bf1d7abb458b938aaa4646850ba1"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/C1_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1892060,
+      "sha256": "a92079d021bf6c50f3bdcd6d0ccc6d8c6361c9b08cc1d737e894cdb9cb9c8348"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/C1_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1867148,
+      "sha256": "7bcb42974ed457b0f9e02412209e90dfa83c815f333d533d81ced3db81c5a5da"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/B1_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1867222,
+      "sha256": "168b0d799e20dc3a1058218c2c411be319ac61430bb9227722964164eda2c1a2"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/B3_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1888833,
+      "sha256": "f87826f15ee260de5a6d2325f8c74b9657c0d181efc3e4e29fb32c06e030f643"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/B1_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1888826,
+      "sha256": "d0ea8213e485d40b2122baf8b4e9b39dff3cfce8741981f8d6b2e39291440ae5"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/C1_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1876576,
+      "sha256": "4ccf9e17515160fd87c88e2128d25a5be7c4b68136fd79ef627eb289e68d9ad4"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/A_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1891775,
+      "sha256": "c6227bde129958a786785368b1f262fad694fd0e43740d8221500dadb60585d5"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/A_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1878305,
+      "sha256": "5f0999bf6eb95a796397e91bbf0811102548383462284e48b80a11d5cf453cd1"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/B1_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1897293,
+      "sha256": "a4fcfe1b4ca9cf232730f8f6541dffb7afc4d580070d268e290a5969a7ecbcd2"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/C3_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1888171,
+      "sha256": "08d437c01a34a059a812404fe9e04fed4ce7d6eb38a46a9d8583c671c41b4332"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/B3_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1875420,
+      "sha256": "1758b60b289441ca62b4da2095dd3eb84b393364cb0b3890e4ba7360dffcbb5c"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/B3_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1890249,
+      "sha256": "efdc6e6053fa5a5de81ee3a34a578708fb9d3642afb79b9b0d47493ae84371d3"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/A_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1892705,
+      "sha256": "935387651724f8034ee0ccac2cb2aedfc01c27ec71fe882508b98aa3c1477b9b"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/A_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1866145,
+      "sha256": "1590d1639dbb342267fc1b0649dc9c4dcbff73b188487c8551faaf3d54065d80"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-10-08/A_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1896815,
+      "sha256": "7923f400d699d7039e1c2847bb80b3c8e72f73f7c8084b44edd5420b9a56120a"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/C3_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1899931,
+      "sha256": "61b6535c803381118e619ec2b7b88157495747f135eb912242a3770e3fddf94b"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/C3_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1906659,
+      "sha256": "71776a7815aa9dafb8e63942a0659ef569e9c0e1d54f43c65e269b578954e00e"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/B3_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1895137,
+      "sha256": "21877f6fda76897da9b13bf3af8f58c74b4766e1d4e7722a6c711a08825b3a5f"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/B1_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1899341,
+      "sha256": "ae5dfa4dd34e486db9552d2121b8f7db654f3320fa15a07782eb59019dce229e"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/C1_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1907882,
+      "sha256": "689bfe1a24f958e37cbe6a189acd8fa7d1896633e758beea530ca139b874966a"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/B3_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1904760,
+      "sha256": "ed7f96ffee67ade7cb43d8fd458f717de9c3312159f32d64ef3bf9b1874dc2c1"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/C3_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1897770,
+      "sha256": "2a314b48129ca1ad702d69a93b420d0545fa977553382812428aaa9b5751ecce"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/C1_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1896158,
+      "sha256": "0fffe4873e932b542f652634677e72035cae22d1baa282ed5ca63d6ec173e479"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/C3_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1894398,
+      "sha256": "c41a1a66627ef6cea0f506c1dbd95a2bea86b5831293437a3dd0fad9d72ae78e"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/B1_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1908782,
+      "sha256": "b84e334a2a0270fd32ec06c7c0a6d056510c80e0d0e47f3040cb43c1d270aa89"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/C1_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1896446,
+      "sha256": "e22288c4b0b98c8ee5ba13d64059d9b6a04c9be49e1ad6564a298adb52f93484"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/C1_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1906485,
+      "sha256": "af7276ccca741d7f46955f02f4632d127d56fa5702d0d8b0354e2a2be8050321"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/B1_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1908317,
+      "sha256": "8c1d8d981fce022f8f93fcf413989895a351fb632037c14a08274836647df1c4"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/B3_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1900514,
+      "sha256": "7bf0455a861cc4146cfc2f872fe9c896422034ff0f221098f4323d65ce8b749e"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/B1_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1899969,
+      "sha256": "a4018024e203754bee9a0273ca798b2e1a055ca95346a3e09d9bc95798a41323"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/C1_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1899099,
+      "sha256": "ca49baad19a47f52de5e097f48c0ca921fef2669fa24a5fa581332cca6cbed4f"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/A_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1896319,
+      "sha256": "47263f7d3c611de0e444e2f5990b3cb94c08e52b0c37a51fae1794085ce7c30c"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/A_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1901092,
+      "sha256": "71c35de828468c92c344203467f757c1af16eee5eaf44ea9326a95062dd16a85"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/B1_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1896740,
+      "sha256": "df17bcfd0e01a02a3ae887e25b487a0ea5629b79788d9a006d08a6a3cd6b7100"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/C3_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1908529,
+      "sha256": "cc086034200d44d1d7e09428aa5a42080473abbc0cefe1dcbd4c549c4de1750e"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/B3_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1897215,
+      "sha256": "ff1b28dd2d8225818aebe098daa53ae8aa53b0862ceb3727a4f6aebb0c1d3264"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/B3_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1908829,
+      "sha256": "f73e5ce3a7c2d76db994df3a24014820d924bdf765fa4685dcdbae4f2b21f71d"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/A_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1907974,
+      "sha256": "deadb098dcbfffe9b595534a58bf288f96a962c33aa831daeca39967b15c6eda"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/A_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1910097,
+      "sha256": "b2d108d4463dcd82403bce238b5ddf264473065ed583ef8b7c64aaecec6a84d3"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-07-01/A_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1894747,
+      "sha256": "fccfb707c7a666d0e9d629d14bb91c79b739683bf8eea848230122d9efb8d95b"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/C3_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1893069,
+      "sha256": "73ddf8e21188ba521e66f63b3aebe9748a2ac054f498bde6a77d44f4c9562f0e"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/C3_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1899805,
+      "sha256": "d27525fd61dd293189db96cc82adcc7898f4bdb8c6718f5e8483805e7ee08fc5"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/B3_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1888554,
+      "sha256": "32c463d4cdf7ac9d30d3ee9b311b17ef50a6d68aa8f5620ccd9a9a36f90af45e"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/B1_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1890591,
+      "sha256": "3d692481b295dff38a1b0a5965f85b715c80728f819d01ee4de87fd8415822ad"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/C1_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1897049,
+      "sha256": "f695b674d335711e712b7307f94dd8cbcd9e98ab8e75735cb2d0a1967d245758"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/B3_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1900066,
+      "sha256": "fb7b0a8bd5075fadc28db1e1cde92d58303aac4d0627c59674af76e9cc8630e2"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/C3_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1890172,
+      "sha256": "d1ea0698b1346d0ffb9f05c9795adfff3e51bbaa8b01e6576c3fa36992c6e9db"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/C1_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1883868,
+      "sha256": "f6e6b2c7790cc1291e3f424bfeda86d0aa23c1b11af3f96b457a2c1557795ed2"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/C3_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1887089,
+      "sha256": "207937d6acdc2de892c4e862f0453b06d2848ce3507c0318d45f56ec4cb8be95"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/B1_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1894990,
+      "sha256": "4d929d0eb524689f015adcb8687367b9f2b00e7976d181837811b24becbb6d8d"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/C1_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1886193,
+      "sha256": "a86bbf1106b79ef347f22a7101427a7b2b3628580f212a2d59b969019a481603"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/C1_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1898115,
+      "sha256": "850d55cf71431ecd95082170594ccc8893d6aec67976c56c17a8e8394f7074b3"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/B1_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1898375,
+      "sha256": "2ce30ec190aee5c5b23b0fb33713228df8af85df354d325f7b66338b207a5b1e"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/B3_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1889114,
+      "sha256": "afe472c5f11048660217b08e17f59a9664c03f73823cae86a2a2c2dfa1deb0f3"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/B1_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1887207,
+      "sha256": "bb67dbd21e6acd881684fd6e9b52412ecb92c4fd488644f0216abed6df135262"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/C1_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1890231,
+      "sha256": "5f93037a6c2fdf95e6de27571a71f22007411dd3c24084d3a70fd07a6f93ee80"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/A_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1885019,
+      "sha256": "ae6b1bff7df716c7be510eae5651fa7519d77bdc1d959f05ea225ca75eb53a8e"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/A_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1889739,
+      "sha256": "e832ef6c95a6a2c9d5b4143e25df1365b9f8852cf59e4ebda75a868c2387c422"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/B1_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1883796,
+      "sha256": "ce0024785d1ea9401c38a789d066667e152c4d437f641cd7891fd2eed9e77443"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/C3_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1899988,
+      "sha256": "a8fafb718402827c07f48a123758cf2d8ec3dd53c08abb278a03480442c9f9ed"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/B3_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1893502,
+      "sha256": "a393ea602f330b702d3b08df080d6231c297eea4a6949f1f89dcf7a9fc48ea43"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/B3_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1898076,
+      "sha256": "1e2223418bd97749be533ec306bbaa894b665e0d4e0e816773da9784b052378e"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/A_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1896081,
+      "sha256": "a6d821d413357f27f7a3bd6ca74edbeb7f0fc4558f656aa9a610f7300cdb14af"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/A_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1899176,
+      "sha256": "78d442e59154f7cc966e8a074d18a0f66301d2c6d5fee135607ecd8199ca6caa"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2025-04-01/A_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1881823,
+      "sha256": "334c63d5ce04c1012aef1e123a20f84d29bcaef086fc5e1508ab94b2a6388250"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/C3_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1888562,
+      "sha256": "89241f9f43a072077886481102912fe5fa567dbaa5965f37ce1d7486cbcee4ab"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/C3_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1876889,
+      "sha256": "4869f5d4a35e89c3a22295fb3bac044044107ea1817de57df12a4874c43400eb"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/B3_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1900450,
+      "sha256": "9e2587dc0eef09b26b46f5e1a7d3e3ea2f887504d847670f4f1e9fa536ed6700"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/B1_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1884101,
+      "sha256": "e7029e9431d464dc120dd650ffe8948344bf4bc78fa4455e25335b93108ba0ca"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/C1_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1898795,
+      "sha256": "5bfcdad5999385273407a1d90760451cf4b1154e565698603aa47dac5a5b1994"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/B3_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1880027,
+      "sha256": "c30211174f2c418a12c3f99788600f9519b155805ebb6adf81bd2e9494d5e7a9"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/C3_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1897651,
+      "sha256": "ecb8960a576ed5d53856208201b9686f759d44b19a583f870b7dc691c4af3731"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/C1_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1901355,
+      "sha256": "f5857146cf36e86990a5919e0c4f72f193bfa9e3037f19fcbdfa6a1e9c0b9219"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/C3_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1900660,
+      "sha256": "0398eee2cbc5af8ba7f75647ddd0aa86b0085b77dd7e688b04397469ce6d7ce0"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/B1_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1896954,
+      "sha256": "76b9085a924d494d3b6023ad937ee761c4948fed35aa90e7154a399520f84cbb"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/C1_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1899571,
+      "sha256": "5dafa2cb14e00d9d303fca3fd054920965c39e7cb3427d30bd0d8503bb801b04"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/C1_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1874167,
+      "sha256": "68487c8beaa909c65d62874b81ee66b9f6417bf067f08d79d9d7ceef0cf087f2"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/B1_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1875402,
+      "sha256": "3c02ce813fa54e596a6a78154a50a03ba55675c83333f23a8051ed5a9df94b8f"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/B3_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1896995,
+      "sha256": "4238b99ab961b6f59762cebb7cc1cb37cec09f98ddc688e2de4d9dc1a2e830ec"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/B1_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1897258,
+      "sha256": "c4896f7345e665584ad7aac21b916043772f9eef6336937b06ba6f5b65c999f5"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/C1_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1883482,
+      "sha256": "5dcf7945f5d1bb07a1a6e8fd32993758e5e14061961742d396abae936bf644e4"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/A_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1898673,
+      "sha256": "e84cc4118aa8ff1b1a7eaeb4f2a3545fc790988b59dcef8e92c9fb36673dce3f"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/A_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1886487,
+      "sha256": "757ce0846f0f2051a08a7494db821dfe7a246d6f9f205dfc15ff8771a32749ee"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/B1_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1899208,
+      "sha256": "68a625af9ff8283d05d228b57cda8795a2ada27a71949d3324633256a42b6317"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/C3_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1895308,
+      "sha256": "f7257b63337e84b3d4bc83de142b34830311fbb9481f18a21d027c90bb83e94e"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/B3_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1889639,
+      "sha256": "dc6e3c6c874c4cade5092903e2a2a3d0e0d8c92a5c39e960172af8123c365b9e"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/B3_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1895199,
+      "sha256": "cd8d198313014605aaa22c14c51b3d823e3d990b4724113456dc4a907f43d925"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/A_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1899039,
+      "sha256": "899773b5fe2122187b5160ba45bb63705231d19f5d1044acdbb93e4e6b6f93dd"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/A_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1874258,
+      "sha256": "5494849688f57923d66fbbe23d264ebb1b1a7f3ab52573fc7230d3dbcc016222"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2024-04-01/A_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1900767,
+      "sha256": "9f05a3194f4596395c6e90ea0d9311da941eec0579f8eda14d62a9625d699200"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/C3_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1902500,
+      "sha256": "3ddb5050b445facde76ded83dbc54b7ab4b721f3c7bf096c707877e1f76628d0"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/C3_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1899801,
+      "sha256": "1a7e2be73760b3ee0fb74a63f957bada4c20e644671f5ec7b7e8704bda2376c6"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/B3_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1909077,
+      "sha256": "df8043922cf5b533d748062ae3b6e48828b891a26b616fdb2da1dc532ad1475e"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/B1_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1901039,
+      "sha256": "661f3bf525c35a84e8afff6fc09ef96dc7b0c196e6002b06566d503db0fc215c"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/C1_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1910653,
+      "sha256": "7af7a37746164ba22783187904cfc9d7565f2524b85046c213bd38ff3df249f6"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/B3_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1899890,
+      "sha256": "5143729dcfde2a5dae1f239bf1d8163c84dc38f374ddc11f958acb2990052b6c"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/C3_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1907118,
+      "sha256": "51f2e3ceacc3f0b2c2bb278ca365c50915ecf3108cf8f7489bf5dc562c020a37"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/C1_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1909450,
+      "sha256": "2de706eb47ad4a9374aeaae4cfb96e7ae557a103016e6bc5bb868640a73953a8"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/C3_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1910262,
+      "sha256": "6784b54b746f0a78b15725a13b342a6656e4060261ac65b9c00e2c45c079110a"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/B1_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1911511,
+      "sha256": "da70a1d69043f3d7a5d59d7bfc7f8b13ee74286d04475caf4ee7a102021359c4"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/C1_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1905336,
+      "sha256": "c67f38722a1b60a6fd57a7c2d9d09331c5dc158c400b58f34882321c0f8e8369"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/C1_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1900575,
+      "sha256": "046c797aa947cf3e887ee0d6576c79fd9cb1c02f4466231953d26cbe29ad21f9"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/B1_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1900712,
+      "sha256": "f66776ab4bc76de6d6cbd63b6dfc18b2e0c98413dffbc4274dd654162e915766"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/B3_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1909760,
+      "sha256": "48fad0c17417b9d24b3dceff43a9d7763c0283943de42a4b474a9d78c7f75b9f"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/B1_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1906463,
+      "sha256": "cfeff0b4f7daf6807ebe836ad04afda38de8627c477d1af643413b6628564ceb"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/C1_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1901136,
+      "sha256": "4380311692e9fc39e199ea2a3484b8c37a269b0836a12cea1b495d733ce72d10"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/A_seed11/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1905286,
+      "sha256": "6ab248bb37d445551a6aa1c0216d7aff8f51d25b4bcbbf3bf77fea15d7f78767"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/A_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1899139,
+      "sha256": "1bd8b19eea50f0e401178d14c703fc7e5a50cf797c7275315f6b08a91e4d4359"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/B1_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1910061,
+      "sha256": "4a054061653aad174dac750f4e329be5a3900b4d92434ac806c06f644741f0fc"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/C3_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1910469,
+      "sha256": "8536863d66e91731e69b0e0e3f98e2e21c4cea4974e8d3304dc6c1d7f43053ca"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/B3_seed33/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1900610,
+      "sha256": "a28ab38496c1ca4b404b301299e7b22a26782dacbfbd498a226e2726385c5a89"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/B3_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1912710,
+      "sha256": "75b98d161597c5604e3baf7f8dc164e1026f11972b1f205f8416a5265ced8e72"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/A_seed22/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1911738,
+      "sha256": "436fd2a2170f42a0ecdb58515231fc9f2b0c6b1c7775dd6f011eed9d1952dcdf"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/A_seed44/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1897754,
+      "sha256": "d73c861dfbb4617422f795284faf7ee80e395fbfc11dd736c27530e8a78d4b8d"
+    },
+    {
+      "path": "DATA/gru_aligned_20261019/outputs/finetune/cut2026-04-01/A_seed55/eval_scores.npz",
+      "part": "completed_gru_models_04.tar.gz",
+      "bytes": 1909736,
+      "sha256": "66808479d67c80ea1700fdd691e63828f73009019f110f7caed9dcd295b0c7e2"
+    }
+  ],
+  "parts": [
+    {
+      "name": "completed_gru_models_01.tar.gz",
+      "bytes": 706961630,
+      "sha256": "a391e6a433a5350f858f06557e8dd0c21c12b97d45e6db149b1bf59bc0233cb6"
+    },
+    {
+      "name": "completed_gru_models_02.tar.gz",
+      "bytes": 698697253,
+      "sha256": "9ccb496abc39311fd59a6a7d691d214720af91c95da2f00646ba4861f8d2f603"
+    },
+    {
+      "name": "completed_gru_models_03.tar.gz",
+      "bytes": 705928510,
+      "sha256": "3764ac459ca62ea5c282ba886a0f4b2c3b27109c0e563a3e12601189d5923223"
+    },
+    {
+      "name": "completed_gru_models_04.tar.gz",
+      "bytes": 632844284,
+      "sha256": "d91cbb5b01bbc36a02d944ea50d599805d8ace7fcff9307ef327fedcf31e19ba"
+    }
+  ],
+  "total_source_bytes": 2832307430,
+  "protected": [
+    "A1 best.pt and swa.pt, T2026 inference scores, all aligned model weights and train/validation/test scores, rank baseline, H64, adversary, raw data"
+  ],
+  "scope": "Old architecture trials, daily benchmark binary outputs and early delivery snapshots. Current rank baseline, H64, adversary, teammate current outputs, raw panels and referenced inputs retained."
+}
