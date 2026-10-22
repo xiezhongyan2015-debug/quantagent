@@ -1,0 +1,929 @@
+{
+  "schema": "additional_obsolete_GRU_archive_v1",
+  "repository": "xiezhongyan2015-debug/quantagent",
+  "branch": "archive/gru-results-20261021",
+  "tag": "gru-additional-old-outputs-20261022",
+  "files": [
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_fee2_corrected_20261007/2025_qlib_rank_linear_ensemble_Buffer50_100_net_slip0_trades.csv.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 1082289,
+      "sha256": "7c62e9fdcc2f2b556e4a4fa0a6e1e1bad802fd4f8ef212a6064a574974b6ced5"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_fee2_corrected_20261007/2025_qlib_rank_linear_ensemble_Top50_net_slip0_trades.csv.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 1902677,
+      "sha256": "9c084be533f86f25b236e2e3e355ff4347553520f7cc9907f6abe33574930434"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/gru_fee2_corrected_20261007/2026_qlib_rank_linear_ensemble_Top50_net_slip0_trades.csv.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 1390237,
+      "sha256": "ee5e3da15edd3ba4bad9224360d4eb1d850d3d4c17cba760f3bc478cc6da992b"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/architecture_validation_20261003/retrain/B0/seed_33/last/predictions.csv.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 12048109,
+      "sha256": "a459b826dc8c8b3316568bb2ad481daf6082f844d48d60126217cc3dd15dc372"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/architecture_validation_20261003/retrain/B0/seed_33/best/predictions.csv.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 12004216,
+      "sha256": "bc44c6b4958edafc431e8689272f36251093ac955382d13374242d47615a0dd0"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/architecture_validation_20261003/retrain/B0/seed_22/last/predictions.csv.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 11946931,
+      "sha256": "4043eeda1c884e8b4c3c520791c08a87a5bbd7ab03ea1485479bcf861ce195db"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/architecture_validation_20261003/retrain/B0/seed_22/best/predictions.csv.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 11906439,
+      "sha256": "07cead33faaf4af36edf5a3b8153fa561d1bb280cc8223d10d33718c72f45fda"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/architecture_validation_20261003/retrain/B0/seed_11/last/predictions.csv.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 12115319,
+      "sha256": "c7f8159dfc18b4676a9ad072974a6a6ca1188f1cfefa41ade96d2ccaf058981e"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/architecture_validation_20261003/retrain/B0/seed_11/best/predictions.csv.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 12043694,
+      "sha256": "e081f6c0dc269ec62bad37bb676cec8ddba5aa619c4f9a35125a56c2fd6629bc"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/architecture_validation_20261003/retrain/B2/seed_33/last/predictions.csv.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 12053008,
+      "sha256": "a675f57333276a9bd1b597903ee06d2fb5cda234fe8cdebee28749dbd9baa80b"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/architecture_validation_20261003/retrain/B2/seed_33/best/predictions.csv.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 11951061,
+      "sha256": "56976189b2140fc30287023cc89d45189e63594938e3f0491ca684832d2ebe5e"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/architecture_validation_20261003/retrain/B2/seed_22/last/predictions.csv.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 11853029,
+      "sha256": "a89d7359ea37126c54ddf3b6d4c87ece0dec8343eef115cf20ca8eaa01030492"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/architecture_validation_20261003/retrain/B2/seed_22/best/predictions.csv.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 11902579,
+      "sha256": "0715c827a62d444d0581a1050c3ac3d5aa3dd24df54c2e4ac173d0532a7c3a40"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/architecture_validation_20261003/retrain/B2/seed_11/last/predictions.csv.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 12018876,
+      "sha256": "2353c62fb85fe12296b618570b54e98f342867f93b652a1e59de7139ef92c5d1"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/architecture_validation_20261003/retrain/B2/seed_11/best/predictions.csv.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 11989818,
+      "sha256": "ceff17c01791726cf800448393497826e2703c12c6858ed93e27913a82793bd7"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/architecture_validation_20261003/frozen_full2024/B0/last/predictions.csv.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 12045507,
+      "sha256": "7f101cce5de36404e9621697f2d48571e96c3bf05db17f4a5a58426c4a65b19a"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/architecture_validation_20261003/frozen_full2024/B0/best/predictions.csv.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 12034549,
+      "sha256": "43bd0f8418a2df38f4421f3e4122a8bdfd4031bfd04a5feda52c8658bd3adfaf"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/architecture_validation_20261003/frozen_full2024/B1/last/predictions.csv.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 11977887,
+      "sha256": "e8949ea9bb90807044ccdcaaa3fe225ca2a8475fcb1a8515b6f1773f49e9b68b"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/architecture_validation_20261003/frozen_full2024/B1/best/predictions.csv.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 11997972,
+      "sha256": "7be5ac5233094f19a57f97b720084ce5d807d791ef82c328295bd5c4a1f53a63"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/architecture_validation_20261003/frozen_full2024/B2/last/predictions.csv.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 12036496,
+      "sha256": "c3375d9aca293c29c62b16aed0e6bc3521f59a5471225e2f43b839180874f4c0"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/architecture_validation_20261003/frozen_full2024/B2/best/predictions.csv.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 12029714,
+      "sha256": "d8e8c24fc2a24e820535d71fdf809540d88aae674725e5d2159ef4652f1ab5cc"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/audit_backtest_20261007/replay/2026_qlib_rank_linear_ensemble_Top50_net_slip5_trades.csv.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 1182305,
+      "sha256": "63fd80019506e059a8b67ffca02e5cadce2ae854b46235cdd824888d2bcb5988"
+    },
+    {
+      "path": "HOME/gru_hourly_20261001/outputs/audit_backtest_20261007/replay/2025_qlib_rank_linear_ensemble_Top50_net_slip5_trades.csv.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 1647416,
+      "sha256": "83441d8d42601d6dacd19523a6e98ba1607f3d7c29c1f976525fd9a6a56168b1"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2023/seed33/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5608747,
+      "sha256": "d9796b5194bbaa06ca7e07a7edcab56c4ea6f690b94b71dc22cb16b51b3a2b3f"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2023/seed33/last.pt",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2440838,
+      "sha256": "2ae5d24dd47903b9b1b6ceefeac71b48e1f014a86c4a82b4394b767878f152dd"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2023/seed44/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5593812,
+      "sha256": "fab0de7ddc48383a6d1aebccec7a7158bf1ceb39bd535e22d8378d31b9c72b76"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2023/seed44/last.pt",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2440838,
+      "sha256": "cc9361383830bd8acb70fa076c61e6c3181b8cc35a3eab363ef04298fa317c36"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2023/seed22/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5618742,
+      "sha256": "635d5719179004fad6459851bc45bbf928fc55134b7ef4c1e6901b53bc62857d"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2023/seed22/last.pt",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2440838,
+      "sha256": "8052e98d5b262533e7e0e02473533f6e274a30191e36639ba39f480aeffab0fa"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2023/seed55/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5586413,
+      "sha256": "8dc4518b0ca411fae7cb45411225f5b06d299fbdf3124be6b065d047558efbc6"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2023/seed55/last.pt",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2440838,
+      "sha256": "73f45157053c06f8bc64eeec2d434b5b6a931cb4df695645284f4aac086abc97"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2021/seed33/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5511598,
+      "sha256": "ca1743862742e2f9c76b571f17ba94ceb9eaeffd5a3eaecbba9b9f556695e522"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2021/seed33/last.pt",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2440838,
+      "sha256": "db007d58bc2efc74fcf4bca2c56d37aa86d1f0c7ac97b8b2a61c1db0b07b5fc2"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2021/seed44/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5495206,
+      "sha256": "3033080e4efa3a14e65e79fd7695acb45e7b7e404d48962d7fc5f9d1209e7f48"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2021/seed44/last.pt",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2440838,
+      "sha256": "7b282a014baee4d7fcc6cf0420a4d33b697f4e8d0edc03bf76bb9f0bda6e0c05"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2021/seed22/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5488392,
+      "sha256": "945bb0790db12831bdc1a633d240760a4d8d0901ed58d3b464862ef0a3be3e34"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2021/seed22/last.pt",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2440838,
+      "sha256": "25b8b10e4285a28cd2d1daec5ad709597eb5993018428d3dd598e39986ea1399"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2021/seed55/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5491934,
+      "sha256": "cd15eaf6e2adad5af2394f329a98cfeab1980a3de5a6473b0c5140cdcd7704a6"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2021/seed55/last.pt",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2440838,
+      "sha256": "fef15884efb7e872f23042dce4ae1995b57f9ab81f9cf901a78ad871708c2ffe"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2025/seed33/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5596575,
+      "sha256": "69fd56edab460642e7db77441762c35cb4b3bfb36e24396b66b8ab40293fcdb3"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2025/seed33/last.pt",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2440838,
+      "sha256": "1fc76e8fa51ba5df81ba709e55b1c85dee3fbdd10df7c04ba02b2e572c0f6790"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2025/seed44/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5574567,
+      "sha256": "03fd0f85a86d8c51d54950196b7369010ae5b565e36dd7679ace1fe5d76247bc"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2025/seed44/last.pt",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2440838,
+      "sha256": "36bcbaa4691830f5f7861358843e7749c6ddd0706f731d0a7aba3e367634cc32"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2025/seed22/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5594880,
+      "sha256": "529b8e255b001d9b4ad5ad7150806179ad418fde1492ef98db98a0a30acb1eac"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2025/seed22/last.pt",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2440838,
+      "sha256": "7052189f87c252f8c55f3ec0a1444910ddb5fcb77d5bafa786874e6ce96db7c7"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2025/seed55/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5601894,
+      "sha256": "f3326cad5ce7530bcc2e52bd19e9c37ed89a48f6478c11080742678a54cbf5b6"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2025/seed55/last.pt",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2440838,
+      "sha256": "7fa98b198b2c70dbc6c94b4d38acce5f4fb4fa876399052c6fd7a442862a199f"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2024/seed33/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5620137,
+      "sha256": "02fdfec41e298586674fd16f7a7ce4585b471ad0cc530f472140cb8f75825bff"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2024/seed33/last.pt",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2440838,
+      "sha256": "54ed979ee8d16af0ef0a1daedf759fa05075bc1b4511efbfbfdead82c1687ada"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2024/seed44/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5608969,
+      "sha256": "0299da15dcaacf7fac655cae0ca65e6ee8594305b0e73963552d3efcdbf0f6c4"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2024/seed44/last.pt",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2440838,
+      "sha256": "0bb24c2b3be765e1b367b9e2140db53061e6c4a3303fc4f90c32d50e5d393d99"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2024/seed22/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5586858,
+      "sha256": "2bf7efb35a25905571943ba167e59550a92514a8db93bd9c6e6bd5cdb6c9d8ac"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2024/seed22/last.pt",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2440838,
+      "sha256": "d50218e8832fdd0af39b7b3c78c2e71a7340577147fb8f754a1511e8bb8a09ae"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2024/seed55/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5624549,
+      "sha256": "2c71b2ab0ba6d37eac0282c39d98a8fb5f4477d7515ad3d6b2c6b4e31816cfc4"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2024/seed55/last.pt",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2440838,
+      "sha256": "91e675cf9a608e6335eb3abf2f39267fc6f93f057efdf283394fe7f79ffee138"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2026/seed33/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 4057496,
+      "sha256": "c59e174938fb0c3d1dcc809efd92a49f407c2a8b9877fe4edb4ed6e3698c2150"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2026/seed33/last.pt",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2440838,
+      "sha256": "d160764ae708af2bdb0fee2f4dc80b64ec77655dcfd64ee8c6017ed54b59c1f9"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2026/seed44/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 4020224,
+      "sha256": "28f2d158a372405337a6625b80c631011bbd1782f2e0fefcb8a0606af002c10c"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2026/seed44/last.pt",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2440838,
+      "sha256": "9bf6b978f81107872d852ddb135021981c67b271b5a8777d3e10a1b24581113e"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2026/seed22/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 4029605,
+      "sha256": "f4c39dafac1f81a6dbbb69905de172025eb12dc7c8f70471b4b5b555cb3c2032"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2026/seed22/last.pt",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2440838,
+      "sha256": "dea0443464e1670915607ff9c325dc31d17778ce4aa339f9c9bf8e610f9d84de"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2026/seed55/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 4034207,
+      "sha256": "48d88deb383a7c3715f398591f9b377506db79e635f738b443684d118abf0427"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2026/seed55/last.pt",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2440838,
+      "sha256": "f47fceca2648de037dd45d17daf44e886be6cf960851a351d342d2927a5eb310"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2022/seed33/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5544635,
+      "sha256": "2f1f1bcae89f859eddfa01c70a7069eb94523cfbaf1b6764ba34d39ab207ce64"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2022/seed33/last.pt",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2440838,
+      "sha256": "86ce438146b8da789c41d09f8b9d0415d27613e52a4ba5f059ae3b691b86c537"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2022/seed44/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5517558,
+      "sha256": "5dd2b6cabf9242f387b62bcedc87b539d9534219f11b2243ac15bc5463fc788e"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2022/seed44/last.pt",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2440838,
+      "sha256": "2bb0ce28ccc9edd76de3fbedfd8120a43ac31e7fc9db1bb813a84dfd5d1ba1a8"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2022/seed22/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5551809,
+      "sha256": "0776a004f3b05071e8aeee6f56c08eb039b5aa2913334a1af487cce128f88949"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2022/seed22/last.pt",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2440838,
+      "sha256": "2541fa7e2b840ac169c92b8a8c0ad7ee68c7cfd242035cbba0a2bd28c478bbe6"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2022/seed55/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5545954,
+      "sha256": "65ed599dda40002a1262da914adecaedbb705b86451e445043926605a96010fb"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/GRU/T2022/seed55/last.pt",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2440838,
+      "sha256": "9a21e32b56016133acfed6579c39d4cc390c853ac23096f12ac94f6c741dee9f"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2023/seed33/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5604705,
+      "sha256": "85aba765f7af43276b638579fd50f20d10698e0c0acee5bfd73660bef00491b5"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2023/seed44/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5609841,
+      "sha256": "9ca50657d6e0ece78ef6502943c730e807ce9a742367bdf487e17d4c7e3c112d"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2023/seed11/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5607361,
+      "sha256": "15d4d39122ff0b2250d3c8a44409c7efdc647057ac9af5e3c98407c1af3910d0"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2023/seed22/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5610500,
+      "sha256": "eaa6c30c0c5e84653cfe70b55343ea4dfe988ab2d34897121db3bfaa3050b5d8"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2023/seed55/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5606430,
+      "sha256": "319a4c0e7e15423d5e1dc761beb985203a704487d7967cfcb58ed53e8c3cbe9f"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2021/seed33/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5504026,
+      "sha256": "649a235efdf32a2753c6c99d4ffac8b6d6053ee9580e1dfe85da61d255dc5c56"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2021/seed44/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5504005,
+      "sha256": "1945df557a5480e9788f5b4a3878800f4eff2847d53adfb765665da28ea3eb31"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2021/seed11/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5506981,
+      "sha256": "8df783193289275735ba20e2945211c63763f0080a3215875f879eeab5792416"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2021/seed22/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5503505,
+      "sha256": "268925d6e8f7229133f3cc4ece468682eb44aae06f162082f1acffcab6da3983"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2021/seed55/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5505429,
+      "sha256": "b58b9ebe7b77da98c45fcfb8e0a3a0ba7bfd6f8d33549df9c62f0a41f4eebc60"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2025/seed33/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5431394,
+      "sha256": "fbedc76d041375897d7b6abbb9622e3e1193845f254b832f1459fbb2db35461f"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2025/seed44/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 3418536,
+      "sha256": "75ec33ba147e0ea21bf5d745d6bb058b509bd2583e817a594e1dca9fa16cc224"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2025/seed11/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 4124532,
+      "sha256": "a8e8075c09b2ca93404d6235ae4d736bd7ac087794888695948244a32ecda213"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2025/seed22/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 4938501,
+      "sha256": "984926b1b360fbc5f5bcbc2b4d8921f1acb5c7fec937eb740687da4021da6210"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2025/seed55/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 3904776,
+      "sha256": "c6c662c560368d8a09e0ca8dc0af3a874d74a98a9cfcac82e314638f96370c13"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2024/seed33/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 4523144,
+      "sha256": "f03e3b669ba5d7df7cbc817cd02951a220c877c2b5944f28fbd1c83ab60ce2e9"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2024/seed44/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5286120,
+      "sha256": "84cfffba16c3d736933b0b0a063756de2a805e30bf351204e4b55b35f72da7e5"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2024/seed11/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 4988771,
+      "sha256": "6f741650637c777dbcdb295880320a0ca72f7a03575b1e6c3f0df0bd6048a4ba"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2024/seed22/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 4722490,
+      "sha256": "2eabf241e72ad5b84674e8c124f56e119b34052c99371072e594569f0646ba79"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2024/seed55/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 3493982,
+      "sha256": "2057887f4d340808192171f01314a8cd4f009e8a814e623995bd1029b3a3b0d7"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2026/seed33/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 4045764,
+      "sha256": "516652d3c2cf2a7a919104e564b14d4fab1c9b2a7924d22d18dea2abaab24351"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2026/seed44/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 4042721,
+      "sha256": "73f129cb2eadf49dec43e51bf2ba9c9a4c18738d820ea3356a84a35d57fd7836"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2026/seed11/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 4044245,
+      "sha256": "e41885d5b9eceaa23c8c27c01293ba90da06f078ef96da31a8aa199445ed7ad8"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2026/seed22/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 4036523,
+      "sha256": "66e3a98477aa40090395711774d917c12828d90016d8b82bf155b77feb14d639"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2026/seed55/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 4042965,
+      "sha256": "159333d4e46899bfc2d4f756abe957f1ab064fff4952ae5689a49f1a2dded48e"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2022/seed33/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5384121,
+      "sha256": "b48d76783446fbad0a1dda870abdc2dc94e2a75363c015cf7ddb4d469b3f55ae"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2022/seed44/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5413117,
+      "sha256": "e96db705b5ef8dbc1d992bb1c6fd1c91a84f85f985b8886db9b8f575e37b348b"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2022/seed11/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5009642,
+      "sha256": "bae20ad4426cce97cbf931cfd9f88d5aa80618fb2f5e0fb5d2eca0fa52be807d"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2022/seed22/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5521057,
+      "sha256": "f94e52988e8baef2c0e2fa5af0cd1f9ad4ee5af5f0c03e7f4ddaafe890586133"
+    },
+    {
+      "path": "DATA/gru_daily_20261011/B/LightGBM/T2022/seed55/test_scores.npz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 5433919,
+      "sha256": "9ca5ec73f867ad89764f781dfba38960edcd6efb46836a59ff3d9f08a9d5fa4d"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_ablation_44_20261002T035131Z.tar.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 3556601,
+      "sha256": "0542dbef99095158bc39fe14156d10351e7c42dad8e76c38e45f6d8d131f4a98"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_snapshot_20261001T135757Z.tar.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2287025,
+      "sha256": "e6b1f96bdc59193e4bcea8bdf95275ccc1c3f2529b0ce090cb90d353aca31cf2"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_snapshot_20261001T134130Z.tar.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2288947,
+      "sha256": "5824ad11ce337d729939c0e361306054a8a73f79aa2c8915c2533fa5b9d65fc3"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_snapshot_20261001T143007Z.tar.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2286923,
+      "sha256": "60da0af003d17dbe322db45d114dfb5cc34706064ace69e087123c57d3efa0b6"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_selector_55_20261002T011603Z.tar.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 3832904,
+      "sha256": "703bd61cd2ecb9914b466d9b45f071cbb87ebb5e658cb43a574125fcd5bcde68"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_ablation_55_20261002T094127Z.tar.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 3573105,
+      "sha256": "cbf3ac934f0b94cd0f16cd3bdeefc54f735cd32a4ac494281cb0d3e3e12d8dfa"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_ablation_11_20261002T011920Z.tar.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 3556447,
+      "sha256": "4001f5dcc30960f62e11b2e1f65172cf243108e46e3b219e47f583c924571f70"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_blo_final_33_20261002T011906Z.tar.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 3603252,
+      "sha256": "a02f2f8b0f1934058cdce2e6548783a5c584c263cce9b75fe02d611072698dc5"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_ablation_22_20261002T080037Z.tar.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 3568119,
+      "sha256": "5d2fc8eb3bb6f4e33c58f1aa7644597dd7848197948f02def69f8ce153bfe434"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_blo_final_11_20261002T011858Z.tar.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 3601626,
+      "sha256": "0a15f6ce04b6c9ec562686dce8415a85ddc845c383ff1634501438591b3d9dd9"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_snapshot_20261001T134203Z.tar.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2287683,
+      "sha256": "ce89cabb85bbec30e5795f9d07f2154638527369140a93064996bb0c6f701af6"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_snapshot_20261001T153350Z.tar.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 2289134,
+      "sha256": "431c776f5be9ac6c812bf2a078eb0691f5c81f1fdbfb4a11a0bcbbbc60e201b8"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_ablation_11_20261002T072601Z.tar.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 3569962,
+      "sha256": "eb89d351bdbc15962d6f3e5e152210b346827a2f2bca5d91dc10f500ae928dd2"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_stage_batch_20261002T011921Z.tar.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 40738343,
+      "sha256": "18188c3b8b9d09839a7b4e7f8049e45ab642a14ba2f2c9a2796ab2621cb03bb5"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_ablation_44_20261002T090120Z.tar.gz",
+      "part": "old_gru_additional_01.tar.gz",
+      "bytes": 3570252,
+      "sha256": "5043c6702abbf64c48aa18fab7e3227745a2eb5d367d5e3607f70eb44c8a5874"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_scores_job405900_20261002T095500Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 356445761,
+      "sha256": "4328a8a548e6fba86fbd311a87e7f038a2f0d7a5482c441ad2d50d54d4acace1"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_snapshot_20261001T182150Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 2297827,
+      "sha256": "dfc30220c276cce026b32883e446e59f6a5535fdaf245753f949f3fe48d50d10"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_snapshot_20261002T011111Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 3599530,
+      "sha256": "e32cdb821585a40dad4e9535ac69fb2d3f47dfc3a0961c0c779273d1cfeebdf5"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_selector_11_20261002T011330Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 3834044,
+      "sha256": "9ffac4e5916a25ffead766040f26e824c8d3974276bf60a352536a35f28c6270"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_blo_final_44_20261002T011911Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 3602469,
+      "sha256": "bed9eeb65ec336af621d0665f84c1447ce133cba19e7043398c5b0f80facd768"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_blo_final_55_20261002T011915Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 3601562,
+      "sha256": "5a4b0633552ae7247506b22b3567c08527fa339cdb736040c8c7c29323dbbf3d"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_snapshot_20261001T155058Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 2291476,
+      "sha256": "f5e0ef1e642d4bcae1b731a631be6b6708a0ffe21f1755bd3372749c65e4cd62"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_first_completed_run_20261001.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 4524770,
+      "sha256": "69c02d1c895805c0e1b2469f7e65666adb624472c743955c487f1ce762911098"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_ablation_22_20261002T054831Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 3609424,
+      "sha256": "00680838b147c6d2f72f01921f8768f35f3b7cf84c73890aec134c470094bdb7"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_ablation_55_20261002T065224Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 3610441,
+      "sha256": "73ddacf3378ff43382787ec77f636bf13aefb840a8eb3d577e31c77f028f5e22"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_selector_22_20261002T011550Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 3834548,
+      "sha256": "29f24681c834942c7edab7865a3091caf83d620f328fa03ad88d0df170457c10"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_selector_33_20261002T011554Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 3834885,
+      "sha256": "382027078d1168becb2b851f63e454bb27acaa9ebf95e97504096d2520ec2029"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_formal_snapshot_20261001T123315Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 11390284,
+      "sha256": "468d4cf1fd538acf107d1731d79a5c366c19126341e580b905681a0abd64e52c"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_ablation_33_20261002T061412Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 3611152,
+      "sha256": "5b6a49433fe605eb691213c2f90a9b452385449362591a5094fb305af10b014a"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_ablation_33_20261002T081943Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 3567681,
+      "sha256": "25b9a4b3cdacdd55de3bed5657691b80ace8948eb00b3dc2d8824c6a06c9b227"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_snapshot_20261001T165713Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 2291077,
+      "sha256": "c07a7e2830d2160a8a9b62be1be2626708ba69c52adc7a60c7a985e41d92f99d"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_ablation_33_20261002T024056Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 3558618,
+      "sha256": "4c7298ee5374d239b5a16c56c126c1852112b2f1ccd2967a73f9fa4fb224fb55"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_ablation_55_20261002T044244Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 3559169,
+      "sha256": "f70a32533c080a9bc021d9caead6eba213b5f854a963fa9f1da28f85b4580de8"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_new_completed_model_20261001T125345Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 2282872,
+      "sha256": "d3b3bbc13ce42f7bc343470d7294c3af1d137e36f3ee664287715e4508b0e4f3"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_ablation_44_20261002T063348Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 3607602,
+      "sha256": "fa802eb567b250e08a9e4a1215a4a4425a37cb81c04c2483439a1e39e312323c"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_results_job405900_20261002T095500Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 99041729,
+      "sha256": "434d4efd448cac83b0d0ff4b8807ff0a793cd11250156ff519c1144c54afa36b"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_snapshot_20261001T172414Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 2297302,
+      "sha256": "9c3dea5d560c862976cb88cde5969df533a95058de4d98408dcbe5d5ee8cfa97"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_reporting_evidence_20261001T112402Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 9024828,
+      "sha256": "d9850fd3257bb7352224d4ad86232457b41b2f9a69158c51dff8067db4a0db55"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_snapshot_20261002T011135Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 3597397,
+      "sha256": "cf98f03a147b3f7bfa56d35854af4bd726d53c0e8706e17f0829e47068c58de6"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_formal_snapshot_20261001T121645Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 9188739,
+      "sha256": "894139a39436856ab58f0f6229514f2d8281de9c8f4eb9f161b7dc9435de90ed"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_ablation_22_20261002T015845Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 3556224,
+      "sha256": "98ee4d4d124d034bb53d6e0820fb34a303ad162119de3b57e76ba0d76cef4b2d"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_ablation_11_20261002T051220Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 3611914,
+      "sha256": "f09b7fff1fbc223e9eeb2e43688ded571641b425b97214f8b85af1e6c03b7692"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_snapshot_20261001T165319Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 2293638,
+      "sha256": "d86042504340f2e016ab19737648e6bd9664844ed13ea33ddcff1e983ed68ba9"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_blo_final_22_20261002T011902Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 3604419,
+      "sha256": "02b0f22427d98caa9cfe5d2736fa2c4e6d306fd45703a6ee49fca48926ebb93e"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_selector_44_20261002T011558Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 3836374,
+      "sha256": "e8be3bdfdb2e88223a2e545295c3088bec56f6893e88526bbfbce74be23150c7"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_snapshot_20261001T181119Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 2296106,
+      "sha256": "b6060be230b277b87f62298e136d599dc57e5156d36830ba14b6ce849b1b9ae5"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_ablation_44_20261002T035738Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 3556744,
+      "sha256": "dcf273bf39c40f1884a7d1b854ecebbfaff4437468f18d7299707d6b9c5c0c35"
+    },
+    {
+      "path": "HOME/Quant Competion/gru_completed_snapshot_20261001T144503Z.tar.gz",
+      "part": "old_gru_additional_02.tar.gz",
+      "bytes": 2291800,
+      "sha256": "5978f608eaf7f9da5d760a26d9658b4420341adb5ea539ac2aa7bbb33a55a7a6"
+    }
+  ],
+  "parts": [
+    {
+      "name": "old_gru_additional_01.tar.gz",
+      "bytes": 636280864,
+      "sha256": "464aa459e7410794d74daab5b37cf9bd3d3b27c631baeaff818c2906477e7061"
+    },
+    {
+      "name": "old_gru_additional_02.tar.gz",
+      "bytes": 577061814,
+      "sha256": "6b8d712152ef38f026d56cb114be654738b1d9ec7871a5564e80e5f835c5438b"
+    }
+  ],
+  "total_source_bytes": 1218376833,
+  "protected": [
+    "/data/users/s1155284034/gru_hidden64_20261019",
+    "/data/users/s1155284034/gru_year_adversary_20261022",
+    "/data/users/s1155284034/gru_aligned_20261019",
+    "/data/users/s1155284034/gru_factor_rank_ablation_20261013",
+    "/data/users/s1155284034/gru_rank_input_dropout_20261018",
+    "/data/users/s1155284034/pcf_complete_retest_20261013",
+    "/data/users/s1155284034/live_pipeline_share_20261013",
+    "/home/users/s1155284034/gru_hourly_20261001/outputs/gru_dualplatform_20261011/A1",
+    "/home/users/s1155284034/gru_hourly_20261001/outputs/gru_factor_rank_ablation_20261013",
+    "/home/users/s1155284034/gru_hourly_20261001/outputs/gru_pcf_specialist_20261021",
+    "/home/users/s1155284034/gru_hourly_20261001/outputs/gru_aligned_20261019"
+  ],
+  "scope": "Old architecture trials, daily benchmark binary outputs and early delivery snapshots. Current rank baseline, H64, adversary, teammate current outputs, raw panels and referenced inputs retained."
+}
